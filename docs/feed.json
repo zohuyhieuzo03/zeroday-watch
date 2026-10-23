@@ -1,0 +1,340 @@
+{
+ "generated": "2026-10-23T23:51:38Z",
+ "count": 15,
+ "items": [
+  {
+   "id": "hn:50205084",
+   "source": "hackernews",
+   "title": "PHP2Shell (CVE-2026-109618): Zero-Downtime Mitigations and Upgrade Runbook",
+   "url": "https://sazm.in/articles/php2shell-cve-2026-109618-mitigation",
+   "discussion": "https://news.ycombinator.com/item?id=50205084",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-23T06:17:26Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50204912",
+   "source": "hackernews",
+   "title": "PHP2Shell (CVE-2026-109618) Exploit",
+   "url": "https://www.exploit-db.com/exploits/52704",
+   "discussion": "https://news.ycombinator.com/item?id=50204912",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-23T05:48:32Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50204287",
+   "source": "hackernews",
+   "title": "CVE-2026-107891: musl Libc: multiple integer overflow in regcomp",
+   "url": "https://www.openwall.com/lists/oss-security/2026/10/21/18",
+   "discussion": "https://news.ycombinator.com/item?id=50204287",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-23T03:46:10Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-107891"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50203176",
+   "source": "hackernews",
+   "title": "CVE-2026-109619 PHP Sentinel",
+   "url": "https://github.com/Taz1920/php-sentinel",
+   "discussion": "https://news.ycombinator.com/item?id=50203176",
+   "points": 1,
+   "comments": 2,
+   "created": "2026-10-23T00:53:52Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109619"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50200681",
+   "source": "hackernews",
+   "title": "Taking 'execute logging' a bit too seriously – CVE-2026-88771",
+   "url": "https://cert.europa.eu/blog/taking-execute-logging-a-bit-too-literally-cve-2026-88771",
+   "discussion": "https://news.ycombinator.com/item?id=50200681",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-22T20:37:37Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-88771"
+   ],
+   "kev": [
+    "CVE-2026-88771"
+   ],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:50200407",
+   "source": "hackernews",
+   "title": "Bind CVE-2026-94300: Concurrent GSS-TSIG messages corrupt memory",
+   "url": "https://kb.isc.org/docs/cve-2026-94300",
+   "discussion": "https://news.ycombinator.com/item?id=50200407",
+   "points": 3,
+   "comments": 1,
+   "created": "2026-10-22T20:16:42Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-94300"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50198865",
+   "source": "hackernews",
+   "title": "Unraid updated to patch CVE-2026-109618 and CVE-2026-109619",
+   "url": "https://www.reddit.com/r/unRAID/comments/1xcp3mb/unraid_os_734_now_available_and_recommended_for/",
+   "discussion": "https://news.ycombinator.com/item?id=50198865",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-10-22T17:56:02Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50193957",
+   "source": "hackernews",
+   "title": "Hetzner: PHP security issues CVE-2026-109618 and CVE-2026-109619",
+   "url": "https://status.hetzner.com/incident/f4144d55-38c3-48d1-8664-7a3429355cd7",
+   "discussion": "https://news.ycombinator.com/item?id=50193957",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-22T11:33:58Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50193330",
+   "source": "hackernews",
+   "title": "Vitest Dev Server Secret Leak (CVE-2026-112948)",
+   "url": "https://github.com/advisories/GHSA-p458-7748-mcp3",
+   "discussion": "https://news.ycombinator.com/item?id=50193330",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-22T09:57:57Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-112948"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50192900",
+   "source": "hackernews",
+   "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+   "url": "https://nvd.nist.gov/vuln/detail/cve-2026-111943",
+   "discussion": "https://news.ycombinator.com/item?id=50192900",
+   "points": 336,
+   "comments": 123,
+   "created": "2026-10-22T08:51:31Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111943"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50192733",
+   "source": "hackernews",
+   "title": "Node.js security advisory: Brotli decoder RCE (CVE-2026-111497)",
+   "url": "https://vercel.com/kb/bulletin/node-js-security-advisory",
+   "discussion": "https://news.ycombinator.com/item?id=50192733",
+   "points": 17,
+   "comments": 3,
+   "created": "2026-10-22T08:27:26Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50192428",
+   "source": "hackernews",
+   "title": "CVE Record: CVE-2026-91403",
+   "url": "https://www.cve.org/CVERecord?id=CVE-2026-91403",
+   "discussion": "https://news.ycombinator.com/item?id=50192428",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-22T07:46:12Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-91403"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50189292",
+   "source": "hackernews",
+   "title": "Node.js Brotli RCE (CVE-2026-111497)",
+   "url": "https://vercel.com/kb/bulletin/node-js-security-advisory",
+   "discussion": "https://news.ycombinator.com/item?id=50189292",
+   "points": 23,
+   "comments": 0,
+   "created": "2026-10-21T23:58:43Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:dldfel",
+   "source": "lobsters",
+   "title": "CVE-2026-107891: musl libc: multiple integer overflow in regcomp, possibly leading to incorrect allocation sizes and out-of-bounds heap writes",
+   "url": "https://www.openwall.com/lists/oss-security/2026/10/21/18",
+   "discussion": "https://lobste.rs/s/dldfel/cve_2026_107891_musl_libc_multiple",
+   "points": 59,
+   "comments": 6,
+   "created": "2026-10-21T12:40:17.687-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-107891"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:d0bbhd",
+   "source": "lobsters",
+   "title": "CVE-2026-106173: FortiSIEM gRPC Path Traversal to RCE",
+   "url": "https://horizon3.ai/attack-research/cve-2026-106173-deep-dive-fortisiem-grpc-path-traversal-file-write-rce/",
+   "discussion": "https://lobste.rs/s/d0bbhd/cve_2026_106173_fortisiem_grpc_path",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-20T09:10:39.808-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-106173"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T23:51:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-23T23:51:26Z",
+     "label": "related"
+    }
+   ]
+  }
+ ]
+}

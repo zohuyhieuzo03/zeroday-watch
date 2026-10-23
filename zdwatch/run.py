@@ -1,0 +1,95 @@
+"""Fetch sources, label items, merge into docs/feed.json and docs/feed.xml."""
+import json
+import os
+import sys
+from datetime import datetime, timezone
+from email.utils import format_datetime
+from xml.sax.saxutils import escape
+
+from . import classify, sources
+
+DOCS = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "docs")
+FEED_JSON = os.path.join(DOCS, "feed.json")
+FEED_XML = os.path.join(DOCS, "feed.xml")
+KEEP = 500
+RSS_LABELS = {"kev_exploited", "zero_day_reported", "exploited_reported"}
+
+
+def now():
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def load_existing():
+    try:
+        with open(FEED_JSON) as f:
+            return {i["id"]: i for i in json.load(f)["items"]}
+    except (OSError, ValueError, KeyError):
+        return {}
+
+
+def merge(existing, fresh, ts):
+    for item in fresh:
+        old = existing.get(item["id"])
+        if old is None:
+            item["first_seen"] = ts
+            item["label_history"] = [{"at": ts, "label": item["label"]}]
+            existing[item["id"]] = item
+            continue
+        old.update(
+            {k: item[k] for k in ("points", "comments", "cves", "kev", "title")}
+        )
+        if old["label"] != item["label"]:
+            old["label"] = item["label"]
+            old["label_history"].append({"at": ts, "label": item["label"]})
+    items = sorted(existing.values(), key=lambda i: i["first_seen"], reverse=True)
+    return items[:KEEP]
+
+
+def write_rss(items, ts):
+    rows = []
+    for i in items:
+        if i["label"] not in RSS_LABELS:
+            continue
+        desc = "[%s] %s %s" % (i["label"], " ".join(i["cves"]), i["discussion"])
+        rows.append(
+            "<item><title>%s</title><link>%s</link><guid>%s</guid>"
+            "<category>%s</category><description>%s</description></item>"
+            % (
+                escape("[%s] %s" % (i["label"], i["title"])),
+                escape(i["url"] or ""),
+                escape(i["id"]),
+                escape(i["label"]),
+                escape(desc),
+            )
+        )
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
+        "<title>zeroday-watch</title>"
+        "<link>https://github.com/zohuyhieuzo03/zeroday-watch</link>"
+        "<description>Forum signals about exploited vulnerabilities, labelled by evidence.</description>"
+        "<lastBuildDate>%s</lastBuildDate>%s</channel></rss>"
+        % (format_datetime(datetime.now(timezone.utc)), "".join(rows))
+    )
+    with open(FEED_XML, "w", encoding="utf-8") as f:
+        f.write(xml)
+
+
+def main():
+    ts = now()
+    kev = sources.fetch_kev()
+    raw = sources.fetch_hn() + sources.fetch_lobsters()
+    fresh = [c for c in (classify.classify(i, kev) for i in raw) if c]
+    print("kev=%d raw=%d relevant=%d" % (len(kev), len(raw), len(fresh)))
+    if not raw:
+        print("no items fetched; leaving feed untouched")
+        return 1
+    items = merge(load_existing(), fresh, ts)
+    os.makedirs(DOCS, exist_ok=True)
+    with open(FEED_JSON, "w", encoding="utf-8") as f:
+        json.dump({"generated": ts, "count": len(items), "items": items}, f, indent=1, ensure_ascii=False)
+    write_rss(items, ts)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
