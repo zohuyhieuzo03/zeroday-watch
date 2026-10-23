@@ -21,6 +21,8 @@ jobs:
           python-version: "3.12"
       - run: python -m unittest discover -s tests -t .
       - run: python -m zdwatch.run
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       - name: Commit feed
         run: |
           git config user.name "zeroday-watch[bot]"

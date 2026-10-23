@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from email.utils import format_datetime
 from xml.sax.saxutils import escape
 
-from . import classify, sources
+from . import classify, judge, sources
 
 DOCS = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "docs")
 FEED_JSON = os.path.join(DOCS, "feed.json")
@@ -84,6 +84,7 @@ def main():
         print("no items fetched; leaving feed untouched")
         return 1
     items = merge(load_existing(), fresh, ts)
+    judge.judge_items(items, ts=ts)
     os.makedirs(DOCS, exist_ok=True)
     with open(FEED_JSON, "w", encoding="utf-8") as f:
         json.dump({"generated": ts, "count": len(items), "items": items}, f, indent=1, ensure_ascii=False)
