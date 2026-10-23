@@ -15,7 +15,7 @@ import urllib.error
 import urllib.request
 
 ENDPOINT = "https://openrouter.ai/api/alpha/decisions"
-DEFAULT_MODELS = "respan/span-01-lite:free,inception/mercury-decide:free"
+DEFAULT_MODELS = "inception/mercury-decide:free,baseten/mammoth-1:free"
 JUDGE_LABELS = ("zero_day", "n_day_exploited", "disclosed_unpatched", "not_exploited", "unclear")
 MIN_CONFIDENCE = 0.6
 # Spend the limited free quota on the claims that matter most first (sort is stable).
