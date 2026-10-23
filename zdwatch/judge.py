@@ -129,7 +129,7 @@ def judge_items(items, key=None, post=None, ts=""):
     models = [m.strip() for m in os.environ.get("ZDW_MODELS", DEFAULT_MODELS).split(",") if m.strip()]
     limit = int(os.environ.get("ZDW_MAX_LLM_ITEMS", "10"))
     todo = [i for i in items if needs_judging(i)]
-    todo.sort(key=lambda i: PRIORITY.index(i["label"]) if i["label"] in PRIORITY else len(PRIORITY))
+    todo.sort(key=lambda i: PRIORITY.index(i.get("label")) if i.get("label") in PRIORITY else len(PRIORITY))
     todo = todo[:limit]
     done = 0
     for item in todo:
