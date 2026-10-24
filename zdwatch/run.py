@@ -56,6 +56,26 @@ def merge(existing, fresh, ts):
     return items[:KEEP]
 
 
+FORUM_SOURCES = ("hackernews", "lobsters")
+
+
+def reclassify(existing, kev, ts):
+    """Re-run the rules on stored forum items so a rule change also fixes old labels."""
+    for key in list(existing):
+        item = existing[key]
+        if item["source"] not in FORUM_SOURCES:
+            continue
+        c = classify.classify(item, kev)
+        if c is None:
+            del existing[key]
+        elif c["label"] != item["label"]:
+            item["label"] = c["label"]
+            item["label_history"].append({"at": ts, "label": c["label"]})
+        if c is not None:
+            item["cves"], item["kev"] = c["cves"], c["kev"]
+    return existing
+
+
 def write_rss(items, ts):
     rows = []
     for i in items:
@@ -106,7 +126,7 @@ def main(argv=None):
     if not raw:
         print("no items fetched; leaving feed untouched")
         return 1
-    items = merge(load_existing(), fresh, ts)
+    items = merge(reclassify(load_existing(), kev, ts), fresh, ts)
     judge.judge_items(items, ts=ts)
     os.makedirs(DOCS, exist_ok=True)
     with open(FEED_JSON, "w", encoding="utf-8") as f:

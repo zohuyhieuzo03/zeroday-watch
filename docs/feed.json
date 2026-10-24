@@ -1,30 +1,7 @@
 {
- "generated": "2026-10-24T08:00:55Z",
- "count": 815,
+ "generated": "2026-10-24T08:24:40Z",
+ "count": 802,
  "topics": [
-  {
-   "name": "PHP2Shell",
-   "threads": 12,
-   "points": 875,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-22T19:00:38Z",
-   "items": [
-    "hn:50180836",
-    "hn:50194070",
-    "hn:50181326",
-    "hn:50189623",
-    "hn:50183570",
-    "hn:50199595",
-    "hn:50178312",
-    "hn:50195054",
-    "hn:50194701",
-    "hn:50189463",
-    "hn:50182037",
-    "hn:50180810"
-   ]
-  },
   {
    "name": "CVE-2026-109619",
    "threads": 12,
@@ -52,6 +29,25 @@
    ]
   },
   {
+   "name": "PHP2Shell",
+   "threads": 8,
+   "points": 597,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-22T12:56:57Z",
+   "items": [
+    "hn:50180836",
+    "hn:50181326",
+    "hn:50183570",
+    "hn:50178312",
+    "hn:50194701",
+    "hn:50189463",
+    "hn:50182037",
+    "hn:50180810"
+   ]
+  },
+  {
    "name": "curl",
    "threads": 6,
    "points": 107,
@@ -68,6 +64,21 @@
     "hn:50154714",
     "hn:50153613",
     "hn:50186745"
+   ]
+  },
+  {
+   "name": "Amazon",
+   "threads": 4,
+   "points": 278,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-22T13:29:48Z",
+   "items": [
+    "hn:50194070",
+    "hn:50189623",
+    "hn:50190069",
+    "hn:50195054"
    ]
   },
   {
@@ -846,8 +857,8 @@
    "title": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
    "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
    "discussion": "https://news.ycombinator.com/item?id=50216791",
-   "points": 157,
-   "comments": 86,
+   "points": 158,
+   "comments": 87,
    "created": "2026-10-23T23:30:17Z",
    "label": "security_news",
    "cves": [],
@@ -949,7 +960,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-10-23T17:13:53Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-23T17:13:53Z",
@@ -957,6 +968,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -1066,8 +1081,8 @@
    "title": "Your Phone Is About to Stop Being Yours: 70 Days Until Lockdown",
    "url": "https://keepandroidopen.org/?",
    "discussion": "https://news.ycombinator.com/item?id=50208558",
-   "points": 498,
-   "comments": 343,
+   "points": 500,
+   "comments": 344,
    "created": "2026-10-23T13:19:42Z",
    "label": "security_news",
    "cves": [],
@@ -1389,26 +1404,6 @@
    ]
   },
   {
-   "id": "hn:50199595",
-   "source": "hackernews",
-   "title": "Php2shell is not exploitable in real production enviroment",
-   "url": "https://berardinellidaniele.com/posts/php2shell/",
-   "discussion": "https://news.ycombinator.com/item?id=50199595",
-   "points": 3,
-   "comments": 2,
-   "created": "2026-10-22T19:00:38Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-10-22T19:00:38Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "hn:50199206",
    "source": "hackernews",
    "title": "Vulnerability Discovery and Exploitation Trends in the AI Era",
@@ -1424,6 +1419,14 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
+    },
+    {
+     "at": "2026-10-24T08:09:59Z",
      "label": "security_news"
     }
    ]
@@ -1577,14 +1580,14 @@
    "points": 2,
    "comments": 0,
    "created": "2026-10-22T13:29:48Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-22T13:29:48Z",
    "label_history": [
     {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
+     "at": "2026-10-24T08:21:01Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -1677,14 +1680,14 @@
    "points": 269,
    "comments": 97,
    "created": "2026-10-22T11:50:36Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-22T11:50:36Z",
    "label_history": [
     {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
+     "at": "2026-10-24T08:21:01Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -1857,14 +1860,14 @@
    "points": 4,
    "comments": 0,
    "created": "2026-10-22T00:43:37Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-22T00:43:37Z",
    "label_history": [
     {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
+     "at": "2026-10-24T08:21:01Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -3641,7 +3644,7 @@
    "points": 221,
    "comments": 117,
    "created": "2026-10-19T13:36:43Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-19T13:36:43Z",
@@ -3649,6 +3652,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -3827,26 +3834,6 @@
     {
      "at": "2026-10-24T02:10:38Z",
      "label": "public_exploit_reported"
-    }
-   ]
-  },
-  {
-   "id": "hn:50139534",
-   "source": "hackernews",
-   "title": "One parser, two bugs, many routers: Exploiting Broadcom WiFi across eCos, Linux",
-   "url": "https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/",
-   "discussion": "https://news.ycombinator.com/item?id=50139534",
-   "points": 14,
-   "comments": 0,
-   "created": "2026-10-18T09:47:44Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-10-18T09:47:44Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
     }
    ]
   },
@@ -4045,26 +4032,6 @@
    ]
   },
   {
-   "id": "hn:50130317",
-   "source": "hackernews",
-   "title": "One Parser,Two Bugs,Many Routers: Exploiting Broadcom WiFi Across ECos and Linux",
-   "url": "https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/",
-   "discussion": "https://news.ycombinator.com/item?id=50130317",
-   "points": 5,
-   "comments": 0,
-   "created": "2026-10-17T11:58:05Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-10-17T11:58:05Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "hn:50126923",
    "source": "hackernews",
    "title": "Plex Media Server Unauth RCE Exploit",
@@ -4143,26 +4110,6 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
-    }
-   ]
-  },
-  {
-   "id": "hn:50122058",
-   "source": "hackernews",
-   "title": "One parser, two bugs, many routers: Exploiting Broadcom WiFi across eCos, Linux",
-   "url": "https://quentinkaiser.be/security/2026/10/16/one-parser-two-bugs/",
-   "discussion": "https://news.ycombinator.com/item?id=50122058",
-   "points": 103,
-   "comments": 29,
-   "created": "2026-10-16T18:07:44Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-10-16T18:07:44Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
     }
    ]
   },
@@ -4247,26 +4194,6 @@
    ]
   },
   {
-   "id": "lobsters:cxlrc5",
-   "source": "lobsters",
-   "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
-   "url": "https://calif.io/research/big-fish",
-   "discussion": "https://lobste.rs/s/cxlrc5/big_fish_exploiting_37_year_old_kernel_bug",
-   "points": 38,
-   "comments": 0,
-   "created": "2026-10-16T10:41:08.721-05:00",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-10-16T15:41:08Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "hn:50119484",
    "source": "hackernews",
    "title": "Next.js October security update fixes two unauthenticated RCEs; check sharp too",
@@ -4279,26 +4206,6 @@
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-16T15:17:51Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
-   "id": "hn:50118977",
-   "source": "hackernews",
-   "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
-   "url": "https://calif.io/research/big-fish",
-   "discussion": "https://news.ycombinator.com/item?id=50118977",
-   "points": 195,
-   "comments": 68,
-   "created": "2026-10-16T14:44:02Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-10-16T14:44:02Z",
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
@@ -4841,26 +4748,6 @@
    ]
   },
   {
-   "id": "hn:50083772",
-   "source": "hackernews",
-   "title": "Environmental Exploitattion and Deception",
-   "url": "https://ipdefenseforum.com/",
-   "discussion": "https://news.ycombinator.com/item?id=50083772",
-   "points": 1,
-   "comments": 0,
-   "created": "2026-10-14T07:31:22Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-10-14T07:31:22Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "hn:50082735",
    "source": "hackernews",
    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
@@ -5014,6 +4901,14 @@
    "label_history": [
     {
      "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "zero_day_reported"
+    },
+    {
+     "at": "2026-10-24T08:09:59Z",
      "label": "zero_day_mention"
     }
    ],
@@ -5835,7 +5730,7 @@
    "points": 5,
    "comments": 0,
    "created": "2026-10-08T14:17:29Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-08T14:17:29Z",
@@ -5843,6 +5738,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -5925,26 +5824,6 @@
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-08T05:40:58Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
-   "id": "hn:50000668",
-   "source": "hackernews",
-   "title": "2/3rds of MiMo v2.6's Coding Tasks Leak the Answer. Is Exploiting It Cheating?",
-   "url": "https://www.vals.ai/blogs/mimo-reward-hacking",
-   "discussion": "https://news.ycombinator.com/item?id=50000668",
-   "points": 7,
-   "comments": 3,
-   "created": "2026-10-08T00:44:30Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-10-08T00:44:30Z",
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
@@ -6177,26 +6056,6 @@
    ]
   },
   {
-   "id": "hn:49995268",
-   "source": "hackernews",
-   "title": "Online nativists are exploiting middle-class economic worries to stir hate",
-   "url": "https://www.vox.com/politics/505248/texas-bo-french-indian-far-right-hate",
-   "discussion": "https://news.ycombinator.com/item?id=49995268",
-   "points": 9,
-   "comments": 0,
-   "created": "2026-10-07T16:42:06Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-10-07T16:42:06Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "lobsters:lu8hl9",
    "source": "lobsters",
    "title": "Twenty-two pending curl vulnerabilities",
@@ -6351,26 +6210,6 @@
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-07T06:16:26Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
-   "id": "hn:49979974",
-   "source": "hackernews",
-   "title": "Nightmare: Intro to binary exploitation / reverse engineering course",
-   "url": "https://guyinatuxedo.github.io/",
-   "discussion": "https://news.ycombinator.com/item?id=49979974",
-   "points": 2,
-   "comments": 0,
-   "created": "2026-10-06T15:28:04Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-10-06T15:28:04Z",
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
@@ -7033,6 +6872,14 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
+    },
+    {
+     "at": "2026-10-24T08:09:59Z",
+     "label": "security_news"
     }
    ]
   },
@@ -7115,6 +6962,30 @@
    }
   },
   {
+   "id": "hn:49932954",
+   "source": "hackernews",
+   "title": "FTP Backdoor Exploitation: From NMAP Reconnaissance to Root Access",
+   "url": "https://meetcyber.net/ftp-backdoor-exploitation-from-nmap-reconnaissance-to-root-access-36358347ddb8",
+   "discussion": "https://news.ycombinator.com/item?id=49932954",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-02T12:51:33Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-02T12:51:33Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
+    },
+    {
+     "at": "2026-10-24T08:09:59Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:49932239",
    "source": "hackernews",
    "title": "Jev for Vulnerability and Attack Surface Analysis",
@@ -7155,6 +7026,26 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49931498",
+   "source": "hackernews",
+   "title": "C64 Mercenary: a novel exploit bug in a 41-year-old game",
+   "url": "https://gamesexplained.com/c64/mercenary/#lift",
+   "discussion": "https://news.ycombinator.com/item?id=49931498",
+   "points": 1,
+   "comments": 2,
+   "created": "2026-10-02T09:18:44Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-02T09:18:44Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "security_news"
     }
    ]
   },
@@ -7270,6 +7161,26 @@
    ]
   },
   {
+   "id": "hn:49928368",
+   "source": "hackernews",
+   "title": "Mass exploitation of Citrix NetScaler: What we currently know",
+   "url": "https://www.cybersecuritydive.com/news/exploitation-citrix-netscaler-what-we-know/831780/",
+   "discussion": "https://news.ycombinator.com/item?id=49928368",
+   "points": 7,
+   "comments": 0,
+   "created": "2026-10-01T23:54:02Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-01T23:54:02Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:21:01Z",
+     "label": "exploited_reported"
+    }
+   ]
+  },
+  {
    "id": "hn:49928121",
    "source": "hackernews",
    "title": "Several vulnerabilities have been discovered in the Linux kernel",
@@ -7285,6 +7196,26 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:49927907",
+   "source": "hackernews",
+   "title": "C64 Mercenary: a novel exploit bug in a 41-year-old game",
+   "url": "https://gamesexplained.com/c64/mercenary/#lift",
+   "discussion": "https://news.ycombinator.com/item?id=49927907",
+   "points": 4,
+   "comments": 1,
+   "created": "2026-10-01T22:40:49Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-01T22:40:49Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:06:16Z",
      "label": "security_news"
     }
    ]
@@ -7426,14 +7357,14 @@
    "points": 5,
    "comments": 0,
    "created": "2026-09-30T21:30:14.805-05:00",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-01T02:30:14Z",
    "label_history": [
     {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
+     "at": "2026-10-24T08:21:01Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -7521,6 +7452,14 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
+    },
+    {
+     "at": "2026-10-24T08:09:59Z",
      "label": "security_news"
     }
    ]
@@ -8342,14 +8281,14 @@
    "points": 5,
    "comments": 0,
    "created": "2026-09-26T02:20:48Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-09-26T02:20:48Z",
    "label_history": [
     {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
+     "at": "2026-10-24T08:21:01Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -8698,26 +8637,6 @@
    ]
   },
   {
-   "id": "hn:49825708",
-   "source": "hackernews",
-   "title": "Hackers start exploiting critical WordPress flaw for code execution",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
-   "discussion": "https://news.ycombinator.com/item?id=49825708",
-   "points": 2,
-   "comments": 0,
-   "created": "2026-09-24T03:04:06Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-09-24T03:04:06Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "hn:49825319",
    "source": "hackernews",
    "title": "Hackers Actively Exploit Check Point VPN Flaw",
@@ -8826,21 +8745,41 @@
    ]
   },
   {
-   "id": "hn:49817896",
+   "id": "hn:49819954",
    "source": "hackernews",
-   "title": "Ethics of Agent Exploitation",
-   "url": "https://blog.cygankiewicz.com/en/ethics-of-agent-exploitation/",
-   "discussion": "https://news.ycombinator.com/item?id=49817896",
-   "points": 1,
-   "comments": 0,
-   "created": "2026-09-23T15:47:39Z",
+   "title": "US preparing to ban exports of diesel fuel for 90 days",
+   "url": "https://www.politico.com/news/2026/09/23/white-house-ban-diesel-01089294",
+   "discussion": "https://news.ycombinator.com/item?id=49819954",
+   "points": 4,
+   "comments": 4,
+   "created": "2026-09-23T17:54:22Z",
    "label": "security_news",
    "cves": [],
    "kev": [],
-   "first_seen": "2026-09-23T15:47:39Z",
+   "first_seen": "2026-09-23T17:54:22Z",
    "label_history": [
     {
-     "at": "2026-10-24T07:56:36Z",
+     "at": "2026-10-24T08:06:16Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:49818698",
+   "source": "hackernews",
+   "title": "28% of job postings on company career sites have been open over 90 days",
+   "url": "https://unlisted.careers/ghost-jobs/report/2026-09",
+   "discussion": "https://news.ycombinator.com/item?id=49818698",
+   "points": 302,
+   "comments": 364,
+   "created": "2026-09-23T16:35:34Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-23T16:35:34Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:06:16Z",
      "label": "security_news"
     }
    ]
@@ -8886,21 +8825,21 @@
    ]
   },
   {
-   "id": "hn:49817256",
+   "id": "hn:49816907",
    "source": "hackernews",
-   "title": "Show HN: RustyTux – Linux kernel LPE exploiting an ESP-in-TCP race",
-   "url": "https://github.com/m0x41nos/RustyTux",
-   "discussion": "https://news.ycombinator.com/item?id=49817256",
-   "points": 2,
-   "comments": 0,
-   "created": "2026-09-23T15:03:52Z",
+   "title": "Reflections on 1,000 Days of Math",
+   "url": "https://gmays.com/reflections-on-1000-days-of-math/",
+   "discussion": "https://news.ycombinator.com/item?id=49816907",
+   "points": 86,
+   "comments": 37,
+   "created": "2026-09-23T14:40:34Z",
    "label": "security_news",
    "cves": [],
    "kev": [],
-   "first_seen": "2026-09-23T15:03:52Z",
+   "first_seen": "2026-09-23T14:40:34Z",
    "label_history": [
     {
-     "at": "2026-10-24T07:56:36Z",
+     "at": "2026-10-24T08:06:16Z",
      "label": "security_news"
     }
    ]
@@ -9325,26 +9264,6 @@
    ]
   },
   {
-   "id": "lobsters:1somoo",
-   "source": "lobsters",
-   "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
-   "url": "https://projectzero.google/2026/09/windows-dangling-com.html",
-   "discussion": "https://lobste.rs/s/1somoo/windows_exploitation_techniques",
-   "points": 8,
-   "comments": 0,
-   "created": "2026-09-21T13:21:25.252-05:00",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-09-21T18:21:25Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "hn:49790357",
    "source": "hackernews",
    "title": "Vulnerability Disclosure Policy",
@@ -9544,6 +9463,26 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:49754253",
+   "source": "hackernews",
+   "title": "HEIF Heist: image parser RCE exploit",
+   "url": "https://heif-heist.com",
+   "discussion": "https://news.ycombinator.com/item?id=49754253",
+   "points": 10,
+   "comments": 5,
+   "created": "2026-09-18T13:39:29Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-18T13:39:29Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:06:16Z",
      "label": "security_news"
     }
    ]
@@ -9869,13 +9808,37 @@
    "points": 2,
    "comments": 0,
    "created": "2026-09-16T15:23:44Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-09-16T15:23:44Z",
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
+    }
+   ]
+  },
+  {
+   "id": "hn:49725638",
+   "source": "hackernews",
+   "title": "GPUThor: Amplifying Rowhammer Attacks via Non-Uniform Patterns to Exploit",
+   "url": "https://arxiv.org/abs/2609.16546",
+   "discussion": "https://news.ycombinator.com/item?id=49725638",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-09-16T12:07:08Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-16T12:07:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:06:16Z",
      "label": "security_news"
     }
    ]
@@ -10170,6 +10133,26 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:49700769",
+   "source": "hackernews",
+   "title": "A College Girl Was Exploited on Camera. A Network of Anonymous Men Got to Work",
+   "url": "https://www.wired.com/story/burnerverse-maddie-kowalski/",
+   "discussion": "https://news.ycombinator.com/item?id=49700769",
+   "points": 3,
+   "comments": 1,
+   "created": "2026-09-14T17:35:05Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-14T17:35:05Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:06:16Z",
      "label": "security_news"
     }
    ]
@@ -10481,6 +10464,26 @@
    ]
   },
   {
+   "id": "hn:49649605",
+   "source": "hackernews",
+   "title": "Keystone's Independent Analysis of the Coldcard Exploit",
+   "url": "https://www.keystone.com/case-studies/following-the-bitcoin-inside-keystones-independent-analysis-of-the-coldcard-exploit",
+   "discussion": "https://news.ycombinator.com/item?id=49649605",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-09-10T20:15:25Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-10T20:15:25Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:49649324",
    "source": "hackernews",
    "title": "Serial Microsoft 0-day hunter drops yet another Defender exploit",
@@ -10596,6 +10599,26 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:49639515",
+   "source": "hackernews",
+   "title": "Groups caught using the same Chrome and Windows exploit kit",
+   "url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
+   "discussion": "https://news.ycombinator.com/item?id=49639515",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-09-10T07:02:32Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-10T07:02:32Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:06:16Z",
      "label": "security_news"
     }
    ]
@@ -11015,7 +11038,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-09-08T15:25:30Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-09-08T15:25:30Z",
@@ -11023,6 +11046,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -11263,6 +11290,26 @@
    ]
   },
   {
+   "id": "hn:49590412",
+   "source": "hackernews",
+   "title": "Pre-auth RCE on MikroTik: exploited before the patch, rebuilt in three hours",
+   "url": "https://blog.tolmo.com/p/pre-auth-rce-on-mikrotik-exploited",
+   "discussion": "https://news.ycombinator.com/item?id=49590412",
+   "points": 4,
+   "comments": 4,
+   "created": "2026-09-06T20:13:37Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-06T20:13:37Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:49589674",
    "source": "hackernews",
    "title": "Security vulnerabilities of AI data centers flagged at intelligence hearing",
@@ -11375,13 +11422,37 @@
    "points": 805,
    "comments": 513,
    "created": "2026-09-04T21:52:01Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-09-04T21:52:01Z",
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
+    }
+   ]
+  },
+  {
+   "id": "hn:49568828",
+   "source": "hackernews",
+   "title": "Government Rails Site Hit Hours After CVE Patch",
+   "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
+   "discussion": "https://news.ycombinator.com/item?id=49568828",
+   "points": 117,
+   "comments": 38,
+   "created": "2026-09-04T19:06:39Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-04T19:06:39Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:06:16Z",
      "label": "security_news"
     }
    ]
@@ -11399,26 +11470,6 @@
    "cves": [],
    "kev": [],
    "first_seen": "2026-09-04T17:47:17Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
-   "id": "hn:49560415",
-   "source": "hackernews",
-   "title": "Exploiting food embeddings for ingredient substitution",
-   "url": "https://github.com/ChantalMP/Exploiting-Food-Embeddings-for-Ingredient-Substitution",
-   "discussion": "https://news.ycombinator.com/item?id=49560415",
-   "points": 1,
-   "comments": 0,
-   "created": "2026-09-04T04:04:22Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-09-04T04:04:22Z",
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
@@ -12099,26 +12150,6 @@
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-30T12:15:25Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
-   "id": "hn:49493252",
-   "source": "hackernews",
-   "title": "The Exploitation of Grassroots Belief",
-   "url": "https://www.bitchute.com/video/cROqUoWO9o5i/",
-   "discussion": "https://news.ycombinator.com/item?id=49493252",
-   "points": 3,
-   "comments": 0,
-   "created": "2026-08-29T20:55:02Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-08-29T20:55:02Z",
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
@@ -12898,26 +12929,6 @@
    ]
   },
   {
-   "id": "hn:49424387",
-   "source": "hackernews",
-   "title": "LLMs could control their host machines by exploiting inference engines",
-   "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
-   "discussion": "https://news.ycombinator.com/item?id=49424387",
-   "points": 194,
-   "comments": 108,
-   "created": "2026-08-24T19:03:06Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-08-24T19:03:06Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "kev:CVE-2026-21962",
    "source": "cisa-kev",
    "title": "CVE-2026-21962: Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in - Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
@@ -13404,6 +13415,26 @@
    ]
   },
   {
+   "id": "hn:49347196",
+   "source": "hackernews",
+   "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
+   "discussion": "https://news.ycombinator.com/item?id=49347196",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-08-18T15:31:34Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-18T15:31:34Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:13:38Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:49344245",
    "source": "hackernews",
    "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
@@ -13560,6 +13591,26 @@
    ]
   },
   {
+   "id": "hn:49330710",
+   "source": "hackernews",
+   "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+   "discussion": "https://news.ycombinator.com/item?id=49330710",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-08-17T13:42:25Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-17T13:42:25Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:13:38Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:49328812",
    "source": "hackernews",
    "title": "A theory for decades of C vulnerabilities",
@@ -13636,7 +13687,7 @@
    "points": 2,
    "comments": 1,
    "created": "2026-08-16T23:45:33Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-16T23:45:33Z",
@@ -13644,6 +13695,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -13718,7 +13773,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-08-15T07:32:06Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-15T07:32:06Z",
@@ -13726,6 +13781,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -13758,7 +13817,7 @@
    "points": 6,
    "comments": 1,
    "created": "2026-08-14T22:07:06Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-14T22:07:06Z",
@@ -13766,6 +13825,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -13778,7 +13841,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-08-14T16:41:25Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-14T16:41:25Z",
@@ -13786,6 +13849,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -14294,26 +14361,6 @@
    ]
   },
   {
-   "id": "hn:49260882",
-   "source": "hackernews",
-   "title": "Feds warn Gunra ransomware is exploiting known bugs hit critical infrastructure",
-   "url": "https://www.theregister.com/cyber-crime/2026/08/11/feds-warn-gunra-ransomware-is-exploiting-known-bugs-to-hit-critical-infrastructure/5286263",
-   "discussion": "https://news.ycombinator.com/item?id=49260882",
-   "points": 2,
-   "comments": 0,
-   "created": "2026-08-11T16:40:15Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-08-11T16:40:15Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "hn:49260206",
    "source": "hackernews",
    "title": "Zoomsday How a Security Found a Nation-State Vulnerability in Zoom in One Day",
@@ -14614,26 +14661,6 @@
    ]
   },
   {
-   "id": "hn:49245491",
-   "source": "hackernews",
-   "title": "Exploiting System Management Mode with a very long interrupt",
-   "url": "https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii",
-   "discussion": "https://news.ycombinator.com/item?id=49245491",
-   "points": 194,
-   "comments": 80,
-   "created": "2026-08-10T16:03:14Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-08-10T16:03:14Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "hn:49244829",
    "source": "hackernews",
    "title": "Critical Progress LoadMaster flaw now actively exploited in attacks",
@@ -14642,7 +14669,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-08-10T15:17:11Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-10T15:17:11Z",
@@ -14650,26 +14677,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
-    }
-   ]
-  },
-  {
-   "id": "hn:49243046",
-   "source": "hackernews",
-   "title": "When Agentic Glue Melts: Exploiting Cloudflare Code Mode and Workers",
-   "url": "https://research.checkpoint.com/2026/when-agentic-glue-melts/",
-   "discussion": "https://news.ycombinator.com/item?id=49243046",
-   "points": 23,
-   "comments": 1,
-   "created": "2026-08-10T12:59:43Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-08-10T12:59:43Z",
-   "label_history": [
+    },
     {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
+     "at": "2026-10-24T08:06:16Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -14706,26 +14717,6 @@
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-10T07:07:06Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
-   "id": "lobsters:sh2bax",
-   "source": "lobsters",
-   "title": "Crashing Through Defenses: Exploiting Segfaults and Chaining around Intel CET",
-   "url": "https://github.com/signal-sfop/sfop/blob/main/SFOP_s%26p_paper.pdf",
-   "discussion": "https://lobste.rs/s/sh2bax/crashing_through_defenses_exploiting",
-   "points": 1,
-   "comments": 0,
-   "created": "2026-08-09T18:49:30.996-05:00",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-08-09T23:49:30Z",
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
@@ -14956,26 +14947,6 @@
    ]
   },
   {
-   "id": "hn:49206460",
-   "source": "hackernews",
-   "title": "SparSEEty: Extracting Tokens from Sparsity-Exploiting LLM Serving Systems",
-   "url": "https://arxiv.org/abs/2608.02995",
-   "discussion": "https://news.ycombinator.com/item?id=49206460",
-   "points": 1,
-   "comments": 0,
-   "created": "2026-08-07T06:07:06Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-08-07T06:07:06Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "hn:49206189",
    "source": "hackernews",
    "title": "AI-generated vulnerability patches still require expert human review",
@@ -15152,26 +15123,6 @@
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-06T21:27:53Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
-   "id": "lobsters:eodvvq",
-   "source": "lobsters",
-   "title": "TONTOU: On the Exploitability of Time-of-Neutralization to Time-of-Use Windows",
-   "url": "https://people.csail.mit.edu/mengjia/data/2026.USENIX.TONTOU.pdf",
-   "discussion": "https://lobste.rs/s/eodvvq/tontou_on_exploitability_time",
-   "points": 2,
-   "comments": 0,
-   "created": "2026-08-06T13:29:03.612-05:00",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-08-06T18:29:03Z",
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
@@ -15359,26 +15310,6 @@
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-04T23:39:34Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
-   "id": "hn:49176396",
-   "source": "hackernews",
-   "title": "Hackers steal over $130M by exploiting bug in offline hardware wallets",
-   "url": "https://techcrunch.com/2026/08/04/hackers-steal-over-130-million-by-exploiting-bug-in-offline-hardware-wallets/",
-   "discussion": "https://news.ycombinator.com/item?id=49176396",
-   "points": 7,
-   "comments": 0,
-   "created": "2026-08-04T22:54:47Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-08-04T22:54:47Z",
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
@@ -15623,6 +15554,26 @@
    ]
   },
   {
+   "id": "hn:49149220",
+   "source": "hackernews",
+   "title": "Wham! 10 Days in China [video]",
+   "url": "https://www.youtube.com/watch?v=P7oAaJqqv8w",
+   "discussion": "https://news.ycombinator.com/item?id=49149220",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-08-02T22:49:07Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-02T22:49:07Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:17:19Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:49147088",
    "source": "hackernews",
    "title": "Coldcard Bitcoin Exploit Balloons to $88M as Attackers Keep Draining Wallets",
@@ -15655,26 +15606,6 @@
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-02T14:10:29Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
-   "id": "hn:49139831",
-   "source": "hackernews",
-   "title": "Send and Pretend: Exploiting Transcript Consistency Issues in E2EE Group Chats",
-   "url": "https://arxiv.org/abs/2607.27510",
-   "discussion": "https://news.ycombinator.com/item?id=49139831",
-   "points": 3,
-   "comments": 0,
-   "created": "2026-08-02T00:07:10Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-08-02T00:07:10Z",
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
@@ -15865,6 +15796,26 @@
    ]
   },
   {
+   "id": "hn:49130905",
+   "source": "hackernews",
+   "title": "Last 30 Days (Skill) – AI Agent for Reddit, X, YT, HN, Web and Polymarket",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "discussion": "https://news.ycombinator.com/item?id=49130905",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-08-01T04:00:39Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-01T04:00:39Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:17:19Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "lobsters:dl0x6w",
    "source": "lobsters",
    "title": "OVSwrap: another Linux local root vulnerability",
@@ -16035,14 +15986,14 @@
    "points": 1,
    "comments": 0,
    "created": "2026-07-31T12:12:31Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-07-31T12:12:31Z",
    "label_history": [
     {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
+     "at": "2026-10-24T08:21:01Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -16079,26 +16030,6 @@
    "cves": [],
    "kev": [],
    "first_seen": "2026-07-31T09:58:50Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
-   "id": "hn:49118886",
-   "source": "hackernews",
-   "title": "CDN Tsunami: Exploiting HTTP/3-HTTP/1.1 Conversion for DoS Attacks",
-   "url": "https://arxiv.org/abs/2607.26589",
-   "discussion": "https://news.ycombinator.com/item?id=49118886",
-   "points": 3,
-   "comments": 0,
-   "created": "2026-07-31T04:07:06Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-07-31T04:07:06Z",
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
@@ -16226,6 +16157,26 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:49107856",
+   "source": "hackernews",
+   "title": "1.25K → 9.04K clicks in 60 days: Pointed an agent to GSC every morning",
+   "url": "https://www.reddit.com/r/better_claw/s/RTb2Auc7rx",
+   "discussion": "https://news.ycombinator.com/item?id=49107856",
+   "points": 5,
+   "comments": 3,
+   "created": "2026-07-30T09:54:10Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-07-30T09:54:10Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T08:17:19Z",
      "label": "security_news"
     }
    ]
@@ -16551,26 +16502,6 @@
    ]
   },
   {
-   "id": "hn:49094493",
-   "source": "hackernews",
-   "title": "ExploitGym AI benchmark source code",
-   "url": "https://github.com/sunblaze-ucb/exploitgym/",
-   "discussion": "https://news.ycombinator.com/item?id=49094493",
-   "points": 1,
-   "comments": 0,
-   "created": "2026-07-29T07:40:13Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-07-29T07:40:13Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "hn:49094023",
    "source": "hackernews",
    "title": "Claude Mythos Preview Finds Vulnerability in Weakened Form of AES",
@@ -16804,26 +16735,6 @@
    ]
   },
   {
-   "id": "hn:49081927",
-   "source": "hackernews",
-   "title": "Childhood exposure to pornography and the normalization of online exploitation",
-   "url": "https://www.ovid.com/jnls/nursing/fulltext/10.1097/nsg.0000000000000432~childhood-exposure-to-pornography-and-the-normalization-of",
-   "discussion": "https://news.ycombinator.com/item?id=49081927",
-   "points": 3,
-   "comments": 0,
-   "created": "2026-07-28T10:40:46Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-07-28T10:40:46Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "hn:49078804",
    "source": "hackernews",
    "title": "Street videos 'exploiting' vulnerable people",
@@ -16864,26 +16775,6 @@
    ]
   },
   {
-   "id": "lobsters:lz6eoe",
-   "source": "lobsters",
-   "title": "Apple MIE exploitation challenge",
-   "url": "https://blog.calif.io/p/apple-mie-exploitation-challenge",
-   "discussion": "https://lobste.rs/s/lz6eoe/apple_mie_exploitation_challenge",
-   "points": 9,
-   "comments": 0,
-   "created": "2026-07-27T18:07:19.046-05:00",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-07-27T23:07:19Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
    "id": "hn:49073748",
    "source": "hackernews",
    "title": "Wiz Atlas surfaces 200 more previously-unknown vulnerabilities",
@@ -16916,46 +16807,6 @@
    "cves": [],
    "kev": [],
    "first_seen": "2026-07-27T18:00:18Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
-   "id": "lobsters:pg4toy",
-   "source": "lobsters",
-   "title": "Exploiting Volvo/Eicher’s fleet management platform to gain control over all users and vehicles",
-   "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
-   "discussion": "https://lobste.rs/s/pg4toy/exploiting_volvo_eicher_s_fleet",
-   "points": 18,
-   "comments": 1,
-   "created": "2026-07-27T12:06:57.616-05:00",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-07-27T17:06:57Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
-    }
-   ]
-  },
-  {
-   "id": "hn:49070756",
-   "source": "hackernews",
-   "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
-   "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
-   "discussion": "https://news.ycombinator.com/item?id=49070756",
-   "points": 163,
-   "comments": 61,
-   "created": "2026-07-27T15:08:16Z",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-07-27T15:08:16Z",
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
@@ -17931,26 +17782,6 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
-    }
-   ]
-  },
-  {
-   "id": "lobsters:mnfcv4",
-   "source": "lobsters",
-   "title": "Off By !: Exploiting a Use-after-Free in the Linux Kernel",
-   "url": "https://blog.exodusintel.com/2026/06/08/off-by-exploiting-a-use-after-free-in-the-linux-kernel/",
-   "discussion": "https://lobste.rs/s/mnfcv4/off_by_exploiting_use_after_free_linux",
-   "points": 2,
-   "comments": 0,
-   "created": "2026-06-09T15:52:47.000-05:00",
-   "label": "security_news",
-   "cves": [],
-   "kev": [],
-   "first_seen": "2026-06-09T20:52:47Z",
-   "label_history": [
-    {
-     "at": "2026-10-24T07:56:36Z",
-     "label": "security_news"
     }
    ]
   }

@@ -24,6 +24,21 @@ class ClassifyTest(unittest.TestCase):
         r = classify(item("CVE-2026-2222 actively exploited"), KEV)
         self.assertEqual(r["label"], "exploited_reported")
 
+    def test_exploitation_before_disclosure_without_cve(self):
+        r = classify(item("Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure"), KEV)
+        self.assertEqual(r["label"], "exploited_reported")
+
+    def test_exploitation_needs_attack_context(self):
+        for title in ("Ethics of Agent Exploitation", "Exploration-Exploitation Dilemma",
+                      "Windows Exploitation Techniques: Dangling COM Object Registrations"):
+            self.assertNotEqual((classify(item(title), KEV) or {}).get("label"), "exploited_reported", title)
+        for title in ("Amazon says PHP2Shell exploitation began 4 days before patches",
+                      "Mass exploitation of Citrix NetScaler: What we currently know"):
+            self.assertEqual(classify(item(title), KEV)["label"], "exploited_reported", title)
+
+    def test_unpatched_without_security_context_is_dropped(self):
+        self.assertIsNone(classify(item("My unpatched Windows XP box still runs"), KEV))
+
     def test_public_exploit(self):
         r = classify(item("PHP2Shell (CVE-2026-109618) Exploit"), KEV)
         self.assertEqual(r["label"], "public_exploit_reported")
