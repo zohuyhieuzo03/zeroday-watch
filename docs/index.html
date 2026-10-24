@@ -97,6 +97,22 @@ input[type=search]::placeholder { color: var(--dim); }
 .toast span { overflow-wrap: anywhere; }
 @keyframes slidein { from { transform: translateX(20px); opacity: 0; } }
 @media (prefers-reduced-motion: reduce) { .live::before, .toast { animation: none; } }
+
+/* motion: transform/opacity only; everything is disabled under prefers-reduced-motion */
+.item, .topic { position: relative; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+.item:hover, .topic:hover { transform: translateY(-2px); border-color: var(--dim); }
+.rise { animation: rise .42s cubic-bezier(.2,.7,.2,1) backwards; animation-delay: calc(var(--i, 0) * 28ms); }
+@keyframes rise { from { opacity: 0; transform: translateY(14px); } }
+.is-new { animation: enter .5s cubic-bezier(.2,.9,.3,1.2) backwards, flash 2.2s ease-out .1s; }
+@keyframes enter { from { opacity: 0; transform: translateY(-18px) scale(.98); } }
+@keyframes flash { 0% { box-shadow: 0 0 0 2px var(--green), 0 0 24px rgba(53,224,138,.55); } 100% { box-shadow: 0 0 0 0 transparent; } }
+.item.s-kev_exploited::after, .topic.hot::after { content: ""; position: absolute; inset: -1px; pointer-events: none; box-shadow: 0 0 26px rgba(255,59,59,.55); opacity: 0; animation: glow 2.8s ease-in-out infinite; }
+@keyframes glow { 50% { opacity: 1; } }
+.view-in { animation: fade .28s ease-out; }
+@keyframes fade { from { opacity: 0; transform: translateY(6px); } }
+.badge.new { animation: blink 1.4s ease-in-out 4; }
+@keyframes blink { 50% { opacity: .35; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
 </style>
 </head>
 <body>
@@ -119,7 +135,8 @@ input[type=search]::placeholder { color: var(--dim); }
 </div>
 <script>
 const LABELS = ["kev_exploited", "zero_day_reported", "exploited_reported", "vendor_advisory", "public_exploit_reported", "zero_day_mention", "related", "security_news"];
-const state = { items: [], topics: [], generated: "", active: new Set(LABELS), q: "" };
+const state = { items: [], topics: [], generated: "", active: new Set(LABELS), q: "", intro: true, flashed: new Set() };
+const REDUCED = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const $ = (id) => document.getElementById(id);
 
 function ago(iso) {
@@ -165,8 +182,12 @@ function render() {
     ? rows.length + " of " + state.items.length + " items · updated " + ago(state.generated)
     : "";
   if (!rows.length) { list.append(el("div", "empty", "Nothing matches.")); return; }
+  let n = 0;
   for (const i of rows) {
     const card = el("div", "item s-" + i.label + (i.severity ? " sev-" + i.severity : ""));
+    if (state.intro) { card.classList.add("rise"); card.style.setProperty("--i", Math.min(n++, 14)); }
+    else if (state.fresh.has(i.id) && !state.flashed.has(i.id)) card.classList.add("is-new");
+    if (state.fresh.has(i.id)) state.flashed.add(i.id);
     card.append(el("span", "badge b-" + i.label, i.label));
     if (i.severity) card.append(el("span", "badge b-sev-" + i.severity, i.severity));
     if (state.fresh.has(i.id)) card.append(el("span", "badge new", "NEW"));
@@ -188,6 +209,7 @@ function render() {
     card.append(meta);
     list.append(card);
   }
+  if (rows.length) state.intro = false;
 }
 
 
@@ -199,13 +221,20 @@ function renderTopics() {
     ? state.topics.length + " topics · last 7 days · grouped by shared CVE or distinctive keyword"
     : "No topic has 3+ threads yet.";
   state.topics.forEach((t, n) => {
-    const card = el("div", "topic" + (t.kev ? " hot" : ""));
+    const card = el("div", "topic" + (t.kev ? " hot" : "") + (state.tintro ? " rise" : ""));
+    if (state.tintro) card.style.setProperty("--i", Math.min(n, 10));
     const h = el("h2");
     h.append(el("span", "rank", "#" + (n + 1)));
     h.append(document.createTextNode(t.name));
     card.append(h);
     const meta = el("div", "meta");
-    meta.append(el("span", null, t.threads + " threads · " + t.points + " pts" + (t.repos ? " · " + t.repos + " PoC repos" : "") + " · last " + ago(t.last_seen)));
+    const stat = el("span");
+    const parts = [[t.threads, " threads"], [t.points, " pts"]];
+    parts.forEach(([v, label], k) => {
+      const num = el("b", null, String(v)); num.dataset.to = v; stat.append(num, document.createTextNode(label + (k === 0 ? " · " : "")));
+    });
+    stat.append(document.createTextNode((t.repos ? " · " + t.repos + " PoC repos" : "") + " · last " + ago(t.last_seen)));
+    meta.append(stat);
     if (t.cves.length) meta.append(el("span", "cves", t.cves.join(" ")));
     card.append(meta);
     const flags = el("div"); flags.style.marginTop = "6px";
@@ -226,9 +255,24 @@ function renderTopics() {
     box.append(card);
   });
 }
+function countUp(root) {
+  if (REDUCED) return;
+  root.querySelectorAll("b[data-to]").forEach((el0) => {
+    const to = Number(el0.dataset.to), t0 = performance.now(), dur = 700;
+    const tick = (now) => {
+      const k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 3);
+      el0.textContent = String(Math.round(to * e));
+      if (k < 1) requestAnimationFrame(tick);
+    };
+    el0.textContent = "0"; requestAnimationFrame(tick);
+  });
+}
 function showTab(name) {
   const trend = name === "trend";
   $("view-feed").hidden = trend; $("view-trend").hidden = !trend;
+  const view = $(trend ? "view-trend" : "view-feed");
+  view.classList.remove("view-in"); void view.offsetWidth; view.classList.add("view-in");
+  if (trend) { state.tintro = true; renderTopics(); state.tintro = false; countUp($("tlist")); }
   $("tab-feed").setAttribute("aria-selected", !trend);
   $("tab-trend").setAttribute("aria-selected", trend);
   try { history.replaceState(null, "", trend ? "#trending" : location.pathname + location.search); } catch {}
@@ -299,7 +343,11 @@ async function load() {
     const d = await r.json();
     if (d.generated !== state.generated) detectNew(d.items);
     state.items = d.items; state.generated = d.generated; state.topics = d.topics || [];
-    render(); renderTopics();
+    const first = !state.loaded; state.loaded = true;
+    const onTrend = first && !$("view-trend").hidden;
+    render();
+    state.tintro = onTrend; renderTopics(); state.tintro = false;
+    if (onTrend) countUp($("tlist"));
   } catch (e) {
     $("status").textContent = "Could not load feed: " + e.message;
   }
