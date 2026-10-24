@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T09:25:35Z",
+ "generated": "2026-10-24T09:30:25Z",
  "count": 1128,
  "topics": [
   {
@@ -10649,7 +10649,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-753: (0Day) Genesis World MJCF Directory Traversal Information Disclosure Vulnerability",
+    "at": "2026-10-24T09:30:25Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9974494527575147,
+      "exploited": 0.04742587688008271
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8232240780335748,
+      "exploited": 0.4647637354398891
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-752/",
@@ -10669,7 +10687,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-752: (0Day) Genesis World decompress_usdz Directory Traversal Remote Code Execution Vulnerability",
+    "at": "2026-10-24T09:30:25Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9966464489131701,
+      "exploited": 0.03308597588599003
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8623466864727966,
+      "exploited": 0.5095758648730311
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:50066063",
@@ -11524,7 +11560,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws.",
+    "at": "2026-10-24T09:30:25Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9759153904953866,
+      "exploited": 0.060086646807761206
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7903249228267952,
+      "exploited": 0.2803003665703222
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "github-advisory:GHSA-6v25-8wq6-xq4j",
@@ -21253,7 +21307,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "New Nightmare Eclipse zero day gives system privileges on patched Windows",
+    "at": "2026-10-24T09:30:25Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9814854833133629,
+      "exploited": 0.0015011823523620454
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7244146325722591,
+      "exploited": 0.1744627411124342
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49347196",
@@ -21293,7 +21365,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
+    "at": "2026-10-24T09:30:25Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9961836068062446,
+      "exploited": 0.014063628386256938
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.953127397233719,
+      "exploited": 0.32420907101394547
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49339490",
@@ -21647,7 +21737,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Someone is publishing a trove of zero-days",
+    "at": "2026-10-24T09:30:25Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9440869483321914,
+      "exploited": 0.0021827165082248393
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.19107491311485342,
+      "exploited": 0.12222117021145457
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1
+   }
   },
   {
    "id": "hn:49305171",
@@ -21879,7 +21987,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "NightmareEclipse Publishes New Windows Defender Zero Day",
+    "at": "2026-10-24T09:30:25Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9939353398605072,
+      "exploited": 0.005911069217433477
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7691852733412768,
+      "exploited": 0.27642340448501945
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49281735",
@@ -21919,7 +22045,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
+    "at": "2026-10-24T09:30:25Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9996231957473839,
+      "exploited": 0.9982992775747289
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9957563412685189,
+      "exploited": 0.9948222869137625
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49274107",
@@ -21939,7 +22083,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
+    "at": "2026-10-24T09:30:25Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9961753184529567,
+      "exploited": 0.005220124958449569
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8720676856669074,
+      "exploited": 0.1895730264541383
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49273886",
@@ -22021,7 +22183,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Cellebrite zero-day exploit used to target phone of Serbian student activist",
+    "at": "2026-10-24T09:30:25Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9987859703855947,
+      "exploited": 0.9875683509076415
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9914814338891886,
+      "exploited": 0.9741651643743136
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49270283",
