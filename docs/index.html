@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>zeroday-watch</title>
+<meta name="description" content="Forum signals about exploited vulnerabilities, labelled by evidence.">
+<link rel="alternate" type="application/rss+xml" title="zeroday-watch" href="feed.xml">
+<style>
+:root {
+  --bg: #f6f7f9; --card: #fff; --ink: #14181f; --mute: #5b6472; --line: #e1e5ea;
+  --kev: #b42318; --zero: #c2410c; --expl: #b45309; --mention: #475467; --rel: #667085;
+  --kev-bg: #fee4e2; --zero-bg: #ffedd5; --expl-bg: #fef3c7; --mention-bg: #eef0f3; --rel-bg: #f2f4f7;
+  --accent: #1d4ed8;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0e1116; --card: #161b22; --ink: #e6e9ee; --mute: #9aa4b2; --line: #2a313b;
+    --kev: #fda29b; --zero: #fdba74; --expl: #fcd34d; --mention: #c0c7d2; --rel: #98a2b3;
+    --kev-bg: #3a1512; --zero-bg: #3a1c0a; --expl-bg: #33260a; --mention-bg: #222831; --rel-bg: #1c222b;
+    --accent: #7aa2ff;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.wrap { max-width: 860px; margin: 0 auto; padding: 24px 16px 48px; }
+h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: -0.01em; }
+.sub { color: var(--mute); margin: 0 0 16px; }
+.sub a { color: var(--accent); }
+.bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 12px; }
+.chip { border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 999px; padding: 4px 12px; font: inherit; font-size: 13px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+input[type=search] { flex: 1 1 180px; min-width: 0; border: 1px solid var(--line); background: var(--card); color: var(--ink); border-radius: 8px; padding: 6px 10px; font: inherit; }
+.status { color: var(--mute); font-size: 13px; margin: 4px 0 12px; }
+.warn { border: 1px solid var(--line); background: var(--card); border-radius: 8px; padding: 10px 12px; font-size: 13px; color: var(--mute); margin-bottom: 16px; }
+.item { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; }
+.item h2 { font-size: 15px; font-weight: 600; margin: 6px 0 4px; overflow-wrap: anywhere; }
+.item h2 a { color: inherit; text-decoration: none; }
+.item h2 a:hover { text-decoration: underline; }
+.meta { color: var(--mute); font-size: 13px; display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.meta a { color: var(--mute); }
+.badge { display: inline-block; border-radius: 6px; padding: 1px 8px; font-size: 12px; font-weight: 600; margin-right: 6px; }
+.b-kev_exploited { background: var(--kev-bg); color: var(--kev); }
+.b-zero_day_reported { background: var(--zero-bg); color: var(--zero); }
+.b-exploited_reported { background: var(--expl-bg); color: var(--expl); }
+.b-zero_day_mention { background: var(--mention-bg); color: var(--mention); }
+.b-related { background: var(--rel-bg); color: var(--rel); }
+.b-llm { background: transparent; border: 1px solid var(--line); color: var(--mute); font-weight: 500; }
+.cves { font-family: ui-monospace, Menlo, monospace; font-size: 12px; }
+.empty { text-align: center; color: var(--mute); padding: 32px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>zeroday-watch</h1>
+  <p class="sub">Forum signals about exploited vulnerabilities, labelled by evidence.
+    <a href="https://github.com/zohuyhieuzo03/zeroday-watch">GitHub</a> ·
+    <a href="feed.xml">RSS</a> · <a href="feed.json">JSON</a></p>
+  <div class="warn">Leads, not verdicts. Only <b>kev_exploited</b> is backed by a primary source (CISA KEV), and even that does not say whether it was a 0-day. Everything else is what a headline claims.</div>
+  <div class="bar" id="labels" role="group" aria-label="Filter by label"></div>
+  <div class="bar"><input type="search" id="q" placeholder="Search title or CVE" aria-label="Search"></div>
+  <div class="status" id="status" role="status">Loading…</div>
+  <div id="list"></div>
+</div>
+<script>
+const LABELS = ["kev_exploited", "zero_day_reported", "exploited_reported", "zero_day_mention", "related"];
+const state = { items: [], generated: "", active: new Set(LABELS.slice(0, 4)), q: "" };
+const $ = (id) => document.getElementById(id);
+
+function ago(iso) {
+  const s = Math.max(0, (Date.now() - new Date(iso).getTime()) / 1000);
+  if (s < 3600) return Math.max(1, Math.round(s / 60)) + "m ago";
+  if (s < 86400) return Math.round(s / 3600) + "h ago";
+  return Math.round(s / 86400) + "d ago";
+}
+function safeUrl(u) {
+  try { const x = new URL(u); return x.protocol === "http:" || x.protocol === "https:" ? x.href : null; }
+  catch { return null; }
+}
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+}
+
+function renderChips() {
+  const box = $("labels");
+  box.replaceChildren();
+  for (const l of LABELS) {
+    const n = state.items.filter((i) => i.label === l).length;
+    const b = el("button", "chip", l + " " + n);
+    b.type = "button";
+    b.setAttribute("aria-pressed", state.active.has(l));
+    b.onclick = () => { state.active.has(l) ? state.active.delete(l) : state.active.add(l); render(); };
+    box.append(b);
+  }
+}
+
+function render() {
+  renderChips();
+  const q = state.q.trim().toLowerCase();
+  const rows = state.items.filter((i) =>
+    state.active.has(i.label) &&
+    (!q || i.title.toLowerCase().includes(q) || i.cves.join(" ").toLowerCase().includes(q)));
+  const list = $("list");
+  list.replaceChildren();
+  $("status").textContent = state.generated
+    ? rows.length + " of " + state.items.length + " items · updated " + ago(state.generated)
+    : "";
+  if (!rows.length) { list.append(el("div", "empty", "Nothing matches.")); return; }
+  for (const i of rows) {
+    const card = el("div", "item");
+    card.append(el("span", "badge b-" + i.label, i.label));
+    if (i.llm && i.llm.consensus && i.llm.consensus !== "unclear") {
+      const v = i.llm.votes ? " ×" + i.llm.votes : "";
+      card.append(el("span", "badge b-llm", "LLM: " + i.llm.consensus + v));
+    }
+    const h = el("h2");
+    const url = safeUrl(i.url);
+    if (url) { const a = el("a", null, i.title); a.href = url; a.rel = "noopener noreferrer"; h.append(a); }
+    else h.textContent = i.title;
+    card.append(h);
+    const meta = el("div", "meta");
+    meta.append(el("span", null, i.source + " · " + ago(i.first_seen)));
+    meta.append(el("span", null, i.points + " pts · " + i.comments + " comments"));
+    const d = safeUrl(i.discussion);
+    if (d) { const a = el("a", null, "discussion"); a.href = d; a.rel = "noopener noreferrer"; meta.append(a); }
+    if (i.cves.length) meta.append(el("span", "cves", i.cves.join(" ")));
+    card.append(meta);
+    list.append(card);
+  }
+}
+
+async function load() {
+  try {
+    const r = await fetch("feed.json", { cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    const d = await r.json();
+    state.items = d.items; state.generated = d.generated;
+    render();
+  } catch (e) {
+    $("status").textContent = "Could not load feed: " + e.message;
+  }
+}
+$("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
+load();
+setInterval(load, 5 * 60 * 1000);
+</script>
+</body>
+</html>
