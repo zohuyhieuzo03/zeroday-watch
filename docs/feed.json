@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T02:18:10Z",
+ "generated": "2026-10-24T04:31:12Z",
  "count": 281,
  "items": [
   {
@@ -2056,7 +2056,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Show HN: SecuBuzz – Factual 60-word cybersecurity briefs and CISA zero-day radar",
+    "at": "2026-10-24T04:31:12Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9829362638576966,
+      "exploited": 0.0005884087966499005
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.9794976056712009,
+      "exploited": 0.0036290489182019595
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50022493",
@@ -2076,7 +2094,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+    "at": "2026-10-24T04:31:12Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9392464703633376,
+      "exploited": 0.0024726228660496446
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.5449376005518346,
+      "exploited": 0.1333297892041497
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1
+   }
   },
   {
    "id": "hn:50020073",
@@ -2390,7 +2426,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "KVM Escape Zero-Day",
+    "at": "2026-10-24T04:31:12Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.984967754136248,
+      "exploited": 0.0007554056358930045
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9632172223246634,
+      "exploited": 0.43447207403416777
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "kev:CVE-2026-88779",
@@ -2434,7 +2488,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Guillermo Rauch: \"We've confirmed a KVM 0day through our Vercel bounty program\"",
+    "at": "2026-10-24T04:31:12Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9284320671403814,
+      "exploited": 0.0024726232875703774
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7960800168006884,
+      "exploited": 0.21117461240603555
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49945136",
@@ -2454,7 +2526,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "KVM 0day",
+    "at": "2026-10-24T04:31:12Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9919068160288865,
+      "exploited": 0.014063625751888418
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8870514173275043,
+      "exploited": 0.43195012853466624
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49933696",
@@ -2629,7 +2719,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Did an AI Agent Hack DIVD? The Zammad Zero-Days",
+    "at": "2026-10-24T04:31:12Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9263038374259926,
+      "exploited": 0.06754668973182397
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.617613833998296,
+      "exploited": 0.5791919263857614
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "lobsters:yfttkn",
@@ -2765,7 +2873,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "No More Zero Days",
+    "at": "2026-10-24T04:31:12Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9729348377228592,
+      "exploited": 0.0006667022971438211
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.8112775148851156,
+      "exploited": 0.14529824727209875
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:49906844",
@@ -2807,7 +2933,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Custom malware used in Citrix 0-day attacks targeting govt, banks, professional",
+    "at": "2026-10-24T04:31:12Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9988984319607447,
+      "exploited": 0.9947798733053392
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9930463147522173,
+      "exploited": 0.9854310371763498
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "kev:CVE-2026-76504",
@@ -2851,7 +2995,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Apple patches CoreGraphics zero-day already exploited in targeted attacks",
+    "at": "2026-10-24T04:31:12Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9955364102757097,
+      "exploited": 0.9991959141867115
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9287970702462678,
+      "exploited": 0.9949618168798213
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "kev:CVE-2026-86950",
@@ -2943,7 +3105,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+    "at": "2026-10-24T04:31:12Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9976628173805513,
+      "exploited": 0.9995121427970636
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9927072097753031,
+      "exploited": 0.9948817613831368
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49879330",
