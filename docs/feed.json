@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T00:06:41Z",
+ "generated": "2026-10-24T00:08:49Z",
  "count": 15,
  "items": [
   {
@@ -38,7 +38,8 @@
       "exploited": 0.013527566395153469
      }
     },
-    "consensus": "disputed"
+    "consensus": "unclear",
+    "votes": 0
    }
   },
   {
@@ -77,7 +78,8 @@
       "exploited": 0.2544300842658658
      }
     },
-    "consensus": "disputed"
+    "consensus": "unclear",
+    "votes": 0
    }
   },
   {
@@ -116,7 +118,8 @@
       "exploited": 0.0023610799715659755
      }
     },
-    "consensus": "disputed"
+    "consensus": "unclear",
+    "votes": 0
    }
   },
   {
@@ -155,7 +158,8 @@
       "exploited": 0.004703559458321352
      }
     },
-    "consensus": "unclear"
+    "consensus": "unclear",
+    "votes": 0
    }
   },
   {
@@ -196,7 +200,8 @@
       "exploited": 0.020068871880449844
      }
     },
-    "consensus": "unclear"
+    "consensus": "unclear",
+    "votes": 0
    }
   },
   {
@@ -235,7 +240,8 @@
       "exploited": 0.016012459790569054
      }
     },
-    "consensus": "disputed"
+    "consensus": "unclear",
+    "votes": 0
    }
   },
   {
@@ -275,7 +281,8 @@
       "exploited": 0.004306992338058846
      }
     },
-    "consensus": "not_exploited"
+    "consensus": "not_exploited",
+    "votes": 2
    }
   },
   {
@@ -315,7 +322,8 @@
       "exploited": 0.0048976004470281985
      }
     },
-    "consensus": "disputed"
+    "consensus": "unclear",
+    "votes": 0
    }
   },
   {
@@ -354,7 +362,8 @@
       "exploited": 0.019428175953537994
      }
     },
-    "consensus": "disputed"
+    "consensus": "unclear",
+    "votes": 0
    }
   },
   {
@@ -393,7 +402,8 @@
       "exploited": 0.5397210570899522
      }
     },
-    "consensus": "disputed"
+    "consensus": "unclear",
+    "votes": 0
    }
   },
   {
@@ -416,7 +426,25 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Node.js security advisory: Brotli decoder RCE (CVE-2026-111497)",
+    "at": "2026-10-24T00:08:49Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.6625571154638618,
+      "exploited": 0.0004583127990943663
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.2882780681644111,
+      "exploited": 0.052914439758546004
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50192428",
@@ -438,7 +466,25 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE Record: CVE-2026-91403",
+    "at": "2026-10-24T00:08:49Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9624450678097098,
+      "exploited": 0.0011695100909887293
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.45332641681885477,
+      "exploited": 0.014566416400891038
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50189292",
@@ -460,7 +506,25 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Node.js Brotli RCE (CVE-2026-111497)",
+    "at": "2026-10-24T00:08:49Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9140062909478092,
+      "exploited": 0.0013250222415978567
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.24880423928729709,
+      "exploited": 0.026041690384930958
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:dldfel",
@@ -482,7 +546,25 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-107891: musl libc: multiple integer overflow in regcomp, possibly leading to incorrect allocation sizes and out-of-bounds heap writes",
+    "at": "2026-10-24T00:08:49Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8329533786675469,
+      "exploited": 0.00033535003695827514
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.5024729611392936,
+      "exploited": 0.027121556099154665
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:d0bbhd",
@@ -504,7 +586,25 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-106173: FortiSIEM gRPC Path Traversal to RCE",
+    "at": "2026-10-24T00:08:49Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9043367960587053,
+      "exploited": 0.0004044815846369529
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.4583892458388542,
+      "exploited": 0.01273547209899507
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   }
  ]
 }
