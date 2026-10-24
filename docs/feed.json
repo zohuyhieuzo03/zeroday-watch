@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-24T09:30:25Z",
- "count": 1128,
+ "generated": "2026-10-24T09:41:01Z",
+ "count": 1129,
  "topics": [
   {
    "name": "php2shell",
@@ -82,6 +82,29 @@
     "hn:50168534",
     "hn:50154714",
     "hn:50186745"
+   ]
+  },
+  {
+   "name": "Wednesday",
+   "threads": 5,
+   "repos": 1,
+   "points": 60,
+   "kev": false,
+   "vendor": true,
+   "cves": [
+    "CVE-2026-111497",
+    "CVE-2026-105481",
+    "CVE-2026-105482",
+    "CVE-2026-105483"
+   ],
+   "last_seen": "2026-10-23T23:51:26Z",
+   "items": [
+    "ghpoc:dimasma0305/CVE-2026-111497-POC",
+    "hn:50189292",
+    "hn:50192733",
+    "lobsters:gu7bow",
+    "hn:50174097",
+    "nodejs:october-2026-security-releases"
    ]
   },
   {
@@ -170,26 +193,6 @@
     "hn:50138278",
     "hn:50133688",
     "hn:50151756"
-   ]
-  },
-  {
-   "name": "CVE-2026-111497",
-   "threads": 3,
-   "repos": 0,
-   "points": 40,
-   "kev": false,
-   "vendor": true,
-   "cves": [
-    "CVE-2026-111497",
-    "CVE-2026-105481",
-    "CVE-2026-105482",
-    "CVE-2026-105483"
-   ],
-   "last_seen": "2026-10-23T23:51:26Z",
-   "items": [
-    "hn:50189292",
-    "hn:50192733",
-    "nodejs:october-2026-security-releases"
    ]
   },
   {
@@ -1425,7 +1428,7 @@
    "title": "CVE Tracker",
    "url": "https://cve.0xosprey.com/",
    "discussion": "https://news.ycombinator.com/item?id=50215530",
-   "points": 168,
+   "points": 170,
    "comments": 61,
    "created": "2026-10-23T21:21:47Z",
    "label": "security_news",
@@ -3874,7 +3877,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 150,
+   "points": 151,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "public_exploit_reported",
@@ -4196,12 +4199,34 @@
    ]
   },
   {
+   "id": "ghpoc:dimasma0305/CVE-2026-111497-POC",
+   "source": "github-poc",
+   "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
+   "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
+   "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
+   "points": 31,
+   "comments": 0,
+   "created": "2026-10-22T04:08:28Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-22T04:08:28Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:41:01Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "ghpoc:assetnote/php2shell-scanner",
    "source": "github-poc",
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 494,
+   "points": 495,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "public_exploit_reported",
@@ -4894,7 +4919,7 @@
    "title": "godylockz/cve-2026-109618-php2shell: Proof of concept for CVE-2026-109618/CVE-2026-109619: PHP2Shell",
    "url": "https://github.com/godylockz/cve-2026-109618-php2shell",
    "discussion": "https://github.com/godylockz/cve-2026-109618-php2shell",
-   "points": 32,
+   "points": 33,
    "comments": 0,
    "created": "2026-10-21T19:51:22Z",
    "label": "public_exploit_reported",
@@ -6017,7 +6042,7 @@
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
    "url": "https://github.com/murrez/php2shell",
    "discussion": "https://github.com/murrez/php2shell",
-   "points": 60,
+   "points": 61,
    "comments": 0,
    "created": "2026-10-21T12:37:59Z",
    "label": "public_exploit_reported",
@@ -6155,7 +6180,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 976,
+   "points": 977,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "public_exploit_reported",
@@ -22241,7 +22266,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Framework loses customer data in Metabase zero-day attack",
+    "at": "2026-10-24T09:41:01Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9989558084869284,
+      "exploited": 0.8519527963298947
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9933619947828665,
+      "exploited": 0.9682408863613359
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49267550",
@@ -22319,7 +22362,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Zero Day Clock",
+    "at": "2026-10-24T09:41:01Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9156694638139509,
+      "exploited": 0.0009110509837448507
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.7109990475473096,
+      "exploited": 0.0442076945467109
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:49262707",
@@ -22339,7 +22400,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
+    "at": "2026-10-24T09:41:01Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9812064087734623,
+      "exploited": 0.012431649149528136
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7064785102903076,
+      "exploited": 0.37842835739386377
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49261813",
@@ -22863,7 +22942,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+    "at": "2026-10-24T09:41:01Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9996097738783768,
+      "exploited": 0.9992903295969368
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9974219890850236,
+      "exploited": 0.9970403796839629
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49216744",
@@ -23005,7 +23102,25 @@
      "at": "2026-10-24T02:14:44Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Framework discloses data breach via Metabase 0-day",
+    "at": "2026-10-24T09:41:01Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9929659366933932,
+      "exploited": 0.04208772521219692
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9776505314159469,
+      "exploited": 0.9014814586998147
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "kev:CVE-2026-8037",
@@ -23089,7 +23204,25 @@
      "at": "2026-10-24T02:14:44Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "0-day security update available for Metabase",
+    "at": "2026-10-24T09:41:01Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.7064054087605023,
+      "exploited": 0.01406363034912007
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8754960011598373,
+      "exploited": 0.4981303302170778
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "lobsters:rkh2ux",
@@ -23292,7 +23425,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Zero-Day to Zero Doubt: AI-Powered CVE Forensics in an Afternoon",
+    "at": "2026-10-24T09:41:01Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.6348647814696914,
+      "exploited": 0.0021827160579253905
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.37691843678241777,
+      "exploited": 0.03104025986648225
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1
+   }
   },
   {
    "id": "kev:CVE-2026-63077",
@@ -24098,7 +24249,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
+    "at": "2026-10-24T09:41:01Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9992771322000193,
+      "exploited": 0.9959298615705943
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9975705276519403,
+      "exploited": 0.9938753816702689
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "lobsters:kkobew",
@@ -24420,7 +24589,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+    "at": "2026-10-24T09:41:01Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9874043111170877,
+      "exploited": 0.29421496597446145
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.975481953573345,
+      "exploited": 0.8303001758305167
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49096301",
@@ -24580,7 +24767,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+    "at": "2026-10-24T09:41:01Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.986053802377142,
+      "exploited": 0.22270013882530884
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.975481953573345,
+      "exploited": 0.8303001758305167
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "kev:CVE-2026-20316",
