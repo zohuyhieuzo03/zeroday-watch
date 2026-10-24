@@ -48,6 +48,12 @@ input[type=search] { flex: 1 1 180px; min-width: 0; border: 1px solid var(--line
 .b-llm { background: transparent; border: 1px solid var(--line); color: var(--mute); font-weight: 500; }
 .cves { font-family: ui-monospace, Menlo, monospace; font-size: 12px; }
 .empty { text-align: center; color: var(--mute); padding: 32px 0; }
+.bell { margin-left: auto; }
+.new { background: var(--accent); color: #fff; }
+.toasts { position: fixed; right: 16px; bottom: 16px; display: flex; flex-direction: column; gap: 8px; z-index: 10; width: min(360px, calc(100vw - 32px)); }
+.toast { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 8px; padding: 10px 12px; box-shadow: 0 6px 20px rgba(0,0,0,.18); font-size: 13px; cursor: pointer; }
+.toast b { display: block; margin-bottom: 2px; }
+.toast span { overflow-wrap: anywhere; }
 </style>
 </head>
 <body>
@@ -58,7 +64,9 @@ input[type=search] { flex: 1 1 180px; min-width: 0; border: 1px solid var(--line
     <a href="feed.xml">RSS</a> · <a href="feed.json">JSON</a></p>
   <div class="warn">Leads, not verdicts. Only <b>kev_exploited</b> is backed by a primary source (CISA KEV), and even that does not say whether it was a 0-day. Everything else is what a headline claims.</div>
   <div class="bar" id="labels" role="group" aria-label="Filter by label"></div>
-  <div class="bar"><input type="search" id="q" placeholder="Search title or CVE" aria-label="Search"></div>
+  <div class="bar"><input type="search" id="q" placeholder="Search title or CVE" aria-label="Search">
+    <button type="button" class="chip bell" id="bell"></button></div>
+  <div class="toasts" id="toasts" aria-live="polite"></div>
   <div class="status" id="status" role="status">Loading…</div>
   <div id="list"></div>
 </div>
@@ -112,6 +120,7 @@ function render() {
   for (const i of rows) {
     const card = el("div", "item");
     card.append(el("span", "badge b-" + i.label, i.label));
+    if (state.fresh.has(i.id)) card.append(el("span", "badge new", "NEW"));
     if (i.llm && i.llm.consensus && i.llm.consensus !== "unclear") {
       const v = i.llm.votes ? " ×" + i.llm.votes : "";
       card.append(el("span", "badge b-llm", "LLM: " + i.llm.consensus + v));
@@ -132,11 +141,68 @@ function render() {
   }
 }
 
+// --- alerts: toast in page + optional browser notification (only while the tab is open) ---
+const ALERT_LABELS = new Set(["kev_exploited", "zero_day_reported", "exploited_reported"]);
+const SEEN_KEY = "zdwatch.seen";
+const BASE_TITLE = document.title;
+state.fresh = new Set();
+
+function readSeen() {
+  try { const s = localStorage.getItem(SEEN_KEY); return s ? new Set(JSON.parse(s)) : null; }
+  catch { return null; }
+}
+function writeSeen(ids) {
+  try { localStorage.setItem(SEEN_KEY, JSON.stringify([...ids].slice(-2000))); } catch {}
+}
+function toast(item) {
+  const t = el("div", "toast");
+  t.append(el("b", null, item.label + (item.cves.length ? " · " + item.cves[0] : "")));
+  t.append(el("span", null, item.title));
+  t.onclick = () => { const u = safeUrl(item.url); if (u) window.open(u, "_blank", "noopener"); t.remove(); };
+  $("toasts").append(t);
+  setTimeout(() => t.remove(), 12000);
+}
+function notify(newItems) {
+  if (!newItems.length) return;
+  newItems.slice(0, 3).forEach(toast);
+  if (newItems.length > 3) {
+    const t = el("div", "toast"); t.append(el("b", null, "+" + (newItems.length - 3) + " more new items"));
+    $("toasts").append(t); setTimeout(() => t.remove(), 12000);
+  }
+  if ("Notification" in window && Notification.permission === "granted") {
+    const top = newItems[0];
+    try {
+      new Notification(newItems.length + " new: " + top.label, { body: top.title, tag: "zdwatch" });
+    } catch {}
+  }
+  document.title = "(" + newItems.length + ") " + BASE_TITLE;
+}
+function renderBell() {
+  const b = $("bell");
+  if (!("Notification" in window)) { b.hidden = true; return; }
+  const p = Notification.permission;
+  b.textContent = p === "granted" ? "🔔 Alerts on" : p === "denied" ? "🔕 Alerts blocked" : "🔔 Enable alerts";
+  b.disabled = p !== "default";
+}
+$("bell").onclick = async () => { try { await Notification.requestPermission(); } catch {} renderBell(); };
+document.addEventListener("visibilitychange", () => { if (!document.hidden) document.title = BASE_TITLE; });
+
+function detectNew(items) {
+  const seen = readSeen();
+  const ids = new Set(items.map((i) => i.id));
+  if (seen === null) { writeSeen(ids); return; } // first visit: no flood
+  const fresh = items.filter((i) => !seen.has(i.id));
+  state.fresh = new Set(fresh.map((i) => i.id));
+  notify(fresh.filter((i) => ALERT_LABELS.has(i.label)));
+  writeSeen(new Set([...seen, ...ids]));
+}
+
 async function load() {
   try {
     const r = await fetch("feed.json", { cache: "no-store" });
     if (!r.ok) throw new Error("HTTP " + r.status);
     const d = await r.json();
+    if (d.generated !== state.generated) detectNew(d.items);
     state.items = d.items; state.generated = d.generated;
     render();
   } catch (e) {
@@ -144,8 +210,9 @@ async function load() {
   }
 }
 $("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
+renderBell();
 load();
-setInterval(load, 5 * 60 * 1000);
+setInterval(load, 2 * 60 * 1000);
 </script>
 </body>
 </html>
