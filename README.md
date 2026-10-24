@@ -4,7 +4,7 @@ Watches public forums for talk about exploited vulnerabilities and labels each i
 
 Feed (updated hourly by GitHub Actions):
 
-- Live page: https://zohuyhieuzo03.github.io/zeroday-watch/
+- Live page: https://zeroday.zohuyhieuzo.cloud/
 - JSON: [`docs/feed.json`](docs/feed.json)
 - RSS: [`docs/feed.xml`](docs/feed.xml) (only `kev_exploited`, `zero_day_reported`, `exploited_reported`)
 
