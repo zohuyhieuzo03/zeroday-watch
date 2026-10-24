@@ -1,7 +1,8 @@
 """Optional LLM judge using OpenRouter's Decisions API (alpha).
 
 Reads OPENROUTER_API_KEY from the environment; without it the judge is skipped.
-The judge never changes the rule-based `label`. It adds an `llm` field with each
+Consensus: `unclear` and low-confidence answers abstain; `disputed` only when two
+confident labels differ. The judge never changes the rule-based `label`. It adds an `llm` field with each
 model's answer and a consensus, so a human (or a later primary-source check) decides.
 
 Env:
@@ -105,14 +106,29 @@ def parse(resp):
 
 
 def consensus(per_model):
-    """All answering models must agree on a confident label; otherwise unclear."""
+    """`unclear` and low-confidence answers abstain; `disputed` only when two
+    confident labels differ. Returns (label, votes) or (None, 0) with no answers."""
     usable = {m: r for m, r in per_model.items() if r}
     if not usable:
-        return None
-    labels = {r["status"] for r in usable.values()}
-    if len(labels) == 1 and all(r["confidence"] >= MIN_CONFIDENCE for r in usable.values()):
-        return labels.pop()
-    return "disputed" if len(labels) > 1 else "unclear"
+        return None, 0
+    votes = [
+        r["status"]
+        for r in usable.values()
+        if r["status"] != "unclear" and r["confidence"] >= MIN_CONFIDENCE
+    ]
+    if not votes:
+        return "unclear", 0
+    if len(set(votes)) > 1:
+        return "disputed", len(votes)
+    return votes[0], len(votes)
+
+
+def refresh_consensus(items):
+    """Recompute consensus from stored model answers (the rule may have changed)."""
+    for item in items:
+        llm = item.get("llm")
+        if llm:
+            llm["consensus"], llm["votes"] = consensus(llm["models"])
 
 
 def needs_judging(item):
@@ -122,6 +138,7 @@ def needs_judging(item):
 
 def judge_items(items, key=None, post=None, ts=""):
     """Judge up to ZDW_MAX_LLM_ITEMS items in place. Returns how many were judged."""
+    refresh_consensus(items)
     key = key or os.environ.get("OPENROUTER_API_KEY")
     if not key and post is None:
         print("llm judge skipped: OPENROUTER_API_KEY not set")
@@ -146,11 +163,13 @@ def judge_items(items, key=None, post=None, ts=""):
         except JudgeStop as exc:
             print("llm judge stopped: %s" % exc)
             break
+        label, nvotes = consensus(per_model)
         item["llm"] = {
             "title": item["title"],
             "at": ts,
             "models": per_model,
-            "consensus": consensus(per_model),
+            "consensus": label,
+            "votes": nvotes,
         }
         done += 1
     print("llm judged %d item(s)" % done)

@@ -29,7 +29,7 @@ Labels can change as KEV updates; each item keeps a `label_history`.
 
 ## LLM judge (optional)
 
-If `OPENROUTER_API_KEY` is set, each item also gets an `llm` field from OpenRouter's [Decisions API](https://openrouter.ai/docs/guides/community/jev-tutorial.md) (alpha): a `choice` question (`zero_day`, `n_day_exploited`, `disclosed_unpatched`, `not_exploited`, `unclear`) plus a yes/no "exploited" question, asked of two free decision models (`respan/span-01-lite` was tried and rejected: it only accepts chat-span input, HTTP 400 on this payload). `llm.consensus` is a label only when every model agrees with confidence ≥ 0.6, otherwise `disputed` or `unclear`.
+If `OPENROUTER_API_KEY` is set, each item also gets an `llm` field from OpenRouter's [Decisions API](https://openrouter.ai/docs/guides/community/jev-tutorial.md) (alpha): a `choice` question (`zero_day`, `n_day_exploited`, `disclosed_unpatched`, `not_exploited`, `unclear`) plus a yes/no "exploited" question, asked of two free decision models (`respan/span-01-lite` was tried and rejected: it only accepts chat-span input, HTTP 400 on this payload). `llm.consensus` is the label that confident models agree on. `unclear` answers and answers under 0.6 confidence abstain; it is `disputed` only when two confident labels differ, and `unclear` when everyone abstains. `llm.votes` says how many models actually voted, so a label with `votes: 1` is weaker than one with `votes: 2`.
 
 The judge never rewrites `label`. Only `kev_exploited` is backed by a primary source; an LLM verdict of `zero_day` is still a claim.
 

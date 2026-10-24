@@ -50,10 +50,39 @@ class JudgeTest(unittest.TestCase):
         self.run_with({"a": resp("zero_day", 0.9, 0.9), "b": resp("n_day_exploited", 0.9, 0.9)}, items)
         self.assertEqual(items[0]["llm"]["consensus"], "disputed")
 
-    def test_low_confidence_is_unclear(self):
+    def test_unclear_abstains(self):
+        items = [item()]
+        self.run_with({"a": resp("unclear", 0.9, 0.0), "b": resp("not_exploited", 0.9, 0.0)}, items)
+        self.assertEqual(items[0]["llm"]["consensus"], "not_exploited")
+        self.assertEqual(items[0]["llm"]["votes"], 1)
+
+    def test_low_confidence_abstains(self):
         items = [item()]
         self.run_with({"a": resp("zero_day", 0.3, 0.9), "b": resp("zero_day", 0.9, 0.9)}, items)
+        self.assertEqual(items[0]["llm"]["consensus"], "zero_day")
+        self.assertEqual(items[0]["llm"]["votes"], 1)
+
+    def test_all_abstain_is_unclear(self):
+        items = [item()]
+        self.run_with({"a": resp("zero_day", 0.3, 0.9), "b": resp("unclear", 0.9, 0.0)}, items)
         self.assertEqual(items[0]["llm"]["consensus"], "unclear")
+        self.assertEqual(items[0]["llm"]["votes"], 0)
+
+    def test_failed_model_does_not_dispute(self):
+        items = [item()]
+        self.run_with({"a": None, "b": resp("zero_day", 0.9, 0.9)}, items)
+        self.assertEqual(items[0]["llm"]["consensus"], "zero_day")
+
+    def test_refresh_recomputes_old_consensus(self):
+        old = item()
+        old["llm"] = {
+            "title": old["title"],
+            "consensus": "disputed",
+            "models": {"a": {"status": "unclear", "confidence": 0.9, "exploited": 0.0},
+                       "b": {"status": "not_exploited", "confidence": 0.9, "exploited": 0.0}},
+        }
+        judge.refresh_consensus([old])
+        self.assertEqual(old["llm"]["consensus"], "not_exploited")
 
     def test_limit_and_skip_already_judged(self):
         items = [item("1"), item("2"), item("3")]
