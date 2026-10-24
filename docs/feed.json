@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T08:24:40Z",
+ "generated": "2026-10-24T08:28:34Z",
  "count": 802,
  "topics": [
   {
@@ -229,7 +229,7 @@
    "title": "Brotli Decoder Vulnerability",
    "url": "https://patchtheplanet.org/brotli",
    "discussion": "https://news.ycombinator.com/item?id=50217557",
-   "points": 4,
+   "points": 5,
    "comments": 2,
    "created": "2026-10-24T01:28:47Z",
    "label": "security_news",
@@ -1081,7 +1081,7 @@
    "title": "Your Phone Is About to Stop Being Yours: 70 Days Until Lockdown",
    "url": "https://keepandroidopen.org/?",
    "discussion": "https://news.ycombinator.com/item?id=50208558",
-   "points": 500,
+   "points": 502,
    "comments": 344,
    "created": "2026-10-23T13:19:42Z",
    "label": "security_news",
@@ -8350,7 +8350,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Imminent Zero-Day Attack: KiteWorks Urges Customers to Shut Down Servers",
+    "at": "2026-10-24T08:28:34Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9970897594878131,
+      "exploited": 0.11920292358664389
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8652994097792333,
+      "exploited": 0.6199502263888125
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49845669",
@@ -8370,7 +8388,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Someone's attacking a critical 0-day RCE in F5 BIG-IP APM",
+    "at": "2026-10-24T08:28:34Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9985649842239288,
+      "exploited": 0.9940889298905373
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9834565921223848,
+      "exploited": 0.9667287276777826
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49842441",
@@ -8882,7 +8918,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+    "at": "2026-10-24T08:28:34Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9991784050706556,
+      "exploited": 0.9990889489948505
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9827821282434951,
+      "exploited": 0.9921709064877818
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49814140",
@@ -9003,7 +9057,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Zero-downtime Linux kernel zero-day mitigation via eBPF and SECCOMP",
+    "at": "2026-10-24T08:28:34Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9690203188947494,
+      "exploited": 0.0011695102748467722
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.684029890617864,
+      "exploited": 0.06270558477033392
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49802030",
@@ -9023,7 +9095,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Meta’s Muse has a serious 0-day",
+    "at": "2026-10-24T08:28:34Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9574657488148541,
+      "exploited": 0.0031726828086128993
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9467733360888111,
+      "exploited": 0.619411704868511
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49801847",
@@ -9043,7 +9133,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+    "at": "2026-10-24T08:28:34Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9918455839686982,
+      "exploited": 0.004609572969918077
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8264375881630789,
+      "exploited": 0.14647967886333638
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49801118",
@@ -9145,7 +9253,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "A zero-day has been released for Meta's Muse",
+    "at": "2026-10-24T08:28:34Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9514122441957756,
+      "exploited": 0.005911067592080082
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8071829497609173,
+      "exploited": 0.32837524431288323
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "kev:CVE-2026-93952",
@@ -9261,7 +9387,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+    "at": "2026-10-24T08:28:34Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9140121748056906,
+      "exploited": 0.0017007223758576722
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8340993022499366,
+      "exploited": 0.36040352416854743
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49790357",
@@ -9757,7 +9901,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "When the Red Light Goes On: How We Responded to the Linux Kernel 0-Day",
+    "at": "2026-10-24T08:28:34Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9888237191069749,
+      "exploited": 0.01798620884351355
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9505603489055903,
+      "exploited": 0.2147943417032669
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49733836",
@@ -10055,7 +10217,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "You don't need a kernel 0day",
+    "at": "2026-10-24T08:28:34Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9518312556913258,
+      "exploited": 0.0003799844463005327
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.638788818185671,
+      "exploited": 0.08610394295815761
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:49713916",
