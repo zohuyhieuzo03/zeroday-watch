@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T02:14:44Z",
+ "generated": "2026-10-24T02:18:10Z",
  "count": 281,
  "items": [
   {
@@ -920,7 +920,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Is Cellebrite sitting on an iPhone radio 0day?",
+    "at": "2026-10-24T02:18:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.3611902920713509,
+      "exploited": 0.0011695100344170295
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.5452977856893437,
+      "exploited": 0.15709555475736675
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "gitlab:patch-release-gitlab-19-5-1-released",
@@ -1018,7 +1036,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Is Cellebrite sitting on an iPhone radio 0day?",
+    "at": "2026-10-24T02:18:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.44089197518576434,
+      "exploited": 0.0013250227283912131
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.5582704768169525,
+      "exploited": 0.14472089054053228
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "kev:CVE-2026-106931",
@@ -1458,7 +1494,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "BeyondTrust patches zero-day exploited in attacks since August",
+    "at": "2026-10-24T02:18:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9979439943245094,
+      "exploited": 0.9991959140529598
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9537496424955227,
+      "exploited": 0.9960824793024923
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:50120200",
@@ -1616,7 +1670,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+    "at": "2026-10-24T02:18:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.999524587009058,
+      "exploited": 0.9991959140202235
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9761207821355589,
+      "exploited": 0.9937710200789991
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:50082735",
@@ -1754,7 +1826,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Chained Exploitation of Ivanti Connect Secure Zero-Days",
+    "at": "2026-10-24T02:18:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9059962911401309,
+      "exploited": 0.9149009602137115
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9828244403476818,
+      "exploited": 0.888086362634774
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:50072558",
@@ -1774,7 +1864,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "XWorm 7.4 C2 Panel Pre-Auth RCE Zero-Day (PoC) by Mootoo",
+    "at": "2026-10-24T02:18:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9228976987850465,
+      "exploited": 0.0013250226846414231
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8862972434765284,
+      "exploited": 0.18968022746740948
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:50067061",
@@ -1864,7 +1972,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "AI agents locate infrastructure flaws and zero-days to exploit task shortcuts",
+    "at": "2026-10-24T02:18:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.8509858725597569,
+      "exploited": 0.06008665017400762
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.5275622623141444,
+      "exploited": 0.5217326953897788
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1
+   }
   },
   {
    "id": "gitlab:patch-release-gitlab-19-4-2-released",
@@ -2226,7 +2352,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Citrix discloses third actively exploited NetScaler zero-day in less than a week",
+    "at": "2026-10-24T02:18:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9992512885860718,
+      "exploited": 0.9995694428399654
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.994188471854332,
+      "exploited": 0.9956537486745546
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49963044",
@@ -2330,7 +2474,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Fortinet sounds the alarm over actively exploited FortiMail zero-day",
+    "at": "2026-10-24T02:18:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9995018963960711,
+      "exploited": 0.9994472214913231
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.995474909686462,
+      "exploited": 0.9959406952999251
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49931836",
@@ -6096,7 +6258,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Cisco FMC static credential vulnerability exploited as a zero-day",
+    "at": "2026-10-24T02:18:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9995252311793529,
+      "exploited": 0.9984988178999624
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9933160892100235,
+      "exploited": 0.98511739631646
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49103398",
