@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T08:42:15Z",
+ "generated": "2026-10-24T08:46:04Z",
  "count": 1007,
  "topics": [
   {
@@ -15136,7 +15136,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Finding Zero-Days with Any Model",
+    "at": "2026-10-24T08:46:04Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.926366643117781,
+      "exploited": 0.0003569706473340956
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.6336675079281201,
+      "exploited": 0.050863509150628365
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:49668648",
@@ -15352,7 +15370,25 @@
      "at": "2026-10-24T02:10:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Serial Microsoft 0-day hunter drops yet another Defender exploit",
+    "at": "2026-10-24T08:46:04Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9673666059608682,
+      "exploited": 0.020332351710173755
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.5647649031879639,
+      "exploited": 0.35128172469544117
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1
+   }
   },
   {
    "id": "lobsters:b3cqyr",
@@ -15642,7 +15678,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+    "at": "2026-10-24T08:46:04Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9996044760651185,
+      "exploited": 0.9990889487780489
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.99611371937607,
+      "exploited": 0.9934591736903138
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49628685",
@@ -15838,7 +15892,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
+    "at": "2026-10-24T08:46:04Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9352101634883292,
+      "exploited": 0.0006263343061796998
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.8931179805038442,
+      "exploited": 0.008447679681204731
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:49616198",
@@ -15858,7 +15930,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
+    "at": "2026-10-24T08:46:04Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9779349982255758,
+      "exploited": 0.008577483600058425
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7664440365072639,
+      "exploited": 0.35449853357095684
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49614972",
@@ -16058,7 +16148,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CrowdStrike Falcon 0day Privilege Escalation Vulnerability",
+    "at": "2026-10-24T08:46:04Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9813077478359641,
+      "exploited": 0.002182716461572189
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8965136153533839,
+      "exploited": 0.3954825107811912
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49599434",
@@ -17046,7 +17154,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "I Found Two Shopify Plugin Zero-Days in a Bathtub",
+    "at": "2026-10-24T08:46:04Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9791527807534928,
+      "exploited": 0.0007096704172633215
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7674349539734404,
+      "exploited": 0.11773736943491978
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49487626",
@@ -17086,7 +17212,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Zero-Day EoP in Kaspersky Endpoint Security Lets Attackers Own the Protector",
+    "at": "2026-10-24T08:46:04Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9733857102478977,
+      "exploited": 0.03308597552845946
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9490351228948846,
+      "exploited": 0.3708849236350305
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "lobsters:t73wqi",
@@ -17378,7 +17522,25 @@
      "at": "2026-10-24T02:14:44Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Log4j2 0-Day",
+    "at": "2026-10-24T08:46:04Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9924598264689238,
+      "exploited": 0.033085976958581766
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8797226760477894,
+      "exploited": 0.3786109740237236
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49456882",
@@ -18093,7 +18255,25 @@
      "at": "2026-10-24T02:10:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "\"Half-Day\": 0-Day in the Age of AI",
+    "at": "2026-10-24T08:46:04Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9105365736527551,
+      "exploited": 0.002800927049060668
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.42297265670867434,
+      "exploited": 0.04258698596162871
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1
+   }
   },
   {
    "id": "hn:49361499",
