@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-24T09:41:01Z",
- "count": 1129,
+ "generated": "2026-10-24T13:59:29Z",
+ "count": 1135,
  "topics": [
   {
    "name": "php2shell",
@@ -29,19 +29,66 @@
     "ghpoc:syrex1013/php2shell",
     "hn:50181326",
     "hn:50187708",
+    "ghpoc:syhunt/php2shell-protection",
     "ghpoc:dinosn/php-cve-2026-10961x-lab-poc",
     "ghpoc:JoasASantos/php2shell-scanner",
-    "ghpoc:syhunt/php2shell-protection",
     "ghpoc:Anton-Barinov/php2shell-patches",
     "ghpoc:pentestershell/php2shellbt",
     "ghpoc:murrez/php2shell",
     "ghpoc:Qsnh/php2shell-fixed",
     "ghpoc:mpyw/php-eol-CVE-2026-109618-109619",
-    "ghpoc:Is4yev/php2shell-poc",
     "ghpoc:aancw/php2shell-scanner",
+    "ghpoc:Is4yev/php2shell-poc",
     "ghpoc:vperetti/php-cve-2026-109618-109619-backports",
-    "ghpoc:enactive-systems/CVE-2026-109618-poc",
-    "ghpoc:xuehuolll/php2shell-CVE-2026-109618-109619"
+    "ghpoc:aarsaputra/php2shell",
+    "ghpoc:enactive-systems/CVE-2026-109618-poc"
+   ]
+  },
+  {
+   "name": "Node2Shell",
+   "threads": 10,
+   "repos": 1,
+   "points": 86,
+   "kev": false,
+   "vendor": true,
+   "cves": [
+    "CVE-2026-111497",
+    "CVE-2026-105481",
+    "CVE-2026-105482",
+    "CVE-2026-105483"
+   ],
+   "last_seen": "2026-10-24T13:36:59Z",
+   "items": [
+    "ghpoc:dimasma0305/CVE-2026-111497-POC",
+    "hn:50189292",
+    "hn:50192733",
+    "lobsters:gu7bow",
+    "hn:50203180",
+    "hn:50204501",
+    "hn:50174097",
+    "hn:50221110",
+    "hn:50215588",
+    "lobsters:al3yyf",
+    "nodejs:october-2026-security-releases"
+   ]
+  },
+  {
+   "name": "Node.js",
+   "threads": 7,
+   "repos": 0,
+   "points": 48,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-24T12:19:53Z",
+   "items": [
+    "hn:50177438",
+    "hn:50192419",
+    "hn:50220145",
+    "hn:50185622",
+    "hn:50195297",
+    "blog:https://seclists.org/oss-sec/2026/q4/370",
+    "blog:https://seclists.org/oss-sec/2026/q4/361"
    ]
   },
   {
@@ -71,7 +118,7 @@
    "name": "curl",
    "threads": 5,
    "repos": 0,
-   "points": 104,
+   "points": 107,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -82,46 +129,6 @@
     "hn:50168534",
     "hn:50154714",
     "hn:50186745"
-   ]
-  },
-  {
-   "name": "Wednesday",
-   "threads": 5,
-   "repos": 1,
-   "points": 60,
-   "kev": false,
-   "vendor": true,
-   "cves": [
-    "CVE-2026-111497",
-    "CVE-2026-105481",
-    "CVE-2026-105482",
-    "CVE-2026-105483"
-   ],
-   "last_seen": "2026-10-23T23:51:26Z",
-   "items": [
-    "ghpoc:dimasma0305/CVE-2026-111497-POC",
-    "hn:50189292",
-    "hn:50192733",
-    "lobsters:gu7bow",
-    "hn:50174097",
-    "nodejs:october-2026-security-releases"
-   ]
-  },
-  {
-   "name": "Node.js",
-   "threads": 5,
-   "repos": 0,
-   "points": 38,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-23T22:12:18Z",
-   "items": [
-    "hn:50177438",
-    "hn:50192419",
-    "hn:50185622",
-    "hn:50195297",
-    "blog:https://seclists.org/oss-sec/2026/q4/361"
    ]
   },
   {
@@ -196,18 +203,21 @@
    ]
   },
   {
-   "name": "Node2Shell",
+   "name": "Android",
    "threads": 3,
    "repos": 0,
-   "points": 21,
-   "kev": false,
+   "points": 16,
+   "kev": true,
    "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-23T21:26:14Z",
+   "cves": [
+    "CVE-2026-27280",
+    "CVE-2022-22706"
+   ],
+   "last_seen": "2026-10-24T10:51:35Z",
    "items": [
-    "hn:50203180",
-    "hn:50204501",
-    "hn:50215588"
+    "hn:50220042",
+    "hn:50146240",
+    "hn:50146236"
    ]
   },
   {
@@ -313,6 +323,134 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50221110",
+   "source": "hackernews",
+   "title": "Broccoli2Shell: Brotli decoder RCE (CVE-2026-111497) in Node.js, Python and more",
+   "url": "https://broccoli2shell.com/",
+   "discussion": "https://news.ycombinator.com/item?id=50221110",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-24T13:36:59Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-24T13:36:59Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T13:59:29Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50221068",
+   "source": "hackernews",
+   "title": "The Vulnerability Apocalypse and Why We Should Fund Open Source",
+   "url": "https://www.eff.org/deeplinks/2026/10/vulnerability-apocalypse-and-why-we-should-fund-open-source",
+   "discussion": "https://news.ycombinator.com/item?id=50221068",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-10-24T13:30:23Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-24T13:30:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T13:59:29Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/370",
+   "source": "seclists.org",
+   "title": "Re: Upcoming Node.js security release 2026/10/21",
+   "url": "https://seclists.org/oss-sec/2026/q4/370",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/370",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-24T12:19:53Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-24T12:19:53Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T13:59:29Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:50220145",
+   "source": "hackernews",
+   "title": "Node.js Vulnerability Blog",
+   "url": "https://nodejs.org/en/blog/vulnerability",
+   "discussion": "https://news.ycombinator.com/item?id=50220145",
+   "points": 10,
+   "comments": 1,
+   "created": "2026-10-24T11:08:47Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-24T11:08:47Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T13:59:29Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:al3yyf",
+   "source": "lobsters",
+   "title": "This week's \"node2shell\" Brotli vulnerability (CVE-2026-111497) is exploitable in Python, other consumers of Brotli",
+   "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+   "discussion": "https://lobste.rs/s/al3yyf/this_week_s_node2shell_brotli",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-10-24T06:01:27.896-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-24T11:01:27Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T13:59:29Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50220042",
+   "source": "hackernews",
+   "title": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
+   "url": "https://gitlab.com/c4psu13/mali-pagecache-root",
+   "discussion": "https://news.ycombinator.com/item?id=50220042",
+   "points": 13,
+   "comments": 1,
+   "created": "2026-10-24T10:51:35Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2022-22706"
+   ],
+   "kev": [
+    "CVE-2022-22706"
+   ],
+   "first_seen": "2026-10-24T10:51:35Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T13:59:29Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
   {
    "id": "hn:50219355",
    "source": "hackernews",
@@ -1428,8 +1566,8 @@
    "title": "CVE Tracker",
    "url": "https://cve.0xosprey.com/",
    "discussion": "https://news.ycombinator.com/item?id=50215530",
-   "points": 170,
-   "comments": 61,
+   "points": 190,
+   "comments": 69,
    "created": "2026-10-23T21:21:47Z",
    "label": "security_news",
    "cves": [],
@@ -2040,7 +2178,25 @@
      "at": "2026-10-24T08:06:16Z",
      "label": "exploited_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Arista VeloCloud Orchestrator SQL injection is being actively exploited",
+    "at": "2026-10-24T13:59:29Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.8732875567719878,
+      "exploited": 0.9997965731093136
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7074858966149894,
+      "exploited": 0.9980680352119137
+     }
+    },
+    "consensus": "disputed",
+    "votes": 2
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mykny74t262j",
@@ -2182,7 +2338,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "exploited_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+    "at": "2026-10-24T13:59:29Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.9713099140153727,
+      "exploited": 0.0009110510515616001
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.8240976724217025,
+      "exploited": 0.007809043481822901
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 2
+   }
   },
   {
    "id": "hn:50210341",
@@ -2252,7 +2426,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 36,
+   "points": 47,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "public_exploit_reported",
@@ -2382,8 +2556,8 @@
    "title": "Your Phone Is About to Stop Being Yours: 70 Days Until Lockdown",
    "url": "https://keepandroidopen.org/?",
    "discussion": "https://news.ycombinator.com/item?id=50208558",
-   "points": 504,
-   "comments": 345,
+   "points": 509,
+   "comments": 358,
    "created": "2026-10-23T13:19:42Z",
    "label": "security_news",
    "cves": [],
@@ -2502,7 +2676,7 @@
    "title": "Brotli vulnerability affects curl and Git",
    "url": "https://github.com/advisories/GHSA-9v8h-qqgm-4m35",
    "discussion": "https://news.ycombinator.com/item?id=50207180",
-   "points": 31,
+   "points": 34,
    "comments": 10,
    "created": "2026-10-23T11:10:53Z",
    "label": "security_news",
@@ -3769,7 +3943,25 @@
      "at": "2026-10-24T08:21:01Z",
      "label": "exploited_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+    "at": "2026-10-24T13:59:29Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9767162776572946,
+      "exploited": 0.992422757674628
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8732534557876181,
+      "exploited": 0.9748017693641761
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:50195017",
@@ -3829,7 +4021,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "exploited_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+    "at": "2026-10-24T13:59:29Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9701308332222033,
+      "exploited": 0.9924227599437246
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8683791945155883,
+      "exploited": 0.9769776916682394
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:50194771",
@@ -3877,7 +4087,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 151,
+   "points": 162,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "public_exploit_reported",
@@ -3954,7 +4164,25 @@
      "at": "2026-10-24T08:21:01Z",
      "label": "exploited_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Amazon identifies Oct 17 PHP2Shell exploitation prior to public disclosure",
+    "at": "2026-10-24T13:59:29Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9223567088742224,
+      "exploited": 0.9947798754187772
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7788756681530242,
+      "exploited": 0.9259236732519579
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myhlhdwdub2b",
@@ -4062,7 +4290,7 @@
    "title": "aancw/php2shell-scanner: Scanner for PHP2Shell (CVE-2026-109618/109619): URL blackbox, local device and SSH.",
    "url": "https://github.com/aancw/php2shell-scanner",
    "discussion": "https://github.com/aancw/php2shell-scanner",
-   "points": 49,
+   "points": 55,
    "comments": 0,
    "created": "2026-10-22T09:45:34Z",
    "label": "public_exploit_reported",
@@ -4204,7 +4432,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 31,
+   "points": 33,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "public_exploit_reported",
@@ -4226,7 +4454,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 495,
+   "points": 557,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "public_exploit_reported",
@@ -4919,7 +5147,7 @@
    "title": "godylockz/cve-2026-109618-php2shell: Proof of concept for CVE-2026-109618/CVE-2026-109619: PHP2Shell",
    "url": "https://github.com/godylockz/cve-2026-109618-php2shell",
    "discussion": "https://github.com/godylockz/cve-2026-109618-php2shell",
-   "points": 33,
+   "points": 34,
    "comments": 0,
    "created": "2026-10-21T19:51:22Z",
    "label": "public_exploit_reported",
@@ -5194,7 +5422,7 @@
    "title": "pentestershell/php2shellbt: Python scanner for CVE-2026-109618, CVE-2026-109619 and the php2shell session chains (handler mismatch + LFI). No external dependencies.",
    "url": "https://github.com/pentestershell/php2shellbt",
    "discussion": "https://github.com/pentestershell/php2shellbt",
-   "points": 67,
+   "points": 69,
    "comments": 0,
    "created": "2026-10-21T17:06:30Z",
    "label": "public_exploit_reported",
@@ -5541,7 +5769,7 @@
    "title": "syrex1013/php2shell: CVE-2026-109618/109619 PoC — PHP session.upload_progress heap use-after-free (CVSS 9.2)",
    "url": "https://github.com/syrex1013/php2shell",
    "discussion": "https://github.com/syrex1013/php2shell",
-   "points": 133,
+   "points": 136,
    "comments": 0,
    "created": "2026-10-21T15:06:33Z",
    "label": "public_exploit_reported",
@@ -5563,7 +5791,7 @@
    "title": "mpyw/php-eol-CVE-2026-109618-109619: PHP 7.4 / 8.0 / 8.1 Docker images with the CVE-2026-109618 / CVE-2026-109619 fix backported",
    "url": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
    "discussion": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
-   "points": 56,
+   "points": 57,
    "comments": 0,
    "created": "2026-10-21T15:01:45Z",
    "label": "public_exploit_reported",
@@ -5606,7 +5834,7 @@
    "title": "Anton-Barinov/php2shell-patches: php2shell (CVE-2026-109618 & CVE-2026-109619) security patches for EOL PHP 5.4–8.1. Official & enhanced backports for vanilla php.net and Re",
    "url": "https://github.com/Anton-Barinov/php2shell-patches",
    "discussion": "https://github.com/Anton-Barinov/php2shell-patches",
-   "points": 101,
+   "points": 102,
    "comments": 0,
    "created": "2026-10-21T14:48:05Z",
    "label": "public_exploit_reported",
@@ -5689,7 +5917,7 @@
    "title": "vperetti/php-cve-2026-109618-109619-backports: Minimal source backports of the PHP core RCE fixes (CVE-2026-109618 / CVE-2026-109619) for EOL PHP 5.4 and 7.3",
    "url": "https://github.com/vperetti/php-cve-2026-109618-109619-backports",
    "discussion": "https://github.com/vperetti/php-cve-2026-109618-109619-backports",
-   "points": 48,
+   "points": 49,
    "comments": 0,
    "created": "2026-10-21T14:20:57Z",
    "label": "public_exploit_reported",
@@ -6042,7 +6270,7 @@
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
    "url": "https://github.com/murrez/php2shell",
    "discussion": "https://github.com/murrez/php2shell",
-   "points": 61,
+   "points": 66,
    "comments": 0,
    "created": "2026-10-21T12:37:59Z",
    "label": "public_exploit_reported",
@@ -6180,7 +6408,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 977,
+   "points": 981,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "public_exploit_reported",
@@ -6243,7 +6471,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1717,
+   "points": 1736,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "public_exploit_reported",
@@ -6350,7 +6578,7 @@
    "title": "xuehuolll/php2shell-CVE-2026-109618-109619: CVE-2026-109618/109619 — PHP session.upload_progress pre-auth RCE. Exploit research: remote ASLR chain, PoC & patch analysis.",
    "url": "https://github.com/xuehuolll/php2shell-CVE-2026-109618-109619",
    "discussion": "https://github.com/xuehuolll/php2shell-CVE-2026-109618-109619",
-   "points": 43,
+   "points": 44,
    "comments": 0,
    "created": "2026-10-21T04:38:46Z",
    "label": "public_exploit_reported",
@@ -6394,7 +6622,7 @@
    "title": "syhunt/php2shell-protection: Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apa",
    "url": "https://github.com/syhunt/php2shell-protection",
    "discussion": "https://github.com/syhunt/php2shell-protection",
-   "points": 104,
+   "points": 109,
    "comments": 0,
    "created": "2026-10-21T04:01:24Z",
    "label": "public_exploit_reported",
@@ -24958,7 +25186,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)",
+    "at": "2026-10-24T13:59:29Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9354893280421536,
+      "exploited": 0.001325022706824415
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7161353426533381,
+      "exploited": 0.03853206574130505
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49078804",
@@ -25098,7 +25344,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Endor Labs' AI SAST Finds Zero Day Memory-Y",
+    "at": "2026-10-24T13:59:29Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.7648794382509713,
+      "exploited": 0.001169510114922911
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.5632617379634433,
+      "exploited": 0.06079196687582852
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1
+   }
   },
   {
    "id": "hn:49065410",
@@ -25429,7 +25693,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "A Linux Kernel 0-day Journey - From a limited UAF to Physical Memory R/W",
+    "at": "2026-10-24T13:59:29Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9597251644579071,
+      "exploited": 0.003172683122299773
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8134002548087995,
+      "exploited": 0.14086021259488574
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "lobsters:bper0d",
@@ -25613,7 +25895,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Reporting a 19+ Years Hidden Linux Kernel Zero-Day for Google kernelCTF: CVE-2026-43456",
+    "at": "2026-10-24T13:59:29Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.680212397853926,
+      "exploited": 0.0003569706516544654
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7742522657514924,
+      "exploited": 0.16717644096660464
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "lobsters:drf6my",
@@ -25965,7 +26265,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "21 Zero-Days in FFmpeg",
+    "at": "2026-10-24T13:59:29Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9804830928964647,
+      "exploited": 0.007577241744090961
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9073848750064214,
+      "exploited": 0.45158653015409805
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "lobsters:bdyu6l",
