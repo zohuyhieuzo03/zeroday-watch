@@ -15,7 +15,8 @@ KEV_URL = (
     "https://raw.githubusercontent.com/cisagov/kev-data/main/"
     "known_exploited_vulnerabilities.json"
 )
-HN_QUERIES = ["0day", "zero-day", "exploited in the wild", "CVE-2026", "actively exploited", "exploit", "RCE"]
+HN_QUERIES = ["0day", "zero-day", "exploited in the wild", "CVE-2026", "actively exploited", "exploit", "RCE",
+              "vulnerability", "vuln", "CVE", "critical patch", "security release", "remote code execution", "CVSS"]
 LOBSTERS_URL = "https://lobste.rs/t/security%s.json"
 
 

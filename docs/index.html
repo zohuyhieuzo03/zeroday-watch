@@ -54,6 +54,7 @@ input[type=search]::placeholder { color: var(--dim); }
 .b-sev-high { color: var(--orange); }
 .item.s-public_exploit_reported { border-left-color: #ff6ec7; }
 .item.s-zero_day_mention { border-left-color: var(--grey); }
+.item.s-security_news { border-left-color: var(--line); opacity: .78; }
 .item.s-related { border-left-color: var(--line); opacity: .82; }
 .item h2 { font-size: 15px; font-weight: 600; margin: 8px 0 6px; overflow-wrap: anywhere; line-height: 1.4; }
 .item h2 a { color: #fff; text-decoration: none; }
@@ -68,9 +69,21 @@ input[type=search]::placeholder { color: var(--dim); }
 .b-public_exploit_reported { color: #ff6ec7; background: rgba(255,110,199,.08); }
 .b-zero_day_mention { color: var(--grey); }
 .b-related { color: var(--dim); }
+.b-security_news { color: var(--dim); }
 .b-llm { color: var(--mute); font-weight: 500; }
 .new { color: #000; background: var(--green); border-color: var(--green); }
 .cves { color: var(--red); }
+.tabs { display: flex; gap: 0; margin: 0 0 14px; border-bottom: 1px solid var(--line); }
+.tab { background: none; border: 0; border-bottom: 2px solid transparent; color: var(--mute); font: inherit; text-transform: uppercase; letter-spacing: .08em; font-size: 13px; padding: 8px 16px; cursor: pointer; }
+.tab[aria-selected="true"] { color: #fff; border-bottom-color: var(--red); }
+.topic { background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--orange); padding: 12px 14px; margin-bottom: 10px; }
+.topic.hot { border-left-color: var(--red); box-shadow: 0 0 0 1px rgba(255,59,59,.25), 0 0 18px rgba(255,59,59,.12); }
+.topic h2 { margin: 0 0 4px; font-size: 17px; text-transform: uppercase; letter-spacing: .04em; }
+.topic .rank { color: var(--red); margin-right: 8px; }
+.topic ul { margin: 8px 0 0; padding: 0; list-style: none; }
+.topic li { padding: 3px 0; font-size: 13px; overflow-wrap: anywhere; }
+.topic li a { color: var(--ink); text-decoration-color: var(--line); }
+.topic li small { color: var(--dim); }
 .trend { margin: 0 0 16px; }
 .trend h3 { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--dim); margin: 0 0 8px; font-weight: 600; }
 .trend .row { display: flex; flex-wrap: wrap; gap: 8px; }
@@ -93,17 +106,20 @@ input[type=search]::placeholder { color: var(--dim); }
     <a href="https://github.com/zohuyhieuzo03/zeroday-watch">GitHub</a> ·
     <a href="feed.xml">RSS</a> · <a href="feed.json">JSON</a></p>
   <div class="warn">Leads, not verdicts. Only <b>kev_exploited</b> is backed by a primary source (CISA KEV), and even that does not say whether it was a 0-day. Everything else is what a headline claims.</div>
+  <div class="tabs" role="tablist"><button type="button" class="tab" id="tab-feed" role="tab" aria-selected="true">Feed</button><button type="button" class="tab" id="tab-trend" role="tab" aria-selected="false">Trending</button></div>
+  <div id="view-feed">
   <div class="bar" id="labels" role="group" aria-label="Filter by label"></div>
   <div class="bar"><input type="search" id="q" placeholder="Search title or CVE" aria-label="Search">
     <button type="button" class="chip bell" id="bell"></button></div>
   <div class="toasts" id="toasts" aria-live="polite"></div>
-  <div class="trend" id="trend" hidden><h3>Trending CVEs · last 7 days</h3><div class="row" id="trendrow"></div></div>
   <div class="status" id="status" role="status">Loading…</div>
   <div id="list"></div>
+  </div>
+  <div id="view-trend" hidden><div class="status" id="tstatus"></div><div id="tlist"></div></div>
 </div>
 <script>
-const LABELS = ["kev_exploited", "zero_day_reported", "exploited_reported", "vendor_advisory", "public_exploit_reported", "zero_day_mention", "related"];
-const state = { items: [], generated: "", active: new Set(LABELS), q: "" };
+const LABELS = ["kev_exploited", "zero_day_reported", "exploited_reported", "vendor_advisory", "public_exploit_reported", "zero_day_mention", "related", "security_news"];
+const state = { items: [], topics: [], generated: "", active: new Set(LABELS), q: "" };
 const $ = (id) => document.getElementById(id);
 
 function ago(iso) {
@@ -136,35 +152,8 @@ function renderChips() {
   }
 }
 
-function renderTrend() {
-  const cutoff = Date.now() - 7 * 86400000;
-  const by = new Map();
-  for (const i of state.items) {
-    if (new Date(i.first_seen).getTime() < cutoff || ["cisa-kev", "nodejs", "gitlab"].includes(i.source)) continue;
-    for (const c of i.cves) {
-      const g = by.get(c) || { cve: c, threads: 0, points: 0, kev: false, sample: i.title };
-      g.threads += 1; g.points += i.points; g.kev = g.kev || i.kev.includes(c);
-      by.set(c, g);
-    }
-  }
-  const top = [...by.values()].filter((g) => g.threads >= 2)
-    .sort((a, b) => b.threads - a.threads || b.points - a.points).slice(0, 6);
-  const row = $("trendrow");
-  row.replaceChildren();
-  $("trend").hidden = !top.length;
-  for (const g of top) {
-    const b = el("button", "tchip");
-    b.type = "button";
-    const t = el("b", null, g.cve); b.append(t);
-    b.append(el("small", null, g.threads + " threads · " + g.points + " pts" + (g.kev ? " · IN KEV" : "")));
-    b.onclick = () => { $("q").value = g.cve; state.q = g.cve; render(); };
-    row.append(b);
-  }
-}
-
 function render() {
   renderChips();
-  renderTrend();
   const q = state.q.trim().toLowerCase();
   const rows = state.items.filter((i) =>
     state.active.has(i.label) &&
@@ -200,6 +189,52 @@ function render() {
     list.append(card);
   }
 }
+
+
+function renderTopics() {
+  const box = $("tlist");
+  box.replaceChildren();
+  const byId = new Map(state.items.map((i) => [i.id, i]));
+  $("tstatus").textContent = state.topics.length
+    ? state.topics.length + " topics · last 7 days · grouped by shared CVE or distinctive keyword"
+    : "No topic has 3+ threads yet.";
+  state.topics.forEach((t, n) => {
+    const card = el("div", "topic" + (t.kev ? " hot" : ""));
+    const h = el("h2");
+    h.append(el("span", "rank", "#" + (n + 1)));
+    h.append(document.createTextNode(t.name));
+    card.append(h);
+    const meta = el("div", "meta");
+    meta.append(el("span", null, t.threads + " threads · " + t.points + " pts · last " + ago(t.last_seen)));
+    if (t.cves.length) meta.append(el("span", "cves", t.cves.join(" ")));
+    card.append(meta);
+    const flags = el("div"); flags.style.marginTop = "6px";
+    if (t.kev) flags.append(el("span", "badge b-kev_exploited", "in KEV"));
+    if (t.vendor) flags.append(el("span", "badge b-vendor_advisory", "vendor advisory"));
+    if (flags.childNodes.length) card.append(flags);
+    const ul = el("ul");
+    for (const id of t.items.slice(0, 6)) {
+      const i = byId.get(id); if (!i) continue;
+      const li = el("li");
+      const u = safeUrl(i.url);
+      if (u) { const a = el("a", null, i.title); a.href = u; a.rel = "noopener noreferrer"; li.append(a); }
+      else li.textContent = i.title;
+      li.append(el("small", null, "  " + i.source + " · " + i.points + " pts"));
+      ul.append(li);
+    }
+    card.append(ul);
+    box.append(card);
+  });
+}
+function showTab(name) {
+  const trend = name === "trend";
+  $("view-feed").hidden = trend; $("view-trend").hidden = !trend;
+  $("tab-feed").setAttribute("aria-selected", !trend);
+  $("tab-trend").setAttribute("aria-selected", trend);
+  try { history.replaceState(null, "", trend ? "#trending" : location.pathname + location.search); } catch {}
+}
+$("tab-feed").onclick = () => showTab("feed");
+$("tab-trend").onclick = () => showTab("trend");
 
 // --- alerts: toast in page + optional browser notification (only while the tab is open) ---
 const ALERT_LABELS = new Set(["kev_exploited", "zero_day_reported", "exploited_reported"]);
@@ -263,14 +298,15 @@ async function load() {
     if (!r.ok) throw new Error("HTTP " + r.status);
     const d = await r.json();
     if (d.generated !== state.generated) detectNew(d.items);
-    state.items = d.items; state.generated = d.generated;
-    render();
+    state.items = d.items; state.generated = d.generated; state.topics = d.topics || [];
+    render(); renderTopics();
   } catch (e) {
     $("status").textContent = "Could not load feed: " + e.message;
   }
 }
 $("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
 renderBell();
+if (location.hash === "#trending") showTab("trend");
 load();
 setInterval(load, 2 * 60 * 1000);
 </script>
