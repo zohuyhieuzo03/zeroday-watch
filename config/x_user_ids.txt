@@ -1,0 +1,2 @@
+# Numeric X user IDs (not handles), one per line. Only used when X_BEARER_TOKEN is set.
+# Resolve a handle once with:  GET https://api.x.com/2/users/by/username/<handle>  (billed as a User read)

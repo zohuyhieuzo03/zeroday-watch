@@ -1,0 +1,11 @@
+# One feed URL per line (RSS or Atom). Titles and links only are stored.
+https://googleprojectzero.blogspot.com/feeds/posts/default
+https://labs.watchtowr.com/rss/
+https://blog.talosintelligence.com/rss/
+https://www.rapid7.com/blog/rss/
+https://isc.sans.edu/rssfeed.xml
+https://www.zerodayinitiative.com/rss/published/
+https://www.bleepingcomputer.com/feed/
+https://github.blog/security/feed/
+https://blog.qualys.com/feed
+https://seclists.org/rss/oss-sec.rss

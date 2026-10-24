@@ -17,7 +17,7 @@ import urllib.request
 
 ENDPOINT = "https://openrouter.ai/api/alpha/decisions"
 DEFAULT_MODELS = "inception/mercury-decide:free,baseten/mammoth-1:free"
-PRIMARY_SOURCES = ("cisa-kev", "nodejs", "gitlab", "github-advisory", "github-poc")  # first-party data, nothing to judge
+PRIMARY_SOURCES = ("cisa-kev", "nodejs", "gitlab", "github-advisory", "github-poc", "x")  # x: post text must not go to third-party models  # first-party data, nothing to judge
 JUDGE_LABELS = ("zero_day", "n_day_exploited", "disclosed_unpatched", "not_exploited", "unclear")
 MIN_CONFIDENCE = 0.6
 # Spend the limited free quota on the claims that matter most first (sort is stable).

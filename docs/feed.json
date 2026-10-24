@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T08:46:04Z",
- "count": 1007,
+ "generated": "2026-10-24T09:21:33Z",
+ "count": 1128,
  "topics": [
   {
    "name": "php2shell",
-   "threads": 23,
+   "threads": 28,
    "repos": 24,
-   "points": 1154,
+   "points": 954,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -22,7 +22,6 @@
     "ghpoc:assetnote/php2shell-scanner",
     "hn:50180836",
     "hn:50176077",
-    "hn:50216791",
     "ghpoc:JoasASantos/php2shell-exploit",
     "ghpoc:devploit/php2shell",
     "ghpoc:HOSTED-POWER/php_uploadprogress_guard",
@@ -36,55 +35,20 @@
     "ghpoc:Anton-Barinov/php2shell-patches",
     "ghpoc:pentestershell/php2shellbt",
     "ghpoc:murrez/php2shell",
-    "lobsters:dldfel",
     "ghpoc:Qsnh/php2shell-fixed",
     "ghpoc:mpyw/php-eol-CVE-2026-109618-109619",
     "ghpoc:Is4yev/php2shell-poc",
     "ghpoc:aancw/php2shell-scanner",
-    "ghpoc:vperetti/php-cve-2026-109618-109619-backports"
-   ]
-  },
-  {
-   "name": "curl",
-   "threads": 6,
-   "repos": 0,
-   "points": 107,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-92392"
-   ],
-   "last_seen": "2026-10-23T11:10:53Z",
-   "items": [
-    "lobsters:nryxzd",
-    "hn:50207180",
-    "hn:50168534",
-    "hn:50154714",
-    "hn:50153613",
-    "hn:50186745"
-   ]
-  },
-  {
-   "name": "Amazon",
-   "threads": 4,
-   "repos": 0,
-   "points": 278,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-22T13:29:48Z",
-   "items": [
-    "hn:50194070",
-    "hn:50189623",
-    "hn:50190069",
-    "hn:50195054"
+    "ghpoc:vperetti/php-cve-2026-109618-109619-backports",
+    "ghpoc:enactive-systems/CVE-2026-109618-poc",
+    "ghpoc:xuehuolll/php2shell-CVE-2026-109618-109619"
    ]
   },
   {
    "name": "GitLab",
-   "threads": 3,
+   "threads": 6,
    "repos": 0,
-   "points": 421,
+   "points": 422,
    "kev": false,
    "vendor": true,
    "cves": [
@@ -93,44 +57,101 @@
     "CVE-2026-105777",
     "CVE-2026-110264"
    ],
-   "last_seen": "2026-10-21T20:48:24Z",
+   "last_seen": "2026-10-23T18:13:11Z",
    "items": [
     "hn:50185869",
     "lobsters:pnpcso",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myhlhdwdub2b",
+    "blog:https://seclists.org/oss-sec/2026/q4/360",
+    "blog:https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
     "gitlab:patch-release-gitlab-19-5-1-released"
    ]
   },
   {
+   "name": "curl",
+   "threads": 5,
+   "repos": 0,
+   "points": 104,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-23T11:10:53Z",
+   "items": [
+    "lobsters:nryxzd",
+    "hn:50207180",
+    "hn:50168534",
+    "hn:50154714",
+    "hn:50186745"
+   ]
+  },
+  {
    "name": "Node.js",
-   "threads": 4,
+   "threads": 5,
    "repos": 0,
    "points": 38,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-22T13:48:25Z",
+   "last_seen": "2026-10-23T22:12:18Z",
    "items": [
     "hn:50177438",
     "hn:50192419",
     "hn:50185622",
-    "hn:50195297"
+    "hn:50195297",
+    "blog:https://seclists.org/oss-sec/2026/q4/361"
    ]
   },
   {
    "name": "CVE-2026-111943",
-   "threads": 3,
+   "threads": 4,
    "repos": 0,
    "points": 344,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-111943"
+    "CVE-2026-111943",
+    "CVE-2026-111944"
    ],
-   "last_seen": "2026-10-23T23:51:26Z",
+   "last_seen": "2026-10-24T02:03:52Z",
    "items": [
     "hn:50192900",
     "hn:50165720",
-    "hn:50168664"
+    "hn:50168664",
+    "blog:https://blog.qualys.com/product-tech/2026/10/23/how-to-identify-compromised-emudhra-certificates-with-qualys-cve-2026-111943-and-cve-2026-111944"
+   ]
+  },
+  {
+   "name": "out-of-bounds",
+   "threads": 4,
+   "repos": 0,
+   "points": 65,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-107891",
+    "CVE-2026-115936"
+   ],
+   "last_seen": "2026-10-23T23:51:26Z",
+   "items": [
+    "lobsters:dldfel",
+    "hn:50204287",
+    "hn:50197556",
+    "blog:https://seclists.org/oss-sec/2026/q4/367"
+   ]
+  },
+  {
+   "name": "Amazon",
+   "threads": 3,
+   "repos": 0,
+   "points": 276,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-22T11:50:36Z",
+   "items": [
+    "hn:50194070",
+    "hn:50189623",
+    "hn:50190069"
    ]
   },
   {
@@ -185,9 +206,130 @@
     "hn:50204501",
     "hn:50215588"
    ]
+  },
+  {
+   "name": "Nginx",
+   "threads": 3,
+   "repos": 0,
+   "points": 12,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-15176",
+    "CVE-2026-93479"
+   ],
+   "last_seen": "2026-10-23T22:14:20Z",
+   "items": [
+    "hn:50197215",
+    "hn:50194007",
+    "blog:https://seclists.org/oss-sec/2026/q4/362"
+   ]
+  },
+  {
+   "name": "mitigation",
+   "threads": 3,
+   "repos": 0,
+   "points": 10,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-23T15:38:23Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mykj4nu2ji2z",
+    "hn:50177489",
+    "blog:https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/"
+   ]
+  },
+  {
+   "name": "began",
+   "threads": 3,
+   "repos": 0,
+   "points": 10,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-22T13:29:48Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myhqdlrpiu2d",
+    "hn:50195054",
+    "blog:https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/"
+   ]
+  },
+  {
+   "name": "bypass",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-115748",
+    "CVE-2026-102764"
+   ],
+   "last_seen": "2026-10-23T13:51:09Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/357",
+    "blog:https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+    "blog:https://www.rapid7.com/blog/post/ve-authentication-bypass-remote-code-execution-and-database-read-in-eptura-archibus-fixed",
+    "blog:https://www.rapid7.com/blog/post/etr-cve-2026-102764-critical-beyondtrust-remote-support-authentication-bypass-exploited-in-the-wild"
+   ]
+  },
+  {
+   "name": "Orchestrator",
+   "threads": 3,
+   "repos": 0,
+   "points": 5,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-23T17:13:53Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myi6azw3tt2m",
+    "hn:50212304",
+    "blog:https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
+   ]
+  },
+  {
+   "name": "crafted",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2025-60497",
+    "CVE-2025-60494",
+    "CVE-2025-60492"
+   ],
+   "last_seen": "2026-10-23T13:45:18Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/355",
+    "blog:https://seclists.org/oss-sec/2026/q4/354",
+    "blog:https://seclists.org/oss-sec/2026/q4/353"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50219355",
+   "source": "hackernews",
+   "title": "Rings of Risk: Consequence and Reachability in Vulnerability Chains [pdf]",
+   "url": "https://kolega.ai/papers/rings-of-risk.pdf",
+   "discussion": "https://news.ycombinator.com/item?id=50219355",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-24T08:48:27Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-24T08:48:27Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
   {
    "id": "hn:50218961",
    "source": "hackernews",
@@ -225,6 +367,29 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://blog.qualys.com/product-tech/2026/10/23/how-to-identify-compromised-emudhra-certificates-with-qualys-cve-2026-111943-and-cve-2026-111944",
+   "source": "blog.qualys.com",
+   "title": "How to Identify Compromised eMudhra Certificates With Qualys (CVE-2026-111943 and CVE-2026-111944)",
+   "url": "https://blog.qualys.com/product-tech/2026/10/23/how-to-identify-compromised-emudhra-certificates-with-qualys-cve-2026-111943-and-cve-2026-111944",
+   "discussion": "https://blog.qualys.com/product-tech/2026/10/23/how-to-identify-compromised-emudhra-certificates-with-qualys-cve-2026-111943-and-cve-2026-111944",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-24T02:03:52Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111943",
+    "CVE-2026-111944"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-24T02:03:52Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
     }
    ]
   },
@@ -862,7 +1027,7 @@
    "title": "Evolving Threat: http2shell is an RCE in Node, Python, and more",
    "url": "https://nitter.click/AikidoSecurity/status/2113759110625906950?__galadriel=lPmlGl9id4oAd5UeBwMhlYKArHyr6lR2IDGujPwB5HV2kQ1aLoPWFd5A9sGuzNcmrp8fUso8qygmHcKTDZ8MNHWqQ3bDJcycV87xp_0VypzQLYj6O_RRHlZuQqj33oASGY2YLSoAiMjeOZN40h7Stf8AG7DPrGZbAPVKUXy36HoMudRbvwF3_r2uYNmfJMhpKzywQDM6Ab8",
    "discussion": "https://news.ycombinator.com/item?id=50216791",
-   "points": 162,
+   "points": 166,
    "comments": 87,
    "created": "2026-10-23T23:30:17Z",
    "label": "security_news",
@@ -893,6 +1058,28 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/367",
+   "source": "seclists.org",
+   "title": "CVE-2026-115936: IO::Compress::Brotli versions from 0.004001 before 0.023 for Perl bundle a brotli library with an out-of-bounds write in the decoder",
+   "url": "https://seclists.org/oss-sec/2026/q4/367",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/367",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T22:29:11Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-115936"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T22:29:11Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
     }
    ]
   },
@@ -966,6 +1153,28 @@
    ]
   },
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/363",
+   "source": "seclists.org",
+   "title": "CVE-2026-113877: HTTP::Headers::ActionPack versions before 0.10 for Perl allow CPU exhaustion via Accept-Language ranges matched as regular expressions",
+   "url": "https://seclists.org/oss-sec/2026/q4/363",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/363",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T22:16:18Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-113877"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T22:16:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-xjj6-f33q-929c",
    "source": "github-advisory",
    "title": "undici vulnerable to Denial of Service via unhandled error on excessive content-encodings (npm/undici)",
@@ -985,6 +1194,49 @@
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/362",
+   "source": "seclists.org",
+   "title": "nginx RCEs CVE-2026-93479, CVE-2026-15176",
+   "url": "https://seclists.org/oss-sec/2026/q4/362",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/362",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T22:14:20Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-15176",
+    "CVE-2026-93479"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T22:14:20Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/361",
+   "source": "seclists.org",
+   "title": "Re: Upcoming Node.js security release 2026/10/21",
+   "url": "https://seclists.org/oss-sec/2026/q4/361",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/361",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T22:12:18Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T22:12:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
     }
    ]
   },
@@ -1173,7 +1425,7 @@
    "title": "CVE Tracker",
    "url": "https://cve.0xosprey.com/",
    "discussion": "https://news.ycombinator.com/item?id=50215530",
-   "points": 166,
+   "points": 168,
    "comments": 61,
    "created": "2026-10-23T21:21:47Z",
    "label": "security_news",
@@ -1211,6 +1463,26 @@
    ]
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myl2tj77uv22",
+   "source": "bluesky",
+   "title": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myl2tj77uv22",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myl2tj77uv22",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-23T20:55:23Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T20:55:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-6c7f-9265-g8fw",
    "source": "github-advisory",
    "title": "pypdf: Possible long runtimes for repeated references to the same missing object (pip/pypdf)",
@@ -1230,6 +1502,26 @@
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+   "source": "bleepingcomputer.com",
+   "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T20:55:05Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T20:55:05Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
     }
    ]
   },
@@ -1638,6 +1930,26 @@
    ]
   },
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/360",
+   "source": "seclists.org",
+   "title": "Ruby Regexp compilation fixes related to GitLab's CVE's",
+   "url": "https://seclists.org/oss-sec/2026/q4/360",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/360",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T18:13:11Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T18:13:11Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:50212942",
    "source": "hackernews",
    "title": "PHP advisory: disable session upload progress to prevent another unlikely RCE",
@@ -1728,6 +2040,48 @@
    ]
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mykny74t262j",
+   "source": "bluesky",
+   "title": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mykny74t262j",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mykny74t262j",
+   "points": 4,
+   "comments": 1,
+   "created": "2026-10-23T17:05:22Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T17:05:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/359",
+   "source": "seclists.org",
+   "title": "PHP Informational advisory: Session upload progress (CVE-2026-115560)",
+   "url": "https://seclists.org/oss-sec/2026/q4/359",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/359",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T16:41:37Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-115560"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T16:41:37Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
    "id": "hn:50211188",
    "source": "hackernews",
    "title": "LLM Multi-Agent Systems Are Vulnerable to Herding and Runaway Cascades",
@@ -1788,6 +2142,46 @@
    ]
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mykj4nu2ji2z",
+   "source": "bluesky",
+   "title": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has ",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mykj4nu2ji2z",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mykj4nu2ji2z",
+   "points": 7,
+   "comments": 0,
+   "created": "2026-10-23T15:38:23Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T15:38:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+   "source": "bleepingcomputer.com",
+   "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+   "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T15:38:05Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T15:38:05Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "exploited_reported"
+    }
+   ]
+  },
+  {
    "id": "hn:50210341",
    "source": "hackernews",
    "title": "Plague Inc themed vulnerability tracker",
@@ -1828,12 +2222,34 @@
    ]
   },
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/357",
+   "source": "seclists.org",
+   "title": "CVE-2026-115748: Apache Vysper: Authorization bypass",
+   "url": "https://seclists.org/oss-sec/2026/q4/357",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/357",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T13:51:09Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-115748"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T13:51:09Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
    "id": "ghpoc:aarsaputra/php2shell",
    "source": "github-poc",
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 35,
+   "points": 36,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "public_exploit_reported",
@@ -1850,13 +2266,121 @@
    ]
   },
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/356",
+   "source": "seclists.org",
+   "title": "CVE-2026-115721: Apache Vysper: Unbounded allocation",
+   "url": "https://seclists.org/oss-sec/2026/q4/356",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/356",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T13:48:46Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-115721"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T13:48:46Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/355",
+   "source": "seclists.org",
+   "title": "CVE-2025-60497: NULL pointer dereference in GPAC/MP4Box GetESD via crafted MP4 input",
+   "url": "https://seclists.org/oss-sec/2026/q4/355",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/355",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T13:45:18Z",
+   "label": "related",
+   "cves": [
+    "CVE-2025-60497"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T13:45:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://isc.sans.edu/diary/rss/33450",
+   "source": "isc.sans.edu",
+   "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
+   "url": "https://isc.sans.edu/diary/rss/33450",
+   "discussion": "https://isc.sans.edu/diary/rss/33450",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T13:43:20Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T13:43:20Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/354",
+   "source": "seclists.org",
+   "title": "CVE-2025-60494: invalid memory read in GPAC/MP4Box gf_props_equal_internal via crafted MP4 input",
+   "url": "https://seclists.org/oss-sec/2026/q4/354",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/354",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T13:42:42Z",
+   "label": "related",
+   "cves": [
+    "CVE-2025-60494"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T13:42:42Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/353",
+   "source": "seclists.org",
+   "title": "CVE-2025-60492: uncontrolled recursion in GPAC/MP4Box BIFS decoder via crafted MP4 input",
+   "url": "https://seclists.org/oss-sec/2026/q4/353",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/353",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T13:40:11Z",
+   "label": "related",
+   "cves": [
+    "CVE-2025-60492"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T13:40:11Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
    "id": "hn:50208558",
    "source": "hackernews",
    "title": "Your Phone Is About to Stop Being Yours: 70 Days Until Lockdown",
    "url": "https://keepandroidopen.org/?",
    "discussion": "https://news.ycombinator.com/item?id=50208558",
-   "points": 502,
-   "comments": 344,
+   "points": 504,
+   "comments": 345,
    "created": "2026-10-23T13:19:42Z",
    "label": "security_news",
    "cves": [],
@@ -1885,6 +2409,66 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://blog.qualys.com/product-tech/2026/10/23/node-js-patches-brotli-remote-code-execution-flaw-find-vulnerable-runtimes-before-attackers-do",
+   "source": "blog.qualys.com",
+   "title": "Node.js Patches Brotli Remote Code Execution Flaw: Find Vulnerable Runtimes Before Attackers Do",
+   "url": "https://blog.qualys.com/product-tech/2026/10/23/node-js-patches-brotli-remote-code-execution-flaw-find-vulnerable-runtimes-before-attackers-do",
+   "discussion": "https://blog.qualys.com/product-tech/2026/10/23/node-js-patches-brotli-remote-code-execution-flaw-find-vulnerable-runtimes-before-attackers-do",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T12:58:02Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T12:58:02Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myk7mou3ci2b",
+   "source": "bluesky",
+   "title": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myk7mou3ci2b",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myk7mou3ci2b",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-23T12:48:23Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T12:48:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+   "source": "bleepingcomputer.com",
+   "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
+   "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T12:48:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T12:48:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
      "label": "security_news"
     }
    ]
@@ -2263,6 +2847,46 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myi6azw3tt2m",
+   "source": "bluesky",
+   "title": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myi6azw3tt2m",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myi6azw3tt2m",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-22T17:18:39Z",
+   "label": "zero_day_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-22T17:18:39Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "zero_day_reported"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+   "source": "bleepingcomputer.com",
+   "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-22T17:18:22Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-22T17:18:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "zero_day_mention"
     }
    ]
   },
@@ -3129,6 +3753,46 @@
    ]
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myhqdlrpiu2d",
+   "source": "bluesky",
+   "title": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesda",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myhqdlrpiu2d",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myhqdlrpiu2d",
+   "points": 8,
+   "comments": 1,
+   "created": "2026-10-22T13:09:32Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-22T13:09:32Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+   "source": "bleepingcomputer.com",
+   "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+   "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-22T13:09:12Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-22T13:09:12Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "exploited_reported"
+    }
+   ]
+  },
+  {
    "id": "hn:50194771",
    "source": "hackernews",
    "title": "OpenJDK Vulnerability Advisory: 2026/10/21",
@@ -3254,6 +3918,26 @@
    ]
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myhlhdwdub2b",
+   "source": "bluesky",
+   "title": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable serv",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myhlhdwdub2b",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myhlhdwdub2b",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-10-22T11:42:08Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-22T11:42:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:50194007",
    "source": "hackernews",
    "title": "Nginx 1.30.6 (stable) and 1.31.8 (mainline) released with security fixes",
@@ -3269,6 +3953,26 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+   "source": "bleepingcomputer.com",
+   "title": "GitLab warns of new max severity code execution vulnerability",
+   "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-22T11:41:48Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-22T11:41:48Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
      "label": "security_news"
     }
    ]
@@ -3299,8 +4003,8 @@
    "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry",
    "url": "https://news.ycombinator.com/item?id=50193416",
    "discussion": "https://news.ycombinator.com/item?id=50193416",
-   "points": 724,
-   "comments": 254,
+   "points": 725,
+   "comments": 255,
    "created": "2026-10-22T10:11:44Z",
    "label": "security_news",
    "cves": [],
@@ -3319,7 +4023,7 @@
    "title": "aancw/php2shell-scanner: Scanner for PHP2Shell (CVE-2026-109618/109619): URL blackbox, local device and SSH.",
    "url": "https://github.com/aancw/php2shell-scanner",
    "discussion": "https://github.com/aancw/php2shell-scanner",
-   "points": 48,
+   "points": 49,
    "comments": 0,
    "created": "2026-10-22T09:45:34Z",
    "label": "public_exploit_reported",
@@ -3356,12 +4060,112 @@
    ]
   },
   {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-790/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-790: OpenSSL CMS AuthEnvelopedData Improper Validation of Integrity Check Value Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-790/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-790/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-22T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-22T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-789/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-789: OpenSSL CMP Use of Externally-Controlled Format String Information Disclosure Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-789/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-789/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-22T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-22T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-788/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-788: Cisco Snort OLE VBA Decompression Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-788/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-788/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-22T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-22T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-787/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-787: NVIDIA Megatron Bridge YAML File Parsing Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-787/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-787/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-22T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-22T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-786/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-786: NoMachine nxwebrunner Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-786/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-786/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-22T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-22T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "ghpoc:assetnote/php2shell-scanner",
    "source": "github-poc",
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 493,
+   "points": 494,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "public_exploit_reported",
@@ -3547,7 +4351,7 @@
    "title": "devploit/php2shell: PHP2Shell: version-aware research toolkit for CVE-2026-109618 / CVE-2026-109619 — pre-auth RCE in PHP session.upload_progress (mod_php). Bui",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 146,
+   "points": 149,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "public_exploit_reported",
@@ -3848,6 +4652,29 @@
    ]
   },
   {
+   "id": "blog:https://isc.sans.edu/diary/rss/33440",
+   "source": "isc.sans.edu",
+   "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) &#x5b;infocon yellow&#x5d;, (Wed, Oct 21st)",
+   "url": "https://isc.sans.edu/diary/rss/33440",
+   "discussion": "https://isc.sans.edu/diary/rss/33440",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-21T21:02:43Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-21T21:02:43Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
    "id": "lobsters:pnpcso",
    "source": "lobsters",
    "title": "GitLab Critical Patch Release",
@@ -4031,7 +4858,7 @@
    "title": "godylockz/cve-2026-109618-php2shell: Proof of concept for CVE-2026-109618/CVE-2026-109619: PHP2Shell",
    "url": "https://github.com/godylockz/cve-2026-109618-php2shell",
    "discussion": "https://github.com/godylockz/cve-2026-109618-php2shell",
-   "points": 31,
+   "points": 32,
    "comments": 0,
    "created": "2026-10-21T19:51:22Z",
    "label": "public_exploit_reported",
@@ -4207,6 +5034,26 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myfs2nylwc2w",
+   "source": "bluesky",
+   "title": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myfs2nylwc2w",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myfs2nylwc2w",
+   "points": 15,
+   "comments": 1,
+   "created": "2026-10-21T18:35:01Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-21T18:35:01Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
      "label": "security_news"
     }
    ]
@@ -4528,7 +5375,7 @@
    "url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/",
    "discussion": "https://news.ycombinator.com/item?id=50182987",
    "points": 811,
-   "comments": 400,
+   "comments": 401,
    "created": "2026-10-21T15:48:56Z",
    "label": "security_news",
    "cves": [],
@@ -4601,6 +5448,29 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php",
+   "source": "rapid7.com",
+   "title": "CVE-2026-109618 and CVE-2026-109619: Critical Unauthenticated Remote Code Execution in PHP",
+   "url": "https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php",
+   "discussion": "https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-21T15:22:52Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-21T15:22:52Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:21:33Z",
+     "label": "related"
     }
    ]
   },
@@ -4814,6 +5684,29 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myfd44mniz2s",
+   "source": "bluesky",
+   "title": "The PHP security team released emergency security patches for two critical remote code execution (RCE) vulnerabilities (CVE-2026-109618 and CVE-2026-109619) tra",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myfd44mniz2s",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myfd44mniz2s",
+   "points": 17,
+   "comments": 0,
+   "created": "2026-10-21T14:07:22Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-21T14:07:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
     }
    ]
   },
@@ -5063,6 +5956,26 @@
    ]
   },
   {
+   "id": "blog:https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days",
+   "source": "rapid7.com",
+   "title": "Q3 2026 Threat Update: Attackers Are Exploiting Vulnerabilities Within 3 Days",
+   "url": "https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days",
+   "discussion": "https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-21T13:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-21T13:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:21:33Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "ghpoc:murrez/php2shell",
    "source": "github-poc",
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
@@ -5269,7 +6182,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1715,
+   "points": 1717,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "public_exploit_reported",
@@ -5420,7 +6333,7 @@
    "title": "syhunt/php2shell-protection: Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apa",
    "url": "https://github.com/syhunt/php2shell-protection",
    "discussion": "https://github.com/syhunt/php2shell-protection",
-   "points": 103,
+   "points": 104,
    "comments": 0,
    "created": "2026-10-21T04:01:24Z",
    "label": "public_exploit_reported",
@@ -5862,6 +6775,26 @@
    ]
   },
   {
+   "id": "blog:https://blog.qualys.com/qualys-insights/2026/10/20/remediation-paradox-cybersecurity-awareness-month",
+   "source": "blog.qualys.com",
+   "title": "The Real Jump Scare Isn’t the Attacker; It’s The Vulnerabilities You’re Focusing On",
+   "url": "https://blog.qualys.com/qualys-insights/2026/10/20/remediation-paradox-cybersecurity-awareness-month",
+   "discussion": "https://blog.qualys.com/qualys-insights/2026/10/20/remediation-paradox-cybersecurity-awareness-month",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-20T19:08:51Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-20T19:08:51Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:50170965",
    "source": "hackernews",
    "title": "StackRadar is now open source – Kubernetes SBoM vulnerability tracking",
@@ -5939,6 +6872,26 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
+   "source": "blog.talosintelligence.com",
+   "title": "There's only so much code: the rise in vulnerability numbers",
+   "url": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
+   "discussion": "https://blog.talosintelligence.com/theres-only-so-much-code-the-rise-in-vulnerability-numbers/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-20T15:31:22Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-20T15:31:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
      "label": "security_news"
     }
    ]
@@ -6022,6 +6975,26 @@
     "consensus": "unclear",
     "votes": 0
    }
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mycmjptkqg2y",
+   "source": "bluesky",
+   "title": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mycmjptkqg2y",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mycmjptkqg2y",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-20T12:18:04Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-20T12:18:04Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
   },
   {
    "id": "hn:50164996",
@@ -6228,6 +7201,26 @@
    ]
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myb2n2fwi72j",
+   "source": "bluesky",
+   "title": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack l",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myb2n2fwi72j",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myb2n2fwi72j",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-19T21:25:09Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-19T21:25:09Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-f8c7-rwf9-fmgm",
    "source": "github-advisory",
    "title": "Mercury: Unauthenticated Remote Code Execution in /api/terminals - access control bypass (pip/mercury)",
@@ -6294,6 +7287,26 @@
    ]
   },
   {
+   "id": "blog:https://www.rapid7.com/blog/post/ve-authentication-bypass-remote-code-execution-and-database-read-in-eptura-archibus-fixed",
+   "source": "rapid7.com",
+   "title": "Authentication Bypass, Remote Code Execution, and Database Read in Eptura Archibus (FIXED)",
+   "url": "https://www.rapid7.com/blog/post/ve-authentication-bypass-remote-code-execution-and-database-read-in-eptura-archibus-fixed",
+   "discussion": "https://www.rapid7.com/blog/post/ve-authentication-bypass-remote-code-execution-and-database-read-in-eptura-archibus-fixed",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-19T15:57:43Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-19T15:57:43Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:21:33Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:50153613",
    "source": "hackernews",
    "title": "CVE-2026-92392: curl HTTP/2 upload Use-After-Free",
@@ -6312,6 +7325,56 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779",
+   "source": "rapid7.com",
+   "title": "Rapid7 Analysis: NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779",
+   "url": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779",
+   "discussion": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-19T15:11:57Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-88771",
+    "CVE-2026-88779"
+   ],
+   "kev": [
+    "CVE-2026-88771",
+    "CVE-2026-88779"
+   ],
+   "first_seen": "2026-10-19T15:11:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:21:33Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.rapid7.com/blog/post/etr-cve-2026-102764-critical-beyondtrust-remote-support-authentication-bypass-exploited-in-the-wild",
+   "source": "rapid7.com",
+   "title": "CVE-2026-102764: Critical BeyondTrust Remote Support Authentication Bypass Exploited in the Wild",
+   "url": "https://www.rapid7.com/blog/post/etr-cve-2026-102764-critical-beyondtrust-remote-support-authentication-bypass-exploited-in-the-wild",
+   "discussion": "https://www.rapid7.com/blog/post/etr-cve-2026-102764-critical-beyondtrust-remote-support-authentication-bypass-exploited-in-the-wild",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-19T14:34:04Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-102764"
+   ],
+   "kev": [
+    "CVE-2026-102764"
+   ],
+   "first_seen": "2026-10-19T14:34:04Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:21:33Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -6351,6 +7414,26 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myabbf6lxs2m",
+   "source": "bluesky",
+   "title": "F5 has released out-of-band security patches to address multiple NGINX web server flaws, including three critical-severity vulnerabilities that can let attacker",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myabbf6lxs2m",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myabbf6lxs2m",
+   "points": 10,
+   "comments": 0,
+   "created": "2026-10-19T13:51:14Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-19T13:51:14Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
      "label": "security_news"
     }
    ]
@@ -6442,6 +7525,26 @@
    ]
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3my7qwt37wk2m",
+   "source": "bluesky",
+   "title": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3my7qwt37wk2m",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3my7qwt37wk2m",
+   "points": 6,
+   "comments": 0,
+   "created": "2026-10-19T08:59:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-19T08:59:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:50149903",
    "source": "hackernews",
    "title": "CVE-2026-108707 PoC?",
@@ -6508,6 +7611,26 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3my5sni4fyd2j",
+   "source": "bluesky",
+   "title": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3my5sni4fyd2j",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3my5sni4fyd2j",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-18T14:24:14Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-18T14:24:14Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
     }
    ]
   },
@@ -6740,6 +7863,26 @@
    ]
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3my3cop2l7w2r",
+   "source": "bluesky",
+   "title": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content man",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3my3cop2l7w2r",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3my3cop2l7w2r",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-17T14:33:16Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-17T14:33:16Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:50131394",
    "source": "hackernews",
    "title": "CVE-2026-49950 and Why Upgrading Xinference Isn't Enough",
@@ -6887,6 +8030,28 @@
    ]
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxzekdvhqp2m",
+   "source": "bluesky",
+   "title": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing t",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxzekdvhqp2m",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxzekdvhqp2m",
+   "points": 3,
+   "comments": 1,
+   "created": "2026-10-16T20:01:18Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-103849"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-16T20:01:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-h4mw-j7qp-8mwm",
    "source": "github-advisory",
    "title": "Claude Agent SDK: Argument Injection via resume Option Allows Arbitrary Command Execution (pip/claude-agent-sdk)",
@@ -7010,6 +8175,28 @@
    ]
   },
   {
+   "id": "blog:https://www.rapid7.com/blog/post/ra-gitlab-ci-cd-regex-integer-overflow-technical-analysis-cve-2026-97229",
+   "source": "rapid7.com",
+   "title": "Rapid7 Analysis: GitLab CI/CD Regex Integer Overflow (CVE-2026-97229)",
+   "url": "https://www.rapid7.com/blog/post/ra-gitlab-ci-cd-regex-integer-overflow-technical-analysis-cve-2026-97229",
+   "discussion": "https://www.rapid7.com/blog/post/ra-gitlab-ci-cd-regex-integer-overflow-technical-analysis-cve-2026-97229",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-16T13:31:56Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-97229"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-16T13:31:56Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:21:33Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
    "id": "hn:50116117",
    "source": "hackernews",
    "title": "CVE-2026-99999: Linux IPv4: validate checksum_start before completing checksum",
@@ -7028,6 +8215,26 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxy77zygih2m",
+   "source": "bluesky",
+   "title": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxy77zygih2m",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxy77zygih2m",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-10-16T08:53:23Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-16T08:53:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
     }
    ]
   },
@@ -7068,6 +8275,166 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxxwkumf562g",
+   "source": "bluesky",
+   "title": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxxwkumf562g",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxxwkumf562g",
+   "points": 5,
+   "comments": 0,
+   "created": "2026-10-16T06:18:23Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-16T06:18:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-785/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-785: FreeBSD Kernel Shared Memory Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-785/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-785/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-16T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-16T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-784/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-784: FreeBSD Kernel kqueue Use-After-Free Local Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-784/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-784/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-16T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-16T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-783/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-783: LibreOffice PDF File Parsing Out-Of-Bounds Write Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-783/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-783/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-16T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-16T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-782/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-782: LibreOffice PDF File Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-782/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-782/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-16T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-16T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-781/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-781: LibreOffice EMF+ Brush Integer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-781/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-781/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-16T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-16T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-780/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-780: X.Org Server GestureBuildSprite Use-After-Free Information Disclosure Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-780/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-780/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-16T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-16T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-779/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-779: (0Day) Sparx Systems Enterprise Architect XSLT Debugger XML External Entity Processing Information Disclosure Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-779/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-779/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-16T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-16T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "zero_day_mention"
     }
    ]
   },
@@ -7156,6 +8523,30 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxwvghcpe627",
+   "source": "bluesky",
+   "title": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocument",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxwvghcpe627",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxwvghcpe627",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-15T20:25:21Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-110447"
+   ],
+   "kev": [
+    "CVE-2026-110447"
+   ],
+   "first_seen": "2026-10-15T20:25:21Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -7380,6 +8771,26 @@
    ]
   },
   {
+   "id": "blog:https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
+   "source": "blog.talosintelligence.com",
+   "title": "The Q3 Vulnerability Pulse: Discovery ≠ Exploitation",
+   "url": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
+   "discussion": "https://blog.talosintelligence.com/the-q3-vulnerability-pulse-discovery-exploitation/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T18:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T18:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "ghpoc:gichirimaku/wp2shell-PoC",
    "source": "github-poc",
    "title": "gichirimaku/wp2shell-PoC: CVE-2026-63030 + CVE-2026-60137 exploit RCE chain.",
@@ -7528,6 +8939,446 @@
    ]
   },
   {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-778/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-778: Adobe Photoshop DCM Pixel Data Parsing Integer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-778/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-778/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-777/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-777: Adobe Photoshop AdobePDFL PDF JPEG Parsing Integer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-777/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-777/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-776/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-776: QNAP TS-453E syslog log_message Format String Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-776/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-776/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-775/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-775: GStreamer rtpL16depay Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-775/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-775/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-774/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-774: NoMachine Uncontrolled Search Path Element Local Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-774/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-774/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-773/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-773: NoMachine Named Pipe Incorrect Permission Assignment Local Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-773/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-773/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-772/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-772: Fortinet FortiSandbox Admin Profile Improper Handling of Exceptional Conditions Denial-of-Service Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-772/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-772/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-771/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-771: Fortinet FortiSandbox login_user_profile Hard-Coded Credentials Authentication Bypass Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-771/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-771/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-770/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-770: SonicWall Secure Mobile Access unzip Directory Traversal Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-770/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-770/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-769/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-769: X.Org Server XKB XkbSetMap Request Out-Of-Bounds Read Information Disclosure Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-769/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-769/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-768/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-768: X.Org Server XInput ProcXIPassiveUngrabDevice Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-768/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-768/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-767/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-767: X.Org Server Glamor CopyArea Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-767/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-767/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-766/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-766: X.Org Server RandR Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-766/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-766/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-765/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-765: X.Org Server XKB Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-765/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-765/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-764/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-764: X.Org Server XFixes Pointer Barrier Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-764/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-764/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-763/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-763: X.Org Server XKB XkbResizeKeyType Numeric Truncation Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-763/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-763/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-762/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-762: X.Org Server GLX RenderLarge Heap-based Buffer Overflow Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-762/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-762/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-761/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-761: X.Org Server XInput Passive Grab Use-After-Free Information Disclosure Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-761/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-761/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-760/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-760: X.Org Server Present Extension Use-After-Free Information Disclosure Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-760/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-760/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-759/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-759: X.Org Server XKB TextDoodad Double Free Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-759/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-759/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-758/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-758: Docker Buildx Filesystem Entitlements Protection Mechanism Failure Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-758/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-758/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-757/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-757: (0Day) Telegram rlottie Numeric Truncation Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-757/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-757/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-15T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
    "id": "kev:CVE-2026-21589",
    "source": "cisa-kev",
    "title": "CVE-2026-21589: Atlassian Multiple Products - Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
@@ -7547,6 +9398,30 @@
    "label_history": [
     {
      "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxunguereg2m",
+   "source": "bluesky",
+   "title": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxunguereg2m",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxunguereg2m",
+   "points": 5,
+   "comments": 0,
+   "created": "2026-10-14T22:57:06Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-0322"
+   ],
+   "kev": [
+    "CVE-2026-0322"
+   ],
+   "first_seen": "2026-10-14T22:57:06Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
      "label": "kev_exploited"
     }
    ]
@@ -7588,6 +9463,26 @@
     "consensus": "zero_day",
     "votes": 2
    }
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxu3547rn22m",
+   "source": "bluesky",
+   "title": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with ro",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxu3547rn22m",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxu3547rn22m",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-10-14T17:29:31Z",
+   "label": "zero_day_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-14T17:29:31Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "zero_day_reported"
+    }
+   ]
   },
   {
    "id": "hn:50090900",
@@ -7692,6 +9587,26 @@
    ]
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxtqxcvamt2y",
+   "source": "bluesky",
+   "title": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxtqxcvamt2y",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxtqxcvamt2y",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-10-14T14:27:19Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-14T14:27:19Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:50087780",
    "source": "hackernews",
    "title": "XBOW Built a Chrome Full-Chain Exploit Affecting a Billion Users in Six Days",
@@ -7707,6 +9622,26 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxtlzv2euh2b",
+   "source": "bluesky",
+   "title": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxtlzv2euh2b",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxtlzv2euh2b",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-10-14T12:59:17Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-14T12:59:17Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
      "label": "security_news"
     }
    ]
@@ -7936,6 +9871,48 @@
    }
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxryhf7mqz2b",
+   "source": "bluesky",
+   "title": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through spe",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxryhf7mqz2b",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxryhf7mqz2b",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-10-13T21:36:15Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-39919"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-13T21:36:15Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://blog.qualys.com/vulnerabilities-threat-research/2026/10/13/microsoft-patch-tuesday-october-2026-security-update-review",
+   "source": "blog.qualys.com",
+   "title": "Microsoft Patch Tuesday, October 2026 Security Update Review",
+   "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/10/13/microsoft-patch-tuesday-october-2026-security-update-review",
+   "discussion": "https://blog.qualys.com/vulnerabilities-threat-research/2026/10/13/microsoft-patch-tuesday-october-2026-security-update-review",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-13T21:32:08Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-13T21:32:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-rv87-ccxw-8ggf",
    "source": "github-advisory",
    "title": "Microsoft Security Advisory CVE-2026-88092 - ASP.NET Core Security Feature Bypass Vulnerability (nuget/Microsoft.AspNetCore.App.Runtime.linux-arm)",
@@ -7955,6 +9932,26 @@
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
+   "source": "blog.talosintelligence.com",
+   "title": "Microsoft Patch Tuesday for October 2026 — Snort rules and prominent vulnerabilities",
+   "url": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
+   "discussion": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-october-2026/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-13T20:37:58Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-13T20:37:58Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
     }
    ]
   },
@@ -8027,6 +10024,26 @@
    ]
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxrsfim2tc2y",
+   "source": "bluesky",
+   "title": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and a few bug",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxrsfim2tc2y",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxrsfim2tc2y",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-13T19:47:49Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-13T19:47:49Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:50076953",
    "source": "hackernews",
    "title": "Chrome Full-Chain Exploit with GPT 5.6",
@@ -8042,6 +10059,26 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxrlsqntjk2g",
+   "source": "bluesky",
+   "title": "Microsoft has released Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs and a",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxrlsqntjk2g",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxrlsqntjk2g",
+   "points": 6,
+   "comments": 0,
+   "created": "2026-10-13T17:49:58Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-13T17:49:58Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
      "label": "security_news"
     }
    ]
@@ -8063,6 +10100,72 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.rapid7.com/blog/post/etr-ivanti-connect-secure-zero-day-exploited-in-the-wild-cve-2026-104935",
+   "source": "rapid7.com",
+   "title": "Ivanti Connect Secure zero-day exploited in the wild (CVE-2026-104935)",
+   "url": "https://www.rapid7.com/blog/post/etr-ivanti-connect-secure-zero-day-exploited-in-the-wild-cve-2026-104935",
+   "discussion": "https://www.rapid7.com/blog/post/etr-ivanti-connect-secure-zero-day-exploited-in-the-wild-cve-2026-104935",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-13T17:06:05Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-104935"
+   ],
+   "kev": [
+    "CVE-2026-104935"
+   ],
+   "first_seen": "2026-10-13T17:06:05Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:21:33Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxrevbs3ep2j",
+   "source": "bluesky",
+   "title": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxrevbs3ep2j",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxrevbs3ep2j",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-13T15:46:06Z",
+   "label": "zero_day_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-13T15:46:06Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "zero_day_reported"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxrdhtmcwq2m",
+   "source": "bluesky",
+   "title": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal a",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxrdhtmcwq2m",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxrdhtmcwq2m",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-10-13T15:20:42Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-105445"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-13T15:20:42Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
     }
    ]
   },
@@ -8105,6 +10208,26 @@
    }
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxr6i5yqdu2n",
+   "source": "bluesky",
+   "title": "SAP has addressed 20 security flaws across multiple products in its October 2026 security updates, including a maximum-severity vulnerability in the Cloud SDK f",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxr6i5yqdu2n",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxr6i5yqdu2n",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-10-13T13:51:22Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-13T13:51:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "lobsters:6r6mts",
    "source": "lobsters",
    "title": "Model backdoors are easy to create and hard to reliably remove",
@@ -8141,6 +10264,28 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab",
+   "source": "rapid7.com",
+   "title": "CVE-2026-97229: Critical Unauthenticated Remote Code Execution in GitLab",
+   "url": "https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab",
+   "discussion": "https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-13T11:29:03Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-97229"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-13T11:29:03Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:21:33Z",
+     "label": "related"
     }
    ]
   },
@@ -8243,6 +10388,106 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-756/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-756: (0Day) Genesis World load_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-756/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-756/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-13T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-13T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-755/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-755: (0Day) Genesis World glTF Server-Side Request Forgery Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-755/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-755/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-13T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-13T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-754/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-754: (0Day) Genesis World URDF Directory Traversal Information Disclosure Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-754/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-754/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-13T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-13T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-753/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-753: (0Day) Genesis World MJCF Directory Traversal Information Disclosure Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-753/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-753/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-13T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-13T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-752/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-752: (0Day) Genesis World decompress_usdz Directory Traversal Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-752/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-752/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-13T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-13T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "zero_day_mention"
     }
    ]
   },
@@ -8393,6 +10638,26 @@
    ]
   },
   {
+   "id": "blog:https://blog.qualys.com/product-tech/2026/10/12/runtime-vulnerability-reachability-containers",
+   "source": "blog.qualys.com",
+   "title": "Exploitability Needs Runtime Evidence: Understanding Runtime Vulnerability Reachability for Containers",
+   "url": "https://blog.qualys.com/product-tech/2026/10/12/runtime-vulnerability-reachability-containers",
+   "discussion": "https://blog.qualys.com/product-tech/2026/10/12/runtime-vulnerability-reachability-containers",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-12T15:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-12T15:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "lobsters:mldt0o",
    "source": "lobsters",
    "title": "Finding a $90,000 Remote Code Execution Vulnerability in Google",
@@ -8408,6 +10673,46 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxoltbchew2n",
+   "source": "bluesky",
+   "title": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arb",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxoltbchew2n",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxoltbchew2n",
+   "points": 5,
+   "comments": 0,
+   "created": "2026-10-12T13:12:16Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-12T13:12:16Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxohpyt63x2b",
+   "source": "bluesky",
+   "title": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates ne",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxohpyt63x2b",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxohpyt63x2b",
+   "points": 8,
+   "comments": 0,
+   "created": "2026-10-12T11:58:51Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-12T11:58:51Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
      "label": "security_news"
     }
    ]
@@ -8773,6 +11078,53 @@
    ]
   },
   {
+   "id": "blog:https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
+   "source": "labs.watchtowr.com",
+   "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578)",
+   "url": "https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
+   "discussion": "https://labs.watchtowr.com/death-by-a-thousand-papercuts-papercut-pre-auth-rce-chain-and-patch-bypasses-wt-2026-0141-0144-cve-2026-82077-cve-2026-82078-cve-2026-81578/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-09T17:31:14Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-81578",
+    "CVE-2026-82077",
+    "CVE-2026-82078"
+   ],
+   "kev": [
+    "CVE-2026-81578",
+    "CVE-2026-82078"
+   ],
+   "first_seen": "2026-10-09T17:31:14Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxhi6cy4tx27",
+   "source": "bluesky",
+   "title": "Threat actors are exploiting one critical and one medium-severity vulnerability still unpatched in the AhsayCBS backup management platform to deploy webshells a",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxhi6cy4tx27",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxhi6cy4tx27",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-09T17:18:14Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-09T17:18:14Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "exploited_reported"
+    }
+   ]
+  },
+  {
    "id": "hn:50022564",
    "source": "hackernews",
    "title": "Max severity SonicWall SMA1000 flaw now exploited in attacks",
@@ -8873,6 +11225,68 @@
    ]
   },
   {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxgyarcueo2m",
+   "source": "bluesky",
+   "title": "Attackers are exploiting a maximum-severity vulnerability in SonicWall SMA1000 appliances (CVE-2026-102255) that was patched on Tuesday, three days ago.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxgyarcueo2m",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxgyarcueo2m",
+   "points": 6,
+   "comments": 0,
+   "created": "2026-10-09T12:33:16Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-102255"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-09T12:33:16Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxgqjz6v6w2b",
+   "source": "bluesky",
+   "title": "Microsoft says devices running unsupported versions of Windows will stop receiving security updates starting in May 2027 after next year's Windows Update certif",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxgqjz6v6w2b",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxgqjz6v6w2b",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-09T10:15:16Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-09T10:15:16Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxgkk63ltl2r",
+   "source": "bluesky",
+   "title": "Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScale",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxgkk63ltl2r",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxgkk63ltl2r",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-09T08:27:59Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-09T08:27:59Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:50017567",
    "source": "hackernews",
    "title": "Snyk is reporting false CVE",
@@ -8909,6 +11323,26 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxgbabzh6b2m",
+   "source": "bluesky",
+   "title": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mxgbabzh6b2m",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mxgbabzh6b2m",
+   "points": 6,
+   "comments": 0,
+   "created": "2026-10-09T05:41:24Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-09T05:41:24Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "zero_day_mention"
     }
    ]
   },
@@ -9456,6 +11890,26 @@
    ]
   },
   {
+   "id": "blog:https://blog.talosintelligence.com/microsoft-adobe-apple-and-foxit-vulnerabilities/",
+   "source": "blog.talosintelligence.com",
+   "title": "Microsoft, Adobe, Apple, and Foxit vulnerabilities",
+   "url": "https://blog.talosintelligence.com/microsoft-adobe-apple-and-foxit-vulnerabilities/",
+   "discussion": "https://blog.talosintelligence.com/microsoft-adobe-apple-and-foxit-vulnerabilities/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-07T19:27:08Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-07T19:27:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-pq68-rvw4-xp4r",
    "source": "github-advisory",
    "title": "vm2 contains a sandbox escape vulnerability (npm/vm2)",
@@ -9805,6 +12259,30 @@
    ]
   },
   {
+   "id": "blog:https://www.rapid7.com/blog/post/etr-cve-2026-21589-critical-unauthenticated-arbitrary-file-access-in-atlassian-products",
+   "source": "rapid7.com",
+   "title": "CVE-2026-21589: Critical unauthenticated arbitrary file access in Atlassian products",
+   "url": "https://www.rapid7.com/blog/post/etr-cve-2026-21589-critical-unauthenticated-arbitrary-file-access-in-atlassian-products",
+   "discussion": "https://www.rapid7.com/blog/post/etr-cve-2026-21589-critical-unauthenticated-arbitrary-file-access-in-atlassian-products",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-07T12:11:26Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-21589"
+   ],
+   "kev": [
+    "CVE-2026-21589"
+   ],
+   "first_seen": "2026-10-07T12:11:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:21:33Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
    "id": "hn:49990775",
    "source": "hackernews",
    "title": "AWS Uses AI to Tame Linux CVEs",
@@ -9883,6 +12361,30 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://labs.watchtowr.com/you-wont-hear-about-these-even-in-myths-atlassian-jira-confluence-and-more-pre-auth-arbitrary-file-read-cve-2026-21589/",
+   "source": "labs.watchtowr.com",
+   "title": "You Won’t Hear About These, Even In Myths (Atlassian Jira, Confluence (and more) Pre-Auth Arbitrary File Read CVE-2026-21589)",
+   "url": "https://labs.watchtowr.com/you-wont-hear-about-these-even-in-myths-atlassian-jira-confluence-and-more-pre-auth-arbitrary-file-read-cve-2026-21589/",
+   "discussion": "https://labs.watchtowr.com/you-wont-hear-about-these-even-in-myths-atlassian-jira-confluence-and-more-pre-auth-arbitrary-file-read-cve-2026-21589/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-06T17:01:36Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-21589"
+   ],
+   "kev": [
+    "CVE-2026-21589"
+   ],
+   "first_seen": "2026-10-06T17:01:36Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -11932,6 +14434,26 @@
    ]
   },
   {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-751/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-751: Microsoft Windows dxgkrnl Time-Of-Check Time-Of-Use Local Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-751/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-751/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-01T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-01T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "lobsters:f6dogm",
    "source": "lobsters",
    "title": "ESXi Exploitation in the Wild",
@@ -12189,6 +14711,46 @@
    ]
   },
   {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-750/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-750: WatchGuard FireWare OS spamd statushdlr Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-750/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-750/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-30T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-30T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-749/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-749: WatchGuard FireWare OS samld SAMLSession Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-749/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-749/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-30T05:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-30T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:49903923",
    "source": "hackernews",
    "title": "New LiteLLM Vulnerability: Privilege Escalation to Proxy Admin and RCE",
@@ -12435,6 +14997,30 @@
    ]
   },
   {
+   "id": "blog:https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/",
+   "source": "labs.watchtowr.com",
+   "title": "Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772)",
+   "url": "https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/",
+   "discussion": "https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-29T13:55:35Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-88772"
+   ],
+   "kev": [
+    "CVE-2026-88772"
+   ],
+   "first_seen": "2026-09-29T13:55:35Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
    "id": "hn:49891817",
    "source": "hackernews",
    "title": "Realistic RCE Exploit Chain in OpenBao and Vault",
@@ -12539,6 +15125,26 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+   "source": "github.blog",
+   "title": "How we found 24 Android vulnerabilities using our open source AI security agent",
+   "url": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+   "discussion": "https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-28T19:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-28T19:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "security_news"
     }
    ]
   },
@@ -12667,6 +15273,30 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/",
+   "source": "labs.watchtowr.com",
+   "title": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771)",
+   "url": "https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/",
+   "discussion": "https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-28T10:55:54Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-88771"
+   ],
+   "kev": [
+    "CVE-2026-88771"
+   ],
+   "first_seen": "2026-09-28T10:55:54Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T09:17:41Z",
+     "label": "kev_exploited"
     }
    ]
   },

@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from email.utils import format_datetime
 from xml.sax.saxutils import escape
 
-from . import classify, judge, sources, topics
+from . import classify, feeds, judge, sources, topics, xsource
 
 DOCS = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "docs")
 FEED_JSON = os.path.join(DOCS, "feed.json")
@@ -56,14 +56,15 @@ def merge(existing, fresh, ts):
     return items[:KEEP]
 
 
-FORUM_SOURCES = ("hackernews", "lobsters")
+# Everything else is first-party data or ID-only, and is never reclassified from a title.
+FIRST_PARTY = ("cisa-kev", "nodejs", "gitlab", "github-advisory", "github-poc", "x")
 
 
 def reclassify(existing, kev, ts):
     """Re-run the rules on stored forum items so a rule change also fixes old labels."""
     for key in list(existing):
         item = existing[key]
-        if item["source"] not in FORUM_SOURCES:
+        if item["source"] in FIRST_PARTY:
             continue
         c = classify.classify(item, kev)
         if c is None:
@@ -115,8 +116,10 @@ def main(argv=None):
         raw = sources.fetch_hn(hours=days * 24, pages=20) + sources.fetch_lobsters(pages=15)
     else:
         raw = sources.fetch_hn() + sources.fetch_lobsters()
+    raw += feeds.fetch_blogs(days or 3) + feeds.fetch_bluesky(days or 3)
     fresh = [c for c in (classify.classify(i, kev) for i in raw) if c]
     fresh += sources.kev_items(entries, days or 3)
+    fresh += xsource.fetch_x(kev)
     for adv in sources.fetch_vendor_advisories(days or 14) + sources.fetch_github(days or 14, pages=5 if days else 1):
         in_kev = [c for c in adv["cves"] if c in kev]
         if in_kev:

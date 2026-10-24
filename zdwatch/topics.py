@@ -26,7 +26,7 @@ STOP = set(
     systems access service services version versions install latest latest-version out all how why who can now
     tell upcoming being compromised disclosure global affects affecting target targets targeted targeting
     again still while where between through against under without within across before during every other
-    people company companies research researchers million billion memory exploitation
+    mentioning post posts people company companies research researchers million billion memory exploitation
     january february march april june july august september october november december
     """.split()
 )

@@ -24,10 +24,11 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GITHUB_TOKEN: ${{ github.token }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
       - name: Commit feed
         run: |
           git config user.name "zeroday-watch[bot]"
           git config user.email "actions@users.noreply.github.com"
-          git add docs
+          git add docs state
           git diff --cached --quiet || git commit -m "chore: update feed"
           git push

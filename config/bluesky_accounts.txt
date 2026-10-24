@@ -1,0 +1,7 @@
+# One Bluesky handle per line. Public AppView, no login. Add researchers you trust.
+bleepingcomputer.com
+rapid7.com
+wiz.io
+troyhunt.com
+malwaretech.com
+projectzero.bsky.social

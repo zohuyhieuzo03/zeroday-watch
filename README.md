@@ -14,9 +14,18 @@ Feed (updated hourly by GitHub Actions):
 - Lobsters (`/t/security.json`)
 - Node.js security releases (official vulnerability feed) and GitLab patch releases (official Atom feed); labelled `vendor_advisory`, with `severity` (GitLab: "critical" from the title; Node.js: highest severity stated in the post)
 - GitHub Security Advisories (reviewed; critical, plus high for the last 3 days) as `vendor_advisory`, and public repos named for a CVE (`github-poc`, labelled `public_exploit_reported`, stars as points). A repo existing is not evidence of exploitation.
+- Researcher blogs and news sites over RSS/Atom, list in [`config/blog_feeds.txt`](config/blog_feeds.txt) (titles and links only)
+- Bluesky accounts through the public AppView, list in [`config/bluesky_accounts.txt`](config/bluesky_accounts.txt) (short post text and link; reposts skipped)
+- X, optional, official API only, off unless the `X_BEARER_TOKEN` secret is set. See "X" below.
 - CISA KEV catalog, read from the [`cisagov/kev-data`](https://github.com/cisagov/kev-data) mirror
 
 Only titles, links and counters are stored. No post bodies, no usernames, nothing from closed forums.
+
+## X
+
+X's developer terms allow a third party to redistribute Post IDs, not content. So the X source is ID-only: post text is read into memory, run through the same rules, and dropped. The feed keeps `x.com/i/status/<id>`, our own label, CVE ids found in the post and a neutral title ("X post mentioning CVE-…"). No text, handles or counts are stored, and the LLM judge never sees X text. A post alone cannot become `kev_exploited`; only a CVE that CISA KEV lists can.
+
+Cost is pay-per-use ($0.005 per post read at the time of writing, see [docs.x.com](https://docs.x.com/x-api/getting-started/pricing)). `ZDW_X_MAX_POSTS` (default 200) caps posts read per run, and the cursor in `state/x_state.json` makes every run fetch only new posts. Put numeric user ids in [`config/x_user_ids.txt`](config/x_user_ids.txt). This project is independent of X. See `x-data-access-research.md` in the author's notes for the full reasoning; scraping X is deliberately not supported.
 
 ## Labels
 
