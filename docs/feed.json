@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T20:44:01Z",
- "count": 1145,
+ "generated": "2026-10-24T23:10:09Z",
+ "count": 1149,
  "topics": [
   {
    "name": "php2shell",
-   "threads": 28,
+   "threads": 30,
    "repos": 24,
-   "points": 955,
+   "points": 956,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -15,7 +15,7 @@
     "CVE-2026-115560",
     "CVE-2026-10961"
    ],
-   "last_seen": "2026-10-23T23:51:26Z",
+   "last_seen": "2026-10-24T22:48:29Z",
    "items": [
     "ghpoc:ikow/php2shell-poc",
     "ghpoc:eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
@@ -33,8 +33,8 @@
     "ghpoc:dinosn/php-cve-2026-10961x-lab-poc",
     "ghpoc:JoasASantos/php2shell-scanner",
     "ghpoc:Anton-Barinov/php2shell-patches",
-    "ghpoc:murrez/php2shell",
     "ghpoc:pentestershell/php2shellbt",
+    "ghpoc:murrez/php2shell",
     "ghpoc:aancw/php2shell-scanner",
     "ghpoc:aarsaputra/php2shell",
     "ghpoc:Qsnh/php2shell-fixed",
@@ -119,7 +119,7 @@
    "name": "curl",
    "threads": 5,
    "repos": 0,
-   "points": 108,
+   "points": 109,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -171,21 +171,6 @@
    ]
   },
   {
-   "name": "Amazon",
-   "threads": 3,
-   "repos": 0,
-   "points": 276,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-22T11:50:36Z",
-   "items": [
-    "hn:50194070",
-    "hn:50189623",
-    "hn:50190069"
-   ]
-  },
-  {
    "name": "drop",
    "threads": 3,
    "repos": 0,
@@ -221,7 +206,7 @@
    "name": "Android",
    "threads": 3,
    "repos": 0,
-   "points": 51,
+   "points": 53,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -284,22 +269,24 @@
    ]
   },
   {
-   "name": "bypass",
+   "name": "Crafted",
    "threads": 4,
    "repos": 0,
    "points": 0,
-   "kev": true,
+   "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-115748",
-    "CVE-2026-102764"
+    "CVE-2025-60493",
+    "CVE-2025-60497",
+    "CVE-2025-60494",
+    "CVE-2025-60492"
    ],
-   "last_seen": "2026-10-23T13:51:09Z",
+   "last_seen": "2026-10-24T22:29:50Z",
    "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/357",
-    "blog:https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-    "blog:https://www.rapid7.com/blog/post/ve-authentication-bypass-remote-code-execution-and-database-read-in-eptura-archibus-fixed",
-    "blog:https://www.rapid7.com/blog/post/etr-cve-2026-102764-critical-beyondtrust-remote-support-authentication-bypass-exploited-in-the-wild"
+    "blog:https://seclists.org/oss-sec/2026/q4/377",
+    "blog:https://seclists.org/oss-sec/2026/q4/355",
+    "blog:https://seclists.org/oss-sec/2026/q4/354",
+    "blog:https://seclists.org/oss-sec/2026/q4/353"
    ]
   },
   {
@@ -315,6 +302,25 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myi6azw3tt2m",
     "hn:50212304",
     "blog:https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
+   ]
+  },
+  {
+   "name": "Apache",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111813",
+    "CVE-2026-115748",
+    "CVE-2026-115721"
+   ],
+   "last_seen": "2026-10-24T22:23:33Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/374",
+    "blog:https://seclists.org/oss-sec/2026/q4/357",
+    "blog:https://seclists.org/oss-sec/2026/q4/356"
    ]
   },
   {
@@ -335,34 +341,118 @@
    ]
   },
   {
-   "name": "crafted",
+   "name": "bypass",
    "threads": 3,
    "repos": 0,
    "points": 0,
-   "kev": false,
+   "kev": true,
    "vendor": false,
    "cves": [
-    "CVE-2025-60497",
-    "CVE-2025-60494",
-    "CVE-2025-60492"
+    "CVE-2026-102764"
    ],
-   "last_seen": "2026-10-23T13:45:18Z",
+   "last_seen": "2026-10-23T12:48:00Z",
    "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/355",
-    "blog:https://seclists.org/oss-sec/2026/q4/354",
-    "blog:https://seclists.org/oss-sec/2026/q4/353"
+    "blog:https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+    "blog:https://www.rapid7.com/blog/post/ve-authentication-bypass-remote-code-execution-and-database-read-in-eptura-archibus-fixed",
+    "blog:https://www.rapid7.com/blog/post/etr-cve-2026-102764-critical-beyondtrust-remote-support-authentication-bypass-exploited-in-the-wild"
    ]
   }
  ],
  "items": [
+  {
+   "id": "lobsters:9b14at",
+   "source": "lobsters",
+   "title": "An animated explainer of the PHP2Shell vulnerability",
+   "url": "https://www.youtube.com/watch?v=6Kz4bWKoXhU",
+   "discussion": "https://lobste.rs/s/9b14at/animated_explainer_php2shell",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-24T17:48:29.024-05:00",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-24T22:48:29Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T23:10:09Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/377",
+   "source": "seclists.org",
+   "title": "CVE-2025-60493: GPAC/MP4Box: NULL Pointer Dereference in check_media_profile via Crafted MP4 Input",
+   "url": "https://seclists.org/oss-sec/2026/q4/377",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/377",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-24T22:29:50Z",
+   "label": "related",
+   "cves": [
+    "CVE-2025-60493"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-24T22:29:50Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T23:10:09Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/376",
+   "source": "seclists.org",
+   "title": "PHP 5.4.23 (custom 5.4-5.6) backported patch for PHP2Shell OOM vulnerability (CVE-2026-109618)",
+   "url": "https://seclists.org/oss-sec/2026/q4/376",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/376",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-24T22:27:47Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-24T22:27:47Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T23:10:09Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/374",
+   "source": "seclists.org",
+   "title": "CVE-2026-111813 etc: Multiple vulnerabilities in Apache Traffic Server prior to 9.2.16/10.1.5/10.2.1",
+   "url": "https://seclists.org/oss-sec/2026/q4/374",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/374",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-24T22:23:33Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111813"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-24T22:23:33Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T23:10:09Z",
+     "label": "related"
+    }
+   ]
+  },
   {
    "id": "hn:50224269",
    "source": "hackernews",
    "title": "Ask HN: Find Vulns with Claude in OSS?",
    "url": "https://news.ycombinator.com/item?id=50224269",
    "discussion": "https://news.ycombinator.com/item?id=50224269",
-   "points": 1,
-   "comments": 0,
+   "points": 2,
+   "comments": 2,
    "created": "2026-10-24T19:24:52Z",
    "label": "security_news",
    "cves": [],
@@ -650,7 +740,7 @@
    "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
    "discussion": "https://lobste.rs/s/al3yyf/this_week_s_node2shell_brotli",
    "points": 6,
-   "comments": 5,
+   "comments": 6,
    "created": "2026-10-24T06:01:27.896-05:00",
    "label": "related",
    "cves": [
@@ -671,8 +761,8 @@
    "title": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
    "url": "https://gitlab.com/c4psu13/mali-pagecache-root",
    "discussion": "https://news.ycombinator.com/item?id=50220042",
-   "points": 48,
-   "comments": 13,
+   "points": 50,
+   "comments": 17,
    "created": "2026-10-24T10:51:35Z",
    "label": "kev_exploited",
    "cves": [
@@ -687,7 +777,25 @@
      "at": "2026-10-24T13:59:29Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
+    "at": "2026-10-24T23:10:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8872054791996972,
+      "exploited": 0.004070137327052315
+     },
+     "baseten/mammoth-1:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.6113252368285591,
+      "exploited": 0.11943943068026727
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "hn:50219355",
@@ -2664,7 +2772,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 57,
+   "points": 58,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "public_exploit_reported",
@@ -2794,8 +2902,8 @@
    "title": "Your Phone Is About to Stop Being Yours: 70 Days Until Lockdown",
    "url": "https://keepandroidopen.org/?",
    "discussion": "https://news.ycombinator.com/item?id=50208558",
-   "points": 523,
-   "comments": 368,
+   "points": 526,
+   "comments": 370,
    "created": "2026-10-23T13:19:42Z",
    "label": "security_news",
    "cves": [],
@@ -2914,7 +3022,7 @@
    "title": "Brotli vulnerability affects curl and Git",
    "url": "https://github.com/advisories/GHSA-9v8h-qqgm-4m35",
    "discussion": "https://news.ycombinator.com/item?id=50207180",
-   "points": 35,
+   "points": 36,
    "comments": 10,
    "created": "2026-10-23T11:10:53Z",
    "label": "security_news",
@@ -4325,7 +4433,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 166,
+   "points": 167,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "public_exploit_reported",
@@ -4528,7 +4636,7 @@
    "title": "aancw/php2shell-scanner: Scanner for PHP2Shell (CVE-2026-109618/109619): URL blackbox, local device and SSH.",
    "url": "https://github.com/aancw/php2shell-scanner",
    "discussion": "https://github.com/aancw/php2shell-scanner",
-   "points": 63,
+   "points": 67,
    "comments": 0,
    "created": "2026-10-22T09:45:34Z",
    "label": "public_exploit_reported",
@@ -4670,7 +4778,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 36,
+   "points": 38,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "public_exploit_reported",
@@ -4692,7 +4800,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 688,
+   "points": 721,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "public_exploit_reported",
@@ -5678,7 +5786,7 @@
    "title": "pentestershell/php2shellbt: Python scanner for CVE-2026-109618, CVE-2026-109619 and the php2shell session chains (handler mismatch + LFI). No external dependencies.",
    "url": "https://github.com/pentestershell/php2shellbt",
    "discussion": "https://github.com/pentestershell/php2shellbt",
-   "points": 69,
+   "points": 70,
    "comments": 0,
    "created": "2026-10-21T17:06:30Z",
    "label": "public_exploit_reported",
@@ -6659,7 +6767,7 @@
    "title": "HOSTED-POWER/php_uploadprogress_guard: Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component b",
    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
    "discussion": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-   "points": 143,
+   "points": 145,
    "comments": 0,
    "created": "2026-10-21T09:00:12Z",
    "label": "public_exploit_reported",
@@ -6745,7 +6853,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1751,
+   "points": 1753,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "public_exploit_reported",
@@ -7915,7 +8023,25 @@
      "at": "2026-10-24T09:21:33Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Rapid7 Analysis: NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779",
+    "at": "2026-10-24T23:10:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.7654279136651981,
+      "exploited": 0.9669140195852891
+     },
+     "baseten/mammoth-1:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.48764754175687974,
+      "exploited": 0.9300847988601366
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:https://www.rapid7.com/blog/post/etr-cve-2026-102764-critical-beyondtrust-remote-support-authentication-bypass-exploited-in-the-wild",
@@ -7939,7 +8065,25 @@
      "at": "2026-10-24T09:21:33Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-102764: Critical BeyondTrust Remote Support Authentication Bypass Exploited in the Wild",
+    "at": "2026-10-24T23:10:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.8854097866088928,
+      "exploited": 0.9998313471929694
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.6843287639133641,
+      "exploited": 0.9929422023499284
+     }
+    },
+    "consensus": "disputed",
+    "votes": 2
+   }
   },
   {
    "id": "hn:50152912",
@@ -8684,7 +8828,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "public_exploit_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing t",
+    "at": "2026-10-24T23:10:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.803483039541,
+      "exploited": 0.010986943450310378
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.4361853704714872,
+      "exploited": 0.0697214680380332
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "github-advisory:GHSA-h4mw-j7qp-8mwm",
@@ -9219,7 +9381,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocument",
+    "at": "2026-10-24T23:10:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.4767092606715391,
+      "exploited": 0.9982992777747542
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7571270319388601,
+      "exploited": 0.992056055634023
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 1
+   }
   },
   {
    "id": "github-advisory:GHSA-qx66-fv34-fjm8",
@@ -10113,7 +10293,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting",
+    "at": "2026-10-24T23:10:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9980749037914723,
+      "exploited": 0.9978172838888297
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9291611562390147,
+      "exploited": 0.9914442705472906
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:50095061",
@@ -10832,7 +11030,25 @@
      "at": "2026-10-24T09:21:33Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Ivanti Connect Secure zero-day exploited in the wild (CVE-2026-104935)",
+    "at": "2026-10-24T23:10:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9994898761716908,
+      "exploited": 0.999831347293281
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9780730372710202,
+      "exploited": 0.9932084150991791
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxrevbs3ep2j",
@@ -11917,7 +12133,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Death By A Thousand PaperCuts (PaperCut Pre-Auth RCE Chain and Patch Bypasses WT-2026-0141-0144/CVE-2026-82077/CVE-2026-82078/CVE-2026-81578)",
+    "at": "2026-10-24T23:10:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.897960505076903,
+      "exploited": 0.00857748508899669
+     },
+     "baseten/mammoth-1:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.22639004588563236,
+      "exploited": 0.13623874408917455
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxhi6cy4tx27",
@@ -26114,7 +26348,25 @@
      "at": "2026-10-24T02:10:38Z",
      "label": "public_exploit_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-49176 Exploit Development: WalletService to System",
+    "at": "2026-10-24T23:10:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8327846308901645,
+      "exploited": 0.015906391128680933
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.08380011745116697,
+      "exploited": 0.12376076753073822
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:49056689",
@@ -26160,7 +26412,25 @@
      "at": "2026-10-24T02:10:38Z",
      "label": "public_exploit_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-49176 Exploit Development: WalletService to SYSTEM",
+    "at": "2026-10-24T23:10:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.7330001519738416,
+      "exploited": 0.0159063898457867
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.10930017065010691,
+      "exploited": 0.09714596318031755
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:uibzl8",
