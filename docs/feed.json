@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T23:55:51Z",
+ "generated": "2026-10-24T00:06:41Z",
  "count": 15,
  "items": [
   {
@@ -22,7 +22,24 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "PHP2Shell (CVE-2026-109618): Zero-Downtime Mitigations and Upgrade Runbook",
+    "at": "2026-10-24T00:06:41Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9140958640096205,
+      "exploited": 0.0004583128398386248
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.29389753455471085,
+      "exploited": 0.013527566395153469
+     }
+    },
+    "consensus": "disputed"
+   }
   },
   {
    "id": "hn:50204912",
@@ -44,7 +61,24 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "PHP2Shell (CVE-2026-109618) Exploit",
+    "at": "2026-10-24T00:06:41Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.7771938322585705,
+      "exploited": 0.46879062662624377
+     },
+     "baseten/mammoth-1:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.06905463285080508,
+      "exploited": 0.2544300842658658
+     }
+    },
+    "consensus": "disputed"
+   }
   },
   {
    "id": "hn:50204287",
@@ -66,7 +100,24 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-107891: musl Libc: multiple integer overflow in regcomp",
+    "at": "2026-10-24T00:06:41Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8657590193202871,
+      "exploited": 0.0002165439863316677
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.5407732582740784,
+      "exploited": 0.0023610799715659755
+     }
+    },
+    "consensus": "disputed"
+   }
   },
   {
    "id": "hn:50203176",
@@ -88,7 +139,24 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-109619 PHP Sentinel",
+    "at": "2026-10-24T00:06:41Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9736627325680655,
+      "exploited": 0.0013250225305928786
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.5987706287893116,
+      "exploited": 0.004703559458321352
+     }
+    },
+    "consensus": "unclear"
+   }
   },
   {
    "id": "hn:50200681",
@@ -112,7 +180,24 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Taking 'execute logging' a bit too seriously – CVE-2026-88771",
+    "at": "2026-10-24T00:06:41Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9564566405783048,
+      "exploited": 0.0009110512181365126
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.2461472882180618,
+      "exploited": 0.020068871880449844
+     }
+    },
+    "consensus": "unclear"
+   }
   },
   {
    "id": "hn:50200407",
@@ -134,7 +219,24 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Bind CVE-2026-94300: Concurrent GSS-TSIG messages corrupt memory",
+    "at": "2026-10-24T00:06:41Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.5630105727735494,
+      "exploited": 0.00040448152664818604
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.42088763418082115,
+      "exploited": 0.016012459790569054
+     }
+    },
+    "consensus": "disputed"
+   }
   },
   {
    "id": "hn:50198865",
@@ -157,7 +259,24 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Unraid updated to patch CVE-2026-109618 and CVE-2026-109619",
+    "at": "2026-10-24T00:06:41Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "not_exploited",
+      "confidence": 0.9620880682043992,
+      "exploited": 0.00016865278052951934
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.7091142241273368,
+      "exploited": 0.004306992338058846
+     }
+    },
+    "consensus": "not_exploited"
+   }
   },
   {
    "id": "hn:50193957",
@@ -180,7 +299,24 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Hetzner: PHP security issues CVE-2026-109618 and CVE-2026-109619",
+    "at": "2026-10-24T00:06:41Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9396721605769051,
+      "exploited": 0.0002611903080306245
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.45355898063965816,
+      "exploited": 0.0048976004470281985
+     }
+    },
+    "consensus": "disputed"
+   }
   },
   {
    "id": "hn:50193330",
@@ -202,7 +338,24 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Vitest Dev Server Secret Leak (CVE-2026-112948)",
+    "at": "2026-10-24T00:06:41Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9235008199022784,
+      "exploited": 0.0006263341113273803
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.325445878454192,
+      "exploited": 0.019428175953537994
+     }
+    },
+    "consensus": "disputed"
+   }
   },
   {
    "id": "hn:50192900",
@@ -224,7 +377,24 @@
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-111943: Compromised Intermediate Certificate Authority",
+    "at": "2026-10-24T00:06:41Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9438791050493563,
+      "exploited": 0.042087728816759526
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.10714395985576726,
+      "exploited": 0.5397210570899522
+     }
+    },
+    "consensus": "disputed"
+   }
   },
   {
    "id": "hn:50192733",
