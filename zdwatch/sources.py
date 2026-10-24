@@ -1,22 +1,40 @@
 """Fetchers for public sources. Only metadata (title, link, counters) is kept."""
+import html
 import json
+import re
 import time
-import urllib.parse
+import urllib.error
 import urllib.request
+import xml.etree.ElementTree as ET
+from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+import urllib.parse
 
 UA = "zeroday-watch/0.1 (+https://github.com/zohuyhieuzo03/zeroday-watch)"
 KEV_URL = (
     "https://raw.githubusercontent.com/cisagov/kev-data/main/"
     "known_exploited_vulnerabilities.json"
 )
-HN_QUERIES = ["0day", "zero-day", "exploited in the wild", "CVE-2026", "actively exploited"]
+HN_QUERIES = ["0day", "zero-day", "exploited in the wild", "CVE-2026", "actively exploited", "exploit", "RCE"]
 LOBSTERS_URL = "https://lobste.rs/t/security%s.json"
 
 
-def _get_json(url):
+def _open(url, timeout):
+    """GET with 3 attempts; transient TLS/DNS hiccups are common on CI and laptops."""
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.load(resp)
+    for attempt in range(3):
+        try:
+            return urllib.request.urlopen(req, timeout=timeout).read()
+        except urllib.error.HTTPError:
+            raise  # a real HTTP answer will not change on retry
+        except OSError:
+            if attempt == 2:
+                raise
+            time.sleep(2 * (attempt + 1))
+
+
+def _get_json(url):
+    return json.loads(_open(url, 30))
 
 
 def fetch_kev_full():
@@ -110,3 +128,81 @@ def fetch_lobsters(pages=1):
                 "created": s.get("created_at"),
             }
     return list(out.values())
+
+
+NODE_FEED = "https://nodejs.org/en/feed/vulnerability.xml"
+GITLAB_FEED = "https://about.gitlab.com/security-releases.xml"
+CVE_FIND = re.compile(r"CVE-\d{4}-\d{4,7}", re.I)
+ATOM = "{http://www.w3.org/2005/Atom}"
+
+
+def _get_text(url, timeout=120):
+    return _open(url, timeout).decode("utf-8", "replace")
+
+
+def _iso(dt):
+    return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def _advisory(source, key, title, url, created, cves, severity):
+    return {
+        "id": "%s:%s" % (source, key),
+        "source": source,
+        "title": title,
+        "url": url,
+        "discussion": url,
+        "points": 0,
+        "comments": 0,
+        "created": created,
+        "label": "vendor_advisory",
+        "cves": sorted({c.upper() for c in cves})[:40],
+        "kev": [],
+        "severity": severity,
+    }
+
+
+def fetch_node_advisories(days):
+    """Node.js security releases (official vulnerability feed + each post's CVE list)."""
+    cutoff = time.time() - days * 86400
+    out = []
+    for it in ET.fromstring(_get_text(NODE_FEED)).findall("./channel/item"):
+        when = parsedate_to_datetime(it.findtext("pubDate"))
+        if when.timestamp() < cutoff:
+            continue
+        link = it.findtext("link")
+        try:
+            page = _get_text(link, timeout=30)
+        except Exception as exc:
+            print("node advisory %s failed: %s" % (link, exc))
+            continue
+        text = html.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"<script.*?</script>|<style.*?</style>", "", page, flags=re.S)))
+        m = re.search(r"highest severity issue fixed in this release is (\w+)", text, re.I)
+        out.append(_advisory("nodejs", link.rstrip("/").rsplit("/", 1)[-1], "Node.js: " + it.findtext("title"),
+                             link, _iso(when), CVE_FIND.findall(text), m.group(1).lower() if m else None))
+    return out
+
+
+def fetch_gitlab_advisories(days):
+    """GitLab patch releases (security-releases Atom feed); "Critical" is in the title."""
+    cutoff = time.time() - days * 86400
+    out = []
+    for e in ET.fromstring(_get_text(GITLAB_FEED)).findall(ATOM + "entry"):
+        when = datetime.fromisoformat((e.findtext(ATOM + "published") or "").replace("Z", "+00:00"))
+        if when.timestamp() < cutoff:
+            continue
+        title = e.findtext(ATOM + "title") or ""
+        link = e.find(ATOM + "link").attrib.get("href")
+        sev = "critical" if title.lower().startswith("gitlab critical") else None
+        out.append(_advisory("gitlab", link.rstrip("/").rsplit("/", 1)[-1], title, link, _iso(when),
+                             CVE_FIND.findall(e.findtext(ATOM + "content") or ""), sev))
+    return out
+
+
+def fetch_vendor_advisories(days):
+    out = []
+    for fn in (fetch_node_advisories, fetch_gitlab_advisories):
+        try:
+            out += fn(days)
+        except Exception as exc:  # a broken vendor feed must not sink the run
+            print("%s failed: %s" % (fn.__name__, exc))
+    return out

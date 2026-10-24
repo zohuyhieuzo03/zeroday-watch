@@ -3,6 +3,7 @@
 kev_exploited      CVE is in CISA KEV (exploited in the wild; KEV does not say 0-day vs n-day)
 zero_day_reported  title says zero-day AND exploitation/no-patch language (a claim, unconfirmed)
 exploited_reported title says exploited in the wild, no zero-day wording
+public_exploit_reported  CVE in title plus "exploit"/PoC wording: exploit code exists, in-the-wild use NOT claimed
 zero_day_mention   zero-day wording only (rumor / discussion)
 related            has a CVE id but no exploitation signal; kept for context
 None               not relevant, dropped
@@ -15,6 +16,9 @@ EXPLOIT_RE = re.compile(
     r"(exploited in the wild|actively exploited|being exploited|exploited as|"
     r"in[- ]the[- ]wild|no patch|unpatched|unfixed)",
     re.I,
+)
+PUBLIC_EXPLOIT_RE = re.compile(
+    r"(\bexploits?\b|proof[- ]of[- ]concept|\bpoc\b|weaponi[sz]ed)", re.I
 )
 
 
@@ -31,6 +35,8 @@ def classify(item, kev):
         label = "zero_day_reported"
     elif exploit and cves:
         label = "exploited_reported"
+    elif cves and PUBLIC_EXPLOIT_RE.search(text):
+        label = "public_exploit_reported"
     elif zero:
         label = "zero_day_mention"
     elif cves:

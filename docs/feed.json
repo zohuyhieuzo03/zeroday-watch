@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-24T02:04:38Z",
- "count": 263,
+ "generated": "2026-10-24T02:14:44Z",
+ "count": 281,
  "items": [
   {
    "id": "hn:50205084",
@@ -51,7 +51,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-10-23T05:48:32Z",
-   "label": "related",
+   "label": "public_exploit_reported",
    "cves": [
     "CVE-2026-109618"
    ],
@@ -61,6 +61,10 @@
     {
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-24T02:10:38Z",
+     "label": "public_exploit_reported"
     }
    ],
    "llm": {
@@ -677,6 +681,43 @@
    ]
   },
   {
+   "id": "nodejs:october-2026-security-releases",
+   "source": "nodejs",
+   "title": "Node.js: Wednesday, October 21, 2026 Security Releases",
+   "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+   "discussion": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-21T22:00:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-105481",
+    "CVE-2026-105482",
+    "CVE-2026-105483",
+    "CVE-2026-106069",
+    "CVE-2026-106070",
+    "CVE-2026-106071",
+    "CVE-2026-106072",
+    "CVE-2026-106073",
+    "CVE-2026-106074",
+    "CVE-2026-111497",
+    "CVE-2026-21715",
+    "CVE-2026-48618",
+    "CVE-2026-48930",
+    "CVE-2026-48931",
+    "CVE-2026-58043"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-21T22:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "hn:50187708",
    "source": "hackernews",
    "title": "PHP web runtimes (CVE-2026-109618 and CVE-2026-109619)",
@@ -776,7 +817,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-10-21T11:14:24Z",
-   "label": "related",
+   "label": "public_exploit_reported",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
@@ -787,6 +828,10 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-24T02:10:38Z",
+     "label": "public_exploit_reported"
     }
    ]
   },
@@ -874,6 +919,40 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "gitlab:patch-release-gitlab-19-5-1-released",
+   "source": "gitlab",
+   "title": "GitLab Critical Patch Release: 19.5.1, 19.4.3, 19.3.6, 19.2.9, 19.1.9, 19.0.10, 18.11.13",
+   "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+   "discussion": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-5-1-released/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-21T00:00:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-103515",
+    "CVE-2026-105711",
+    "CVE-2026-105777",
+    "CVE-2026-110264",
+    "CVE-2026-112212",
+    "CVE-2026-112326",
+    "CVE-2026-112378",
+    "CVE-2026-12664",
+    "CVE-2026-13319",
+    "CVE-2026-14288",
+    "CVE-2026-15723",
+    "CVE-2026-16255"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-10-21T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "vendor_advisory"
     }
    ]
   },
@@ -1138,7 +1217,7 @@
    "points": 1,
    "comments": 1,
    "created": "2026-10-19T08:40:18Z",
-   "label": "related",
+   "label": "public_exploit_reported",
    "cves": [
     "CVE-2026-108707"
    ],
@@ -1148,6 +1227,10 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-24T02:10:38Z",
+     "label": "public_exploit_reported"
     }
    ]
   },
@@ -1204,7 +1287,7 @@
    "points": 1,
    "comments": 1,
    "created": "2026-10-18T12:13:48Z",
-   "label": "related",
+   "label": "public_exploit_reported",
    "cves": [
     "CVE-2026-55562"
    ],
@@ -1214,6 +1297,10 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-24T02:10:38Z",
+     "label": "public_exploit_reported"
     }
    ]
   },
@@ -1226,7 +1313,7 @@
    "points": 1,
    "comments": 1,
    "created": "2026-10-18T07:43:03Z",
-   "label": "related",
+   "label": "public_exploit_reported",
    "cves": [
     "CVE-2026-111391"
    ],
@@ -1236,6 +1323,10 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-24T02:10:38Z",
+     "label": "public_exploit_reported"
     }
    ]
   },
@@ -1776,6 +1867,52 @@
    ]
   },
   {
+   "id": "gitlab:patch-release-gitlab-19-4-2-released",
+   "source": "gitlab",
+   "title": "GitLab Critical Patch Release: 19.4.2, 19.3.5, 19.2.8",
+   "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/",
+   "discussion": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-12T00:00:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-100104",
+    "CVE-2026-100755",
+    "CVE-2026-101168",
+    "CVE-2026-103549",
+    "CVE-2026-104661",
+    "CVE-2026-105458",
+    "CVE-2026-14210",
+    "CVE-2026-14552",
+    "CVE-2026-14814",
+    "CVE-2026-16275",
+    "CVE-2026-16301",
+    "CVE-2026-5954",
+    "CVE-2026-6567",
+    "CVE-2026-7767",
+    "CVE-2026-78335",
+    "CVE-2026-81839",
+    "CVE-2026-82632",
+    "CVE-2026-84284",
+    "CVE-2026-85529",
+    "CVE-2026-92528",
+    "CVE-2026-9268",
+    "CVE-2026-92883",
+    "CVE-2026-96893",
+    "CVE-2026-97229"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-10-12T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "hn:50049062",
    "source": "hackernews",
    "title": "Show HN: SecuBuzz – Factual 60-word cybersecurity briefs and CISA zero-day radar",
@@ -2264,6 +2401,29 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "gitlab:patch-release-gitlab-ai-gateway-19-4-1-released",
+   "source": "gitlab",
+   "title": "GitLab AI Gateway Critical Patch Release: 19.2.4, 19.3.2, and 19.4.1",
+   "url": "https://docs.gitlab.com/releases/patches/other-patches/patch-release-gitlab-ai-gateway-19-4-1-released/",
+   "discussion": "https://docs.gitlab.com/releases/patches/other-patches/patch-release-gitlab-ai-gateway-19-4-1-released/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-02T00:00:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-90970"
+   ],
+   "kev": [],
+   "severity": null,
+   "first_seen": "2026-10-02T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "vendor_advisory"
     }
    ]
   },
@@ -3036,6 +3196,65 @@
    ]
   },
   {
+   "id": "gitlab:patch-release-gitlab-19-0-9-released",
+   "source": "gitlab",
+   "title": "GitLab Critical Patch Release: 19.0.9, 18.11.12",
+   "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-9-released/",
+   "discussion": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-0-9-released/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-23T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-85706",
+    "CVE-2026-87719"
+   ],
+   "kev": [
+    "CVE-2026-85706"
+   ],
+   "severity": "critical",
+   "first_seen": "2026-09-23T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "gitlab:patch-release-gitlab-19-4-1-released",
+   "source": "gitlab",
+   "title": "GitLab Critical Patch Release: 19.4.1, 19.3.3, 19.2.7",
+   "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-1-released/",
+   "discussion": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-1-released/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-23T00:00:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-10518",
+    "CVE-2026-4523",
+    "CVE-2026-84739",
+    "CVE-2026-89078",
+    "CVE-2026-8937",
+    "CVE-2026-92470",
+    "CVE-2026-92529",
+    "CVE-2026-92530",
+    "CVE-2026-92628",
+    "CVE-2026-92874",
+    "CVE-2026-93577"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-09-23T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "hn:49806050",
    "source": "hackernews",
    "title": "Zero-downtime Linux kernel zero-day mitigation via eBPF and SECCOMP",
@@ -3650,6 +3869,26 @@
    ]
   },
   {
+   "id": "hn:49649324",
+   "source": "hackernews",
+   "title": "Serial Microsoft 0-day hunter drops yet another Defender exploit",
+   "url": "https://www.theregister.com/security/2026/09/09/serial-microsoft-0-day-hunter-drops-yet-another-defender-exploit/5295335",
+   "discussion": "https://news.ycombinator.com/item?id=49649324",
+   "points": 5,
+   "comments": 0,
+   "created": "2026-09-10T19:51:40Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-10T19:51:40Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:10:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
    "id": "kev:CVE-2026-86060",
    "source": "cisa-kev",
    "title": "CVE-2026-86060: MikroTik RouterOS - MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
@@ -3693,6 +3932,48 @@
    "label_history": [
     {
      "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "gitlab:patch-release-gitlab-19-3-2-released",
+   "source": "gitlab",
+   "title": "GitLab Critical Patch Release: 19.3.2, 19.2.6, 19.1.8",
+   "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/",
+   "discussion": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-10T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2024-11222",
+    "CVE-2025-14871",
+    "CVE-2026-1168",
+    "CVE-2026-12910",
+    "CVE-2026-13210",
+    "CVE-2026-16794",
+    "CVE-2026-19619",
+    "CVE-2026-3855",
+    "CVE-2026-7514",
+    "CVE-2026-78252",
+    "CVE-2026-79708",
+    "CVE-2026-8030",
+    "CVE-2026-82837",
+    "CVE-2026-85706",
+    "CVE-2026-86340",
+    "CVE-2026-86341",
+    "CVE-2026-87719",
+    "CVE-2026-88765"
+   ],
+   "kev": [
+    "CVE-2026-85706"
+   ],
+   "severity": "critical",
+   "first_seen": "2026-09-10T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
      "label": "kev_exploited"
     }
    ]
@@ -4346,6 +4627,26 @@
    ]
   },
   {
+   "id": "hn:49456884",
+   "source": "hackernews",
+   "title": "Log4j2 0-Day",
+   "url": "https://github.com/hypnguyen1209/log4j2-rce/",
+   "discussion": "https://news.ycombinator.com/item?id=49456884",
+   "points": 4,
+   "comments": 1,
+   "created": "2026-08-26T22:39:53Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-26T22:39:53Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
    "id": "kev:CVE-2021-23758",
    "source": "cisa-kev",
    "title": "CVE-2021-23758: Ajax.NET Professional Ajax.NET Professional - Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
@@ -4490,6 +4791,35 @@
    ]
   },
   {
+   "id": "gitlab:patch-release-gitlab-19-3-1-released",
+   "source": "gitlab",
+   "title": "GitLab Patch Release: 19.3.1, 19.2.5, 19.1.7",
+   "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-1-released/",
+   "discussion": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-1-released/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-26T00:00:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2025-10903",
+    "CVE-2026-15387",
+    "CVE-2026-18252",
+    "CVE-2026-3035",
+    "CVE-2026-4398",
+    "CVE-2026-7487",
+    "CVE-2026-77801"
+   ],
+   "kev": [],
+   "severity": null,
+   "first_seen": "2026-08-26T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "hn:49441617",
    "source": "hackernews",
    "title": "CVE-2026-18963 – Keycloak Reset-Credentials Bypass → Account Takeover",
@@ -4628,6 +4958,26 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49368297",
+   "source": "hackernews",
+   "title": "\"Half-Day\": 0-Day in the Age of AI",
+   "url": "https://margin.re/2026/08/introducing-the-half-day-0-day-in-the-age-of-ai/",
+   "discussion": "https://news.ycombinator.com/item?id=49368297",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-08-19T23:03:53Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-19T23:03:53Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:10:38Z",
+     "label": "zero_day_mention"
     }
    ]
   },
@@ -4882,6 +5232,30 @@
    ]
   },
   {
+   "id": "gitlab:patch-release-gitlab-19-2-4-released",
+   "source": "gitlab",
+   "title": "GitLab Critical Patch Release: 19.2.4, 19.1.6, 19.0.8, 18.11.11",
+   "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-4-released/",
+   "discussion": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-4-released/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-17T00:00:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-19478",
+    "CVE-2026-19650"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-08-17T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "lobsters:0emxj9",
    "source": "lobsters",
    "title": "CVE-2026-33696: From a Schema Name to RCE in n8n",
@@ -5088,6 +5462,42 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "gitlab:patch-release-gitlab-19-2-2-released",
+   "source": "gitlab",
+   "title": "GitLab Patch Release: 19.2.2, 19.1.4, 19.0.6",
+   "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-2-released/",
+   "discussion": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-2-released/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-12T00:00:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2025-9486",
+    "CVE-2026-10053",
+    "CVE-2026-15216",
+    "CVE-2026-15217",
+    "CVE-2026-15423",
+    "CVE-2026-16494",
+    "CVE-2026-16627",
+    "CVE-2026-18244",
+    "CVE-2026-18433",
+    "CVE-2026-19228",
+    "CVE-2026-4879",
+    "CVE-2026-6821",
+    "CVE-2026-7427",
+    "CVE-2026-8667"
+   ],
+   "kev": [],
+   "severity": null,
+   "first_seen": "2026-08-12T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "vendor_advisory"
     }
    ]
   },
@@ -5314,6 +5724,26 @@
    ]
   },
   {
+   "id": "hn:49206130",
+   "source": "hackernews",
+   "title": "Framework discloses data breach via Metabase 0-day",
+   "url": "https://community.frame.work/t/framework-data-breach-discussion/83939",
+   "discussion": "https://news.ycombinator.com/item?id=49206130",
+   "points": 149,
+   "comments": 60,
+   "created": "2026-08-07T05:17:57Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-07T05:17:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
    "id": "kev:CVE-2026-8037",
    "source": "cisa-kev",
    "title": "CVE-2026-8037: Progress LoadMaster - Progress LoadMaster Command Injection Vulnerability",
@@ -5338,6 +5768,26 @@
    ]
   },
   {
+   "id": "hn:49203763",
+   "source": "hackernews",
+   "title": "0-day security update available for Metabase",
+   "url": "https://www.metabase.com/blog/security-update",
+   "discussion": "https://news.ycombinator.com/item?id=49203763",
+   "points": 10,
+   "comments": 1,
+   "created": "2026-08-06T22:56:18Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-06T22:56:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
    "id": "hn:49198843",
    "source": "hackernews",
    "title": "Zapscape (CVE-2026-64561): Guest-to-Host Escape in KVM/x86",
@@ -5356,6 +5806,27 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "gitlab:patch-release-gitlab-18-11-9-released",
+   "source": "gitlab",
+   "title": "GitLab Patch Release: 18.11.9",
+   "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-9-released/",
+   "discussion": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-9-released/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-06T00:00:00Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": null,
+   "first_seen": "2026-08-06T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "vendor_advisory"
     }
    ]
   },
@@ -5714,6 +6185,75 @@
    ]
   },
   {
+   "id": "nodejs:july-2026-security-releases",
+   "source": "nodejs",
+   "title": "Node.js: Wednesday, July 29, 2026 Security Releases",
+   "url": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+   "discussion": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-07-29T00:00:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-48934",
+    "CVE-2026-56846",
+    "CVE-2026-56847",
+    "CVE-2026-56848",
+    "CVE-2026-56850",
+    "CVE-2026-58039",
+    "CVE-2026-58040",
+    "CVE-2026-58041",
+    "CVE-2026-58042",
+    "CVE-2026-58043",
+    "CVE-2026-58044",
+    "CVE-2026-58045"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-07-29T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "gitlab:patch-release-gitlab-19-2-1-released",
+   "source": "gitlab",
+   "title": "GitLab Patch Release: 19.2.1, 19.1.3, 19.0.5",
+   "url": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-1-released/",
+   "discussion": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-1-released/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-07-29T00:00:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2025-14562",
+    "CVE-2026-12436",
+    "CVE-2026-13113",
+    "CVE-2026-14341",
+    "CVE-2026-14351",
+    "CVE-2026-15077",
+    "CVE-2026-15831",
+    "CVE-2026-15975",
+    "CVE-2026-16553",
+    "CVE-2026-3093",
+    "CVE-2026-4672",
+    "CVE-2026-6267",
+    "CVE-2026-6336"
+   ],
+   "kev": [],
+   "severity": null,
+   "first_seen": "2026-07-29T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:14:44Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "hn:49082550",
    "source": "hackernews",
    "title": "Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)",
@@ -5810,7 +6350,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-07-26T12:46:08Z",
-   "label": "related",
+   "label": "public_exploit_reported",
    "cves": [
     "CVE-2026-49176"
    ],
@@ -5820,6 +6360,10 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-24T02:10:38Z",
+     "label": "public_exploit_reported"
     }
    ]
   },
@@ -5832,7 +6376,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-07-23T12:57:50.976-05:00",
-   "label": "related",
+   "label": "public_exploit_reported",
    "cves": [
     "CVE-2026-49176"
    ],
@@ -5842,6 +6386,10 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-24T02:10:38Z",
+     "label": "public_exploit_reported"
     }
    ]
   },

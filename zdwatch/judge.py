@@ -17,10 +17,11 @@ import urllib.request
 
 ENDPOINT = "https://openrouter.ai/api/alpha/decisions"
 DEFAULT_MODELS = "inception/mercury-decide:free,baseten/mammoth-1:free"
+PRIMARY_SOURCES = ("cisa-kev", "nodejs", "gitlab")  # first-party data, nothing to judge
 JUDGE_LABELS = ("zero_day", "n_day_exploited", "disclosed_unpatched", "not_exploited", "unclear")
 MIN_CONFIDENCE = 0.6
 # Spend the limited free quota on the claims that matter most first (sort is stable).
-PRIORITY = ["zero_day_reported", "zero_day_mention", "exploited_reported", "kev_exploited", "related"]
+PRIORITY = ["zero_day_reported", "zero_day_mention", "exploited_reported", "public_exploit_reported", "kev_exploited", "related"]
 
 QUESTIONS = {
     "status": {
@@ -132,7 +133,7 @@ def refresh_consensus(items):
 
 
 def needs_judging(item):
-    if item.get("source") == "cisa-kev":
+    if item.get("source") in PRIMARY_SOURCES:
         return False
     llm = item.get("llm")
     return not llm or llm.get("title") != item["title"]

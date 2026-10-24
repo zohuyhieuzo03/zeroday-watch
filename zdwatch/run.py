@@ -47,7 +47,7 @@ def merge(existing, fresh, ts):
             existing[item["id"]] = item
             continue
         old.update(
-            {k: item[k] for k in ("points", "comments", "cves", "kev", "title")}
+            {k: item[k] for k in ("points", "comments", "cves", "kev", "title") + (("severity",) if "severity" in item else ())}
         )
         if old["label"] != item["label"]:
             old["label"] = item["label"]
@@ -97,6 +97,11 @@ def main(argv=None):
         raw = sources.fetch_hn() + sources.fetch_lobsters()
     fresh = [c for c in (classify.classify(i, kev) for i in raw) if c]
     fresh += sources.kev_items(entries, days or 3)
+    for adv in sources.fetch_vendor_advisories(days or 14):
+        in_kev = [c for c in adv["cves"] if c in kev]
+        if in_kev:
+            adv["label"], adv["kev"] = "kev_exploited", in_kev
+        fresh.append(adv)
     print("kev=%d raw=%d relevant=%d" % (len(kev), len(raw), len(fresh)))
     if not raw:
         print("no items fetched; leaving feed untouched")

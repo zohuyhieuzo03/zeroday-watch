@@ -48,6 +48,11 @@ input[type=search]::placeholder { color: var(--dim); }
 .item.s-kev_exploited { border-left-color: var(--red); box-shadow: 0 0 0 1px rgba(255,59,59,.28), 0 0 22px rgba(255,59,59,.16); background: linear-gradient(90deg, rgba(255,59,59,.07), var(--panel) 40%); }
 .item.s-zero_day_reported { border-left-color: var(--orange); box-shadow: 0 0 0 1px rgba(255,138,31,.25), 0 0 18px rgba(255,138,31,.12); }
 .item.s-exploited_reported { border-left-color: var(--amber); }
+.item.s-vendor_advisory { border-left-color: #4cc9f0; }
+.item.s-vendor_advisory.sev-critical { box-shadow: 0 0 0 1px rgba(76,201,240,.3), 0 0 16px rgba(76,201,240,.14); }
+.b-sev-critical { color: #fff; background: var(--red); border-color: var(--red); }
+.b-sev-high { color: var(--orange); }
+.item.s-public_exploit_reported { border-left-color: #ff6ec7; }
 .item.s-zero_day_mention { border-left-color: var(--grey); }
 .item.s-related { border-left-color: var(--line); opacity: .82; }
 .item h2 { font-size: 15px; font-weight: 600; margin: 8px 0 6px; overflow-wrap: anywhere; line-height: 1.4; }
@@ -59,11 +64,19 @@ input[type=search]::placeholder { color: var(--dim); }
 .b-kev_exploited { color: var(--red); background: rgba(255,59,59,.12); }
 .b-zero_day_reported { color: var(--orange); background: rgba(255,138,31,.10); }
 .b-exploited_reported { color: var(--amber); background: rgba(255,197,61,.08); }
+.b-vendor_advisory { color: #4cc9f0; background: rgba(76,201,240,.08); }
+.b-public_exploit_reported { color: #ff6ec7; background: rgba(255,110,199,.08); }
 .b-zero_day_mention { color: var(--grey); }
 .b-related { color: var(--dim); }
 .b-llm { color: var(--mute); font-weight: 500; }
 .new { color: #000; background: var(--green); border-color: var(--green); }
 .cves { color: var(--red); }
+.trend { margin: 0 0 16px; }
+.trend h3 { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--dim); margin: 0 0 8px; font-weight: 600; }
+.trend .row { display: flex; flex-wrap: wrap; gap: 8px; }
+.tchip { border: 1px solid var(--red); background: rgba(255,59,59,.08); color: var(--ink); padding: 6px 10px; font: inherit; font-size: 12px; cursor: pointer; text-align: left; }
+.tchip b { color: var(--red); }
+.tchip small { color: var(--mute); display: block; }
 .empty { text-align: center; color: var(--dim); padding: 32px 0; }
 .toasts { position: fixed; right: 16px; bottom: 16px; display: flex; flex-direction: column; gap: 8px; z-index: 10; width: min(380px, calc(100vw - 32px)); }
 .toast { background: #12060a; border: 1px solid var(--red); border-left-width: 4px; padding: 10px 12px; box-shadow: 0 0 24px rgba(255,59,59,.35); font-size: 12.5px; cursor: pointer; animation: slidein .25s ease-out; }
@@ -84,11 +97,12 @@ input[type=search]::placeholder { color: var(--dim); }
   <div class="bar"><input type="search" id="q" placeholder="Search title or CVE" aria-label="Search">
     <button type="button" class="chip bell" id="bell"></button></div>
   <div class="toasts" id="toasts" aria-live="polite"></div>
+  <div class="trend" id="trend" hidden><h3>Trending CVEs · last 7 days</h3><div class="row" id="trendrow"></div></div>
   <div class="status" id="status" role="status">Loading…</div>
   <div id="list"></div>
 </div>
 <script>
-const LABELS = ["kev_exploited", "zero_day_reported", "exploited_reported", "zero_day_mention", "related"];
+const LABELS = ["kev_exploited", "zero_day_reported", "exploited_reported", "vendor_advisory", "public_exploit_reported", "zero_day_mention", "related"];
 const state = { items: [], generated: "", active: new Set(LABELS), q: "" };
 const $ = (id) => document.getElementById(id);
 
@@ -122,8 +136,35 @@ function renderChips() {
   }
 }
 
+function renderTrend() {
+  const cutoff = Date.now() - 7 * 86400000;
+  const by = new Map();
+  for (const i of state.items) {
+    if (new Date(i.first_seen).getTime() < cutoff || ["cisa-kev", "nodejs", "gitlab"].includes(i.source)) continue;
+    for (const c of i.cves) {
+      const g = by.get(c) || { cve: c, threads: 0, points: 0, kev: false, sample: i.title };
+      g.threads += 1; g.points += i.points; g.kev = g.kev || i.kev.includes(c);
+      by.set(c, g);
+    }
+  }
+  const top = [...by.values()].filter((g) => g.threads >= 2)
+    .sort((a, b) => b.threads - a.threads || b.points - a.points).slice(0, 6);
+  const row = $("trendrow");
+  row.replaceChildren();
+  $("trend").hidden = !top.length;
+  for (const g of top) {
+    const b = el("button", "tchip");
+    b.type = "button";
+    const t = el("b", null, g.cve); b.append(t);
+    b.append(el("small", null, g.threads + " threads · " + g.points + " pts" + (g.kev ? " · IN KEV" : "")));
+    b.onclick = () => { $("q").value = g.cve; state.q = g.cve; render(); };
+    row.append(b);
+  }
+}
+
 function render() {
   renderChips();
+  renderTrend();
   const q = state.q.trim().toLowerCase();
   const rows = state.items.filter((i) =>
     state.active.has(i.label) &&
@@ -136,8 +177,9 @@ function render() {
     : "";
   if (!rows.length) { list.append(el("div", "empty", "Nothing matches.")); return; }
   for (const i of rows) {
-    const card = el("div", "item s-" + i.label);
+    const card = el("div", "item s-" + i.label + (i.severity ? " sev-" + i.severity : ""));
     card.append(el("span", "badge b-" + i.label, i.label));
+    if (i.severity) card.append(el("span", "badge b-sev-" + i.severity, i.severity));
     if (state.fresh.has(i.id)) card.append(el("span", "badge new", "NEW"));
     if (i.llm && i.llm.consensus && i.llm.consensus !== "unclear") {
       const v = i.llm.votes ? " ×" + i.llm.votes : "";

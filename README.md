@@ -12,6 +12,7 @@ Feed (updated hourly by GitHub Actions):
 
 - Hacker News (Algolia search API)
 - Lobsters (`/t/security.json`)
+- Node.js security releases (official vulnerability feed) and GitLab patch releases (official Atom feed); labelled `vendor_advisory`, with `severity` (GitLab: "critical" from the title; Node.js: highest severity stated in the post)
 - CISA KEV catalog, read from the [`cisagov/kev-data`](https://github.com/cisagov/kev-data) mirror
 
 Only titles, links and counters are stored. No post bodies, no usernames, nothing from closed forums.
@@ -23,6 +24,8 @@ Only titles, links and counters are stored. No post bodies, no usernames, nothin
 | `kev_exploited` | A CVE in the title is in CISA KEV. Exploited in the wild, but KEV does not say whether it was a 0-day. |
 | `zero_day_reported` | Title says zero-day and mentions exploitation or no patch. A claim, unconfirmed. |
 | `exploited_reported` | Title mentions exploitation and a CVE, no zero-day wording. |
+| `vendor_advisory` | First-party advisory from Node.js or GitLab. A fix is already out, so this is patched vulnerability news, not an exploitation claim. Becomes `kev_exploited` if any of its CVEs is in KEV. |
+| `public_exploit_reported` | CVE plus "exploit"/PoC wording in the title. Exploit code exists; in-the-wild use is not claimed. |
 | `zero_day_mention` | Zero-day wording only. Treat as rumor. |
 | `related` | Has a CVE id, no exploitation signal. |
 
