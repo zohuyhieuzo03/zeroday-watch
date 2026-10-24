@@ -23,6 +23,7 @@ jobs:
       - run: python -m zdwatch.run
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
       - name: Commit feed
         run: |
           git config user.name "zeroday-watch[bot]"

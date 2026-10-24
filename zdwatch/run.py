@@ -117,7 +117,7 @@ def main(argv=None):
         raw = sources.fetch_hn() + sources.fetch_lobsters()
     fresh = [c for c in (classify.classify(i, kev) for i in raw) if c]
     fresh += sources.kev_items(entries, days or 3)
-    for adv in sources.fetch_vendor_advisories(days or 14):
+    for adv in sources.fetch_vendor_advisories(days or 14) + sources.fetch_github(days or 14, pages=5 if days else 1):
         in_kev = [c for c in adv["cves"] if c in kev]
         if in_kev:
             adv["label"], adv["kev"] = "kev_exploited", in_kev

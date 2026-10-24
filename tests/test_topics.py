@@ -43,6 +43,18 @@ class TopicsTest(unittest.TestCase):
         ts = topics.compute(items, NOW)
         self.assertEqual(len(ts), 1)
         self.assertEqual(ts[0]["threads"], 6)
+        self.assertEqual(ts[0]["name"].lower(), "php2shell")
+
+    def test_poc_repos_count_separately_and_stars_are_not_points(self):
+        items = [
+            it("1", "Php2shell bad", pts=10, cves=["CVE-2026-7"]),
+            it("2", "Php2shell worse", pts=5, cves=["CVE-2026-7"]),
+            it("3", "Php2shell worst", pts=1, cves=["CVE-2026-7"]),
+            it("4", "owner/php2shell-poc: CVE-2026-7", pts=1700, label="public_exploit_reported",
+               src="github-poc", cves=["CVE-2026-7"]),
+        ]
+        t = topics.compute(items, NOW)[0]
+        self.assertEqual((t["threads"], t["repos"], t["points"]), (3, 1, 16))
 
     def test_plain_word_without_signal_is_not_a_topic(self):
         items = [it(str(n), "Zebrafish discussion thread") for n in range(4)]

@@ -1,6 +1,7 @@
 """Fetchers for public sources. Only metadata (title, link, counters) is kept."""
 import html
 import json
+import os
 import re
 import time
 import urllib.error
@@ -205,5 +206,97 @@ def fetch_vendor_advisories(days):
         try:
             out += fn(days)
         except Exception as exc:  # a broken vendor feed must not sink the run
+            print("%s failed: %s" % (fn.__name__, exc))
+    return out
+
+
+GH_API = "https://api.github.com"
+
+
+def _gh_json(path, params):
+    headers = {"Accept": "application/vnd.github+json", "User-Agent": UA}
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:  # unauthenticated search is limited to 10 req/min, REST to 60/hour
+        headers["Authorization"] = "Bearer " + token
+    url = GH_API + path + "?" + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, headers=headers)
+    for attempt in range(3):
+        try:
+            return json.load(urllib.request.urlopen(req, timeout=30))
+        except urllib.error.HTTPError:
+            raise
+        except OSError:
+            if attempt == 2:
+                raise
+            time.sleep(2 * (attempt + 1))
+
+
+def _day(days):
+    return time.strftime("%Y-%m-%d", time.gmtime(time.time() - days * 86400))
+
+
+def fetch_github_advisories(days, pages=1):
+    """Reviewed GitHub Security Advisories: critical for `days`, high for the last 3 days."""
+    out = []
+    for severity, window in (("critical", days), ("high", min(days, 3))):
+        for page in range(1, pages + 1):
+            batch = _gh_json(
+                "/advisories",
+                {"type": "reviewed", "severity": severity, "published": ">=" + _day(window),
+                 "per_page": 100, "page": page, "sort": "published", "direction": "desc"},
+            )
+            for a in batch:
+                pkg = ""
+                for v in a.get("vulnerabilities") or []:
+                    p = v.get("package") or {}
+                    if p.get("name"):
+                        pkg = " (%s/%s)" % (p.get("ecosystem", ""), p["name"])
+                        break
+                item = _advisory("github-advisory", a["ghsa_id"], (a.get("summary") or a["ghsa_id"]) + pkg,
+                                 a["html_url"], a["published_at"], [a["cve_id"]] if a.get("cve_id") else [], severity)
+                item["discussion"] = a["html_url"]
+                out.append(item)
+            if len(batch) < 100:
+                break
+    return out
+
+
+def fetch_github_poc(days, limit=30):
+    """Public repos named for a CVE. Metadata only; a repo existing is NOT proof of exploitation."""
+    data = _gh_json(
+        "/search/repositories",
+        {"q": "CVE-2026 in:name,description created:>=" + _day(days), "sort": "stars", "order": "desc",
+         "per_page": limit},
+    )
+    out = []
+    for r in data.get("items", []):
+        text = "%s %s" % (r["full_name"], r.get("description") or "")
+        cves = sorted({c.upper() for c in CVE_FIND.findall(text)})
+        if not cves:
+            continue
+        out.append(
+            {
+                "id": "ghpoc:" + r["full_name"],
+                "source": "github-poc",
+                "title": "%s: %s" % (r["full_name"], (r.get("description") or "").strip()[:140]),
+                "url": r["html_url"],
+                "discussion": r["html_url"],
+                "points": r.get("stargazers_count", 0),
+                "comments": 0,
+                "created": r["created_at"],
+                "label": "public_exploit_reported",
+                "cves": cves[:40],
+                "kev": [],
+            }
+        )
+    return out
+
+
+def fetch_github(days, pages=1):
+    out = []
+    for fn, args in ((fetch_github_advisories, (days, pages)), (fetch_github_poc, (min(days, 14),))):
+        try:
+            out += fn(*args)
+        except Exception as exc:  # rate limits etc. must not sink the run
             print("%s failed: %s" % (fn.__name__, exc))
     return out

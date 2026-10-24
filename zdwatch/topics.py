@@ -10,6 +10,8 @@ from collections import Counter, defaultdict
 from datetime import datetime
 
 MIN_THREADS = 3
+# Machine-generated feeds would swamp topics; they still raise a topic's flags via shared CVEs elsewhere.
+NO_TOPIC_SOURCES = ("cisa-kev", "github-advisory")
 TOKEN_RE = re.compile(r"[a-z0-9][a-z0-9.+#_-]*[a-z0-9]")
 STOP = set(
     """
@@ -58,7 +60,7 @@ def _name_like(token):
 
 def compute(items, now_ts, days=7, limit=25):
     cutoff = now_ts - days * 86400
-    pool = [i for i in items if i.get("source") != "cisa-kev" and _ts(i["first_seen"]) >= cutoff]
+    pool = [i for i in items if i.get("source") not in NO_TOPIC_SOURCES and _ts(i["first_seen"]) >= cutoff]
     toks = {i["id"]: tokens(i["title"]) | {c.lower() for c in i.get("cves", [])} for i in pool}
     df = Counter(t for ts in toks.values() for t in ts)
     # A token may name a topic only if it looks like a name (CVE id, or letters+digits such
@@ -70,7 +72,7 @@ def compute(items, now_ts, days=7, limit=25):
         mine = [t for t in toks[i["id"]] if t in cand]
         if mine:
             groups[min(mine, key=lambda t: (df[t], -len(t)))].append(i)
-    raw = [(tok, ms) for tok, ms in groups.items() if len(ms) >= MIN_THREADS]
+    raw = list(groups.items())  # small groups may still join a big one through a shared CVE
     # Merge groups that share a CVE (e.g. "php2shell" and the CVE ids its threads cite).
     raw.sort(key=lambda g: len(g[1]), reverse=True)
     merged = []  # [name_token, {id: item}, cve_set]
@@ -80,10 +82,13 @@ def compute(items, now_ts, days=7, limit=25):
         if hit:
             hit[1].update({m["id"]: m for m in ms})
             hit[2].update(cves)
+            hit[3].append(tok)
         else:
-            merged.append([tok, {m["id"]: m for m in ms}, set(cves)])
+            merged.append([tok, {m["id"]: m for m in ms}, set(cves), [tok]])
     topics = []
-    for tok, by_id, _ in merged:
+    for tok, by_id, _, names in merged:
+        # prefer a human-readable name ("php2shell") over a bare CVE id
+        tok = next((n for n in names if not n.startswith("cve-")), tok)
         members = sorted(by_id.values(), key=lambda i: (i.get("points", 0), i["first_seen"]), reverse=True)
         if len(members) < MIN_THREADS:
             continue
@@ -91,8 +96,10 @@ def compute(items, now_ts, days=7, limit=25):
         topics.append(
             {
                 "name": _surface(tok, [m["title"] for m in members]),
-                "threads": len(members),
-                "points": sum(m.get("points", 0) for m in members),
+                # Stars on PoC repos are not forum points; keep the two apart.
+                "threads": sum(1 for m in members if m["source"] != "github-poc"),
+                "repos": sum(1 for m in members if m["source"] == "github-poc"),
+                "points": sum(m.get("points", 0) for m in members if m["source"] != "github-poc"),
                 "kev": any(m.get("kev") for m in members),
                 "vendor": any(m["label"] == "vendor_advisory" for m in members),
                 "cves": [c for c, _ in cves.most_common(4)],

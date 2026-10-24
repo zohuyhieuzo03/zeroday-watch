@@ -13,6 +13,7 @@ Feed (updated hourly by GitHub Actions):
 - Hacker News (Algolia search API)
 - Lobsters (`/t/security.json`)
 - Node.js security releases (official vulnerability feed) and GitLab patch releases (official Atom feed); labelled `vendor_advisory`, with `severity` (GitLab: "critical" from the title; Node.js: highest severity stated in the post)
+- GitHub Security Advisories (reviewed; critical, plus high for the last 3 days) as `vendor_advisory`, and public repos named for a CVE (`github-poc`, labelled `public_exploit_reported`, stars as points). A repo existing is not evidence of exploitation.
 - CISA KEV catalog, read from the [`cisagov/kev-data`](https://github.com/cisagov/kev-data) mirror
 
 Only titles, links and counters are stored. No post bodies, no usernames, nothing from closed forums.

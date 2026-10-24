@@ -205,7 +205,7 @@ function renderTopics() {
     h.append(document.createTextNode(t.name));
     card.append(h);
     const meta = el("div", "meta");
-    meta.append(el("span", null, t.threads + " threads · " + t.points + " pts · last " + ago(t.last_seen)));
+    meta.append(el("span", null, t.threads + " threads · " + t.points + " pts" + (t.repos ? " · " + t.repos + " PoC repos" : "") + " · last " + ago(t.last_seen)));
     if (t.cves.length) meta.append(el("span", "cves", t.cves.join(" ")));
     card.append(meta);
     const flags = el("div"); flags.style.marginTop = "6px";
@@ -219,7 +219,7 @@ function renderTopics() {
       const u = safeUrl(i.url);
       if (u) { const a = el("a", null, i.title); a.href = u; a.rel = "noopener noreferrer"; li.append(a); }
       else li.textContent = i.title;
-      li.append(el("small", null, "  " + i.source + " · " + i.points + " pts"));
+      li.append(el("small", null, "  " + i.source + " · " + i.points + (i.source === "github-poc" ? " ★" : " pts")));
       ul.append(li);
     }
     card.append(ul);
