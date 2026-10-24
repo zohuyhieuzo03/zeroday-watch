@@ -128,6 +128,7 @@ function render() {
   const rows = state.items.filter((i) =>
     state.active.has(i.label) &&
     (!q || i.title.toLowerCase().includes(q) || i.cves.join(" ").toLowerCase().includes(q)));
+  rows.sort((a, b) => LABELS.indexOf(a.label) - LABELS.indexOf(b.label) || b.first_seen.localeCompare(a.first_seen));
   const list = $("list");
   list.replaceChildren();
   $("status").textContent = state.generated
