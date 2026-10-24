@@ -89,7 +89,7 @@ input[type=search]::placeholder { color: var(--dim); }
 </div>
 <script>
 const LABELS = ["kev_exploited", "zero_day_reported", "exploited_reported", "zero_day_mention", "related"];
-const state = { items: [], generated: "", active: new Set(LABELS.slice(0, 4)), q: "" };
+const state = { items: [], generated: "", active: new Set(LABELS), q: "" };
 const $ = (id) => document.getElementById(id);
 
 function ago(iso) {

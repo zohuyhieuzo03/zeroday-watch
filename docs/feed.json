@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-24T01:25:21Z",
- "count": 15,
+ "generated": "2026-10-24T02:04:38Z",
+ "count": 263,
  "items": [
   {
    "id": "hn:50205084",
@@ -605,6 +605,5596 @@
     "consensus": "unclear",
     "votes": 0
    }
+  },
+  {
+   "id": "kev:CVE-2026-114625",
+   "source": "cisa-kev",
+   "title": "CVE-2026-114625: Arista VeloCloud Orchestrator - Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-114625"
+   ],
+   "kev": [
+    "CVE-2026-114625"
+   ],
+   "first_seen": "2026-10-23T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-110447",
+   "source": "cisa-kev",
+   "title": "CVE-2026-110447: Collabora Collabora Online – Built-in CODE Server - Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-110447"
+   ],
+   "kev": [
+    "CVE-2026-110447"
+   ],
+   "first_seen": "2026-10-23T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:50188443",
+   "source": "hackernews",
+   "title": "Oracle Security Alert Advisory – CVE-2026-91403 (eMudhra cert revocation)",
+   "url": "https://www.oracle.com/security-alerts/alert-cve-2026-91403.html",
+   "discussion": "https://news.ycombinator.com/item?id=50188443",
+   "points": 26,
+   "comments": 3,
+   "created": "2026-10-21T22:17:19Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-91403"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-21T22:17:19Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50187708",
+   "source": "hackernews",
+   "title": "PHP web runtimes (CVE-2026-109618 and CVE-2026-109619)",
+   "url": "https://aws.amazon.com/security/security-bulletins/2026-143-aws/",
+   "discussion": "https://news.ycombinator.com/item?id=50187708",
+   "points": 117,
+   "comments": 26,
+   "created": "2026-10-21T21:12:59Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-21T21:12:59Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50186413",
+   "source": "hackernews",
+   "title": "How to Fix PHP2Shell (CVE-2026-109618 and CVE-2026-109619)",
+   "url": "https://containersecurity.dev/blog/how-to-fix-php2shell",
+   "discussion": "https://news.ycombinator.com/item?id=50186413",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-21T19:37:57Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-21T19:37:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50184386",
+   "source": "hackernews",
+   "title": "The PHP fix for CVE-2026-109618 and CVE-2026-109619: +11556 lines of code",
+   "url": "https://github.com/php/php-src/commit/31c0ea7d7ff1d1fccb6492e52dab544011628065",
+   "discussion": "https://news.ycombinator.com/item?id=50184386",
+   "points": 7,
+   "comments": 4,
+   "created": "2026-10-21T17:15:30Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-21T17:15:30Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50180769",
+   "source": "hackernews",
+   "title": "Check/probe tool for PHP CVE-2026-109618/619",
+   "url": "https://php2shell.site/news.ycombinator.com/11c22360e8df83b4",
+   "discussion": "https://news.ycombinator.com/item?id=50180769",
+   "points": 5,
+   "comments": 2,
+   "created": "2026-10-21T13:38:28Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-21T13:38:28Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50178976",
+   "source": "hackernews",
+   "title": "Imunify360 Rule 8.83 Blocks Public Exploit PHP CVE-2026-109618 CVE-2026-109619",
+   "url": "https://blog.cloudlinux.com/php-cve-2026-109618-and-cve-2026-109619",
+   "discussion": "https://news.ycombinator.com/item?id=50178976",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-21T11:14:24Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-21T11:14:24Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50177101",
+   "source": "hackernews",
+   "title": "CVE-2026-106173: FortiSIEM gRPC Path Traversal RCE",
+   "url": "https://horizon3.ai/attack-research/cve-2026-106173-deep-dive-fortisiem-grpc-path-traversal-file-write-rce/",
+   "discussion": "https://news.ycombinator.com/item?id=50177101",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-21T07:09:18Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-106173"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-21T07:09:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50176276",
+   "source": "hackernews",
+   "title": "CVE-2026-109618 and CVE-2026-109619: What you should do now",
+   "url": "https://www.vincentschmalbach.com/cve-2026-109618-and-cve-2026-109619-what-you-should-do-now/",
+   "discussion": "https://news.ycombinator.com/item?id=50176276",
+   "points": 5,
+   "comments": 0,
+   "created": "2026-10-21T05:01:29Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-21T05:01:29Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50176077",
+   "source": "hackernews",
+   "title": "PHP session.upload_progress heap UAF (CVE-2026-109618 / -109619)",
+   "url": "https://jackalsyn.com/posts/php-up-2026.html",
+   "discussion": "https://news.ycombinator.com/item?id=50176077",
+   "points": 186,
+   "comments": 62,
+   "created": "2026-10-21T04:26:56Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-109618"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-21T04:26:56Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50175934",
+   "source": "hackernews",
+   "title": "Is Cellebrite sitting on an iPhone radio 0day?",
+   "url": "https://justin.sh/blog/2026/10/cellebrite-advanced-unlocks/",
+   "discussion": "https://news.ycombinator.com/item?id=50175934",
+   "points": 5,
+   "comments": 0,
+   "created": "2026-10-21T03:59:49Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-21T03:59:49Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:50168664",
+   "source": "hackernews",
+   "title": "Fixing CVE-2026-111943 in Go Apps and Binaries",
+   "url": "https://casco.com/blog/cve-2026-111943-go-remediation",
+   "discussion": "https://news.ycombinator.com/item?id=50168664",
+   "points": 3,
+   "comments": 1,
+   "created": "2026-10-20T16:17:21Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111943"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-20T16:17:21Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50165720",
+   "source": "hackernews",
+   "title": "CVE-2026-111943 permits certificate forgery",
+   "url": "https://social.hackerspace.pl/@q3k/117473268657376242",
+   "discussion": "https://news.ycombinator.com/item?id=50165720",
+   "points": 5,
+   "comments": 0,
+   "created": "2026-10-20T13:01:44Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111943"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-20T13:01:44Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50165718",
+   "source": "hackernews",
+   "title": "Is Cellebrite sitting on an iPhone radio 0day?",
+   "url": "https://justin.sh/blog/2026/10/cellebrite-advanced-unlocks/",
+   "discussion": "https://news.ycombinator.com/item?id=50165718",
+   "points": 12,
+   "comments": 1,
+   "created": "2026-10-20T13:01:37Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-20T13:01:37Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-106931",
+   "source": "cisa-kev",
+   "title": "CVE-2026-106931: EG Secure Solutions SiteGuard Server Edition - EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-20T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-106931"
+   ],
+   "kev": [
+    "CVE-2026-106931"
+   ],
+   "first_seen": "2026-10-20T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-96656",
+   "source": "cisa-kev",
+   "title": "CVE-2026-96656: Plex Media Server - Plex Media Server External Control of File Name or Path Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-20T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-96656"
+   ],
+   "kev": [
+    "CVE-2026-96656"
+   ],
+   "first_seen": "2026-10-20T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-96655",
+   "source": "cisa-kev",
+   "title": "CVE-2026-96655: Plex Media Server - Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-20T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-96655"
+   ],
+   "kev": [
+    "CVE-2026-96655"
+   ],
+   "first_seen": "2026-10-20T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-96654",
+   "source": "cisa-kev",
+   "title": "CVE-2026-96654: Plex Media Server - Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-20T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-96654"
+   ],
+   "kev": [
+    "CVE-2026-96654"
+   ],
+   "first_seen": "2026-10-20T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-96652",
+   "source": "cisa-kev",
+   "title": "CVE-2026-96652: Plex Media Server - Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-20T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-96652"
+   ],
+   "kev": [
+    "CVE-2026-96652"
+   ],
+   "first_seen": "2026-10-20T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-110936",
+   "source": "cisa-kev",
+   "title": "CVE-2026-110936: Siemens Software Center - Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-20T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-110936"
+   ],
+   "kev": [
+    "CVE-2026-110936"
+   ],
+   "first_seen": "2026-10-20T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:50153613",
+   "source": "hackernews",
+   "title": "CVE-2026-92392: curl HTTP/2 upload Use-After-Free",
+   "url": "https://hackerone.com/reports/4030333",
+   "discussion": "https://news.ycombinator.com/item?id=50153613",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-19T15:26:31Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-92392"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-19T15:26:31Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50151756",
+   "source": "hackernews",
+   "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+   "url": "https://pwn.ai/blog/pwnescape",
+   "discussion": "https://news.ycombinator.com/item?id=50151756",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-19T12:46:18Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-99999"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-19T12:46:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50149903",
+   "source": "hackernews",
+   "title": "CVE-2026-108707 PoC?",
+   "url": "https://www.patchcve.com/reference/cve/CVE-2026-108707",
+   "discussion": "https://news.ycombinator.com/item?id=50149903",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-10-19T08:40:18Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-108707"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-19T08:40:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50146240",
+   "source": "hackernews",
+   "title": "Dissecting CVE-2026-27280: An OOB write in Android's DNG rendering engine",
+   "url": "https://blog.chess-set.eu/en/posts/dissecting-cve-2026-27280/",
+   "discussion": "https://news.ycombinator.com/item?id=50146240",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-18T22:42:00Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-27280"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-18T22:42:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50146236",
+   "source": "hackernews",
+   "title": "Dissecting CVE-2026-27280: An OOB write in Android's DNG rendering engine",
+   "url": "https://news.ycombinator.com/item?id=50146236",
+   "discussion": "https://news.ycombinator.com/item?id=50146236",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-18T22:41:18Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-27280"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-18T22:41:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50140398",
+   "source": "hackernews",
+   "title": "CVE-2026-55562 PoC?",
+   "url": "https://www.patchcve.com/reference/cve/CVE-2026-55562",
+   "discussion": "https://news.ycombinator.com/item?id=50140398",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-10-18T12:13:48Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-55562"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-18T12:13:48Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50138848",
+   "source": "hackernews",
+   "title": "CVE-2026-111391 PoC?",
+   "url": "https://www.patchcve.com/reference/cve/CVE-2026-111391",
+   "discussion": "https://news.ycombinator.com/item?id=50138848",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-10-18T07:43:03Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111391"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-18T07:43:03Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50138278",
+   "source": "hackernews",
+   "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+   "url": "https://pwn.ai/blog/pwnescape",
+   "discussion": "https://news.ycombinator.com/item?id=50138278",
+   "points": 3,
+   "comments": 1,
+   "created": "2026-10-18T05:53:34Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-99999"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-18T05:53:34Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50133688",
+   "source": "hackernews",
+   "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+   "url": "https://pwn.ai/blog/pwnescape",
+   "discussion": "https://news.ycombinator.com/item?id=50133688",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-17T18:28:22Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-99999"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-17T18:28:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:np84oh",
+   "source": "lobsters",
+   "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+   "url": "https://pwn.ai/blog/pwnescape",
+   "discussion": "https://lobste.rs/s/np84oh/pwnescape_guest_host_kvm_escape_cve_2026",
+   "points": 12,
+   "comments": 6,
+   "created": "2026-10-17T13:24:39.593-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-99999"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-17T18:24:39Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50131394",
+   "source": "hackernews",
+   "title": "CVE-2026-49950 and Why Upgrading Xinference Isn't Enough",
+   "url": "https://medium.com/@husenet/cve-2026-49950-and-why-upgrading-xinference-isnt-enough-dd3c1f75deac",
+   "discussion": "https://news.ycombinator.com/item?id=50131394",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-17T14:16:44Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-49950"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-17T14:16:44Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50124010",
+   "source": "hackernews",
+   "title": "CVE-2022-49149",
+   "url": "https://nvd.nist.gov/vuln/detail/cve-2022-49149",
+   "discussion": "https://news.ycombinator.com/item?id=50124010",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-16T20:18:58Z",
+   "label": "related",
+   "cves": [
+    "CVE-2022-49149"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-16T20:18:58Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50121368",
+   "source": "hackernews",
+   "title": "BeyondTrust patches zero-day exploited in attacks since August",
+   "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+   "discussion": "https://news.ycombinator.com/item?id=50121368",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-16T17:19:57Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-16T17:19:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:50120200",
+   "source": "hackernews",
+   "title": "Guest-to-Host KVM Escape (CVE-2026-99999) Critical",
+   "url": "https://ubuntu.com/security/CVE-2026-99999",
+   "discussion": "https://news.ycombinator.com/item?id=50120200",
+   "points": 7,
+   "comments": 1,
+   "created": "2026-10-16T16:09:53Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-99999"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-16T16:09:53Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50116117",
+   "source": "hackernews",
+   "title": "CVE-2026-99999: Linux IPv4: validate checksum_start before completing checksum",
+   "url": "https://app.opencve.io/cve/CVE-2026-99999",
+   "discussion": "https://news.ycombinator.com/item?id=50116117",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-16T09:24:40Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-99999"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-16T09:24:40Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-102764",
+   "source": "cisa-kev",
+   "title": "CVE-2026-102764: BeyondTrust Remote Support - BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-16T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-102764"
+   ],
+   "kev": [
+    "CVE-2026-102764"
+   ],
+   "first_seen": "2026-10-16T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2025-61624",
+   "source": "cisa-kev",
+   "title": "CVE-2025-61624: Fortinet Multiple Products - Fortinet Multiple Products Path Traversal Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-16T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2025-61624"
+   ],
+   "kev": [
+    "CVE-2025-61624"
+   ],
+   "first_seen": "2026-10-16T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:50108845",
+   "source": "hackernews",
+   "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+   "url": "https://pwn.ai/blog/pwnescape",
+   "discussion": "https://news.ycombinator.com/item?id=50108845",
+   "points": 26,
+   "comments": 3,
+   "created": "2026-10-15T19:20:02Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-99999"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-15T19:20:02Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-21589",
+   "source": "cisa-kev",
+   "title": "CVE-2026-21589: Atlassian Multiple Products - Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-15T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-21589"
+   ],
+   "kev": [
+    "CVE-2026-21589"
+   ],
+   "first_seen": "2026-10-15T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:50095061",
+   "source": "hackernews",
+   "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+   "discussion": "https://news.ycombinator.com/item?id=50095061",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-14T20:54:01Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-14T20:54:01Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:50082735",
+   "source": "hackernews",
+   "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
+   "url": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/",
+   "discussion": "https://news.ycombinator.com/item?id=50082735",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-14T05:22:32Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-103572"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-14T05:22:32Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-105134",
+   "source": "cisa-kev",
+   "title": "CVE-2026-105134: Ahsay AhsayCBS - Ahsay AhsayCBS Command Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-14T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-105134"
+   ],
+   "kev": [
+    "CVE-2026-105134"
+   ],
+   "first_seen": "2026-10-14T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-76519",
+   "source": "cisa-kev",
+   "title": "CVE-2026-76519: Cisco Secure Email Gateway - Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-14T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-76519"
+   ],
+   "kev": [
+    "CVE-2026-76519"
+   ],
+   "first_seen": "2026-10-14T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-105133",
+   "source": "cisa-kev",
+   "title": "CVE-2026-105133: Ahsay AhsayCBS - Ahsay AhsayCBS Improper Authentication Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-14T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-105133"
+   ],
+   "kev": [
+    "CVE-2026-105133"
+   ],
+   "first_seen": "2026-10-14T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-0322",
+   "source": "cisa-kev",
+   "title": "CVE-2026-0322: Palo Alto Networks PAN-OS - Palo Alto Networks PAN-OS Code Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-14T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-0322"
+   ],
+   "kev": [
+    "CVE-2026-0322"
+   ],
+   "first_seen": "2026-10-14T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:50079288",
+   "source": "hackernews",
+   "title": "Chained Exploitation of Ivanti Connect Secure Zero-Days",
+   "url": "https://www.volexity.com/blog/2026/10/13/a-series-of-unauthenticated-events-chained-exploitation-of-ivanti-connect-secure-zero-days/",
+   "discussion": "https://news.ycombinator.com/item?id=50079288",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-13T21:43:12Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-13T21:43:12Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:50072558",
+   "source": "hackernews",
+   "title": "XWorm 7.4 C2 Panel Pre-Auth RCE Zero-Day (PoC) by Mootoo",
+   "url": "https://github.com/mootoo11/xworm-7.4-RCE-PoC",
+   "discussion": "https://news.ycombinator.com/item?id=50072558",
+   "points": 1,
+   "comments": 2,
+   "created": "2026-10-13T14:44:25Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-13T14:44:25Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:50067061",
+   "source": "hackernews",
+   "title": "CVE-2026-82456: Argo CD MCP Server Kubernetes Takeover",
+   "url": "https://apiiro.com/blog/cve-2026-82456-argo-cd-mcp-server-kubernetes-takeover/",
+   "discussion": "https://news.ycombinator.com/item?id=50067061",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-13T05:15:23Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-82456"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-13T05:15:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-104935",
+   "source": "cisa-kev",
+   "title": "CVE-2026-104935: Ivanti Connect Secure - Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-13T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-104935"
+   ],
+   "kev": [
+    "CVE-2026-104935"
+   ],
+   "first_seen": "2026-10-13T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-96951",
+   "source": "cisa-kev",
+   "title": "CVE-2026-96951: Microsoft Windows - Microsoft Windows Command Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-13T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-96951"
+   ],
+   "kev": [
+    "CVE-2026-96951"
+   ],
+   "first_seen": "2026-10-13T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:50061587",
+   "source": "hackernews",
+   "title": "AI agents locate infrastructure flaws and zero-days to exploit task shortcuts",
+   "url": "https://cacm.acm.org/news/ai-agents-look-beyond-their-containers/",
+   "discussion": "https://news.ycombinator.com/item?id=50061587",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-12T19:24:38Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-12T19:24:38Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:50049062",
+   "source": "hackernews",
+   "title": "Show HN: SecuBuzz – Factual 60-word cybersecurity briefs and CISA zero-day radar",
+   "url": "https://secubuzz.com/",
+   "discussion": "https://news.ycombinator.com/item?id=50049062",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-11T23:16:07Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-11T23:16:07Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:50022493",
+   "source": "hackernews",
+   "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
+   "discussion": "https://news.ycombinator.com/item?id=50022493",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-10-09T16:03:24Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-09T16:03:24Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:50020073",
+   "source": "hackernews",
+   "title": "CVE-2026-23870: A Single Post Freezes Any Next.js Server",
+   "url": "https://simonkoeck.com/writeups/react-rsc-formdata-event-loop-dos",
+   "discussion": "https://news.ycombinator.com/item?id=50020073",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-09T13:16:40Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-23870"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-09T13:16:40Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:50005577",
+   "source": "hackernews",
+   "title": "Atlassian Jira, Confluence Pre-Auth Arbitrary File Read (CVE-2026-21589)",
+   "url": "https://labs.watchtowr.com/you-wont-hear-about-these-even-in-myths-atlassian-jira-confluence-and-more-pre-auth-arbitrary-file-read-cve-2026-21589/",
+   "discussion": "https://news.ycombinator.com/item?id=50005577",
+   "points": 5,
+   "comments": 0,
+   "created": "2026-10-08T13:26:32Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-21589"
+   ],
+   "kev": [
+    "CVE-2026-21589"
+   ],
+   "first_seen": "2026-10-08T13:26:32Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:50002751",
+   "source": "hackernews",
+   "title": "Curl 8.23.0 - CVE-2026-92392 - Severity High",
+   "url": "https://daniel.haxx.se/blog/2026/10/07/twenty-two-pending-curl-vulnerabilities/",
+   "discussion": "https://news.ycombinator.com/item?id=50002751",
+   "points": 3,
+   "comments": 1,
+   "created": "2026-10-08T07:17:29Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-92392"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-08T07:17:29Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2015-5477",
+   "source": "cisa-kev",
+   "title": "CVE-2015-5477: ISC BIND -  ISC BIND Data Processing Errors Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-08T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2015-5477"
+   ],
+   "kev": [
+    "CVE-2015-5477"
+   ],
+   "first_seen": "2026-10-08T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2016-3081",
+   "source": "cisa-kev",
+   "title": "CVE-2016-3081: Apache Struts - Apache Struts Command Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3081",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-08T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2016-3081"
+   ],
+   "kev": [
+    "CVE-2016-3081"
+   ],
+   "first_seen": "2026-10-08T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2023-22894",
+   "source": "cisa-kev",
+   "title": "CVE-2023-22894: Strapi Strapi - Strapi Cleartext Storage of Sensitive Information Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-08T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2023-22894"
+   ],
+   "kev": [
+    "CVE-2023-22894"
+   ],
+   "first_seen": "2026-10-08T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2021-3199",
+   "source": "cisa-kev",
+   "title": "CVE-2021-3199: ONLYOFFICE Docs - ONLYOFFICE Docs Server Path Traversal Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3199",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-08T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2021-3199"
+   ],
+   "kev": [
+    "CVE-2021-3199"
+   ],
+   "first_seen": "2026-10-08T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2015-3306",
+   "source": "cisa-kev",
+   "title": "CVE-2015-3306: ProFTPD ProFTPD - ProFTPD Improper Access Control Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3306",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-08T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2015-3306"
+   ],
+   "kev": [
+    "CVE-2015-3306"
+   ],
+   "first_seen": "2026-10-08T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49995889",
+   "source": "hackernews",
+   "title": "Ten days inside CVE-2026-88771: anatomy of a NetScaler exploitation wave",
+   "url": "https://huntback.io/blog/cve-88771-analysis",
+   "discussion": "https://news.ycombinator.com/item?id=49995889",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-07T17:22:34Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-88771"
+   ],
+   "kev": [
+    "CVE-2026-88771"
+   ],
+   "first_seen": "2026-10-07T17:22:34Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49989324",
+   "source": "hackernews",
+   "title": "CVE-2026-63277 – LibreOffice Remote Code Execution",
+   "url": "https://github.com/advisories/GHSA-5JX8-5G92-5W59",
+   "discussion": "https://news.ycombinator.com/item?id=49989324",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-07T07:03:16Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-63277"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-07T07:03:16Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49976990",
+   "source": "hackernews",
+   "title": "CVE-2022-38694 Silicon-Anchored Backdoor in Unisoc T606/T616/SC9863A Firmware",
+   "url": "https://github.com/rapid7/attackerkb/issues/89",
+   "discussion": "https://news.ycombinator.com/item?id=49976990",
+   "points": 2,
+   "comments": 3,
+   "created": "2026-10-06T11:34:09Z",
+   "label": "related",
+   "cves": [
+    "CVE-2022-38694"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-06T11:34:09Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49972694",
+   "source": "hackernews",
+   "title": "Citrix discloses third actively exploited NetScaler zero-day in less than a week",
+   "url": "https://cyberscoop.com/citrix-netscaler-third-exploited-zero-day-vulnerability/",
+   "discussion": "https://news.ycombinator.com/item?id=49972694",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-06T00:37:13Z",
+   "label": "zero_day_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-06T00:37:13Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_reported"
+    }
+   ]
+  },
+  {
+   "id": "hn:49963044",
+   "source": "hackernews",
+   "title": "KVM Escape Zero-Day",
+   "url": "https://cybernews.com/security/critical-kvm-zero-day-vulnerability-allows-vm-escape/",
+   "discussion": "https://news.ycombinator.com/item?id=49963044",
+   "points": 10,
+   "comments": 0,
+   "created": "2026-10-05T10:30:05Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-05T10:30:05Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-88779",
+   "source": "cisa-kev",
+   "title": "CVE-2026-88779: Citrix NetScaler - Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88779",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-04T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-88779"
+   ],
+   "kev": [
+    "CVE-2026-88779"
+   ],
+   "first_seen": "2026-10-04T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49945618",
+   "source": "hackernews",
+   "title": "Guillermo Rauch: \"We've confirmed a KVM 0day through our Vercel bounty program\"",
+   "url": "https://twitter.com/rauchg/status/2106402024804020657",
+   "discussion": "https://news.ycombinator.com/item?id=49945618",
+   "points": 10,
+   "comments": 0,
+   "created": "2026-10-03T16:27:45Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-03T16:27:45Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49945136",
+   "source": "hackernews",
+   "title": "KVM 0day",
+   "url": "https://twitter.com/paulosyibelo/status/2106378929158135903",
+   "discussion": "https://news.ycombinator.com/item?id=49945136",
+   "points": 7,
+   "comments": 3,
+   "created": "2026-10-03T15:29:27Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-03T15:29:27Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49933696",
+   "source": "hackernews",
+   "title": "Fortinet sounds the alarm over actively exploited FortiMail zero-day",
+   "url": "https://www.theregister.com/security/2026/10/02/fortinet-sounds-the-alarm-over-actively-exploited-fortimail-zero-day/5300803",
+   "discussion": "https://news.ycombinator.com/item?id=49933696",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-02T14:07:08Z",
+   "label": "zero_day_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-02T14:07:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_reported"
+    }
+   ]
+  },
+  {
+   "id": "hn:49931836",
+   "source": "hackernews",
+   "title": "Zammad zero-days for RCE and root (CVE-2026-102489/102490)",
+   "url": "https://csirt.divd.nl/cases/DIVD-2026-00015/",
+   "discussion": "https://news.ycombinator.com/item?id=49931836",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-02T10:16:22Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-102489"
+   ],
+   "kev": [
+    "CVE-2026-102489"
+   ],
+   "first_seen": "2026-10-02T10:16:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-102490",
+   "source": "cisa-kev",
+   "title": "CVE-2026-102490: Zammad GmbH Zammad - Zammad GmbH Zammad Improper Privilege Management Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-02T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-102490"
+   ],
+   "kev": [
+    "CVE-2026-102490"
+   ],
+   "first_seen": "2026-10-02T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-102489",
+   "source": "cisa-kev",
+   "title": "CVE-2026-102489: Zammad GmbH Zammad - Zammad GmbH Zammad Session Fixation Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102489",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-02T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-102489"
+   ],
+   "kev": [
+    "CVE-2026-102489"
+   ],
+   "first_seen": "2026-10-02T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49925970",
+   "source": "hackernews",
+   "title": "From Select to Sysadmin: Hijacking Microsoft SQL Copilot (CVE-2026-65669)",
+   "url": "https://embracethered.com/blog/posts/2026/from-select-to-sysadmin-sql-copilot-bluehat-asia/",
+   "discussion": "https://news.ycombinator.com/item?id=49925970",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-01T19:24:18Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-65669"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-01T19:24:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49923055",
+   "source": "hackernews",
+   "title": "Did an AI Agent Hack DIVD? The Zammad Zero-Days",
+   "url": "https://mrkt30.com/did-an-ai-agent-hack-divd/",
+   "discussion": "https://news.ycombinator.com/item?id=49923055",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-01T15:33:25Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-01T15:33:25Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:yfttkn",
+   "source": "lobsters",
+   "title": "CVE-2026-86950: The Great Glyph Grift - An in-the-wild iOS bug with a possible WhatsApp zero-click path",
+   "url": "https://calif.io/research/the-great-glyph-grift",
+   "discussion": "https://lobste.rs/s/yfttkn/cve_2026_86950_great_glyph_grift_wild_ios",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-10-01T08:41:13.378-05:00",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-86950"
+   ],
+   "kev": [
+    "CVE-2026-86950"
+   ],
+   "first_seen": "2026-10-01T13:41:13Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49919906",
+   "source": "hackernews",
+   "title": "TanStack Start critical XSS in server functions (CVE-2026-102989)",
+   "url": "https://tanstack.com/blog/tanstack-start-security-update-cve-2026-102989",
+   "discussion": "https://news.ycombinator.com/item?id=49919906",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-10-01T10:21:25Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-102989"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-01T10:21:25Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49919216",
+   "source": "hackernews",
+   "title": "We found a Claris FileMaker authorization bypass (CVE-2026-86934)",
+   "url": "https://www.agilehunt.com/blog/claris-filemaker-cve-2026-86934-authorization-bypass",
+   "discussion": "https://news.ycombinator.com/item?id=49919216",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-01T08:31:14Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-86934"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-01T08:31:14Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-104286",
+   "source": "cisa-kev",
+   "title": "CVE-2026-104286: Fortinet FortiMail - Fortinet FortiMail Path Traversal Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-01T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-104286"
+   ],
+   "kev": [
+    "CVE-2026-104286"
+   ],
+   "first_seen": "2026-10-01T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49915669",
+   "source": "hackernews",
+   "title": "CVE-2026-86950: An in-the-wild iOS bug with a possible WhatsApp zero-click path",
+   "url": "https://calif.io/research/the-great-glyph-grift",
+   "discussion": "https://news.ycombinator.com/item?id=49915669",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-09-30T23:10:33Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-86950"
+   ],
+   "kev": [
+    "CVE-2026-86950"
+   ],
+   "first_seen": "2026-09-30T23:10:33Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49907649",
+   "source": "hackernews",
+   "title": "No More Zero Days",
+   "url": "https://lyteforcewrites.fyi/no-more-zero-days",
+   "discussion": "https://news.ycombinator.com/item?id=49907649",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-09-30T12:00:03Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-30T12:00:03Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49906844",
+   "source": "hackernews",
+   "title": "OpenSSL High DTLS flaw can leak heap memory (CVE-2026-84782)",
+   "url": "https://openssl-library.org/news/secadv/20260929.txt",
+   "discussion": "https://news.ycombinator.com/item?id=49906844",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-09-30T10:23:37Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-84782"
+   ],
+   "kev": [],
+   "first_seen": "2026-09-30T10:23:37Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49902600",
+   "source": "hackernews",
+   "title": "Custom malware used in Citrix 0-day attacks targeting govt, banks, professional",
+   "url": "https://www.theregister.com/security/2026/09/29/custom-malware-used-in-citrix-0-day-attacks-targeting-govt-banks-professional-services/5299867",
+   "discussion": "https://news.ycombinator.com/item?id=49902600",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-09-30T00:07:08Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-30T00:07:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-76504",
+   "source": "cisa-kev",
+   "title": "CVE-2026-76504: Cisco Catalyst SD-WAN Manager - Cisco Catalyst SD-WAN Manager Hex Encoding Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76504",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-30T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-76504"
+   ],
+   "kev": [
+    "CVE-2026-76504"
+   ],
+   "first_seen": "2026-09-30T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49896625",
+   "source": "hackernews",
+   "title": "Apple patches CoreGraphics zero-day already exploited in targeted attacks",
+   "url": "https://www.theregister.com/security/2026/09/29/apple-patches-coregraphics-zero-day-already-exploited-in-targeted-attacks/5299721",
+   "discussion": "https://news.ycombinator.com/item?id=49896625",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-09-29T17:08:55Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-29T17:08:55Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-86950",
+   "source": "cisa-kev",
+   "title": "CVE-2026-86950: Apple Multiple Products - Apple Multiple Products Out-of-Bounds Write Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86950",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-29T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-86950"
+   ],
+   "kev": [
+    "CVE-2026-86950"
+   ],
+   "first_seen": "2026-09-29T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49885574",
+   "source": "hackernews",
+   "title": "Taking 'execute logging' a bit too literally CVE-2026-88771",
+   "url": "https://www.cert.europa.eu/blog/taking-execute-logging-a-bit-too-literally-cve-2026-88771",
+   "discussion": "https://news.ycombinator.com/item?id=49885574",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-09-28T22:51:58Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-88771"
+   ],
+   "kev": [
+    "CVE-2026-88771"
+   ],
+   "first_seen": "2026-09-28T22:51:58Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49880305",
+   "source": "hackernews",
+   "title": "Active, in-the-wild exploitation of CVE-2026-88771 with IoCs",
+   "url": "https://twitter.com/LupovisDefence/status/2104595071362326680",
+   "discussion": "https://news.ycombinator.com/item?id=49880305",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-09-28T16:11:09Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-88771"
+   ],
+   "kev": [
+    "CVE-2026-88771"
+   ],
+   "first_seen": "2026-09-28T16:11:09Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49879880",
+   "source": "hackernews",
+   "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+   "discussion": "https://news.ycombinator.com/item?id=49879880",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-09-28T15:46:13Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-28T15:46:13Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49879330",
+   "source": "hackernews",
+   "title": "Citrix NetScaler PreAuth Command Injection CVE-2026-88771",
+   "url": "https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/",
+   "discussion": "https://news.ycombinator.com/item?id=49879330",
+   "points": 5,
+   "comments": 0,
+   "created": "2026-09-28T15:11:49Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-88771"
+   ],
+   "kev": [
+    "CVE-2026-88771"
+   ],
+   "first_seen": "2026-09-28T15:11:49Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49877789",
+   "source": "hackernews",
+   "title": "One resident login, an entire apartment complex: CVE-2026-75960",
+   "url": "https://planckproof.ai/blog/rently-master-pin-idor-cve-2026-75960",
+   "discussion": "https://news.ycombinator.com/item?id=49877789",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-09-28T13:39:04Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-75960"
+   ],
+   "kev": [],
+   "first_seen": "2026-09-28T13:39:04Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49874737",
+   "source": "hackernews",
+   "title": "I found an SSRF in Google's official MCP Toolbox (CVE-2026-14540)",
+   "url": "https://anas-security-portfolio.vercel.app/google-mcp-ssrf.html",
+   "discussion": "https://news.ycombinator.com/item?id=49874737",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-09-28T07:34:43Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-14540"
+   ],
+   "kev": [],
+   "first_seen": "2026-09-28T07:34:43Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49871161",
+   "source": "hackernews",
+   "title": "My Ansible Plugin Had a Jail Escape: CVE-2026-55074",
+   "url": "https://blog.hofstede.it/my-ansible-plugin-had-a-jail-escape-cve-2026-55074/",
+   "discussion": "https://news.ycombinator.com/item?id=49871161",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-09-27T21:42:56Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-55074"
+   ],
+   "kev": [],
+   "first_seen": "2026-09-27T21:42:56Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-88772",
+   "source": "cisa-kev",
+   "title": "CVE-2026-88772: Citrix NetScaler - Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88772",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-27T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-88772"
+   ],
+   "kev": [
+    "CVE-2026-88772"
+   ],
+   "first_seen": "2026-09-27T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-88771",
+   "source": "cisa-kev",
+   "title": "CVE-2026-88771: Citrix NetScaler - Citrix NetScaler Improper Input Validation Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88771",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-27T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-88771"
+   ],
+   "kev": [
+    "CVE-2026-88771"
+   ],
+   "first_seen": "2026-09-27T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49846474",
+   "source": "hackernews",
+   "title": "Imminent Zero-Day Attack: KiteWorks Urges Customers to Shut Down Servers",
+   "url": "https://www.heise.de/en/news/Imminent-Zero-Day-Attack-KiteWorks-Urges-Customers-to-Shut-Down-Servers-11466375.html",
+   "discussion": "https://news.ycombinator.com/item?id=49846474",
+   "points": 3,
+   "comments": 2,
+   "created": "2026-09-25T16:10:14Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-25T16:10:14Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49845669",
+   "source": "hackernews",
+   "title": "Someone's attacking a critical 0-day RCE in F5 BIG-IP APM",
+   "url": "https://www.theregister.com/security/2026/09/23/someones-attacking-a-critical-0-day-rce-in-f5-big-ip-apm/5298659",
+   "discussion": "https://news.ycombinator.com/item?id=49845669",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-09-25T15:02:51Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-25T15:02:51Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49840266",
+   "source": "hackernews",
+   "title": "Vulnerability Cve-2026-82958",
+   "url": "https://vulnerability.circl.lu/vuln/cve-2026-82958",
+   "discussion": "https://news.ycombinator.com/item?id=49840266",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-09-25T04:41:23Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-82958"
+   ],
+   "kev": [],
+   "first_seen": "2026-09-25T04:41:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-67279",
+   "source": "cisa-kev",
+   "title": "CVE-2026-67279: MikroTik RouterOS - Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67279",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-25T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-67279"
+   ],
+   "kev": [
+    "CVE-2026-67279"
+   ],
+   "first_seen": "2026-09-25T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-65660",
+   "source": "cisa-kev",
+   "title": "CVE-2026-65660: Microsoft SharePoint - Microsoft SharePoint Code Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65660",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-25T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-65660"
+   ],
+   "kev": [
+    "CVE-2026-65660"
+   ],
+   "first_seen": "2026-09-25T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-87902",
+   "source": "cisa-kev",
+   "title": "CVE-2026-87902: WordPress Core - WordPress Core Remote File Inclusion Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87902",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-25T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-87902"
+   ],
+   "kev": [
+    "CVE-2026-87902"
+   ],
+   "first_seen": "2026-09-25T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49833501",
+   "source": "hackernews",
+   "title": "CISA active Linux kernel CVEs (CVE-2025-39964, CVE-2026-53266, CVE-2025-39682)",
+   "url": "https://github.com/mc493/linux-kernel-zero-day-mitigation-zero-downtime-kernel-defense-",
+   "discussion": "https://news.ycombinator.com/item?id=49833501",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-09-24T16:56:59Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2025-39682",
+    "CVE-2025-39964",
+    "CVE-2026-53266"
+   ],
+   "kev": [
+    "CVE-2025-39682",
+    "CVE-2025-39964",
+    "CVE-2026-53266"
+   ],
+   "first_seen": "2026-09-24T16:56:59Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49832673",
+   "source": "hackernews",
+   "title": "CVE-2026-91766: PHP had the redirect credential leak curl fixed in 2018",
+   "url": "https://daubois.dev/blog/cve-2026-91766-php-http-redirect-credential-leak/",
+   "discussion": "https://news.ycombinator.com/item?id=49832673",
+   "points": 4,
+   "comments": 1,
+   "created": "2026-09-24T16:04:58Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-91766"
+   ],
+   "kev": [],
+   "first_seen": "2026-09-24T16:04:58Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-5430",
+   "source": "cisa-kev",
+   "title": "CVE-2026-5430: WSO2 Multiple Products - WSO2 Multiple Products Path Traversal Vulnerability ",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-24T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-5430"
+   ],
+   "kev": [
+    "CVE-2026-5430"
+   ],
+   "first_seen": "2026-09-24T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-71362",
+   "source": "cisa-kev",
+   "title": "CVE-2026-71362: Adobe Commerce and Magento  - Adobe Commerce and Magento Incorrect Authorization Vulnerability ",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71362",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-24T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-71362"
+   ],
+   "kev": [
+    "CVE-2026-71362"
+   ],
+   "first_seen": "2026-09-24T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49814259",
+   "source": "hackernews",
+   "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
+   "discussion": "https://news.ycombinator.com/item?id=49814259",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-09-23T11:07:08Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-23T11:07:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49813996",
+   "source": "hackernews",
+   "title": "Next.js 16.3.6 fixes critical ImageResponse RCE (CVE-2026-94545)",
+   "url": "https://nextjs.org/blog/nextjs-security-update-september-22-2026",
+   "discussion": "https://news.ycombinator.com/item?id=49813996",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-09-23T10:33:44Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-94545"
+   ],
+   "kev": [],
+   "first_seen": "2026-09-23T10:33:44Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49806050",
+   "source": "hackernews",
+   "title": "Zero-downtime Linux kernel zero-day mitigation via eBPF and SECCOMP",
+   "url": "https://github.com/mc493/linux-kernel-zero-day-mitigation-zero-downtime-kernel-defense-",
+   "discussion": "https://news.ycombinator.com/item?id=49806050",
+   "points": 9,
+   "comments": 1,
+   "created": "2026-09-22T18:34:36Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-22T18:34:36Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49802030",
+   "source": "hackernews",
+   "title": "Meta’s Muse has a serious 0-day",
+   "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+   "discussion": "https://news.ycombinator.com/item?id=49802030",
+   "points": 122,
+   "comments": 49,
+   "created": "2026-09-22T14:35:15Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-22T14:35:15Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49801847",
+   "source": "hackernews",
+   "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+   "url": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+   "discussion": "https://news.ycombinator.com/item?id=49801847",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-09-22T14:25:37Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-22T14:25:37Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49801118",
+   "source": "hackernews",
+   "title": "Expat 2.8.5 released, fixes vulnerability CVE-2026-93990",
+   "url": "https://blog.hartwork.org/posts/expat-2-8-5-released/",
+   "discussion": "https://news.ycombinator.com/item?id=49801118",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-09-22T13:38:07Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-93990"
+   ],
+   "kev": [],
+   "first_seen": "2026-09-22T13:38:07Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49795857",
+   "source": "hackernews",
+   "title": "A zero-day has been released for Meta's Muse",
+   "url": "https://github.com/pwardle/not-a-mused",
+   "discussion": "https://news.ycombinator.com/item?id=49795857",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-09-22T01:45:55Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-22T01:45:55Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-93952",
+   "source": "cisa-kev",
+   "title": "CVE-2026-93952: Arista VeloCloud Orchestrator - Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93952",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-22T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-93952"
+   ],
+   "kev": [
+    "CVE-2026-93952"
+   ],
+   "first_seen": "2026-09-22T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-94127",
+   "source": "cisa-kev",
+   "title": "CVE-2026-94127: F5 BIG-IP APM - F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94127",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-22T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-94127"
+   ],
+   "kev": [
+    "CVE-2026-94127"
+   ],
+   "first_seen": "2026-09-22T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-93616",
+   "source": "cisa-kev",
+   "title": "CVE-2026-93616: Check Point Multiple Products - Check Point Multiple Products Path Traversal Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93616",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-22T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-93616"
+   ],
+   "kev": [
+    "CVE-2026-93616"
+   ],
+   "first_seen": "2026-09-22T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-85102",
+   "source": "cisa-kev",
+   "title": "CVE-2026-85102: Check Point Multiple Products - Check Point Multiple Products Improper Certificate Validation Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85102",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-22T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-85102"
+   ],
+   "kev": [
+    "CVE-2026-85102"
+   ],
+   "first_seen": "2026-09-22T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49794666",
+   "source": "hackernews",
+   "title": "Muse, Meta's extraordinarily privileged AI assistant, has a serious 0-day",
+   "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+   "discussion": "https://news.ycombinator.com/item?id=49794666",
+   "points": 9,
+   "comments": 0,
+   "created": "2026-09-21T23:08:32Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-21T23:08:32Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-7273",
+   "source": "cisa-kev",
+   "title": "CVE-2026-7273: Zyxel GS1900 Series Switches - Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7273",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-21T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-7273"
+   ],
+   "kev": [
+    "CVE-2026-7273"
+   ],
+   "first_seen": "2026-09-21T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2025-39964",
+   "source": "cisa-kev",
+   "title": "CVE-2025-39964: Linux Kernel - Linux Kernel Race Condition Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39964",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-18T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2025-39964"
+   ],
+   "kev": [
+    "CVE-2025-39964"
+   ],
+   "first_seen": "2026-09-18T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-53266",
+   "source": "cisa-kev",
+   "title": "CVE-2026-53266: Linux Kernel - Linux Kernel Out-of-Bounds Write Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53266",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-18T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-53266"
+   ],
+   "kev": [
+    "CVE-2026-53266"
+   ],
+   "first_seen": "2026-09-18T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2025-39682",
+   "source": "cisa-kev",
+   "title": "CVE-2025-39682: Linux Kernel - Linux Kernel Improper Check for Unusual or Exceptional Conditions Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-18T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2025-39682"
+   ],
+   "kev": [
+    "CVE-2025-39682"
+   ],
+   "first_seen": "2026-09-18T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49739037",
+   "source": "hackernews",
+   "title": "When the Red Light Goes On: How We Responded to the Linux Kernel 0-Day",
+   "url": "https://nine.ch/en/blog/linux-kernel-0day-copy-fail/",
+   "discussion": "https://news.ycombinator.com/item?id=49739037",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-09-17T11:03:17Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-17T11:03:17Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49724250",
+   "source": "hackernews",
+   "title": "Nginx 1.30.5 and 1.31.6 fix HTTP/3 buffer overflow (CVE-2026-90439)",
+   "url": "https://nginx.org/en/download.html",
+   "discussion": "https://news.ycombinator.com/item?id=49724250",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-09-16T10:06:44Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-90439"
+   ],
+   "kev": [],
+   "first_seen": "2026-09-16T10:06:44Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-58704",
+   "source": "cisa-kev",
+   "title": "CVE-2026-58704: Google Pixel - Google Pixel Improper Authorization Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-58704",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-16T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-58704"
+   ],
+   "kev": [
+    "CVE-2026-58704"
+   ],
+   "first_seen": "2026-09-16T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-76460",
+   "source": "cisa-kev",
+   "title": "CVE-2026-76460: Cisco Identity Services Engine - Cisco Identity Services Engine Incorrect Use of Privileged APIs Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76460",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-16T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-76460"
+   ],
+   "kev": [
+    "CVE-2026-76460"
+   ],
+   "first_seen": "2026-09-16T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-87886",
+   "source": "cisa-kev",
+   "title": "CVE-2026-87886: Acronis Backup - Acronis Backup Incorrect Default Permissions Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87886",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-16T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-87886"
+   ],
+   "kev": [
+    "CVE-2026-87886"
+   ],
+   "first_seen": "2026-09-16T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49714889",
+   "source": "hackernews",
+   "title": "You don't need a kernel 0day",
+   "url": "https://bour.ch/you-dont-need-a-kernel-0day/",
+   "discussion": "https://news.ycombinator.com/item?id=49714889",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-09-15T16:21:59Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-15T16:21:59Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49691168",
+   "source": "hackernews",
+   "title": "Artifactory: In-the-Wild Exploitation of CVE-2026-42016,CVE-2026-42018",
+   "url": "https://www.wiz.io/blog/artifactory-under-attack-in-the-wild-exploitation-of-cve-2026-42016-cve-2026-4201",
+   "discussion": "https://news.ycombinator.com/item?id=49691168",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-09-14T02:27:22Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-42016",
+    "CVE-2026-42018"
+   ],
+   "kev": [
+    "CVE-2026-42016",
+    "CVE-2026-42018"
+   ],
+   "first_seen": "2026-09-14T02:27:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-76461",
+   "source": "cisa-kev",
+   "title": "CVE-2026-76461: Cisco Secure Email Gateway - Cisco Secure Email Gateway SQL Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76461",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-14T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-76461"
+   ],
+   "kev": [
+    "CVE-2026-76461"
+   ],
+   "first_seen": "2026-09-14T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49672634",
+   "source": "hackernews",
+   "title": "Finding Zero-Days with Any Model",
+   "url": "https://www.provos.org/p/finding-zero-days-with-any-model/",
+   "discussion": "https://news.ycombinator.com/item?id=49672634",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-09-12T14:24:28Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-12T14:24:28Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-84869",
+   "source": "cisa-kev",
+   "title": "CVE-2026-84869: ConnectWise ScreenConnect - ConnectWise ScreenConnect Improper Privilege Management and Missing Authorization Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84869",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-11T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-84869"
+   ],
+   "kev": [
+    "CVE-2026-84869"
+   ],
+   "first_seen": "2026-09-11T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-42016",
+   "source": "cisa-kev",
+   "title": "CVE-2026-42016: JFrog Artifactory - JFrog Artifactory Incorrect Authorization Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42016",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-11T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-42016"
+   ],
+   "kev": [
+    "CVE-2026-42016"
+   ],
+   "first_seen": "2026-09-11T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-42018",
+   "source": "cisa-kev",
+   "title": "CVE-2026-42018: JFrog Artifactory - JFrog Artifactory Improper Authentication Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-11T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-42018"
+   ],
+   "kev": [
+    "CVE-2026-42018"
+   ],
+   "first_seen": "2026-09-11T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-85706",
+   "source": "cisa-kev",
+   "title": "CVE-2026-85706: GitLab Community Edition and Enterprise Edition - GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-11T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-85706"
+   ],
+   "kev": [
+    "CVE-2026-85706"
+   ],
+   "first_seen": "2026-09-11T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-86060",
+   "source": "cisa-kev",
+   "title": "CVE-2026-86060: MikroTik RouterOS - MikroTik RouterOS Improper Neutralization of Argument Delimiters in a Command Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-10T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-86060"
+   ],
+   "kev": [
+    "CVE-2026-86060"
+   ],
+   "first_seen": "2026-09-10T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-67277",
+   "source": "cisa-kev",
+   "title": "CVE-2026-67277: MikroTik RouterOS - MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-10T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-67277"
+   ],
+   "kev": [
+    "CVE-2026-67277"
+   ],
+   "first_seen": "2026-09-10T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49628696",
+   "source": "hackernews",
+   "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
+   "discussion": "https://news.ycombinator.com/item?id=49628696",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-09-09T16:01:10Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-09T16:01:10Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-19490",
+   "source": "cisa-kev",
+   "title": "CVE-2026-19490: Citrix NetScaler - Citrix NetScaler Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-09T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-19490"
+   ],
+   "kev": [
+    "CVE-2026-19490"
+   ],
+   "first_seen": "2026-09-09T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2025-25249",
+   "source": "cisa-kev",
+   "title": "CVE-2025-25249: Fortinet Multiple Products - Fortinet Multiple Products Heap-based Buffer Overflow Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-09T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2025-25249"
+   ],
+   "kev": [
+    "CVE-2025-25249"
+   ],
+   "first_seen": "2026-09-09T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-87491",
+   "source": "cisa-kev",
+   "title": "CVE-2026-87491: Google Chromium V8 - Google Chromium V8 Out of Bounds Write Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87491",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-09T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-87491"
+   ],
+   "kev": [
+    "CVE-2026-87491"
+   ],
+   "first_seen": "2026-09-09T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-20079",
+   "source": "cisa-kev",
+   "title": "CVE-2026-20079: Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management - Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-09T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-20079"
+   ],
+   "kev": [
+    "CVE-2026-20079"
+   ],
+   "first_seen": "2026-09-09T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49616247",
+   "source": "hackernews",
+   "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
+   "discussion": "https://news.ycombinator.com/item?id=49616247",
+   "points": 5,
+   "comments": 1,
+   "created": "2026-09-08T20:07:08Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-08T20:07:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49616198",
+   "source": "hackernews",
+   "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
+   "discussion": "https://news.ycombinator.com/item?id=49616198",
+   "points": 5,
+   "comments": 0,
+   "created": "2026-09-08T20:03:25Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-08T20:03:25Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-75650",
+   "source": "cisa-kev",
+   "title": "CVE-2026-75650: Adobe Commerce and Magento - Adobe Commerce and Magento Improper Neutralization of Special Elements Used in a Template Engine Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75650",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-08T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-75650"
+   ],
+   "kev": [
+    "CVE-2026-75650"
+   ],
+   "first_seen": "2026-09-08T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-81963",
+   "source": "cisa-kev",
+   "title": "CVE-2026-81963: Microsoft Windows - Microsoft Windows Link Following Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-08T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-81963"
+   ],
+   "kev": [
+    "CVE-2026-81963"
+   ],
+   "first_seen": "2026-09-08T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-86218",
+   "source": "cisa-kev",
+   "title": "CVE-2026-86218: N-able N-central - N-able N-central Static Code Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-08T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-86218"
+   ],
+   "kev": [
+    "CVE-2026-86218"
+   ],
+   "first_seen": "2026-09-08T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-85880",
+   "source": "cisa-kev",
+   "title": "CVE-2026-85880: Microsoft Windows - Microsoft Windows Heap-Based Buffer Overflow Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-08T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-85880"
+   ],
+   "kev": [
+    "CVE-2026-85880"
+   ],
+   "first_seen": "2026-09-08T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49602515",
+   "source": "hackernews",
+   "title": "CrowdStrike Falcon 0day Privilege Escalation Vulnerability",
+   "url": "https://github.com/MSNightmare/FalconFlank",
+   "discussion": "https://news.ycombinator.com/item?id=49602515",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-09-07T20:14:17Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-09-07T20:14:17Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49587543",
+   "source": "hackernews",
+   "title": "Ask HN: Why is HN censoring this post about CVE-2026-85046?",
+   "url": "https://news.ycombinator.com/item?id=49587543",
+   "discussion": "https://news.ycombinator.com/item?id=49587543",
+   "points": 2,
+   "comments": 2,
+   "created": "2026-09-06T15:36:02Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-85046"
+   ],
+   "kev": [
+    "CVE-2026-85046"
+   ],
+   "first_seen": "2026-09-06T15:36:02Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-85046",
+   "source": "cisa-kev",
+   "title": "CVE-2026-85046: Google Chromium V8 - Google Chromium V8 Type Confusion Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85046",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-04T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-85046"
+   ],
+   "kev": [
+    "CVE-2026-85046"
+   ],
+   "first_seen": "2026-09-04T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-59822",
+   "source": "cisa-kev",
+   "title": "CVE-2026-59822: BerriAI LiteLLM - BerriAI LiteLLM Improper Authentication Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59822",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-02T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-59822"
+   ],
+   "kev": [
+    "CVE-2026-59822"
+   ],
+   "first_seen": "2026-09-02T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-48710",
+   "source": "cisa-kev",
+   "title": "CVE-2026-48710: Kludex Starlette - Kludex Starlette HTTP Request/Response Smuggling Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48710",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-02T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-48710"
+   ],
+   "kev": [
+    "CVE-2026-48710"
+   ],
+   "first_seen": "2026-09-02T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-49869",
+   "source": "cisa-kev",
+   "title": "CVE-2026-49869: Kestra Kestra OSS - Kestra OSS OS Command Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49869",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-02T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-49869"
+   ],
+   "kev": [
+    "CVE-2026-49869"
+   ],
+   "first_seen": "2026-09-02T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-82329",
+   "source": "cisa-kev",
+   "title": "CVE-2026-82329: JFrog Artifactory - JFrog Artifactory Improper Authentication Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82329",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-02T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-82329"
+   ],
+   "kev": [
+    "CVE-2026-82329"
+   ],
+   "first_seen": "2026-09-02T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-9586",
+   "source": "cisa-kev",
+   "title": "CVE-2026-9586: Sangoma Switchvox - Sangoma Switchvox SQL Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9586",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-02T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-9586"
+   ],
+   "kev": [
+    "CVE-2026-9586"
+   ],
+   "first_seen": "2026-09-02T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-83548",
+   "source": "cisa-kev",
+   "title": "CVE-2026-83548: SonicWall SMA1000 Appliances - SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83548",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-02T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-83548"
+   ],
+   "kev": [
+    "CVE-2026-83548"
+   ],
+   "first_seen": "2026-09-02T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-83549",
+   "source": "cisa-kev",
+   "title": "CVE-2026-83549: SonicWall SMA1000 Appliances - SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83549",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-09-02T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-83549"
+   ],
+   "kev": [
+    "CVE-2026-83549"
+   ],
+   "first_seen": "2026-09-02T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-82078",
+   "source": "cisa-kev",
+   "title": "CVE-2026-82078: PaperCut NG/MF - PaperCut NG/MF Unsafe Reflection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82078",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-31T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-82078"
+   ],
+   "kev": [
+    "CVE-2026-82078"
+   ],
+   "first_seen": "2026-08-31T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-81578",
+   "source": "cisa-kev",
+   "title": "CVE-2026-81578: PaperCut NG/MF - PaperCut NG/MF Missing Authentication for Critical Function Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-81578",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-31T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-81578"
+   ],
+   "kev": [
+    "CVE-2026-81578"
+   ],
+   "first_seen": "2026-08-31T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49490475",
+   "source": "hackernews",
+   "title": "I Found Two Shopify Plugin Zero-Days in a Bathtub",
+   "url": "https://alec.is/posts/i-found-two-shopify-plugin-zero-days-in-a-bathtub/",
+   "discussion": "https://news.ycombinator.com/item?id=49490475",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-08-29T15:00:40Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-29T15:00:40Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49487593",
+   "source": "hackernews",
+   "title": "Zero-Day EoP in Kaspersky Endpoint Security Lets Attackers Own the Protector",
+   "url": "https://forum.cktn.de/t/big-breaking-guardian-turned-gatekeeper-zero-day-eop-in-kaspersky-endpoint-security-lets-attackers-own-the-protector/28635",
+   "discussion": "https://news.ycombinator.com/item?id=49487593",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-08-29T06:56:51Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-29T06:56:51Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2023-49105",
+   "source": "cisa-kev",
+   "title": "CVE-2023-49105: ownCloud ownCloud - ownCloud Improper Authentication Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49105",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-27T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2023-49105"
+   ],
+   "kev": [
+    "CVE-2023-49105"
+   ],
+   "first_seen": "2026-08-27T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-53362",
+   "source": "cisa-kev",
+   "title": "CVE-2026-53362: Linux Kernel - Linux Kernel Unspecified Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-27T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-53362"
+   ],
+   "kev": [
+    "CVE-2026-53362"
+   ],
+   "first_seen": "2026-08-27T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-66384",
+   "source": "cisa-kev",
+   "title": "CVE-2026-66384: JFrog Artifactory - JFrog Artifactory Improper Limitation of a Pathname to a Restricted Directory Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66384",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-27T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-66384"
+   ],
+   "kev": [
+    "CVE-2026-66384"
+   ],
+   "first_seen": "2026-08-27T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2021-23758",
+   "source": "cisa-kev",
+   "title": "CVE-2021-23758: Ajax.NET Professional Ajax.NET Professional - Ajax.NET Professional Deserialization of Untrusted Data Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-26T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2021-23758"
+   ],
+   "kev": [
+    "CVE-2021-23758"
+   ],
+   "first_seen": "2026-08-26T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2015-3246",
+   "source": "cisa-kev",
+   "title": "CVE-2015-3246: Red Hat Libuser - Red Hat Libuser Race Condition Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-26T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2015-3246"
+   ],
+   "kev": [
+    "CVE-2015-3246"
+   ],
+   "first_seen": "2026-08-26T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2015-5287",
+   "source": "cisa-kev",
+   "title": "CVE-2015-5287: Red Hat Automatic Bug Reporting Tool - Red Hat Automatic Bug Reporting Tool Privilege Escalation Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-26T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2015-5287"
+   ],
+   "kev": [
+    "CVE-2015-5287"
+   ],
+   "first_seen": "2026-08-26T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2022-0995",
+   "source": "cisa-kev",
+   "title": "CVE-2022-0995: Linux Kernel - Linux Kernel Out-of-Bounds Write Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0995",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-26T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2022-0995"
+   ],
+   "kev": [
+    "CVE-2022-0995"
+   ],
+   "first_seen": "2026-08-26T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-8452",
+   "source": "cisa-kev",
+   "title": "CVE-2026-8452: Citrix NetScaler ADC and NetScaler Gateway - Citrix NetScaler ADC and NetScaler Gateway Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-26T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-8452"
+   ],
+   "kev": [
+    "CVE-2026-8452"
+   ],
+   "first_seen": "2026-08-26T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2019-1068",
+   "source": "cisa-kev",
+   "title": "CVE-2019-1068: Microsoft SQL Server - Microsoft SQL Server Remote Code Execution Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-26T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2019-1068"
+   ],
+   "kev": [
+    "CVE-2019-1068"
+   ],
+   "first_seen": "2026-08-26T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49441617",
+   "source": "hackernews",
+   "title": "CVE-2026-18963 – Keycloak Reset-Credentials Bypass → Account Takeover",
+   "url": "https://github.com/Red-Darkin/CVE-2026-18963-keycloak",
+   "discussion": "https://news.ycombinator.com/item?id=49441617",
+   "points": 6,
+   "comments": 0,
+   "created": "2026-08-25T22:35:16Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-18963"
+   ],
+   "kev": [],
+   "first_seen": "2026-08-25T22:35:16Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-60004",
+   "source": "cisa-kev",
+   "title": "CVE-2026-60004: Gitea Gitea - Gitea Code Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-25T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-60004"
+   ],
+   "kev": [
+    "CVE-2026-60004"
+   ],
+   "first_seen": "2026-08-25T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-21962",
+   "source": "cisa-kev",
+   "title": "CVE-2026-21962: Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in - Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in Improper Access Control Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-24T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-21962"
+   ],
+   "kev": [
+    "CVE-2026-21962"
+   ],
+   "first_seen": "2026-08-24T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-73570",
+   "source": "cisa-kev",
+   "title": "CVE-2026-73570: Synacor Zimbra Collaboration Suite (ZCS) - Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-73570",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-21T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-73570"
+   ],
+   "kev": [
+    "CVE-2026-73570"
+   ],
+   "first_seen": "2026-08-21T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-72530",
+   "source": "cisa-kev",
+   "title": "CVE-2026-72530: TrueConf Server - TrueConf Server Code Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-20T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-72530"
+   ],
+   "kev": [
+    "CVE-2026-72530"
+   ],
+   "first_seen": "2026-08-20T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-72529",
+   "source": "cisa-kev",
+   "title": "CVE-2026-72529: TrueConf Server - TrueConf Server Missing Authentication for Critical Function Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-20T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-72529"
+   ],
+   "kev": [
+    "CVE-2026-72529"
+   ],
+   "first_seen": "2026-08-20T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49360088",
+   "source": "hackernews",
+   "title": "Show HN: CLI tool to check n8n instances for CVE-2026-21858 credential exposure",
+   "url": "https://github.com/Legion33shadow/legion-n8n-shield",
+   "discussion": "https://news.ycombinator.com/item?id=49360088",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-08-19T11:29:07Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-21858"
+   ],
+   "kev": [],
+   "first_seen": "2026-08-19T11:29:07Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49359560",
+   "source": "hackernews",
+   "title": "CVE-2026-24301: \"CoSnitch\" vulnerability in Microsoft Copilot",
+   "url": "https://cyberupdates365.com/copilot-cosnitch-cve-2026-24301/",
+   "discussion": "https://news.ycombinator.com/item?id=49359560",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-08-19T10:29:29Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-24301"
+   ],
+   "kev": [],
+   "first_seen": "2026-08-19T10:29:29Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49358155",
+   "source": "hackernews",
+   "title": "GitLab CVE-2026-19478: GraphQL authorization bypass",
+   "url": "https://techupdate24.com/gitlab-cve-2026-19478-graphql-flaw/",
+   "discussion": "https://news.ycombinator.com/item?id=49358155",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-08-19T07:29:02Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-19478"
+   ],
+   "kev": [],
+   "first_seen": "2026-08-19T07:29:02Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-64849",
+   "source": "cisa-kev",
+   "title": "CVE-2026-64849: MLflow MLflow - MLflow Server-Side Request Forgery Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-19T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-64849"
+   ],
+   "kev": [
+    "CVE-2026-64849"
+   ],
+   "first_seen": "2026-08-19T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49349406",
+   "source": "hackernews",
+   "title": "New Nightmare Eclipse zero day gives system privileges on patched Windows",
+   "url": "https://www.theregister.com/cyber-crime/2026/08/12/microsoft-vendetta-hacker-has-a-new-zero-day-that-gives-system-privileges-on-fully-patched-windows/5286889",
+   "discussion": "https://news.ycombinator.com/item?id=49349406",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-08-18T17:39:42Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-18T17:39:42Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49344245",
+   "source": "hackernews",
+   "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
+   "url": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+   "discussion": "https://news.ycombinator.com/item?id=49344245",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-08-18T11:43:43Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-18T11:43:43Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-33824",
+   "source": "cisa-kev",
+   "title": "CVE-2026-33824: Microsoft Internet Key Exchange (IKE) Service Extensions - Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-18T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-33824"
+   ],
+   "kev": [
+    "CVE-2026-33824"
+   ],
+   "first_seen": "2026-08-18T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-59310",
+   "source": "cisa-kev",
+   "title": "CVE-2026-59310: Broadcom VMware vCenter - Broadcom VMware vCenter Path Traversal Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-18T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-59310"
+   ],
+   "kev": [
+    "CVE-2026-59310"
+   ],
+   "first_seen": "2026-08-18T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-55040",
+   "source": "cisa-kev",
+   "title": "CVE-2026-55040: Microsoft SharePoint - Microsoft SharePoint Weak Authentication Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-18T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-55040"
+   ],
+   "kev": [
+    "CVE-2026-55040"
+   ],
+   "first_seen": "2026-08-18T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-65400",
+   "source": "cisa-kev",
+   "title": "CVE-2026-65400: Apple macOS - Apple macOS Improper Authentication Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-18T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-65400"
+   ],
+   "kev": [
+    "CVE-2026-65400"
+   ],
+   "first_seen": "2026-08-18T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2025-62593",
+   "source": "cisa-kev",
+   "title": "CVE-2025-62593: Ray-Project Ray - Ray-Project Ray Code Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-17T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2025-62593"
+   ],
+   "kev": [
+    "CVE-2025-62593"
+   ],
+   "first_seen": "2026-08-17T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:0emxj9",
+   "source": "lobsters",
+   "title": "CVE-2026-33696: From a Schema Name to RCE in n8n",
+   "url": "https://simonkoeck.com/writeups/n8n-gsuiteadmin-prototype-pollution-rce",
+   "discussion": "https://lobste.rs/s/0emxj9/cve_2026_33696_from_schema_name_rce_n8n",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-16T11:45:45.503-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-33696"
+   ],
+   "kev": [],
+   "first_seen": "2026-08-16T16:45:45Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49306964",
+   "source": "hackernews",
+   "title": "Someone is publishing a trove of zero-days",
+   "url": "https://0day-rubbish.com/",
+   "discussion": "https://news.ycombinator.com/item?id=49306964",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-08-15T02:13:52Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-15T02:13:52Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49295904",
+   "source": "hackernews",
+   "title": "You're Back in the Room (Citrix NetScaler Pre-Auth RCE CVE-2026-8452(?))",
+   "url": "https://labs.watchtowr.com/youre-back-in-the-room-citrix-netscaler-pre-auth-rce-cve-2026-8452/",
+   "discussion": "https://news.ycombinator.com/item?id=49295904",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-08-14T08:10:08Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-8452"
+   ],
+   "kev": [
+    "CVE-2026-8452"
+   ],
+   "first_seen": "2026-08-14T08:10:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49283705",
+   "source": "hackernews",
+   "title": "NightmareEclipse Publishes New Windows Defender Zero Day",
+   "url": "https://cyberplace.social/@GossiTheDog/117082623896479140",
+   "discussion": "https://news.ycombinator.com/item?id=49283705",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-08-13T09:56:03Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-13T09:56:03Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49276072",
+   "source": "hackernews",
+   "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
+   "url": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
+   "discussion": "https://news.ycombinator.com/item?id=49276072",
+   "points": 7,
+   "comments": 0,
+   "created": "2026-08-12T17:41:51Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-12T17:41:51Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49274107",
+   "source": "hackernews",
+   "title": "New Microsoft Defender 'ShieldBreak' zero-day grants SYSTEM privileges",
+   "url": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldbreak-zero-day-grants-system-privileges/",
+   "discussion": "https://news.ycombinator.com/item?id=49274107",
+   "points": 4,
+   "comments": 1,
+   "created": "2026-08-12T15:36:25Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-12T15:36:25Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49273886",
+   "source": "hackernews",
+   "title": "A BSON symbol namespace bypasses MongoDB's authorization check (CVE-2026-18690)",
+   "url": "https://hellorecon.com/blog/cve-2026-18690-mongodb-symbol-type-authz-bypass",
+   "discussion": "https://news.ycombinator.com/item?id=49273886",
+   "points": 9,
+   "comments": 0,
+   "created": "2026-08-12T15:24:19Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-18690"
+   ],
+   "kev": [],
+   "first_seen": "2026-08-12T15:24:19Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49270498",
+   "source": "hackernews",
+   "title": "Cellebrite zero-day exploit used to target phone of Serbian student activist",
+   "url": "https://securitylab.amnesty.org/latest/2025/02/cellebrite-zero-day-exploit-used-to-target-phone-of-serbian-student-activist/",
+   "discussion": "https://news.ycombinator.com/item?id=49270498",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-08-12T11:01:38Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-12T11:01:38Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49269059",
+   "source": "hackernews",
+   "title": "Framework loses customer data in Metabase zero-day attack",
+   "url": "https://www.theregister.com/personal-tech/2026/08/10/framework-loses-customer-data-in-metabase-zero-day-attack/5285302",
+   "discussion": "https://news.ycombinator.com/item?id=49269059",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-08-12T07:47:34Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-12T07:47:34Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49267550",
+   "source": "hackernews",
+   "title": "CVE-2026-53361 AF_Unix GC vs. MSG_PEEK use-after-free container escape",
+   "url": "https://github.com/sgkdev/bad_garbage",
+   "discussion": "https://news.ycombinator.com/item?id=49267550",
+   "points": 13,
+   "comments": 0,
+   "created": "2026-08-12T03:31:42Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-53361"
+   ],
+   "kev": [],
+   "first_seen": "2026-08-12T03:31:42Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49262923",
+   "source": "hackernews",
+   "title": "Zero Day Clock",
+   "url": "https://zerodayclock.com/",
+   "discussion": "https://news.ycombinator.com/item?id=49262923",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-08-11T19:01:59Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-11T19:01:59Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49262707",
+   "source": "hackernews",
+   "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-2026-patch-tuesday-fixes-400-flaws-3-zero-days/",
+   "discussion": "https://news.ycombinator.com/item?id=49262707",
+   "points": 9,
+   "comments": 0,
+   "created": "2026-08-11T18:44:12Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-11T18:44:12Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49257903",
+   "source": "hackernews",
+   "title": "Expat 2.8.3 released, fixes vulnerability CVE-2026-72522",
+   "url": "https://blog.hartwork.org/posts/expat-2-8-3-released/",
+   "discussion": "https://news.ycombinator.com/item?id=49257903",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-08-11T13:23:24Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-72522"
+   ],
+   "kev": [],
+   "first_seen": "2026-08-11T13:23:24Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49256278",
+   "source": "hackernews",
+   "title": "CVE-2026-56852: x/text/Unicode/norm infinite loop on invalid UTF-8 (DoS)",
+   "url": "https://pkg.go.dev/vuln/GO-2026-5970",
+   "discussion": "https://news.ycombinator.com/item?id=49256278",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-08-11T11:04:23Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-56852"
+   ],
+   "kev": [],
+   "first_seen": "2026-08-11T11:04:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-20349",
+   "source": "cisa-kev",
+   "title": "CVE-2026-20349: Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)  - Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) Heap Inspection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-11T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-20349"
+   ],
+   "kev": [
+    "CVE-2026-20349"
+   ],
+   "first_seen": "2026-08-11T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-68820",
+   "source": "cisa-kev",
+   "title": "CVE-2026-68820: Microsoft Windows Ancillary Function Driver for WinSock  - Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-68820",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-11T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-68820"
+   ],
+   "kev": [
+    "CVE-2026-68820"
+   ],
+   "first_seen": "2026-08-11T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-72898",
+   "source": "cisa-kev",
+   "title": "CVE-2026-72898: Metabase Metabase - Metabase SQL Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-11T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-72898"
+   ],
+   "kev": [
+    "CVE-2026-72898"
+   ],
+   "first_seen": "2026-08-11T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49247537",
+   "source": "hackernews",
+   "title": "CVE-2026-65400: Apple macOS Screen Sharing authentication bypass",
+   "url": "https://support.apple.com/en-us/148170",
+   "discussion": "https://news.ycombinator.com/item?id=49247537",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-08-10T18:16:54Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-65400"
+   ],
+   "kev": [
+    "CVE-2026-65400"
+   ],
+   "first_seen": "2026-08-10T18:16:54Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49216801",
+   "source": "hackernews",
+   "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+   "discussion": "https://news.ycombinator.com/item?id=49216801",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-08-07T22:07:06Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-07T22:07:06Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49215218",
+   "source": "hackernews",
+   "title": "WordPress CVE-2026-64638 Pre-Auth XSS to RCE",
+   "url": "https://pwn.ai/blog/xss2shell",
+   "discussion": "https://news.ycombinator.com/item?id=49215218",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-08-07T19:30:43Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-64638"
+   ],
+   "kev": [],
+   "first_seen": "2026-08-07T19:30:43Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-8037",
+   "source": "cisa-kev",
+   "title": "CVE-2026-8037: Progress LoadMaster - Progress LoadMaster Command Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8037",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-07T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-8037"
+   ],
+   "kev": [
+    "CVE-2026-8037"
+   ],
+   "first_seen": "2026-08-07T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49198843",
+   "source": "hackernews",
+   "title": "Zapscape (CVE-2026-64561): Guest-to-Host Escape in KVM/x86",
+   "url": "https://github.com/V4bel/Zapscape",
+   "discussion": "https://news.ycombinator.com/item?id=49198843",
+   "points": 86,
+   "comments": 14,
+   "created": "2026-08-06T16:24:36Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-64561"
+   ],
+   "kev": [],
+   "first_seen": "2026-08-06T16:24:36Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49183887",
+   "source": "hackernews",
+   "title": "Zero-Day to Zero Doubt: AI-Powered CVE Forensics in an Afternoon",
+   "url": "https://blog.quent.in/blog/2026/07/31/zero-day-to-zero-doubt-ai-powered-cve-forensics-in-an-afternoon/",
+   "discussion": "https://news.ycombinator.com/item?id=49183887",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-08-05T14:56:12Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-08-05T14:56:12Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-63077",
+   "source": "cisa-kev",
+   "title": "CVE-2026-63077: JetBrains TeamCity - JetBrains TeamCity Deserialization of Untrusted Data Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63077",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-05T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-63077"
+   ],
+   "kev": [
+    "CVE-2026-63077"
+   ],
+   "first_seen": "2026-08-05T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-18556",
+   "source": "cisa-kev",
+   "title": "CVE-2026-18556: N-able N-central - N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18556",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-04T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-18556"
+   ],
+   "kev": [
+    "CVE-2026-18556"
+   ],
+   "first_seen": "2026-08-04T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-34486",
+   "source": "cisa-kev",
+   "title": "CVE-2026-34486: Apache Tomcat - Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34486",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-04T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-34486"
+   ],
+   "kev": [
+    "CVE-2026-34486"
+   ],
+   "first_seen": "2026-08-04T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-9198",
+   "source": "cisa-kev",
+   "title": "CVE-2026-9198: IBM Langflow - IBM Langflow Code Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9198",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-04T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-9198"
+   ],
+   "kev": [
+    "CVE-2026-9198"
+   ],
+   "first_seen": "2026-08-04T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-18577",
+   "source": "cisa-kev",
+   "title": "CVE-2026-18577: N-able N-central - N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-08-03T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-18577"
+   ],
+   "kev": [
+    "CVE-2026-18577"
+   ],
+   "first_seen": "2026-08-03T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:j1sfc2",
+   "source": "lobsters",
+   "title": "CVE-2026-49413 - FreeBSD LPE via Linuxulator AT_SECURE Logic Bug",
+   "url": "https://ii4gsp.github.io/cve-2026-49413/",
+   "discussion": "https://lobste.rs/s/j1sfc2/cve_2026_49413_freebsd_lpe_via",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-08-01T14:26:58.286-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-49413"
+   ],
+   "kev": [],
+   "first_seen": "2026-08-01T19:26:58Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49125878",
+   "source": "hackernews",
+   "title": "Oracle VM VirtualBox Bug Discovered by AI: CVE-2026-60161",
+   "url": "https://octane.security/post/oracle-vm-virtualbox-bug-discovered-by-ai-cve-2026-60161",
+   "discussion": "https://news.ycombinator.com/item?id=49125878",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-07-31T17:08:23Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-60161"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-31T17:08:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49111655",
+   "source": "hackernews",
+   "title": "CVE-2026-64560: Linux UAF",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-64560",
+   "discussion": "https://news.ycombinator.com/item?id=49111655",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-07-30T15:46:57Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-64560"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-30T15:46:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49111403",
+   "source": "hackernews",
+   "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
+   "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
+   "discussion": "https://news.ycombinator.com/item?id=49111403",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-07-30T15:30:03Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-07-30T15:30:03Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:kkobew",
+   "source": "lobsters",
+   "title": "KindaRails2Shell - Critical RCE in Rails via Active Storage (CVE-2026-66066)",
+   "url": "https://ethiack.com/info-hub/research/kindarails2shell-rails-rce-cve-2026-66066",
+   "discussion": "https://lobste.rs/s/kkobew/kindarails2shell_critical_rce_rails_via",
+   "points": 6,
+   "comments": 4,
+   "created": "2026-07-30T09:36:05.631-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-66066"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-30T14:36:05Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49107382",
+   "source": "hackernews",
+   "title": "Cisco FMC static credential vulnerability exploited as a zero-day",
+   "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh",
+   "discussion": "https://news.ycombinator.com/item?id=49107382",
+   "points": 13,
+   "comments": 3,
+   "created": "2026-07-30T08:33:39Z",
+   "label": "zero_day_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-07-30T08:33:39Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_reported"
+    }
+   ]
+  },
+  {
+   "id": "hn:49103398",
+   "source": "hackernews",
+   "title": "Copirate 365: Plundering in the Depths of Microsoft Copilot (CVE-2026-24299)",
+   "url": "https://embracethered.com/blog/posts/2026/defcon-talk-copirate-365/",
+   "discussion": "https://news.ycombinator.com/item?id=49103398",
+   "points": 8,
+   "comments": 1,
+   "created": "2026-07-29T21:37:15Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-24299"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-29T21:37:15Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "hn:49097830",
+   "source": "hackernews",
+   "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+   "url": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
+   "discussion": "https://news.ycombinator.com/item?id=49097830",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-07-29T14:13:27Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-07-29T14:13:27Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49091697",
+   "source": "hackernews",
+   "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+   "url": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
+   "discussion": "https://news.ycombinator.com/item?id=49091697",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-07-29T00:07:06Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-07-29T00:07:06Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-20316",
+   "source": "cisa-kev",
+   "title": "CVE-2026-20316: Cisco Secure Firewall Management Center (FMC) - Cisco Secure Firewall Management Center Use of Hard-coded Password Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-07-29T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-20316"
+   ],
+   "kev": [
+    "CVE-2026-20316"
+   ],
+   "first_seen": "2026-07-29T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49082550",
+   "source": "hackernews",
+   "title": "Fast Remediation Is the New Trust Model (JFrog and OpenAI Zero-Day Findings)",
+   "url": "https://jfrog.com/blog/jfrog-and-openai-collaboration-on-zero-day-security-findings/",
+   "discussion": "https://news.ycombinator.com/item?id=49082550",
+   "points": 61,
+   "comments": 37,
+   "created": "2026-07-28T12:02:57Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-07-28T12:02:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "hn:49068023",
+   "source": "hackernews",
+   "title": "Endor Labs' AI SAST Finds Zero Day Memory-Y",
+   "url": "https://news.ycombinator.com/item?id=49068023",
+   "discussion": "https://news.ycombinator.com/item?id=49068023",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-07-27T11:32:11Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-07-27T11:32:11Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2025-68686",
+   "source": "cisa-kev",
+   "title": "CVE-2025-68686: Fortinet FortiOS - Fortinet FortiOS Exposure of Sensitive Information to an Unauthorized Actor Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-07-27T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2025-68686"
+   ],
+   "kev": [
+    "CVE-2025-68686"
+   ],
+   "first_seen": "2026-07-27T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-16812",
+   "source": "cisa-kev",
+   "title": "CVE-2026-16812: Arista VeloCloud Orchestrator - Arista VeloCloud Orchestrator On-Prem OS Command Injection Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-07-27T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-16812"
+   ],
+   "kev": [
+    "CVE-2026-16812"
+   ],
+   "first_seen": "2026-07-27T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "hn:49057604",
+   "source": "hackernews",
+   "title": "CVE-2026-49176 Exploit Development: WalletService to System",
+   "url": "https://davidcarliez.github.io/blog/cve-2026-49176-walletservice-to-system/",
+   "discussion": "https://news.ycombinator.com/item?id=49057604",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-07-26T12:46:08Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-49176"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-26T12:46:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:dxhdqx",
+   "source": "lobsters",
+   "title": "CVE-2026-49176 Exploit Development: WalletService to SYSTEM",
+   "url": "https://davidcarliez.github.io/blog/cve-2026-49176-walletservice-to-system/",
+   "discussion": "https://lobste.rs/s/dxhdqx/cve_2026_49176_exploit_development",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-07-23T12:57:50.976-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-49176"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-23T17:57:50Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:uibzl8",
+   "source": "lobsters",
+   "title": "Frag Gap (CVE-2026-53362, CVE-2026-53366)",
+   "url": "https://blog.qwerty.or.kr/en/posts/cdf3008a-c1a4-4eca-a373-aa3a2bcf1489/",
+   "discussion": "https://lobste.rs/s/uibzl8/frag_gap_cve_2026_53362_cve_2026_53366",
+   "points": 5,
+   "comments": 2,
+   "created": "2026-07-22T18:07:39.737-05:00",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-53362",
+    "CVE-2026-53366"
+   ],
+   "kev": [
+    "CVE-2026-53362"
+   ],
+   "first_seen": "2026-07-22T23:07:39Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:tltlwf",
+   "source": "lobsters",
+   "title": "RefluXFS: A Linux Kernel Local Privilege Escalation to Root in XFS (CVE-2026-64600)",
+   "url": "https://blog.qualys.com/vulnerabilities-threat-research/2026/07/22/refluxfs-a-linux-kernel-local-privilege-escalation-to-root-in-xfs-cve-2026-64600",
+   "discussion": "https://lobste.rs/s/tltlwf/refluxfs_linux_kernel_local_privilege",
+   "points": 10,
+   "comments": 3,
+   "created": "2026-07-22T15:24:10.865-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-64600"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-22T20:24:10Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:miadav",
+   "source": "lobsters",
+   "title": "Dark Elevator: Windows Install Service Local Privilege Escalation (CVE-2026-50343)",
+   "url": "https://blog.calif.io/p/dark-elevator-windows-install-service",
+   "discussion": "https://lobste.rs/s/miadav/dark_elevator_windows_install_service",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-07-22T13:59:00.810-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-50343"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-22T18:59:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:w7qez9",
+   "source": "lobsters",
+   "title": "Local Privilege Escalation in set-capabilities versions of snap-confine (CVE-2026-8933)",
+   "url": "https://cdn2.qualys.com/advisory/2026/07/21/snap-confine-set-capabilities.txt",
+   "discussion": "https://lobste.rs/s/w7qez9/local_privilege_escalation_set",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-07-21T13:01:28.331-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-8933"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-21T18:01:28Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:h9zpbs",
+   "source": "lobsters",
+   "title": "A Linux Kernel 0-day Journey - From a limited UAF to Physical Memory R/W",
+   "url": "https://1day.dev/posts/linux-kernel-0day.html",
+   "discussion": "https://lobste.rs/s/h9zpbs/linux_kernel_0_day_journey_from_limited",
+   "points": 4,
+   "comments": 0,
+   "created": "2026-07-20T15:15:57.851-05:00",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-07-20T20:15:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:7hmu0w",
+   "source": "lobsters",
+   "title": "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
+   "url": "https://nvd.nist.gov/vuln/detail/cve-2026-57589",
+   "discussion": "https://lobste.rs/s/7hmu0w/openbsd_through_7_9_has_use_after_free",
+   "points": 36,
+   "comments": 4,
+   "created": "2026-07-07T20:02:05.000-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-57589"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-08T01:02:05Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:txjns0",
+   "source": "lobsters",
+   "title": "Reporting a 19+ Years Hidden Linux Kernel Zero-Day for Google kernelCTF: CVE-2026-43456",
+   "url": "https://gmo-cybersecurity.com/blog/19-years-hidden-80000-rewarded-reporting-a-linux-kernel-zero-day-for-google-kernelctf/",
+   "discussion": "https://lobste.rs/s/txjns0/reporting_19_years_hidden_linux_kernel",
+   "points": 11,
+   "comments": 0,
+   "created": "2026-07-07T04:56:21.000-05:00",
+   "label": "zero_day_mention",
+   "cves": [
+    "CVE-2026-43456"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-07T09:56:21Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:drf6my",
+   "source": "lobsters",
+   "title": "Bad Epoll (CVE-2026-46242)",
+   "url": "https://github.com/J-jaeyoung/bad-epoll",
+   "discussion": "https://lobste.rs/s/drf6my/bad_epoll_cve_2026_46242",
+   "points": 60,
+   "comments": 18,
+   "created": "2026-07-04T13:40:12.000-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-46242"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-04T18:40:12Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:adgyhb",
+   "source": "lobsters",
+   "title": "Dissecting and Exploiting Linux LPE Variant: DirtyClone (CVE-2026-43503)",
+   "url": "https://research.jfrog.com/post/dissecting-and-exploiting-linux-lpe-variant-dirtyclone-cve-2026-43503/",
+   "discussion": "https://lobste.rs/s/adgyhb/dissecting_exploiting_linux_lpe_variant",
+   "points": 3,
+   "comments": 1,
+   "created": "2026-07-03T12:01:38.000-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-43503"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-03T17:01:38Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:0kc445",
+   "source": "lobsters",
+   "title": "Unprivileged root via an out-of-bounds write in the FUSE readdir cache (CVE-2026-31694)",
+   "url": "https://cyberstan.co.uk/fuse-readdir-oob/",
+   "discussion": "https://lobste.rs/s/0kc445/unprivileged_root_via_out_bounds_write",
+   "points": 11,
+   "comments": 8,
+   "created": "2026-07-01T19:36:55.000-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-31694"
+   ],
+   "kev": [],
+   "first_seen": "2026-07-02T00:36:55Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:hh5yyq",
+   "source": "lobsters",
+   "title": "Unprivileged root via a use-after-free in DRM GEM change_handle (CVE-2026-46215)",
+   "url": "https://cyberstan.co.uk/drm-lpe-linux/",
+   "discussion": "https://lobste.rs/s/hh5yyq/unprivileged_root_via_use_after_free_drm",
+   "points": 8,
+   "comments": 0,
+   "created": "2026-06-29T13:05:24.000-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-46215"
+   ],
+   "kev": [],
+   "first_seen": "2026-06-29T18:05:24Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:uaoe9y",
+   "source": "lobsters",
+   "title": "Longinus: 2 Boundaries in One Bug, Piercing Chrome’s Renderer and V8 Sandbox with a Single Vulnerability, CVE-2026-6307",
+   "url": "https://nebusec.ai/research/v8-cve-2026-6307-writeup/",
+   "discussion": "https://lobste.rs/s/uaoe9y/longinus_2_boundaries_one_bug_piercing",
+   "points": 14,
+   "comments": 0,
+   "created": "2026-06-29T10:00:17.000-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-6307"
+   ],
+   "kev": [],
+   "first_seen": "2026-06-29T15:00:17Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:pbvqlz",
+   "source": "lobsters",
+   "title": "CVE-2026-42530: Use after free in nginx HTTP/3 QUIC module",
+   "url": "https://www.cve.org/CVERecord?id=CVE-2026-42530",
+   "discussion": "https://lobste.rs/s/pbvqlz/cve_2026_42530_use_after_free_nginx_http_3",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-06-18T08:32:10.000-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-42530"
+   ],
+   "kev": [],
+   "first_seen": "2026-06-18T13:32:10Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:ejra5c",
+   "source": "lobsters",
+   "title": "21 Zero-Days in FFmpeg",
+   "url": "https://depthfirst.com/research/21-zero-days-in-ffmpeg",
+   "discussion": "https://lobste.rs/s/ejra5c/21_zero_days_ffmpeg",
+   "points": 20,
+   "comments": 6,
+   "created": "2026-06-12T19:21:57.000-05:00",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-06-13T00:21:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:bdyu6l",
+   "source": "lobsters",
+   "title": "CVE-2026-45257: LPE in FreeBSD via kTLS-RX",
+   "url": "https://bumsrake.de",
+   "discussion": "https://lobste.rs/s/bdyu6l/cve_2026_45257_lpe_freebsd_via_ktls_rx",
+   "points": 21,
+   "comments": 5,
+   "created": "2026-06-11T08:40:17.000-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-45257"
+   ],
+   "kev": [],
+   "first_seen": "2026-06-11T13:40:17Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "lobsters:yg1xb2",
+   "source": "lobsters",
+   "title": "CVE-2026-45447: Heap Use-After-Free in the OpenSSL PKCS7_verify() Function",
+   "url": "https://openssl-library.org/news/vulnerabilities/#CVE-2026-45447",
+   "discussion": "https://lobste.rs/s/yg1xb2/cve_2026_45447_heap_use_after_free_openssl",
+   "points": 22,
+   "comments": 6,
+   "created": "2026-06-09T20:08:08.000-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-45447"
+   ],
+   "kev": [],
+   "first_seen": "2026-06-10T01:08:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-24T02:04:38Z",
+     "label": "related"
+    }
+   ]
   }
  ]
 }

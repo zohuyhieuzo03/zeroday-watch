@@ -10,7 +10,7 @@ KEV_URL = (
     "known_exploited_vulnerabilities.json"
 )
 HN_QUERIES = ["0day", "zero-day", "exploited in the wild", "CVE-2026", "actively exploited"]
-LOBSTERS_URLS = ["https://lobste.rs/t/security.json"]
+LOBSTERS_URL = "https://lobste.rs/t/security%s.json"
 
 
 def _get_json(url):
@@ -19,28 +19,60 @@ def _get_json(url):
         return json.load(resp)
 
 
-def fetch_kev():
-    """Return {CVE-ID: dateAdded} from the CISA KEV catalog (GitHub mirror)."""
-    data = _get_json(KEV_URL)
-    return {v["cveID"]: v.get("dateAdded", "") for v in data.get("vulnerabilities", [])}
+def fetch_kev_full():
+    """Return the raw KEV entries (CISA catalog, GitHub mirror)."""
+    return _get_json(KEV_URL).get("vulnerabilities", [])
 
 
-def fetch_hn(hours=48):
+def kev_dates(entries):
+    return {v["cveID"]: v.get("dateAdded", "") for v in entries}
+
+
+def kev_items(entries, days):
+    """KEV additions from the last `days` days as feed items (primary source)."""
+    cutoff = time.strftime("%Y-%m-%d", time.gmtime(time.time() - days * 86400))
+    out = []
+    for v in entries:
+        added = v.get("dateAdded", "")
+        if added < cutoff:
+            continue
+        cve = v["cveID"]
+        out.append(
+            {
+                "id": "kev:" + cve,
+                "source": "cisa-kev",
+                "title": "%s: %s %s - %s"
+                % (cve, v.get("vendorProject", ""), v.get("product", ""), v.get("vulnerabilityName", "")),
+                "url": "https://nvd.nist.gov/vuln/detail/" + cve,
+                "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+                "points": 0,
+                "comments": 0,
+                "created": added + "T00:00:00Z",
+                "label": "kev_exploited",
+                "cves": [cve],
+                "kev": [cve],
+            }
+        )
+    return out
+
+
+def fetch_hn(hours=48, pages=1):
     since = int(time.time()) - hours * 3600
     seen = {}
-    for q in HN_QUERIES:
+    for q, page in [(q, p) for q in HN_QUERIES for p in range(pages)]:
         params = urllib.parse.urlencode(
             {
                 "query": q,
                 "tags": "story",
                 "numericFilters": "created_at_i>%d" % since,
                 "hitsPerPage": 50,
+                "page": page,
             }
         )
         try:
             hits = _get_json("https://hn.algolia.com/api/v1/search_by_date?" + params)["hits"]
         except Exception as exc:  # one failing query must not sink the run
-            print("hn query %r failed: %s" % (q, exc))
+            print("hn query %r page %d failed: %s" % (q, page, exc))
             continue
         for h in hits:
             oid = h["objectID"]
@@ -57,9 +89,9 @@ def fetch_hn(hours=48):
     return list(seen.values())
 
 
-def fetch_lobsters():
+def fetch_lobsters(pages=1):
     out = {}
-    for url in LOBSTERS_URLS:
+    for url in [LOBSTERS_URL % ("" if n == 0 else "/page/%d" % (n + 1)) for n in range(pages)]:
         try:
             stories = _get_json(url)
         except Exception as exc:

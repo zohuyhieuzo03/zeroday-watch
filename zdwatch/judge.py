@@ -132,6 +132,8 @@ def refresh_consensus(items):
 
 
 def needs_judging(item):
+    if item.get("source") == "cisa-kev":
+        return False
     llm = item.get("llm")
     return not llm or llm.get("title") != item["title"]
 

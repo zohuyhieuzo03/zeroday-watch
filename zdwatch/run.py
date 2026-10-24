@@ -11,8 +11,19 @@ from . import classify, judge, sources
 DOCS = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "docs")
 FEED_JSON = os.path.join(DOCS, "feed.json")
 FEED_XML = os.path.join(DOCS, "feed.xml")
-KEEP = 500
+KEEP = 3000
 RSS_LABELS = {"kev_exploited", "zero_day_reported", "exploited_reported"}
+
+
+def norm_time(iso):
+    """Normalise any ISO timestamp to UTC 'YYYY-MM-DDTHH:MM:SSZ' so strings sort."""
+    try:
+        d = datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=timezone.utc)
+        return d.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    except (ValueError, AttributeError):
+        return None
 
 
 def now():
@@ -31,7 +42,7 @@ def merge(existing, fresh, ts):
     for item in fresh:
         old = existing.get(item["id"])
         if old is None:
-            item["first_seen"] = ts
+            item["first_seen"] = norm_time(item.get("created")) or ts
             item["label_history"] = [{"at": ts, "label": item["label"]}]
             existing[item["id"]] = item
             continue
@@ -74,11 +85,18 @@ def write_rss(items, ts):
         f.write(xml)
 
 
-def main():
+def main(argv=None):
+    argv = sys.argv[1:] if argv is None else argv
+    days = int(argv[argv.index("--backfill") + 1]) if "--backfill" in argv else 0
     ts = now()
-    kev = sources.fetch_kev()
-    raw = sources.fetch_hn() + sources.fetch_lobsters()
+    entries = sources.fetch_kev_full()
+    kev = sources.kev_dates(entries)
+    if days:
+        raw = sources.fetch_hn(hours=days * 24, pages=20) + sources.fetch_lobsters(pages=15)
+    else:
+        raw = sources.fetch_hn() + sources.fetch_lobsters()
     fresh = [c for c in (classify.classify(i, kev) for i in raw) if c]
+    fresh += sources.kev_items(entries, days or 3)
     print("kev=%d raw=%d relevant=%d" % (len(kev), len(raw), len(fresh)))
     if not raw:
         print("no items fetched; leaving feed untouched")
