@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T09:21:33Z",
+ "generated": "2026-10-24T09:25:35Z",
  "count": 1128,
  "topics": [
   {
@@ -2868,7 +2868,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "zero_day_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments.",
+    "at": "2026-10-24T09:25:35Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9994637241949524,
+      "exploited": 0.9995694429137654
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9484532039328947,
+      "exploited": 0.9969332318900657
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "blog:https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
@@ -2888,7 +2906,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+    "at": "2026-10-24T09:25:35Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9994128745106686,
+      "exploited": 0.9992903296184017
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9778248885924797,
+      "exploited": 0.9939898615866878
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "github-advisory:GHSA-78g4-xqwv-q3g8",
@@ -8296,7 +8332,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August.",
+    "at": "2026-10-24T09:25:35Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9995638740270285,
+      "exploited": 0.9995121428408873
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9463796385455625,
+      "exploited": 0.9981676754812705
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-785/",
@@ -8436,7 +8490,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-779: (0Day) Sparx Systems Enterprise Architect XSLT Debugger XML External Entity Processing Information Disclosure Vulnerability",
+    "at": "2026-10-24T09:25:35Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9956669143404739,
+      "exploited": 0.46879062662624377
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7724103816713842,
+      "exploited": 0.38393833632753693
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "kev:CVE-2026-102764",
@@ -9376,7 +9448,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-757: (0Day) Telegram rlottie Numeric Truncation Remote Code Execution Vulnerability",
+    "at": "2026-10-24T09:25:35Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9980432668143515,
+      "exploited": 0.05340332678672523
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8734539589897125,
+      "exploited": 0.4441753062008804
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "kev:CVE-2026-21589",
@@ -9482,7 +9572,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "zero_day_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with ro",
+    "at": "2026-10-24T09:25:35Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9939948633654527,
+      "exploited": 0.9993736657822836
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9070538515170731,
+      "exploited": 0.9953005974549263
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:50090900",
@@ -10145,7 +10253,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "zero_day_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Ivanti urged customers on Tuesday to immediately patch an actively exploited zero-day vulnerability in the Ivanti Connect Secure (ICS) remote access gateway.",
+    "at": "2026-10-24T09:25:35Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9995059166962711,
+      "exploited": 0.9995955185112892
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9761889315379143,
+      "exploited": 0.9956834228905509
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxrdhtmcwq2m",
@@ -10409,7 +10535,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-756: (0Day) Genesis World load_checkpoint Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-10-24T09:25:35Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9959999318932988,
+      "exploited": 0.033085976005166884
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.7894802821361365,
+      "exploited": 0.41121938872083935
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-755/",
@@ -10429,7 +10573,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-755: (0Day) Genesis World glTF Server-Side Request Forgery Vulnerability",
+    "at": "2026-10-24T09:25:35Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.996906019645469,
+      "exploited": 0.1480471961522176
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8228493792893007,
+      "exploited": 0.4410856225518057
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-754/",
@@ -10449,7 +10611,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "zero_day_mention"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-754: (0Day) Genesis World URDF Directory Traversal Information Disclosure Vulnerability",
+    "at": "2026-10-24T09:25:35Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9975404609889884,
+      "exploited": 0.2018132198600306
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8737444677228747,
+      "exploited": 0.5010185227611131
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-753/",
