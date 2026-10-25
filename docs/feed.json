@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-25T06:03:37Z",
- "count": 1152,
+ "generated": "2026-10-25T11:19:59Z",
+ "count": 1155,
  "topics": [
   {
    "name": "php2shell",
    "threads": 32,
    "repos": 24,
-   "points": 960,
+   "points": 961,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -25,8 +25,8 @@
     "ghpoc:JoasASantos/php2shell-exploit",
     "ghpoc:devploit/php2shell",
     "ghpoc:HOSTED-POWER/php_uploadprogress_guard",
-    "ghpoc:junaire/CVE-2026-109618-exploit",
     "ghpoc:syrex1013/php2shell",
+    "ghpoc:junaire/CVE-2026-109618-exploit",
     "hn:50181326",
     "hn:50187708",
     "ghpoc:syhunt/php2shell-protection",
@@ -34,21 +34,21 @@
     "ghpoc:JoasASantos/php2shell-scanner",
     "ghpoc:Anton-Barinov/php2shell-patches",
     "ghpoc:aancw/php2shell-scanner",
-    "ghpoc:pentestershell/php2shellbt",
     "ghpoc:murrez/php2shell",
+    "ghpoc:pentestershell/php2shellbt",
     "ghpoc:aarsaputra/php2shell",
-    "ghpoc:Qsnh/php2shell-fixed",
     "ghpoc:mpyw/php-eol-CVE-2026-109618-109619",
+    "ghpoc:Qsnh/php2shell-fixed",
     "ghpoc:Is4yev/php2shell-poc",
     "ghpoc:vperetti/php-cve-2026-109618-109619-backports",
     "ghpoc:xuehuolll/php2shell-CVE-2026-109618-109619"
    ]
   },
   {
-   "name": "Node2Shell",
-   "threads": 11,
-   "repos": 1,
-   "points": 93,
+   "name": "decoder",
+   "threads": 12,
+   "repos": 2,
+   "points": 102,
    "kev": false,
    "vendor": true,
    "cves": [
@@ -60,11 +60,13 @@
    "last_seen": "2026-10-24T16:36:32Z",
    "items": [
     "ghpoc:dimasma0305/CVE-2026-111497-POC",
+    "ghpoc:trailofbits/brotli-checker",
     "hn:50189292",
     "hn:50192733",
     "lobsters:gu7bow",
     "hn:50203180",
     "lobsters:al3yyf",
+    "hn:50217557",
     "hn:50221110",
     "hn:50204501",
     "hn:50174097",
@@ -119,7 +121,7 @@
    "name": "curl",
    "threads": 5,
    "repos": 0,
-   "points": 110,
+   "points": 111,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -152,29 +154,10 @@
    ]
   },
   {
-   "name": "out-of-bounds",
-   "threads": 4,
-   "repos": 0,
-   "points": 65,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-107891",
-    "CVE-2026-115936"
-   ],
-   "last_seen": "2026-10-23T23:51:26Z",
-   "items": [
-    "lobsters:dldfel",
-    "hn:50204287",
-    "hn:50197556",
-    "blog:https://seclists.org/oss-sec/2026/q4/367"
-   ]
-  },
-  {
    "name": "drop",
    "threads": 3,
    "repos": 0,
-   "points": 224,
+   "points": 225,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -200,6 +183,23 @@
     "hn:50216791",
     "hn:50195180",
     "blog:https://seclists.org/oss-sec/2026/q4/372"
+   ]
+  },
+  {
+   "name": "CVE-2026-107891",
+   "threads": 3,
+   "repos": 0,
+   "points": 63,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-107891"
+   ],
+   "last_seen": "2026-10-25T10:36:18Z",
+   "items": [
+    "lobsters:dldfel",
+    "hn:50204287",
+    "hn:50230132"
    ]
   },
   {
@@ -360,13 +360,95 @@
  ],
  "items": [
   {
+   "id": "hn:50230132",
+   "source": "hackernews",
+   "title": "CVE-2026-107891: musl Libc Integer Overflow in regcomp Leading to Heap Issues",
+   "url": "https://www.openwall.com/lists/oss-security/2026/10/21/18",
+   "discussion": "https://news.ycombinator.com/item?id=50230132",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-25T10:36:18Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-107891"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-25T10:36:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-25T11:19:59Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-107891: musl Libc Integer Overflow in regcomp Leading to Heap Issues",
+    "at": "2026-10-25T11:19:59Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.7469822601656767,
+      "exploited": 0.000335349997931487
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.5387331974082643,
+      "exploited": 0.007705153231330709
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "hn:50229452",
+   "source": "hackernews",
+   "title": "CVE-2026-86950: The Great Glyph Grift",
+   "url": "https://calif.io/research/the-great-glyph-grift",
+   "discussion": "https://news.ycombinator.com/item?id=50229452",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-25T08:34:56Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-86950"
+   ],
+   "kev": [
+    "CVE-2026-86950"
+   ],
+   "first_seen": "2026-10-25T08:34:56Z",
+   "label_history": [
+    {
+     "at": "2026-10-25T11:19:59Z",
+     "label": "kev_exploited"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-86950: The Great Glyph Grift",
+    "at": "2026-10-25T11:19:59Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9137165531104063,
+      "exploited": 0.0031726826024337505
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.3210003040944497,
+      "exploited": 0.11407712976133996
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
    "id": "hn:50227138",
    "source": "hackernews",
    "title": "Tailworm – Tailscale Vulnerabilities",
    "url": "https://tailworm.com/",
    "discussion": "https://news.ycombinator.com/item?id=50227138",
    "points": 18,
-   "comments": 12,
+   "comments": 13,
    "created": "2026-10-25T00:59:48Z",
    "label": "security_news",
    "cves": [],
@@ -405,7 +487,7 @@
    "title": "PHP2Shell exploitation observed: packet-to-process RCE evidence",
    "url": "https://github.com/0x4D31/honeypot-data/blob/main/reports/php2shell/2026-10-24-confirmed-rce.md",
    "discussion": "https://news.ycombinator.com/item?id=50226578",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-10-24T23:33:25Z",
    "label": "exploited_reported",
@@ -517,7 +599,25 @@
      "at": "2026-10-24T23:10:09Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "PHP 5.4.23 (custom 5.4-5.6) backported patch for PHP2Shell OOM vulnerability (CVE-2026-109618)",
+    "at": "2026-10-25T11:19:59Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "not_exploited",
+      "confidence": 0.9141141488863291,
+      "exploited": 0.00045831282213300414
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.6358579619124494,
+      "exploited": 0.008731865144315756
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/374",
@@ -539,7 +639,25 @@
      "at": "2026-10-24T23:10:09Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-111813 etc: Multiple vulnerabilities in Apache Traffic Server prior to 9.2.16/10.1.5/10.2.1",
+    "at": "2026-10-25T11:19:59Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.7933742391277454,
+      "exploited": 0.0006263340488055944
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.7033466935999263,
+      "exploited": 0.004244844986041022
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "hn:50224269",
@@ -601,7 +719,25 @@
      "at": "2026-10-24T17:25:11Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Re: Brotli CVE-2026-111497",
+    "at": "2026-10-25T11:19:59Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.962524350616277,
+      "exploited": 0.0008040857975750498
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.35780972520223003,
+      "exploited": 0.0038566603563689383
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/372",
@@ -623,7 +759,25 @@
      "at": "2026-10-24T17:25:11Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "[oss-security][CVE-2026-115557] Distrust compromised intermediate certificates in Python ssl module",
+    "at": "2026-10-25T11:19:59Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8136475156313111,
+      "exploited": 0.001325022553392062
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.2708654885235749,
+      "exploited": 0.12192507812647622
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50222559",
@@ -671,7 +825,7 @@
    "title": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a ma",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mymv4bblp72q",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mymv4bblp72q",
-   "points": 3,
+   "points": 4,
    "comments": 2,
    "created": "2026-10-24T14:18:14Z",
    "label": "security_news",
@@ -745,7 +899,25 @@
      "at": "2026-10-24T17:25:11Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-114629: Web::Simple versions before 0.035 for Perl allocate a buffer sized by the Content-Length header for urlencoded body parameters",
+    "at": "2026-10-25T11:19:59Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8499530327445906,
+      "exploited": 0.00029595707631383395
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.6103450965868601,
+      "exploited": 0.0009122907499834855
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "hn:50221110",
@@ -767,7 +939,25 @@
      "at": "2026-10-24T13:59:29Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Broccoli2Shell: Brotli decoder RCE (CVE-2026-111497) in Node.js, Python and more",
+    "at": "2026-10-25T11:19:59Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9239166197849077,
+      "exploited": 0.000404481512527546
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.22985132415169285,
+      "exploited": 0.05967224912709681
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50221068",
@@ -835,8 +1025,8 @@
    "title": "This week's \"node2shell\" Brotli vulnerability (CVE-2026-111497) is exploitable in Python, other consumers of Brotli",
    "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
    "discussion": "https://lobste.rs/s/al3yyf/this_week_s_node2shell_brotli",
-   "points": 8,
-   "comments": 10,
+   "points": 12,
+   "comments": 11,
    "created": "2026-10-24T06:01:27.896-05:00",
    "label": "related",
    "cves": [
@@ -849,7 +1039,25 @@
      "at": "2026-10-24T13:59:29Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "This week's \"node2shell\" Brotli vulnerability (CVE-2026-111497) is exploitable in Python, other consumers of Brotli",
+    "at": "2026-10-25T11:19:59Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "not_exploited",
+      "confidence": 0.6822150161856124,
+      "exploited": 0.007577241022742362
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.26910335130568314,
+      "exploited": 0.16604796020243504
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "hn:50220042",
@@ -974,7 +1182,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "How to Identify Compromised eMudhra Certificates With Qualys (CVE-2026-111943 and CVE-2026-111944)",
+    "at": "2026-10-25T11:19:59Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9133761820662353,
+      "exploited": 0.001501181974747817
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.15861953940963971,
+      "exploited": 0.3859759232885703
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50217557",
@@ -1630,7 +1856,7 @@
    "title": "Ask HN: What router will remain secure during the vulnpocalypse?",
    "url": "https://news.ycombinator.com/item?id=50216355",
    "discussion": "https://news.ycombinator.com/item?id=50216355",
-   "points": 5,
+   "points": 7,
    "comments": 3,
    "created": "2026-10-23T22:40:38Z",
    "label": "security_news",
@@ -2683,6 +2909,28 @@
    ]
   },
   {
+   "id": "ghpoc:trailofbits/brotli-checker",
+   "source": "github-poc",
+   "title": "trailofbits/brotli-checker: Claude Code and Codex skill for finding potentially vulnerable Brotli copies and guiding updates for CVE-2026-111497.",
+   "url": "https://github.com/trailofbits/brotli-checker",
+   "discussion": "https://github.com/trailofbits/brotli-checker",
+   "points": 37,
+   "comments": 0,
+   "created": "2026-10-23T16:32:12Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-23T16:32:12Z",
+   "label_history": [
+    {
+     "at": "2026-10-25T11:19:59Z",
+     "label": "public_exploit_reported"
+    }
+   ]
+  },
+  {
    "id": "hn:50211188",
    "source": "hackernews",
    "title": "LLM Multi-Agent Systems Are Vulnerable to Herding and Runaway Cascades",
@@ -2868,7 +3116,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 64,
+   "points": 70,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "public_exploit_reported",
@@ -2998,8 +3246,8 @@
    "title": "Your Phone Is About to Stop Being Yours: 70 Days Until Lockdown",
    "url": "https://keepandroidopen.org/?",
    "discussion": "https://news.ycombinator.com/item?id=50208558",
-   "points": 531,
-   "comments": 370,
+   "points": 534,
+   "comments": 374,
    "created": "2026-10-23T13:19:42Z",
    "label": "security_news",
    "cves": [],
@@ -4529,7 +4777,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 169,
+   "points": 170,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "public_exploit_reported",
@@ -4732,7 +4980,7 @@
    "title": "aancw/php2shell-scanner: Scanner for PHP2Shell (CVE-2026-109618/109619): URL blackbox, local device and SSH.",
    "url": "https://github.com/aancw/php2shell-scanner",
    "discussion": "https://github.com/aancw/php2shell-scanner",
-   "points": 72,
+   "points": 83,
    "comments": 0,
    "created": "2026-10-22T09:45:34Z",
    "label": "public_exploit_reported",
@@ -4874,7 +5122,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 40,
+   "points": 41,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "public_exploit_reported",
@@ -4896,7 +5144,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 816,
+   "points": 887,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "public_exploit_reported",
@@ -5100,7 +5348,7 @@
    "title": "devploit/php2shell: PHP2Shell: version-aware research toolkit for CVE-2026-109618 / CVE-2026-109619 — pre-auth RCE in PHP session.upload_progress (mod_php). Bui",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 156,
+   "points": 157,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "public_exploit_reported",
@@ -6229,7 +6477,7 @@
    "title": "syrex1013/php2shell: CVE-2026-109618/109619 PoC — PHP session.upload_progress heap use-after-free (CVSS 9.2)",
    "url": "https://github.com/syrex1013/php2shell",
    "discussion": "https://github.com/syrex1013/php2shell",
-   "points": 138,
+   "points": 140,
    "comments": 0,
    "created": "2026-10-21T15:06:33Z",
    "label": "public_exploit_reported",
@@ -6251,7 +6499,7 @@
    "title": "mpyw/php-eol-CVE-2026-109618-109619: PHP 7.4 / 8.0 / 8.1 Docker images with the CVE-2026-109618 / CVE-2026-109619 fix backported",
    "url": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
    "discussion": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
-   "points": 57,
+   "points": 58,
    "comments": 0,
    "created": "2026-10-21T15:01:45Z",
    "label": "public_exploit_reported",
@@ -6294,7 +6542,7 @@
    "title": "Anton-Barinov/php2shell-patches: php2shell (CVE-2026-109618 & CVE-2026-109619) security patches for EOL PHP 5.4–8.1. Official & enhanced backports for vanilla php.net and Re",
    "url": "https://github.com/Anton-Barinov/php2shell-patches",
    "discussion": "https://github.com/Anton-Barinov/php2shell-patches",
-   "points": 105,
+   "points": 106,
    "comments": 0,
    "created": "2026-10-21T14:48:05Z",
    "label": "public_exploit_reported",
@@ -6730,7 +6978,7 @@
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
    "url": "https://github.com/murrez/php2shell",
    "discussion": "https://github.com/murrez/php2shell",
-   "points": 71,
+   "points": 73,
    "comments": 0,
    "created": "2026-10-21T12:37:59Z",
    "label": "public_exploit_reported",
@@ -6821,7 +7069,7 @@
    "title": "Is4yev/php2shell-poc: CVE-2026-109618/109619 PHP2Shell — Heap UAF PoC (crash + RCE framework)",
    "url": "https://github.com/Is4yev/php2shell-poc",
    "discussion": "https://github.com/Is4yev/php2shell-poc",
-   "points": 54,
+   "points": 55,
    "comments": 0,
    "created": "2026-10-21T10:44:37Z",
    "label": "public_exploit_reported",
@@ -6863,7 +7111,7 @@
    "title": "HOSTED-POWER/php_uploadprogress_guard: Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component b",
    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
    "discussion": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-   "points": 148,
+   "points": 149,
    "comments": 0,
    "created": "2026-10-21T09:00:12Z",
    "label": "public_exploit_reported",
@@ -6886,7 +7134,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 987,
+   "points": 990,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "public_exploit_reported",
@@ -6949,7 +7197,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1764,
+   "points": 1779,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "public_exploit_reported",
@@ -7100,7 +7348,7 @@
    "title": "syhunt/php2shell-protection: Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apa",
    "url": "https://github.com/syhunt/php2shell-protection",
    "discussion": "https://github.com/syhunt/php2shell-protection",
-   "points": 112,
+   "points": 113,
    "comments": 0,
    "created": "2026-10-21T04:01:24Z",
    "label": "public_exploit_reported",
@@ -7442,7 +7690,7 @@
    "title": "Do minor curl vulnerabilities in the open",
    "url": "https://daniel.haxx.se/blog/2026/10/20/do-minor-curl-vulnerabilities-in-the-open/",
    "discussion": "https://lobste.rs/s/nryxzd/do_minor_curl_vulnerabilities_open",
-   "points": 59,
+   "points": 60,
    "comments": 2,
    "created": "2026-10-20T14:47:54.578-05:00",
    "label": "security_news",
