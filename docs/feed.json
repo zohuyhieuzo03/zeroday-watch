@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T23:10:09Z",
- "count": 1149,
+ "generated": "2026-10-25T01:06:53Z",
+ "count": 1152,
  "topics": [
   {
    "name": "php2shell",
-   "threads": 30,
+   "threads": 32,
    "repos": 24,
-   "points": 956,
+   "points": 960,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -15,7 +15,7 @@
     "CVE-2026-115560",
     "CVE-2026-10961"
    ],
-   "last_seen": "2026-10-24T22:48:29Z",
+   "last_seen": "2026-10-24T23:55:08Z",
    "items": [
     "ghpoc:ikow/php2shell-poc",
     "ghpoc:eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
@@ -174,7 +174,7 @@
    "name": "drop",
    "threads": 3,
    "repos": 0,
-   "points": 223,
+   "points": 224,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -206,7 +206,7 @@
    "name": "Android",
    "threads": 3,
    "repos": 0,
-   "points": 53,
+   "points": 54,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -359,6 +359,84 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50227138",
+   "source": "hackernews",
+   "title": "Tailworm – Tailscale Vulnerabilities",
+   "url": "https://tailworm.com/",
+   "discussion": "https://news.ycombinator.com/item?id=50227138",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-25T00:59:48Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-25T00:59:48Z",
+   "label_history": [
+    {
+     "at": "2026-10-25T01:06:53Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:50226729",
+   "source": "hackernews",
+   "title": "An animated explainer of the PHP2SHell vulnerability [video]",
+   "url": "https://www.youtube.com/watch?v=6Kz4bWKoXhU",
+   "discussion": "https://news.ycombinator.com/item?id=50226729",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-24T23:55:08Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-24T23:55:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-25T01:06:53Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:50226578",
+   "source": "hackernews",
+   "title": "PHP2Shell exploitation observed: packet-to-process RCE evidence",
+   "url": "https://github.com/0x4D31/honeypot-data/blob/main/reports/php2shell/2026-10-24-confirmed-rce.md",
+   "discussion": "https://news.ycombinator.com/item?id=50226578",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-24T23:33:25Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-24T23:33:25Z",
+   "label_history": [
+    {
+     "at": "2026-10-25T01:06:53Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "PHP2Shell exploitation observed: packet-to-process RCE evidence",
+    "at": "2026-10-25T01:06:53Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.7354576639929047,
+      "exploited": 0.985936372311076
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.6948168182670078,
+      "exploited": 0.992913328666847
+     }
+    },
+    "consensus": "disputed",
+    "votes": 2
+   }
+  },
   {
    "id": "lobsters:9b14at",
    "source": "lobsters",
@@ -575,7 +653,7 @@
    "title": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a ma",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mymv4bblp72q",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mymv4bblp72q",
-   "points": 2,
+   "points": 3,
    "comments": 1,
    "created": "2026-10-24T14:18:14Z",
    "label": "security_news",
@@ -740,7 +818,7 @@
    "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
    "discussion": "https://lobste.rs/s/al3yyf/this_week_s_node2shell_brotli",
    "points": 6,
-   "comments": 6,
+   "comments": 7,
    "created": "2026-10-24T06:01:27.896-05:00",
    "label": "related",
    "cves": [
@@ -761,7 +839,7 @@
    "title": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
    "url": "https://gitlab.com/c4psu13/mali-pagecache-root",
    "discussion": "https://news.ycombinator.com/item?id=50220042",
-   "points": 50,
+   "points": 51,
    "comments": 17,
    "created": "2026-10-24T10:51:35Z",
    "label": "kev_exploited",
@@ -2772,7 +2850,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 58,
+   "points": 59,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "public_exploit_reported",
@@ -4433,7 +4511,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 167,
+   "points": 169,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "public_exploit_reported",
@@ -4636,7 +4714,7 @@
    "title": "aancw/php2shell-scanner: Scanner for PHP2Shell (CVE-2026-109618/109619): URL blackbox, local device and SSH.",
    "url": "https://github.com/aancw/php2shell-scanner",
    "discussion": "https://github.com/aancw/php2shell-scanner",
-   "points": 67,
+   "points": 69,
    "comments": 0,
    "created": "2026-10-22T09:45:34Z",
    "label": "public_exploit_reported",
@@ -4800,7 +4878,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 721,
+   "points": 741,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "public_exploit_reported",
@@ -6767,7 +6845,7 @@
    "title": "HOSTED-POWER/php_uploadprogress_guard: Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component b",
    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
    "discussion": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-   "points": 145,
+   "points": 146,
    "comments": 0,
    "created": "2026-10-21T09:00:12Z",
    "label": "public_exploit_reported",
@@ -6790,7 +6868,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 983,
+   "points": 984,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "public_exploit_reported",
@@ -6853,7 +6931,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1753,
+   "points": 1754,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "public_exploit_reported",
@@ -12676,7 +12754,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Atlassian Jira, Confluence Pre-Auth Arbitrary File Read (CVE-2026-21589)",
+    "at": "2026-10-25T01:06:53Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.7097411468617532,
+      "exploited": 0.0015011821255142997
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.2258859325057666,
+      "exploited": 0.041861942482028895
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50004268",
@@ -13080,7 +13176,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Ten days inside CVE-2026-88771: anatomy of a NetScaler exploitation wave",
+    "at": "2026-10-25T01:06:53Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.7914241241640724,
+      "exploited": 0.9875683501072655
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.4645734739783485,
+      "exploited": 0.955414328241885
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "hn:49995495",
@@ -13383,7 +13497,25 @@
      "at": "2026-10-24T09:21:33Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-21589: Critical unauthenticated arbitrary file access in Atlassian products",
+    "at": "2026-10-25T01:06:53Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.88851387890022,
+      "exploited": 0.0031726835538033625
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.14239183381176468,
+      "exploited": 0.0821022787875367
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:49990775",
@@ -13489,7 +13621,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "You Won’t Hear About These, Even In Myths (Atlassian Jira, Confluence (and more) Pre-Auth Arbitrary File Read CVE-2026-21589)",
+    "at": "2026-10-25T01:06:53Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9395188808068907,
+      "exploited": 0.0031726824728354358
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.16105276260388815,
+      "exploited": 0.05139693280722887
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "github-advisory:GHSA-vc4h-q48j-5hcx",
@@ -14939,7 +15089,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Zammad zero-days for RCE and root (CVE-2026-102489/102490)",
+    "at": "2026-10-25T01:06:53Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9930902045047457,
+      "exploited": 0.0024726231152866905
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.9842913230090191,
+      "exploited": 0.45162361120031635
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49931498",
@@ -15508,7 +15676,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-86950: The Great Glyph Grift - An in-the-wild iOS bug with a possible WhatsApp zero-click path",
+    "at": "2026-10-25T01:06:53Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9611020315385118,
+      "exploited": 0.9989677691250638
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8037047181157575,
+      "exploited": 0.9063044255161024
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49919906",
@@ -15678,7 +15864,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-86950: An in-the-wild iOS bug with a possible WhatsApp zero-click path",
+    "at": "2026-10-25T01:06:53Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "zero_day",
+      "confidence": 0.9484359538165662,
+      "exploited": 0.9968273173268762
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.8399348410111837,
+      "exploited": 0.9187478284797839
+     }
+    },
+    "consensus": "zero_day",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49914052",
@@ -16157,7 +16361,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772)",
+    "at": "2026-10-25T01:06:53Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9162589978940555,
+      "exploited": 0.005220125860408771
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.17595345698147774,
+      "exploited": 0.04170156194956526
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:49891817",
@@ -16265,7 +16487,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "kev_exploited"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Taking 'execute logging' a bit too literally CVE-2026-88771",
+    "at": "2026-10-25T01:06:53Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9321651026738522,
+      "exploited": 0.0009110512702706516
+     },
+     "baseten/mammoth-1:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.13764684075502423,
+      "exploited": 0.02225827418229939
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/",
