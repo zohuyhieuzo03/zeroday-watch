@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T19:00:21Z",
+ "generated": "2026-10-25T21:44:19Z",
  "count": 1161,
  "topics": [
   {
@@ -48,7 +48,7 @@
    "name": "node2shell",
    "threads": 13,
    "repos": 3,
-   "points": 491,
+   "points": 493,
    "kev": false,
    "vendor": true,
    "cves": [
@@ -60,9 +60,9 @@
    "last_seen": "2026-10-25T04:23:54Z",
    "items": [
     "hn:50219177",
-    "ghpoc:dimasma0305/CVE-2026-111497-POC",
-    "ghpoc:trailofbits/brotli-checker",
     "ghpoc:assetnote/node2shell-scanner",
+    "ghpoc:trailofbits/brotli-checker",
+    "ghpoc:dimasma0305/CVE-2026-111497-POC",
     "hn:50189292",
     "hn:50192733",
     "lobsters:gu7bow",
@@ -209,7 +209,7 @@
    "name": "Android",
    "threads": 3,
    "repos": 0,
-   "points": 59,
+   "points": 60,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -368,7 +368,7 @@
    "title": "Show HN: SecuBuzz – Factual 60-word cybersecurity briefs and CISA zero-day radar",
    "url": "https://secubuzz.com/",
    "discussion": "https://news.ycombinator.com/item?id=50234702",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-10-25T18:42:37Z",
    "label": "zero_day_mention",
@@ -548,7 +548,7 @@
    "title": "assetnote/node2shell-scanner: High fidelity detection mechanism for node2shell (CVE-2026-111497)",
    "url": "https://github.com/assetnote/node2shell-scanner",
    "discussion": "https://github.com/assetnote/node2shell-scanner",
-   "points": 41,
+   "points": 46,
    "comments": 0,
    "created": "2026-10-25T04:23:54Z",
    "label": "public_exploit_reported",
@@ -571,7 +571,7 @@
    "url": "https://tailworm.com/",
    "discussion": "https://news.ycombinator.com/item?id=50227138",
    "points": 21,
-   "comments": 16,
+   "comments": 15,
    "created": "2026-10-25T00:59:48Z",
    "label": "security_news",
    "cves": [],
@@ -1148,7 +1148,7 @@
    "title": "This week's \"node2shell\" Brotli vulnerability (CVE-2026-111497) is exploitable in Python, other consumers of Brotli",
    "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
    "discussion": "https://lobste.rs/s/al3yyf/this_week_s_node2shell_brotli",
-   "points": 12,
+   "points": 13,
    "comments": 12,
    "created": "2026-10-24T06:01:27.896-05:00",
    "label": "related",
@@ -1188,7 +1188,7 @@
    "title": "Show HN: Autonomous root for Tcl Android TV via CVE-2022-22706",
    "url": "https://gitlab.com/c4psu13/mali-pagecache-root",
    "discussion": "https://news.ycombinator.com/item?id=50220042",
-   "points": 56,
+   "points": 57,
    "comments": 19,
    "created": "2026-10-24T10:51:35Z",
    "label": "kev_exploited",
@@ -1250,8 +1250,8 @@
    "title": "Broccoli2Shell: Brotli decoder RCE in Node.js, Python and more",
    "url": "https://broccoli2shell.com/",
    "discussion": "https://news.ycombinator.com/item?id=50219177",
-   "points": 389,
-   "comments": 207,
+   "points": 390,
+   "comments": 209,
    "created": "2026-10-24T08:06:39Z",
    "label": "security_news",
    "cves": [],
@@ -3129,7 +3129,7 @@
    "title": "trailofbits/brotli-checker: Claude Code and Codex skill for finding potentially vulnerable Brotli copies and guiding updates for CVE-2026-111497.",
    "url": "https://github.com/trailofbits/brotli-checker",
    "discussion": "https://github.com/trailofbits/brotli-checker",
-   "points": 42,
+   "points": 43,
    "comments": 0,
    "created": "2026-10-23T16:32:12Z",
    "label": "public_exploit_reported",
@@ -5449,7 +5449,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 896,
+   "points": 898,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "public_exploit_reported",
@@ -5653,7 +5653,7 @@
    "title": "devploit/php2shell: PHP2Shell: version-aware research toolkit for CVE-2026-109618 / CVE-2026-109619 — pre-auth RCE in PHP session.upload_progress (mod_php). Bui",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 158,
+   "points": 159,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "public_exploit_reported",
@@ -6890,7 +6890,7 @@
    "title": "syrex1013/php2shell: CVE-2026-109618/109619 PoC — PHP session.upload_progress heap use-after-free (CVSS 9.2)",
    "url": "https://github.com/syrex1013/php2shell",
    "discussion": "https://github.com/syrex1013/php2shell",
-   "points": 141,
+   "points": 140,
    "comments": 0,
    "created": "2026-10-21T15:06:33Z",
    "label": "public_exploit_reported",
@@ -7038,7 +7038,7 @@
    "title": "vperetti/php-cve-2026-109618-109619-backports: Minimal source backports of the PHP core RCE fixes (CVE-2026-109618 / CVE-2026-109619) for EOL PHP 5.4 and 7.3",
    "url": "https://github.com/vperetti/php-cve-2026-109618-109619-backports",
    "discussion": "https://github.com/vperetti/php-cve-2026-109618-109619-backports",
-   "points": 49,
+   "points": 50,
    "comments": 0,
    "created": "2026-10-21T14:20:57Z",
    "label": "public_exploit_reported",
@@ -7427,7 +7427,7 @@
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
    "url": "https://github.com/murrez/php2shell",
    "discussion": "https://github.com/murrez/php2shell",
-   "points": 75,
+   "points": 78,
    "comments": 0,
    "created": "2026-10-21T12:37:59Z",
    "label": "public_exploit_reported",
@@ -7518,7 +7518,7 @@
    "title": "Is4yev/php2shell-poc: CVE-2026-109618/109619 PHP2Shell — Heap UAF PoC (crash + RCE framework)",
    "url": "https://github.com/Is4yev/php2shell-poc",
    "discussion": "https://github.com/Is4yev/php2shell-poc",
-   "points": 56,
+   "points": 55,
    "comments": 0,
    "created": "2026-10-21T10:44:37Z",
    "label": "public_exploit_reported",
@@ -7646,7 +7646,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1784,
+   "points": 1787,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "public_exploit_reported",
@@ -7825,7 +7825,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "PHP session.upload_progress heap UAF (CVE-2026-109618 / -109619)",
+    "at": "2026-10-25T21:44:19Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9317381631874924,
+      "exploited": 0.0006263342677047419
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.2380681502631148,
+      "exploited": 0.011591274369294283
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "ghpoc:syhunt/php2shell-protection",
@@ -8257,7 +8275,7 @@
    "title": "dinosn/php-cve-2026-10961x-lab-poc: PHP CVE-2026-109618/109619 — self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie memory disclosure + UAF chain), f",
    "url": "https://github.com/dinosn/php-cve-2026-10961x-lab-poc",
    "discussion": "https://github.com/dinosn/php-cve-2026-10961x-lab-poc",
-   "points": 110,
+   "points": 111,
    "comments": 0,
    "created": "2026-10-20T19:16:47Z",
    "label": "public_exploit_reported",
@@ -8334,7 +8352,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Fixing CVE-2026-111943 in Go Apps and Binaries",
+    "at": "2026-10-25T21:44:19Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.49000535574295184,
+      "exploited": 0.00031503863395275104
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.5056108467079561,
+      "exploited": 0.00938461642983554
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50168534",
@@ -8436,7 +8472,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-111943 permits certificate forgery",
+    "at": "2026-10-25T21:44:19Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9464461837418625,
+      "exploited": 0.0003150386874818596
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.4007881273729404,
+      "exploited": 0.017830491487561845
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50165718",
@@ -8826,7 +8880,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-92392: curl HTTP/2 upload Use-After-Free",
+    "at": "2026-10-25T21:44:19Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8797749434125931,
+      "exploited": 0.0004044814123651534
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.49485883223244975,
+      "exploited": 0.008689341139981646
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779",
@@ -9036,7 +9108,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+    "at": "2026-10-25T21:44:19Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9460398117347365,
+      "exploited": 0.0010322309733718704
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.23945410772128603,
+      "exploited": 0.12365531743071974
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50150549",
@@ -9162,7 +9252,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Dissecting CVE-2026-27280: An OOB write in Android's DNG rendering engine",
+    "at": "2026-10-25T21:44:19Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8660512452212188,
+      "exploited": 0.0003569706376963474
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.35730107640913095,
+      "exploited": 0.023281501500095964
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50146236",
@@ -9184,7 +9292,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Dissecting CVE-2026-27280: An OOB write in Android's DNG rendering engine",
+    "at": "2026-10-25T21:44:19Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8802387121595442,
+      "exploited": 0.00033534999199941553
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.3823429880597189,
+      "exploited": 0.025113616354040472
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3my5sni4fyd2j",
@@ -9334,7 +9460,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+    "at": "2026-10-25T21:44:19Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9456567844630581,
+      "exploited": 0.0009110512109309814
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.2392934759665629,
+      "exploited": 0.12461245646077791
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "ghpoc:code-zm/plex2shell",
@@ -9446,7 +9590,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+    "at": "2026-10-25T21:44:19Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9459990697972239,
+      "exploited": 0.0009110511812611478
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.24028979681888363,
+      "exploited": 0.09970127389330506
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:np84oh",
@@ -9468,7 +9630,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+    "at": "2026-10-25T21:44:19Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9385436168247043,
+      "exploited": 0.0005884087969237384
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.23008471078322634,
+      "exploited": 0.1195246128211774
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3my3cop2l7w2r",
