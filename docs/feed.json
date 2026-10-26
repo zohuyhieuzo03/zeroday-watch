@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-25T21:44:19Z",
- "count": 1161,
+ "generated": "2026-10-26T00:18:52Z",
+ "count": 1164,
  "topics": [
   {
    "name": "php2shell",
@@ -48,7 +48,7 @@
    "name": "node2shell",
    "threads": 13,
    "repos": 3,
-   "points": 493,
+   "points": 495,
    "kev": false,
    "vendor": true,
    "cves": [
@@ -157,6 +157,24 @@
    ]
   },
   {
+   "name": "kernel",
+   "threads": 3,
+   "repos": 0,
+   "points": 250,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-72711",
+    "CVE-2026-72844"
+   ],
+   "last_seen": "2026-10-26T00:14:41Z",
+   "items": [
+    "hn:50193804",
+    "blog:https://seclists.org/oss-sec/2026/q4/380",
+    "blog:https://seclists.org/oss-sec/2026/q4/379"
+   ]
+  },
+  {
    "name": "drop",
    "threads": 3,
    "repos": 0,
@@ -203,24 +221,6 @@
     "lobsters:dldfel",
     "hn:50204287",
     "hn:50230132"
-   ]
-  },
-  {
-   "name": "Android",
-   "threads": 3,
-   "repos": 0,
-   "points": 60,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-27280",
-    "CVE-2022-22706"
-   ],
-   "last_seen": "2026-10-24T10:51:35Z",
-   "items": [
-    "hn:50220042",
-    "hn:50146240",
-    "hn:50146236"
    ]
   },
   {
@@ -272,27 +272,6 @@
    ]
   },
   {
-   "name": "Crafted",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2025-60493",
-    "CVE-2025-60497",
-    "CVE-2025-60494",
-    "CVE-2025-60492"
-   ],
-   "last_seen": "2026-10-24T22:29:50Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/377",
-    "blog:https://seclists.org/oss-sec/2026/q4/355",
-    "blog:https://seclists.org/oss-sec/2026/q4/354",
-    "blog:https://seclists.org/oss-sec/2026/q4/353"
-   ]
-  },
-  {
    "name": "Orchestrator",
    "threads": 3,
    "repos": 0,
@@ -305,6 +284,25 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myi6azw3tt2m",
     "hn:50212304",
     "blog:https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/"
+   ]
+  },
+  {
+   "name": "Dereference",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2025-60477",
+    "CVE-2025-60493",
+    "CVE-2025-60497"
+   ],
+   "last_seen": "2026-10-26T00:10:40Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/378",
+    "blog:https://seclists.org/oss-sec/2026/q4/377",
+    "blog:https://seclists.org/oss-sec/2026/q4/355"
    ]
   },
   {
@@ -362,6 +360,126 @@
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/380",
+   "source": "seclists.org",
+   "title": "CVE-2026-72711: Lean 4 kernel soundness bug — inference cache poisoning via opaque declarations (0 = 1 demonstrated)",
+   "url": "https://seclists.org/oss-sec/2026/q4/380",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/380",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-26T00:14:41Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-72711"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-26T00:14:41Z",
+   "label_history": [
+    {
+     "at": "2026-10-26T00:18:52Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-72711: Lean 4 kernel soundness bug — inference cache poisoning via opaque declarations (0 = 1 demonstrated)",
+    "at": "2026-10-26T00:18:52Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.7205683420185768,
+      "exploited": 0.0008040859857627396
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.33726024384437236,
+      "exploited": 0.10803929215014255
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/379",
+   "source": "seclists.org",
+   "title": "CVE-2026-72844: Lean 4 kernel soundness bug — forging proofs via nested inductive projections (0 = 1 demonstrated)",
+   "url": "https://seclists.org/oss-sec/2026/q4/379",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/379",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-26T00:12:48Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-72844"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-26T00:12:48Z",
+   "label_history": [
+    {
+     "at": "2026-10-26T00:18:52Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-72844: Lean 4 kernel soundness bug — forging proofs via nested inductive projections (0 = 1 demonstrated)",
+    "at": "2026-10-26T00:18:52Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.7465790400089967,
+      "exploited": 0.000804085971171645
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.3238434499778523,
+      "exploited": 0.09178496085993398
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/378",
+   "source": "seclists.org",
+   "title": "CVE-2025-60477: GPAC/MP4Box: NULL Pointer Dereference in gf_filter_pid_resolve_file_template_ex on crafted MP4 with special metadata",
+   "url": "https://seclists.org/oss-sec/2026/q4/378",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/378",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-26T00:10:40Z",
+   "label": "related",
+   "cves": [
+    "CVE-2025-60477"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-26T00:10:40Z",
+   "label_history": [
+    {
+     "at": "2026-10-26T00:18:52Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2025-60477: GPAC/MP4Box: NULL Pointer Dereference in gf_filter_pid_resolve_file_template_ex on crafted MP4 with special metadata",
+    "at": "2026-10-26T00:18:52Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.5634314544933525,
+      "exploited": 0.0006667022589830146
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.5595899974541859,
+      "exploited": 0.011263879991088454
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
   {
    "id": "hn:50234702",
    "source": "hackernews",
@@ -426,7 +544,7 @@
    "title": "Recent Tailscale Vulnerability Reports",
    "url": "https://www.reddit.com/r/Tailscale/comments/1xeoj1l/recent_tailscale_vulnerability_reports/",
    "discussion": "https://news.ycombinator.com/item?id=50232492",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-10-25T15:18:33Z",
    "label": "security_news",
@@ -548,7 +666,7 @@
    "title": "assetnote/node2shell-scanner: High fidelity detection mechanism for node2shell (CVE-2026-111497)",
    "url": "https://github.com/assetnote/node2shell-scanner",
    "discussion": "https://github.com/assetnote/node2shell-scanner",
-   "points": 46,
+   "points": 48,
    "comments": 0,
    "created": "2026-10-25T04:23:54Z",
    "label": "public_exploit_reported",
@@ -570,8 +688,8 @@
    "title": "Tailworm – Tailscale Vulnerabilities",
    "url": "https://tailworm.com/",
    "discussion": "https://news.ycombinator.com/item?id=50227138",
-   "points": 21,
-   "comments": 15,
+   "points": 23,
+   "comments": 16,
    "created": "2026-10-25T00:59:48Z",
    "label": "security_news",
    "cves": [],
@@ -1250,7 +1368,7 @@
    "title": "Broccoli2Shell: Brotli decoder RCE in Node.js, Python and more",
    "url": "https://broccoli2shell.com/",
    "discussion": "https://news.ycombinator.com/item?id=50219177",
-   "points": 390,
+   "points": 392,
    "comments": 209,
    "created": "2026-10-24T08:06:39Z",
    "label": "security_news",
@@ -3129,7 +3247,7 @@
    "title": "trailofbits/brotli-checker: Claude Code and Codex skill for finding potentially vulnerable Brotli copies and guiding updates for CVE-2026-111497.",
    "url": "https://github.com/trailofbits/brotli-checker",
    "discussion": "https://github.com/trailofbits/brotli-checker",
-   "points": 43,
+   "points": 45,
    "comments": 0,
    "created": "2026-10-23T16:32:12Z",
    "label": "public_exploit_reported",
@@ -3349,7 +3467,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 73,
+   "points": 74,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "public_exploit_reported",
@@ -5285,7 +5403,7 @@
    "title": "aancw/php2shell-scanner: Scanner for PHP2Shell (CVE-2026-109618/109619): URL blackbox, local device and SSH.",
    "url": "https://github.com/aancw/php2shell-scanner",
    "discussion": "https://github.com/aancw/php2shell-scanner",
-   "points": 88,
+   "points": 89,
    "comments": 0,
    "created": "2026-10-22T09:45:34Z",
    "label": "public_exploit_reported",
@@ -5427,7 +5545,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 43,
+   "points": 44,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "public_exploit_reported",
@@ -5449,7 +5567,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 898,
+   "points": 902,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "public_exploit_reported",
@@ -5653,7 +5771,7 @@
    "title": "devploit/php2shell: PHP2Shell: version-aware research toolkit for CVE-2026-109618 / CVE-2026-109619 — pre-auth RCE in PHP session.upload_progress (mod_php). Bui",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 159,
+   "points": 161,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "public_exploit_reported",
@@ -6214,7 +6332,7 @@
    "title": "godylockz/cve-2026-109618-php2shell: Proof of concept for CVE-2026-109618/CVE-2026-109619: PHP2Shell",
    "url": "https://github.com/godylockz/cve-2026-109618-php2shell",
    "discussion": "https://github.com/godylockz/cve-2026-109618-php2shell",
-   "points": 34,
+   "points": 35,
    "comments": 0,
    "created": "2026-10-21T19:51:22Z",
    "label": "public_exploit_reported",
@@ -7451,7 +7569,7 @@
    "title": "junaire/CVE-2026-109618-exploit: ",
    "url": "https://github.com/junaire/CVE-2026-109618-exploit",
    "discussion": "https://github.com/junaire/CVE-2026-109618-exploit",
-   "points": 139,
+   "points": 140,
    "comments": 0,
    "created": "2026-10-21T11:52:39Z",
    "label": "public_exploit_reported",
@@ -7646,7 +7764,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1787,
+   "points": 1790,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "public_exploit_reported",
@@ -7851,7 +7969,7 @@
    "title": "syhunt/php2shell-protection: Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apa",
    "url": "https://github.com/syhunt/php2shell-protection",
    "discussion": "https://github.com/syhunt/php2shell-protection",
-   "points": 114,
+   "points": 115,
    "comments": 0,
    "created": "2026-10-21T04:01:24Z",
    "label": "public_exploit_reported",
@@ -9690,7 +9808,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-49950 and Why Upgrading Xinference Isn't Enough",
+    "at": "2026-10-26T00:18:52Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9523120960490363,
+      "exploited": 0.0005193047755513243
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.5079661729573619,
+      "exploited": 0.0027351114325373676
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50130750",
@@ -9792,7 +9928,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2022-49149",
+    "at": "2026-10-26T00:18:52Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9459241303467286,
+      "exploited": 0.007577241337894654
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.38692898658778274,
+      "exploited": 0.007952208439590965
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "github-advisory:GHSA-w5f2-9q9c-ff4h",
@@ -9938,7 +10092,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Guest-to-Host KVM Escape (CVE-2026-99999) Critical",
+    "at": "2026-10-26T00:18:52Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9022056147115398,
+      "exploited": 0.0015011824612489754
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.3022800819829392,
+      "exploited": 0.05345498582399359
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50120004",
@@ -10000,7 +10172,25 @@
      "at": "2026-10-24T09:21:33Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Rapid7 Analysis: GitLab CI/CD Regex Integer Overflow (CVE-2026-97229)",
+    "at": "2026-10-26T00:18:52Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9041025174017461,
+      "exploited": 0.0004878571670600105
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.4174236518249415,
+      "exploited": 0.028510361446699942
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50116117",
@@ -10022,7 +10212,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-99999: Linux IPv4: validate checksum_start before completing checksum",
+    "at": "2026-10-26T00:18:52Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8327738478759452,
+      "exploited": 0.00040448146150497073
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.6837206358504394,
+      "exploited": 0.007570044510172131
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxy77zygih2m",
@@ -10568,7 +10776,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "PwnEscape: Guest-to-Host KVM Escape (CVE-2026-99999)",
+    "at": "2026-10-26T00:18:52Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9455849286090973,
+      "exploited": 0.0007096702303523067
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.2554873886667181,
+      "exploited": 0.12021890521991237
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50107864",
@@ -11620,7 +11846,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Visual Studio Copilot and SSMS Remote Code Execution (CVE-2026-103572)",
+    "at": "2026-10-26T00:18:52Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9321967843308384,
+      "exploited": 0.0006263340671686359
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.29919859124417747,
+      "exploited": 0.027085670699897143
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "kev:CVE-2026-105134",
