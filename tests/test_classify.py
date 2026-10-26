@@ -59,9 +59,9 @@ class ClassifyTest(unittest.TestCase):
         r = classify(item("PHP2Shell (CVE-2026-109618) Exploit"), KEV)
         self.assertEqual(r["label"], "public_exploit_reported")
 
-    def test_exploited_is_not_public_exploit(self):
+    def test_is_exploited_is_an_exploitation_claim_not_a_public_exploit(self):
         r = classify(item("CVE-2026-2222 is exploited"), KEV)
-        self.assertEqual(r["label"], "related")
+        self.assertEqual(r["label"], "exploited_reported")
 
     def test_irrelevant_dropped(self):
         self.assertIsNone(classify(item("Show HN: my new editor"), KEV))
