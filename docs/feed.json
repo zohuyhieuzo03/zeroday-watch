@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T07:51:55Z",
+ "generated": "2026-10-26T07:53:11Z",
  "count": 1177,
  "topics": [
   {
@@ -12840,7 +12840,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Docker has disclosed a critical vulnerability (CVE-2026-105445) in Docker Hub that let attackers access another user's container repositories using a personal a",
+    "at": "2026-10-26T07:53:11Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8492310628286709,
+      "exploited": 0.0024726233863463635
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.1808721775835917,
+      "exploited": 0.11086725151937503
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50072558",
@@ -12960,7 +12978,25 @@
      "at": "2026-10-24T09:21:33Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-97229: Critical Unauthenticated Remote Code Execution in GitLab",
+    "at": "2026-10-26T07:53:11Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9039672048847516,
+      "exploited": 0.0013250224776001833
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.3492714383891976,
+      "exploited": 0.058927364010555205
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50069031",
@@ -13062,7 +13098,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-82456: Argo CD MCP Server Kubernetes Takeover",
+    "at": "2026-10-26T07:53:11Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9522797253083315,
+      "exploited": 0.0010322310643648173
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.2394311743827518,
+      "exploited": 0.058734969138027074
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-756/",
@@ -14042,7 +14096,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-23870: A Single Post Freezes Any Next.js Server",
+    "at": "2026-10-26T07:53:11Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.7931272289106808,
+      "exploited": 0.0004044815200585539
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.18566836845013193,
+      "exploited": 0.05957696194686839
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxgyarcueo2m",
@@ -14064,7 +14136,25 @@
      "at": "2026-10-24T09:17:41Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Attackers are exploiting a maximum-severity vulnerability in SonicWall SMA1000 appliances (CVE-2026-102255) that was patched on Tuesday, three days ago.",
+    "at": "2026-10-26T07:53:11Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.9986543379625464,
+      "exploited": 0.9984988178814656
+     },
+     "baseten/mammoth-1:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.9083858585157273,
+      "exploited": 0.9930463303828692
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 2
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mxgqjz6v6w2b",
@@ -14489,7 +14579,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Curl 8.23.0 - CVE-2026-92392 - Severity High",
+    "at": "2026-10-26T07:53:11Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8132356691484263,
+      "exploited": 0.0006667024035597397
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.5294719131780666,
+      "exploited": 0.009492606252031422
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50002126",
@@ -15252,7 +15360,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-63277 – LibreOffice Remote Code Execution",
+    "at": "2026-10-26T07:53:11Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8325769331065502,
+      "exploited": 0.0009110511121728244
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.35963390737101875,
+      "exploited": 0.02187647078459455
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:49988987",
@@ -15534,7 +15660,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2022-38694 Silicon-Anchored Backdoor in Unisoc T606/T616/SC9863A Firmware",
+    "at": "2026-10-26T07:53:11Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8785457264207238,
+      "exploited": 0.0006667023610554203
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.24684475022706043,
+      "exploited": 0.1103006143257702
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:49976342",
@@ -17013,7 +17157,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "From Select to Sysadmin: Hijacking Microsoft SQL Copilot (CVE-2026-65669)",
+    "at": "2026-10-26T07:53:11Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9325322396120056,
+      "exploited": 0.0003799845103299435
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.2237154320486806,
+      "exploited": 0.08393422574655536
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "github-advisory:GHSA-qhwx-74w5-xhxq",
@@ -17391,7 +17553,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "TanStack Start critical XSS in server functions (CVE-2026-102989)",
+    "at": "2026-10-26T07:53:11Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9235470551297578,
+      "exploited": 0.00037998448026088183
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.4390356118288594,
+      "exploited": 0.022926107437324122
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:49919216",
