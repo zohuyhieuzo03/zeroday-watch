@@ -200,9 +200,32 @@ def fetch_gitlab_advisories(days):
     return out
 
 
+TAILSCALE_FEED = "https://tailscale.com/security-bulletins/index.xml"
+
+
+def fetch_tailscale_advisories(days):
+    """Tailscale security bulletins (TS-YYYY-NNN). The feed title is only the id, so the
+    one-line "Description" in each entry becomes the headline."""
+    cutoff = time.time() - days * 86400
+    out = []
+    for it in ET.fromstring(_get_text(TAILSCALE_FEED)).findall("./channel/item"):
+        when = parsedate_to_datetime(it.findtext("pubDate"))
+        if when.timestamp() < cutoff:
+            continue
+        bid = (it.findtext("title") or "").strip()
+        raw = it.findtext("description") or ""
+        text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", raw))).strip()
+        m = re.search(r"Description\s*:\s*(.+?)(?:\s+What happened\?|$)", text)
+        summary = (m.group(1) if m else text)[:160].strip()
+        out.append(_advisory("tailscale", bid.lower(), "Tailscale %s: %s" % (bid, summary),
+                             "https://tailscale.com/security-bulletins/#" + bid.lower(), _iso(when),
+                             CVE_FIND.findall(text), None))
+    return out
+
+
 def fetch_vendor_advisories(days):
     out = []
-    for fn in (fetch_node_advisories, fetch_gitlab_advisories):
+    for fn in (fetch_node_advisories, fetch_gitlab_advisories, fetch_tailscale_advisories):
         try:
             out += fn(days)
         except Exception as exc:  # a broken vendor feed must not sink the run

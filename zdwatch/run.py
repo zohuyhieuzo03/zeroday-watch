@@ -57,7 +57,7 @@ def merge(existing, fresh, ts):
 
 
 # Everything else is first-party data or ID-only, and is never reclassified from a title.
-FIRST_PARTY = ("cisa-kev", "nodejs", "gitlab", "github-advisory", "github-poc", "x")
+FIRST_PARTY = ("cisa-kev", "nodejs", "gitlab", "github-advisory", "github-poc", "tailscale", "x")
 
 
 def reclassify(existing, kev, ts):

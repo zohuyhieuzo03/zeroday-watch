@@ -9,3 +9,4 @@ https://www.bleepingcomputer.com/feed/
 https://github.blog/security/feed/
 https://blog.qualys.com/feed
 https://seclists.org/rss/oss-sec.rss
+https://tailscale.com/blog/index.xml
