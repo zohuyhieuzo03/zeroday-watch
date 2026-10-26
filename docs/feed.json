@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T07:59:58Z",
+ "generated": "2026-10-26T08:03:10Z",
  "count": 1187,
  "topics": [
   {
@@ -226,6 +226,21 @@
     "lobsters:dldfel",
     "hn:50204287",
     "hn:50230132"
+   ]
+  },
+  {
+   "name": "CISA",
+   "threads": 3,
+   "repos": 0,
+   "points": 17,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-25T18:42:37Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myfs2nylwc2w",
+    "hn:50234702",
+    "blog:https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html"
    ]
   },
   {
@@ -982,7 +997,25 @@
      "at": "2026-10-26T07:59:17Z",
      "label": "unpatched_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+    "at": "2026-10-26T08:03:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.973645156051936,
+      "exploited": 0.0159063894375931
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.8785456323918491,
+      "exploited": 0.03439598213387698
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 2
+   }
   },
   {
    "id": "hn:50233620",
@@ -1132,7 +1165,7 @@
    "title": "assetnote/node2shell-scanner: High fidelity detection mechanism for node2shell (CVE-2026-111497)",
    "url": "https://github.com/assetnote/node2shell-scanner",
    "discussion": "https://github.com/assetnote/node2shell-scanner",
-   "points": 58,
+   "points": 59,
    "comments": 0,
    "created": "2026-10-25T04:23:54Z",
    "label": "public_exploit_reported",
@@ -1906,7 +1939,25 @@
      "at": "2026-10-26T07:59:17Z",
      "label": "exploited_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+    "at": "2026-10-26T08:03:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.872459699456741,
+      "exploited": 0.9993736658491046
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.5484752544286801,
+      "exploited": 0.992706905089094
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "hn:50218477",
@@ -4351,7 +4402,25 @@
      "at": "2026-10-26T07:59:17Z",
      "label": "unpatched_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+    "at": "2026-10-26T08:03:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.9616313265192791,
+      "exploited": 0.004609572489181924
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6372468632338931,
+      "exploited": 0.05625320292100117
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 2
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
@@ -7202,7 +7271,25 @@
      "at": "2026-10-26T07:59:58Z",
      "label": "exploited_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning that attackers are actively exploiting four vulnerabilities in Plex Media Server.",
+    "at": "2026-10-26T08:03:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.6730035129042141,
+      "exploited": 0.9995694429363112
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.5356411328149122,
+      "exploited": 0.9862580026402364
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "ghpoc:david-alvarez-rosa/php-rce",
@@ -8195,7 +8282,25 @@
      "at": "2026-10-26T07:59:58Z",
      "label": "exploited_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Q3 2026 Threat Update: Attackers Are Exploiting Vulnerabilities Within 3 Days",
+    "at": "2026-10-26T08:03:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.41520182461519217,
+      "exploited": 0.9968273165492864
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.616097822022708,
+      "exploited": 0.820352679534531
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "ghpoc:murrez/php2shell",
@@ -8359,7 +8464,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1013,
+   "points": 1012,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "public_exploit_reported",
@@ -8422,7 +8527,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1807,
+   "points": 1805,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "public_exploit_reported",
@@ -17827,7 +17932,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "We found a Claris FileMaker authorization bypass (CVE-2026-86934)",
+    "at": "2026-10-26T08:03:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9465686012356755,
+      "exploited": 0.0002780310647052646
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.24482029748815748,
+      "exploited": 0.014427205911714812
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-751/",
@@ -18140,7 +18263,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "OpenSSL High DTLS flaw can leak heap memory (CVE-2026-84782)",
+    "at": "2026-10-26T08:03:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.7464497598571559,
+      "exploited": 0.00045831296527123377
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.46893080914502827,
+      "exploited": 0.003820481766065419
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-750/",
@@ -18778,7 +18919,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "One resident login, an entire apartment complex: CVE-2026-75960",
+    "at": "2026-10-26T08:03:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9665936370627123,
+      "exploited": 0.0005527785283576441
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.5179194203747739,
+      "exploited": 0.05962795653643124
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/",
@@ -21216,7 +21375,25 @@
      "at": "2026-10-26T07:59:58Z",
      "label": "exploited_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "A College Girl Was Exploited on Camera. A Network of Anonymous Men Got to Work",
+    "at": "2026-10-26T08:03:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9945748362007525,
+      "exploited": 0.26894141551050293
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.9560974417630891,
+      "exploited": 0.5011229496194863
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:49695876",
@@ -22436,7 +22613,25 @@
      "at": "2026-10-26T07:59:58Z",
      "label": "exploited_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Remember CVE 2010-2743 (vulnerability that was exploited in Stuxnet)",
+    "at": "2026-10-26T08:03:10Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.9696335919150786,
+      "exploited": 0.9914225160118671
+     },
+     "baseten/mammoth-1:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.6961512042918985,
+      "exploited": 0.9044215188709892
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 2
+   }
   },
   {
    "id": "hn:49598249",
