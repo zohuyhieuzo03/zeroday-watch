@@ -35,6 +35,7 @@ Cost is pay-per-use ($0.005 per post read at the time of writing, see [docs.x.co
 | `zero_day_reported` | Title says zero-day and mentions exploitation or no patch. A claim, unconfirmed. |
 | `exploited_reported` | Title mentions exploitation and a CVE, no zero-day wording. |
 | `vendor_advisory` | First-party advisory from Node.js or GitLab. A fix is already out, so this is patched vulnerability news, not an exploitation claim. Becomes `kev_exploited` if any of its CVEs is in KEV. |
+| `unpatched_reported` | Title says unpatched / no patch / no fix with no exploitation claim. Disclosed, not known to be under attack. |
 | `public_exploit_reported` | CVE plus "exploit"/PoC wording in the title. Exploit code exists; in-the-wild use is not claimed. |
 | `zero_day_mention` | Zero-day wording only. Treat as rumor. |
 | `related` | Has a CVE id, no exploitation signal. |

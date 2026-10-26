@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-26T07:53:11Z",
- "count": 1177,
+ "generated": "2026-10-26T07:59:58Z",
+ "count": 1187,
  "topics": [
   {
    "name": "php2shell",
-   "threads": 32,
+   "threads": 34,
    "repos": 24,
    "points": 959,
    "kev": false,
@@ -46,7 +46,7 @@
   },
   {
    "name": "node2shell",
-   "threads": 15,
+   "threads": 17,
    "repos": 3,
    "points": 497,
    "kev": false,
@@ -76,6 +76,8 @@
     "blog:https://seclists.org/oss-sec/2026/q4/390",
     "blog:https://seclists.org/oss-sec/2026/q4/389",
     "blog:https://seclists.org/oss-sec/2026/q4/373",
+    "blog:https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+    "blog:https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
     "nodejs:october-2026-security-releases"
    ]
   },
@@ -123,7 +125,7 @@
    ]
   },
   {
-   "name": "Intermediate",
+   "name": "certificates",
    "threads": 6,
    "repos": 0,
    "points": 344,
@@ -195,6 +197,21 @@
    ]
   },
   {
+   "name": "Threat",
+   "threads": 3,
+   "repos": 0,
+   "points": 174,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-23T23:30:17Z",
+   "items": [
+    "hn:50216791",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myhqdlrpiu2d",
+    "blog:https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days"
+   ]
+  },
+  {
    "name": "CVE-2026-107891",
    "threads": 3,
    "repos": 0,
@@ -242,21 +259,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mykj4nu2ji2z",
     "hn:50177489",
     "blog:https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/"
-   ]
-  },
-  {
-   "name": "began",
-   "threads": 3,
-   "repos": 0,
-   "points": 10,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-22T13:29:48Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myhqdlrpiu2d",
-    "hn:50195054",
-    "blog:https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/"
    ]
   },
   {
@@ -609,7 +611,7 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-26T00:23:42Z",
-   "label": "exploited_reported",
+   "label": "unpatched_reported",
    "cves": [
     "CVE-2020-37268"
    ],
@@ -619,6 +621,10 @@
     {
      "at": "2026-10-26T06:08:39Z",
      "label": "exploited_reported"
+    },
+    {
+     "at": "2026-10-26T07:59:17Z",
+     "label": "unpatched_reported"
     }
    ],
    "llm": {
@@ -957,6 +963,26 @@
     "consensus": "unclear",
     "votes": 0
    }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "source": "thehackernews.com",
+   "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+   "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "discussion": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-25T17:44:09Z",
+   "label": "unpatched_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-25T17:44:09Z",
+   "label_history": [
+    {
+     "at": "2026-10-26T07:59:17Z",
+     "label": "unpatched_reported"
+    }
+   ]
   },
   {
    "id": "hn:50233620",
@@ -1681,6 +1707,26 @@
    ]
   },
   {
+   "id": "blog:https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+   "source": "thehackernews.com",
+   "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+   "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+   "discussion": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-24T11:09:29Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-24T11:09:29Z",
+   "label_history": [
+    {
+     "at": "2026-10-26T07:59:17Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:50220145",
    "source": "hackernews",
    "title": "Node.js Vulnerability Blog",
@@ -1839,6 +1885,26 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+   "source": "thehackernews.com",
+   "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+   "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+   "discussion": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-24T06:25:57Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-24T06:25:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-26T07:59:17Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -3425,6 +3491,26 @@
    ]
   },
   {
+   "id": "blog:https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+   "source": "thehackernews.com",
+   "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+   "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+   "discussion": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T18:50:13Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T18:50:13Z",
+   "label_history": [
+    {
+     "at": "2026-10-26T07:59:17Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "github-advisory:GHSA-r3g7-r4hr-m258",
    "source": "github-advisory",
    "title": "obsidian-tc: Memory-lifecycle tools overwrite unowned notes or partially commit lifecycle changes (npm/obsidian-tc)",
@@ -3529,6 +3615,26 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+   "source": "thehackernews.com",
+   "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+   "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+   "discussion": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T17:54:08Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T17:54:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-26T07:59:17Z",
      "label": "security_news"
     }
    ]
@@ -3687,7 +3793,7 @@
    "title": "trailofbits/brotli-checker: Claude Code and Codex skill for finding potentially vulnerable Brotli copies and guiding updates for CVE-2026-111497.",
    "url": "https://github.com/trailofbits/brotli-checker",
    "discussion": "https://github.com/trailofbits/brotli-checker",
-   "points": 47,
+   "points": 48,
    "comments": 0,
    "created": "2026-10-23T16:32:12Z",
    "label": "public_exploit_reported",
@@ -3792,7 +3898,7 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-23T15:38:05Z",
-   "label": "exploited_reported",
+   "label": "unpatched_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-23T15:38:05Z",
@@ -3800,6 +3906,10 @@
     {
      "at": "2026-10-24T09:17:41Z",
      "label": "exploited_reported"
+    },
+    {
+     "at": "2026-10-26T07:59:17Z",
+     "label": "unpatched_reported"
     }
    ],
    "llm": {
@@ -4224,6 +4334,46 @@
    ]
   },
   {
+   "id": "blog:https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+   "source": "thehackernews.com",
+   "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+   "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+   "discussion": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T11:25:43Z",
+   "label": "unpatched_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T11:25:43Z",
+   "label_history": [
+    {
+     "at": "2026-10-26T07:59:17Z",
+     "label": "unpatched_reported"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+   "source": "thehackernews.com",
+   "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+   "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+   "discussion": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T11:11:23Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T11:11:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-26T07:59:17Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "hn:50207180",
    "source": "hackernews",
    "title": "Brotli vulnerability affects curl and Git",
@@ -4239,6 +4389,66 @@
    "label_history": [
     {
      "at": "2026-10-24T07:56:36Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+   "source": "thehackernews.com",
+   "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+   "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+   "discussion": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T09:36:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T09:36:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-26T07:59:17Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+   "source": "thehackernews.com",
+   "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+   "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+   "discussion": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T08:40:43Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T08:40:43Z",
+   "label_history": [
+    {
+     "at": "2026-10-26T07:59:17Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+   "source": "thehackernews.com",
+   "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+   "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+   "discussion": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-23T08:35:45Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-23T08:35:45Z",
+   "label_history": [
+    {
+     "at": "2026-10-26T07:59:17Z",
      "label": "security_news"
     }
    ]
@@ -6979,7 +7189,7 @@
    "points": 15,
    "comments": 1,
    "created": "2026-10-21T18:35:01Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-21T18:35:01Z",
@@ -6987,6 +7197,10 @@
     {
      "at": "2026-10-24T09:17:41Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-26T07:59:58Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -7968,7 +8182,7 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-21T13:00:00Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-21T13:00:00Z",
@@ -7976,6 +8190,10 @@
     {
      "at": "2026-10-24T09:21:33Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-26T07:59:58Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -13977,6 +14195,14 @@
     {
      "at": "2026-10-24T09:17:41Z",
      "label": "exploited_reported"
+    },
+    {
+     "at": "2026-10-26T07:59:17Z",
+     "label": "unpatched_reported"
+    },
+    {
+     "at": "2026-10-26T07:59:58Z",
+     "label": "exploited_reported"
     }
    ],
    "llm": {
@@ -14125,7 +14351,7 @@
    "points": 6,
    "comments": 0,
    "created": "2026-10-09T12:33:16Z",
-   "label": "related",
+   "label": "exploited_reported",
    "cves": [
     "CVE-2026-102255"
    ],
@@ -14135,6 +14361,10 @@
     {
      "at": "2026-10-24T09:17:41Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-26T07:59:58Z",
+     "label": "exploited_reported"
     }
    ],
    "llm": {
@@ -14464,7 +14694,7 @@
    "points": 5,
    "comments": 0,
    "created": "2026-10-08T14:17:29Z",
-   "label": "exploited_reported",
+   "label": "unpatched_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-08T14:17:29Z",
@@ -14476,6 +14706,10 @@
     {
      "at": "2026-10-24T08:06:16Z",
      "label": "exploited_reported"
+    },
+    {
+     "at": "2026-10-26T07:59:17Z",
+     "label": "unpatched_reported"
     }
    ],
    "llm": {
@@ -20969,7 +21203,7 @@
    "points": 3,
    "comments": 1,
    "created": "2026-09-14T17:35:05Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-09-14T17:35:05Z",
@@ -20977,6 +21211,10 @@
     {
      "at": "2026-10-24T08:06:16Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-26T07:59:58Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -22185,7 +22423,7 @@
    "points": 1,
    "comments": 0,
    "created": "2026-09-07T15:21:48Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-09-07T15:21:48Z",
@@ -22193,6 +22431,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-26T07:59:58Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -25024,7 +25266,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-08-14T16:41:25Z",
-   "label": "exploited_reported",
+   "label": "security_news",
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-14T16:41:25Z",
@@ -25036,6 +25278,10 @@
     {
      "at": "2026-10-24T08:06:16Z",
      "label": "exploited_reported"
+    },
+    {
+     "at": "2026-10-26T07:59:17Z",
+     "label": "security_news"
     }
    ],
    "llm": {

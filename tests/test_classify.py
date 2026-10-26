@@ -39,6 +39,22 @@ class ClassifyTest(unittest.TestCase):
     def test_unpatched_without_security_context_is_dropped(self):
         self.assertIsNone(classify(item("My unpatched Windows XP box still runs"), KEV))
 
+    def test_are_exploiting_counts_as_exploited(self):
+        r = classify(item("Threat actors are exploiting a critical vulnerability in FooVPN"), KEV)
+        self.assertEqual(r["label"], "exploited_reported")
+
+    def test_unpatched_flaws_is_not_called_exploited(self):
+        r = classify(item("Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers"), KEV)
+        self.assertEqual(r["label"], "unpatched_reported")
+
+    def test_flaw_wording_is_security_news(self):
+        r = classify(item("Critical Flaw in Python's Popular Pillow Image Library Allows Code Execution"), KEV)
+        self.assertEqual(r["label"], "security_news")
+
+    def test_unpatched_zero_day_stays_zero_day(self):
+        r = classify(item("Unpatched zero-day in FooVPN"), KEV)
+        self.assertEqual(r["label"], "zero_day_reported")
+
     def test_public_exploit(self):
         r = classify(item("PHP2Shell (CVE-2026-109618) Exploit"), KEV)
         self.assertEqual(r["label"], "public_exploit_reported")

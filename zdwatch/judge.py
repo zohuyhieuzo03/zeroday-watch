@@ -21,7 +21,7 @@ PRIMARY_SOURCES = ("cisa-kev", "nodejs", "gitlab", "github-advisory", "github-po
 JUDGE_LABELS = ("zero_day", "n_day_exploited", "disclosed_unpatched", "not_exploited", "unclear")
 MIN_CONFIDENCE = 0.6
 # Spend the limited free quota on the claims that matter most first (sort is stable).
-PRIORITY = ["zero_day_reported", "zero_day_mention", "exploited_reported", "public_exploit_reported", "kev_exploited", "related", "security_news"]
+PRIORITY = ["zero_day_reported", "zero_day_mention", "exploited_reported", "unpatched_reported", "public_exploit_reported", "kev_exploited", "related", "security_news"]
 
 QUESTIONS = {
     "status": {

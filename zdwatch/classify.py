@@ -3,6 +3,7 @@
 kev_exploited      CVE is in CISA KEV (exploited in the wild; KEV does not say 0-day vs n-day)
 zero_day_reported  title says zero-day AND exploitation/no-patch language (a claim, unconfirmed)
 exploited_reported title says exploited / exploitation / before disclosure, no zero-day wording (CVE or vuln wording required)
+unpatched_reported title says unpatched / no patch / no fix, with no exploitation claim (disclosed, not known to be attacked)
 security_news      vulnerability-related headline with no CVE and no exploitation wording (lowest tier; feeds trending)
 public_exploit_reported  CVE in title plus "exploit"/PoC wording: exploit code exists, in-the-wild use NOT claimed
 zero_day_mention   zero-day wording only (rumor / discussion)
@@ -13,12 +14,16 @@ import re
 
 CVE_RE = re.compile(r"CVE-\d{4}-\d{4,7}", re.I)
 ZERO_DAY_RE = re.compile(r"\b(zero[- ]?days?|0[- ]?days?)\b", re.I)
+# Actually attacked (or attacked before disclosure).
 EXPLOIT_RE = re.compile(
     r"(exploited in the wild|actively exploited|being exploited|exploited as|"
+    r"(is|are|were|was) (actively |now |already )?exploit(ing|ed)|"
     r"(prior to|before) (public )?(disclosure|a patch|patch)|"
-    r"in[- ]the[- ]wild|no patch|unpatched|unfixed)",
+    r"in[- ]the[- ]wild)",
     re.I,
 )
+# Disclosed without a fix. Says nothing about whether anyone is exploiting it.
+UNPATCHED_RE = re.compile(r"\b(unpatched|unfixed|no patch|no fix)\b", re.I)
 # "exploitation" alone is too common (courses, ethics, unrelated crime); require attack context.
 EXPLOITATION_RE = re.compile(
     r"((mass|active|ongoing|began|confirmed|observed|campaign|renewed)\W+(\w+\W+){0,3}exploitation"
@@ -29,7 +34,7 @@ PUBLIC_EXPLOIT_RE = re.compile(
     r"(\bexploits?\b|proof[- ]of[- ]concept|\bpoc\b|weaponi[sz]ed)", re.I
 )
 SECURITY_RE = re.compile(
-    r"(vuln|\bcves?\b|\bexploits?\b|\bexploited\b|\brce\b|remote code execution|\bcvss\b|critical patch|"
+    r"(vuln|\bcves?\b|\bflaws?\b|sandbox escape|privilege escalation|bootkit|supply[- ]chain attack|\bexploits?\b|\bexploited\b|\brce\b|remote code execution|\bcvss\b|critical patch|"
     r"security (release|patch|advisory|update|fix|flaw|issue|bug)|zero[- ]?day|backdoor|0[- ]?day)",
     re.I,
 )
@@ -41,8 +46,9 @@ def classify(item, kev):
     in_kev = [c for c in cves if c in kev]
     zero = bool(ZERO_DAY_RE.search(text))
     wild = bool(EXPLOIT_RE.search(text))
+    unpatched = bool(UNPATCHED_RE.search(text))
     exploitation = bool(EXPLOITATION_RE.search(text))
-    exploit = wild or exploitation
+    exploit = wild or exploitation or unpatched
 
     if in_kev:
         label = "kev_exploited"
@@ -50,6 +56,8 @@ def classify(item, kev):
         label = "zero_day_reported"
     elif exploitation or (wild and (cves or SECURITY_RE.search(text))):
         label = "exploited_reported"
+    elif unpatched and (cves or SECURITY_RE.search(text)):
+        label = "unpatched_reported"
     elif cves and PUBLIC_EXPLOIT_RE.search(text):
         label = "public_exploit_reported"
     elif zero:
