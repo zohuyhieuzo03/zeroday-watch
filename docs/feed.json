@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-27T02:02:09Z",
- "count": 1231,
+ "generated": "2026-10-27T07:46:54Z",
+ "count": 1236,
  "topics": [
   {
    "name": "5.4-5.6",
@@ -26,8 +26,8 @@
     "ghpoc:HOSTED-POWER/php_uploadprogress_guard",
     "ghpoc:syrex1013/php2shell",
     "ghpoc:junaire/CVE-2026-109618-exploit",
-    "hn:50187708",
     "ghpoc:syhunt/php2shell-protection",
+    "hn:50187708",
     "ghpoc:Anton-Barinov/php2shell-patches",
     "ghpoc:dinosn/php-cve-2026-10961x-lab-poc",
     "ghpoc:JoasASantos/php2shell-scanner",
@@ -46,7 +46,7 @@
   },
   {
    "name": "node2shell",
-   "threads": 21,
+   "threads": 22,
    "repos": 3,
    "points": 506,
    "kev": false,
@@ -61,8 +61,8 @@
    "items": [
     "hn:50219177",
     "ghpoc:assetnote/node2shell-scanner",
-    "ghpoc:trailofbits/brotli-checker",
     "ghpoc:dimasma0305/CVE-2026-111497-POC",
+    "ghpoc:trailofbits/brotli-checker",
     "hn:50189292",
     "hn:50192733",
     "lobsters:al3yyf",
@@ -81,6 +81,7 @@
     "blog:https://seclists.org/oss-sec/2026/q4/390",
     "blog:https://seclists.org/oss-sec/2026/q4/389",
     "blog:https://seclists.org/oss-sec/2026/q4/373",
+    "blog:https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
     "blog:https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
     "nodejs:october-2026-security-releases"
    ]
@@ -450,6 +451,196 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50255635",
+   "source": "hackernews",
+   "title": "Broadcom WPS flaw leaves routers exposed to over-the-air takeover",
+   "url": "https://meridian.news/p/8039333079430032961/",
+   "discussion": "https://news.ycombinator.com/item?id=50255635",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-27T07:20:54Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-27T07:20:54Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T07:46:54Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Broadcom WPS flaw leaves routers exposed to over-the-air takeover",
+    "at": "2026-10-27T07:46:54Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8313751394284496,
+      "exploited": 0.0024726231715660268
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.181609187838506,
+      "exploited": 0.07013020093165755
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "hn:50255510",
+   "source": "hackernews",
+   "title": "New Python security updates explicitly block the eMudhra certificates by SPKI",
+   "url": "https://news.ycombinator.com/item?id=50255510",
+   "discussion": "https://news.ycombinator.com/item?id=50255510",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-27T07:03:55Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-27T07:03:55Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T07:46:54Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "New Python security updates explicitly block the eMudhra certificates by SPKI",
+    "at": "2026-10-27T07:46:54Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.7703235308166747,
+      "exploited": 0.00026119040396866116
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.42877088933568747,
+      "exploited": 0.015009614948291743
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "hn:50255265",
+   "source": "hackernews",
+   "title": "Mapping the landscape of software vulnerabilities in connected vehicles",
+   "url": "https://link.springer.com/article/10.1007/s11219-026-09787-y",
+   "discussion": "https://news.ycombinator.com/item?id=50255265",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-27T06:20:49Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-27T06:20:49Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T07:46:54Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Mapping the landscape of software vulnerabilities in connected vehicles",
+    "at": "2026-10-27T07:46:54Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9621932734017182,
+      "exploited": 0.00048785722814059806
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.7323762963315225,
+      "exploited": 0.006059764729730238
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+   "source": "thehackernews.com",
+   "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+   "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+   "discussion": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T04:37:59Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-27T04:37:59Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T07:46:54Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+    "at": "2026-10-27T07:46:54Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.864761793459173,
+      "exploited": 0.9991959141492984
+     },
+     "baseten/mammoth-1:free": {
+      "status": "zero_day",
+      "confidence": 0.6540416012245731,
+      "exploited": 0.9908052635794784
+     }
+    },
+    "consensus": "disputed",
+    "votes": 2
+   }
+  },
+  {
+   "id": "hn:50254255",
+   "source": "hackernews",
+   "title": "Pentagon orders bases to plan for 90 days without the grid",
+   "url": "https://fortune.com/2026/10/26/pentagon-fortress-bases-90-days-off-grid-uk-be-ready-stockpile/",
+   "discussion": "https://news.ycombinator.com/item?id=50254255",
+   "points": 8,
+   "comments": 4,
+   "created": "2026-10-27T03:02:29Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-27T03:02:29Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T07:46:54Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Pentagon orders bases to plan for 90 days without the grid",
+    "at": "2026-10-27T07:46:54Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9967595420634237,
+      "exploited": 0.0006263340555095619
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.9604931307956338,
+      "exploited": 0.01987478199454922
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/398",
    "source": "seclists.org",
@@ -2306,7 +2497,7 @@
    "title": "assetnote/node2shell-scanner: High fidelity detection mechanism for node2shell (CVE-2026-111497)",
    "url": "https://github.com/assetnote/node2shell-scanner",
    "discussion": "https://github.com/assetnote/node2shell-scanner",
-   "points": 69,
+   "points": 70,
    "comments": 0,
    "created": "2026-10-25T04:23:54Z",
    "label": "public_exploit_reported",
@@ -5247,7 +5438,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 90,
+   "points": 94,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "kev_exploited",
@@ -7104,7 +7295,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 180,
+   "points": 181,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "kev_exploited",
@@ -7313,7 +7504,7 @@
    "title": "aancw/php2shell-scanner: Scanner for PHP2Shell (CVE-2026-109618/109619): URL blackbox, local device and SSH.",
    "url": "https://github.com/aancw/php2shell-scanner",
    "discussion": "https://github.com/aancw/php2shell-scanner",
-   "points": 96,
+   "points": 97,
    "comments": 0,
    "created": "2026-10-22T09:45:34Z",
    "label": "kev_exploited",
@@ -7461,7 +7652,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 55,
+   "points": 59,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "public_exploit_reported",
@@ -7483,7 +7674,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 929,
+   "points": 935,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -7701,7 +7892,7 @@
    "title": "devploit/php2shell: PHP2Shell: version-aware research toolkit for CVE-2026-109618 / CVE-2026-109619 — pre-auth RCE in PHP session.upload_progress (mod_php). Bui",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 172,
+   "points": 173,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -8543,7 +8734,7 @@
    "title": "david-alvarez-rosa/php-rce: Exploits for CVE-2026-109618 / CVE-2026-109619 to achieve RCE on PHP targets",
    "url": "https://github.com/david-alvarez-rosa/php-rce",
    "discussion": "https://github.com/david-alvarez-rosa/php-rce",
-   "points": 37,
+   "points": 38,
    "comments": 0,
    "created": "2026-10-21T17:42:17Z",
    "label": "kev_exploited",
@@ -8932,7 +9123,7 @@
    "title": "JoasASantos/php2shell-scanner: Non-destructive scanner for CVE-2026-109618 / CVE-2026-109619 (PHP core RCE). Subdomain recon via crt.sh + subfinder, robust banner grabbing",
    "url": "https://github.com/JoasASantos/php2shell-scanner",
    "discussion": "https://github.com/JoasASantos/php2shell-scanner",
-   "points": 107,
+   "points": 108,
    "comments": 0,
    "created": "2026-10-21T15:35:43Z",
    "label": "kev_exploited",
@@ -9058,7 +9249,7 @@
    "title": "mpyw/php-eol-CVE-2026-109618-109619: PHP 7.4 / 8.0 / 8.1 Docker images with the CVE-2026-109618 / CVE-2026-109619 fix backported",
    "url": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
    "discussion": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
-   "points": 63,
+   "points": 65,
    "comments": 0,
    "created": "2026-10-21T15:01:45Z",
    "label": "kev_exploited",
@@ -9198,7 +9389,7 @@
    "title": "vperetti/php-cve-2026-109618-109619-backports: Minimal source backports of the PHP core RCE fixes (CVE-2026-109618 / CVE-2026-109619) for EOL PHP 5.4 and 7.3",
    "url": "https://github.com/vperetti/php-cve-2026-109618-109619-backports",
    "discussion": "https://github.com/vperetti/php-cve-2026-109618-109619-backports",
-   "points": 53,
+   "points": 54,
    "comments": 0,
    "created": "2026-10-21T14:20:57Z",
    "label": "kev_exploited",
@@ -9746,7 +9937,7 @@
    "title": "Is4yev/php2shell-poc: CVE-2026-109618/109619 PHP2Shell — Heap UAF PoC (crash + RCE framework)",
    "url": "https://github.com/Is4yev/php2shell-poc",
    "discussion": "https://github.com/Is4yev/php2shell-poc",
-   "points": 57,
+   "points": 59,
    "comments": 0,
    "created": "2026-10-21T10:44:37Z",
    "label": "kev_exploited",
@@ -9794,7 +9985,7 @@
    "title": "HOSTED-POWER/php_uploadprogress_guard: Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component b",
    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
    "discussion": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-   "points": 163,
+   "points": 164,
    "comments": 0,
    "created": "2026-10-21T09:00:12Z",
    "label": "kev_exploited",
@@ -9824,7 +10015,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1019,
+   "points": 1026,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
@@ -9894,7 +10085,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1833,
+   "points": 1847,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
@@ -10124,7 +10315,7 @@
    "title": "syhunt/php2shell-protection: Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apa",
    "url": "https://github.com/syhunt/php2shell-protection",
    "discussion": "https://github.com/syhunt/php2shell-protection",
-   "points": 117,
+   "points": 118,
    "comments": 0,
    "created": "2026-10-21T04:01:24Z",
    "label": "kev_exploited",
@@ -31532,7 +31723,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Unprivileged root via a use-after-free in DRM GEM change_handle (CVE-2026-46215)",
+    "at": "2026-10-27T07:46:54Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.6929927966689936,
+      "exploited": 0.00021654410352834173
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.29777276347147863,
+      "exploited": 0.08629422129490506
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:uaoe9y",
@@ -31554,7 +31763,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Longinus: 2 Boundaries in One Bug, Piercing Chrome’s Renderer and V8 Sandbox with a Single Vulnerability, CVE-2026-6307",
+    "at": "2026-10-27T07:46:54Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9518515328573709,
+      "exploited": 0.0006263342867964822
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.42734442801338013,
+      "exploited": 0.022117950128608167
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:pwr4h7",
@@ -31736,7 +31963,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-42530: Use after free in nginx HTTP/3 QUIC module",
+    "at": "2026-10-27T07:46:54Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.7713524668208418,
+      "exploited": 0.0001584362084064672
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.6420426212106922,
+      "exploited": 0.008157529410427541
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "lobsters:2u1z4w",
@@ -31816,7 +32061,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-45257: LPE in FreeBSD via kTLS-RX",
+    "at": "2026-10-27T07:46:54Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9145215192745643,
+      "exploited": 0.00040448142629751486
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.4976070774484676,
+      "exploited": 0.01588525224934291
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:yg1xb2",
@@ -31838,7 +32101,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-45447: Heap Use-After-Free in the OpenSSL PKCS7_verify() Function",
+    "at": "2026-10-27T07:46:54Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.7935068145488374,
+      "exploited": 0.00020342703014505223
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.5982108413444581,
+      "exploited": 0.016304328612692945
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   }
  ]
 }
