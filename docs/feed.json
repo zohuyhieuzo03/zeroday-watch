@@ -1,13 +1,13 @@
 {
- "generated": "2026-10-26T23:07:56Z",
- "count": 1227,
+ "generated": "2026-10-27T02:02:09Z",
+ "count": 1231,
  "topics": [
   {
    "name": "5.4-5.6",
-   "threads": 26,
+   "threads": 27,
    "repos": 24,
-   "points": 368,
-   "kev": false,
+   "points": 369,
+   "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-109618",
@@ -15,7 +15,7 @@
     "CVE-2026-115560",
     "CVE-2026-10961"
    ],
-   "last_seen": "2026-10-26T16:38:20Z",
+   "last_seen": "2026-10-27T00:42:53Z",
    "items": [
     "ghpoc:ikow/php2shell-poc",
     "ghpoc:eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
@@ -340,6 +340,25 @@
    ]
   },
   {
+   "name": "Apache",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111422",
+    "CVE-2026-115748",
+    "CVE-2026-115721"
+   ],
+   "last_seen": "2026-10-26T23:06:11Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/397",
+    "blog:https://seclists.org/oss-sec/2026/q4/357",
+    "blog:https://seclists.org/oss-sec/2026/q4/356"
+   ]
+  },
+  {
    "name": "file",
    "threads": 3,
    "repos": 0,
@@ -431,6 +450,88 @@
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/398",
+   "source": "seclists.org",
+   "title": "Re: PHP 5.4.23 (custom 5.4-5.6) backported patch for PHP2Shell OOM vulnerability (CVE-2026-109618)",
+   "url": "https://seclists.org/oss-sec/2026/q4/398",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/398",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T00:42:53Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-109618"
+   ],
+   "kev": [
+    "CVE-2026-109618"
+   ],
+   "first_seen": "2026-10-27T00:42:53Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
+    }
+   ],
+   "llm": {
+    "title": "Re: PHP 5.4.23 (custom 5.4-5.6) backported patch for PHP2Shell OOM vulnerability (CVE-2026-109618)",
+    "at": "2026-10-27T02:02:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.5601693892134249,
+      "exploited": 0.002800926565226315
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.254428475430767,
+      "exploited": 0.019160224588318554
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/397",
+   "source": "seclists.org",
+   "title": "CVE-2026-111422: Apache Airflow SSH provider: SSHRemoteJobOperator: `environment` values are executed as shell on the remote host",
+   "url": "https://seclists.org/oss-sec/2026/q4/397",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/397",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-26T23:06:11Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111422"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-26T23:06:11Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-111422: Apache Airflow SSH provider: SSHRemoteJobOperator: `environment` values are executed as shell on the remote host",
+    "at": "2026-10-27T02:02:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9041459072197463,
+      "exploited": 0.0004583129774305192
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.43060947845287667,
+      "exploited": 0.007000609073571843
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/395",
    "source": "seclists.org",
@@ -660,16 +761,22 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-26T16:38:20Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-26T16:38:20Z",
    "label_history": [
     {
      "at": "2026-10-26T19:15:24Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -917,20 +1024,27 @@
    "title": "Two critical RCE vulnerabilities (CVE-2026-109618 and CVE-2026-109619), collectively tracked as PHP2Shell, have been successfully exploited in the wild.",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myrffdjkfo2b",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myrffdjkfo2b",
-   "points": 13,
+   "points": 14,
    "comments": 0,
    "created": "2026-10-26T09:20:17Z",
-   "label": "exploited_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-26T09:20:17Z",
    "label_history": [
     {
      "at": "2026-10-26T12:53:56Z",
      "label": "exploited_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -1476,7 +1590,7 @@
    "title": "Cve.now: A free feed of security vulnerabilities for agents",
    "url": "https://www.sazabi.com/blog/introducing-cve-now",
    "discussion": "https://news.ycombinator.com/item?id=50237852",
-   "points": 5,
+   "points": 6,
    "comments": 3,
    "created": "2026-10-26T01:18:43Z",
    "label": "security_news",
@@ -1559,16 +1673,22 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-26T00:25:27Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-26T00:25:27Z",
    "label_history": [
     {
      "at": "2026-10-26T06:08:39Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -1913,6 +2033,54 @@
     "consensus": "unclear",
     "votes": 0
    }
+  },
+  {
+   "id": "kev:CVE-2026-109618",
+   "source": "cisa-kev",
+   "title": "CVE-2026-109618: PHP Group PHP - PHP Memory Corruption Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-26T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-109618"
+   ],
+   "kev": [
+    "CVE-2026-109618"
+   ],
+   "first_seen": "2026-10-26T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-109619",
+   "source": "cisa-kev",
+   "title": "CVE-2026-109619: PHP Group PHP - PHP Stale Internal Request-State Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-26T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-109619"
+   ],
+   "kev": [
+    "CVE-2026-109619"
+   ],
+   "first_seen": "2026-10-26T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
+    }
+   ]
   },
   {
    "id": "hn:50234702",
@@ -2301,16 +2469,22 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-24T22:27:47Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-24T22:27:47Z",
    "label_history": [
     {
      "at": "2026-10-24T23:10:09Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -3022,16 +3196,22 @@
    "points": 3,
    "comments": 0,
    "created": "2026-10-23T06:17:26Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-23T23:51:26Z",
    "label_history": [
     {
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -3062,11 +3242,13 @@
    "points": 2,
    "comments": 0,
    "created": "2026-10-23T05:48:32Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-23T23:51:26Z",
    "label_history": [
     {
@@ -3076,6 +3258,10 @@
     {
      "at": "2026-10-24T02:10:38Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -3146,16 +3332,22 @@
    "points": 1,
    "comments": 2,
    "created": "2026-10-23T00:53:52Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-23T23:51:26Z",
    "label_history": [
     {
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -3268,17 +3460,24 @@
    "points": 1,
    "comments": 1,
    "created": "2026-10-22T17:56:02Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-23T23:51:26Z",
    "label_history": [
     {
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -3309,17 +3508,24 @@
    "points": 2,
    "comments": 0,
    "created": "2026-10-22T11:33:58Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-23T23:51:26Z",
    "label_history": [
     {
      "at": "2026-10-23T23:51:26Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -5041,19 +5247,25 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 87,
+   "points": 90,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-23T13:49:52Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -6895,16 +7107,22 @@
    "points": 180,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-22T12:53:40Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -7095,19 +7313,25 @@
    "title": "aancw/php2shell-scanner: Scanner for PHP2Shell (CVE-2026-109618/109619): URL blackbox, local device and SSH.",
    "url": "https://github.com/aancw/php2shell-scanner",
    "discussion": "https://github.com/aancw/php2shell-scanner",
-   "points": 95,
+   "points": 96,
    "comments": 0,
    "created": "2026-10-22T09:45:34Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-22T09:45:34Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -7237,7 +7461,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 54,
+   "points": 55,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "public_exploit_reported",
@@ -7262,17 +7486,24 @@
    "points": 929,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-22T03:53:20Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -7423,17 +7654,24 @@
    "points": 61,
    "comments": 0,
    "created": "2026-10-22T00:04:54Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-22T00:04:54Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -7463,20 +7701,27 @@
    "title": "devploit/php2shell: PHP2Shell: version-aware research toolkit for CVE-2026-109618 / CVE-2026-109619 — pre-auth RCE in PHP session.upload_progress (mod_php). Bui",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 171,
+   "points": 172,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T22:53:01Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -7721,17 +7966,24 @@
    "points": 117,
    "comments": 26,
    "created": "2026-10-21T21:12:59Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T21:12:59Z",
    "label_history": [
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -7808,17 +8060,24 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-21T21:02:43Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T21:02:43Z",
    "label_history": [
     {
      "at": "2026-10-24T09:17:41Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -8027,17 +8286,24 @@
    "points": 38,
    "comments": 0,
    "created": "2026-10-21T19:51:22Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T19:51:22Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -8070,17 +8336,24 @@
    "points": 1,
    "comments": 0,
    "created": "2026-10-21T19:37:57Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T19:37:57Z",
    "label_history": [
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -8270,20 +8543,27 @@
    "title": "david-alvarez-rosa/php-rce: Exploits for CVE-2026-109618 / CVE-2026-109619 to achieve RCE on PHP targets",
    "url": "https://github.com/david-alvarez-rosa/php-rce",
    "discussion": "https://github.com/david-alvarez-rosa/php-rce",
-   "points": 36,
+   "points": 37,
    "comments": 0,
    "created": "2026-10-21T17:42:17Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T17:42:17Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -8319,17 +8599,24 @@
    "points": 7,
    "comments": 4,
    "created": "2026-10-21T17:15:30Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T17:15:30Z",
    "label_history": [
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -8360,17 +8647,24 @@
    "points": 73,
    "comments": 0,
    "created": "2026-10-21T17:06:30Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T17:06:30Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -8641,17 +8935,24 @@
    "points": 107,
    "comments": 0,
    "created": "2026-10-21T15:35:43Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T15:35:43Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -8684,17 +8985,24 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-21T15:22:52Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T15:22:52Z",
    "label_history": [
     {
      "at": "2026-10-24T09:21:33Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -8725,16 +9033,22 @@
    "points": 144,
    "comments": 0,
    "created": "2026-10-21T15:06:33Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-21T15:06:33Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -8747,17 +9061,24 @@
    "points": 63,
    "comments": 0,
    "created": "2026-10-21T15:01:45Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T15:01:45Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -8790,17 +9111,24 @@
    "points": 114,
    "comments": 0,
    "created": "2026-10-21T14:48:05Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T14:48:05Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -8870,20 +9198,27 @@
    "title": "vperetti/php-cve-2026-109618-109619-backports: Minimal source backports of the PHP core RCE fixes (CVE-2026-109618 / CVE-2026-109619) for EOL PHP 5.4 and 7.3",
    "url": "https://github.com/vperetti/php-cve-2026-109618-109619-backports",
    "discussion": "https://github.com/vperetti/php-cve-2026-109618-109619-backports",
-   "points": 52,
+   "points": 53,
    "comments": 0,
    "created": "2026-10-21T14:20:57Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T14:20:57Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -8896,16 +9231,22 @@
    "points": 44,
    "comments": 0,
    "created": "2026-10-21T14:20:15Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-21T14:20:15Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -8938,17 +9279,24 @@
    "points": 17,
    "comments": 0,
    "created": "2026-10-21T14:07:22Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T14:07:22Z",
    "label_history": [
     {
      "at": "2026-10-24T09:17:41Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -9202,16 +9550,22 @@
    "points": 5,
    "comments": 2,
    "created": "2026-10-21T13:38:28Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-21T13:38:28Z",
    "label_history": [
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -9281,21 +9635,28 @@
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
    "url": "https://github.com/murrez/php2shell",
    "discussion": "https://github.com/murrez/php2shell",
-   "points": 84,
+   "points": 85,
    "comments": 0,
    "created": "2026-10-21T12:37:59Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619",
     "CVE-2026-115560"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T12:37:59Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -9305,19 +9666,25 @@
    "title": "junaire/CVE-2026-109618-exploit: ",
    "url": "https://github.com/junaire/CVE-2026-109618-exploit",
    "discussion": "https://github.com/junaire/CVE-2026-109618-exploit",
-   "points": 140,
+   "points": 141,
    "comments": 0,
    "created": "2026-10-21T11:52:39Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-21T11:52:39Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -9330,12 +9697,15 @@
    "points": 2,
    "comments": 0,
    "created": "2026-10-21T11:14:24Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T11:14:24Z",
    "label_history": [
     {
@@ -9345,6 +9715,10 @@
     {
      "at": "2026-10-24T02:10:38Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -9375,16 +9749,22 @@
    "points": 57,
    "comments": 0,
    "created": "2026-10-21T10:44:37Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-21T10:44:37Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -9414,20 +9794,27 @@
    "title": "HOSTED-POWER/php_uploadprogress_guard: Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component b",
    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
    "discussion": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-   "points": 161,
+   "points": 163,
    "comments": 0,
    "created": "2026-10-21T09:00:12Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T09:00:12Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -9437,20 +9824,27 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1017,
+   "points": 1019,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T08:31:43Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -9500,19 +9894,25 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1830,
+   "points": 1833,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-21T07:55:16Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -9585,17 +9985,24 @@
    "points": 5,
    "comments": 0,
    "created": "2026-10-21T05:01:29Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T05:01:29Z",
    "label_history": [
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -9643,19 +10050,25 @@
    "title": "xuehuolll/php2shell-CVE-2026-109618-109619: CVE-2026-109618/109619 — PHP session.upload_progress pre-auth RCE. Exploit research: remote ASLR chain, PoC & patch analysis.",
    "url": "https://github.com/xuehuolll/php2shell-CVE-2026-109618-109619",
    "discussion": "https://github.com/xuehuolll/php2shell-CVE-2026-109618-109619",
-   "points": 47,
+   "points": 48,
    "comments": 0,
    "created": "2026-10-21T04:38:46Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-21T04:38:46Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -9668,16 +10081,22 @@
    "points": 186,
    "comments": 62,
    "created": "2026-10-21T04:26:56Z",
-   "label": "related",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-21T04:26:56Z",
    "label_history": [
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ],
    "llm": {
@@ -9708,18 +10127,25 @@
    "points": 117,
    "comments": 0,
    "created": "2026-10-21T04:01:24Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619",
     "CVE-2026-115560"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
    "first_seen": "2026-10-21T04:01:24Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -10150,20 +10576,26 @@
    "title": "dinosn/php-cve-2026-10961x-lab-poc: PHP CVE-2026-109618/109619 — self-contained unauthenticated RCE on stock PHP 8.5.11 (in-band PS(id)→cookie memory disclosure + UAF chain), f",
    "url": "https://github.com/dinosn/php-cve-2026-10961x-lab-poc",
    "discussion": "https://github.com/dinosn/php-cve-2026-10961x-lab-poc",
-   "points": 111,
+   "points": 112,
    "comments": 0,
    "created": "2026-10-20T19:16:47Z",
-   "label": "public_exploit_reported",
+   "label": "kev_exploited",
    "cves": [
     "CVE-2026-10961",
     "CVE-2026-109618"
    ],
-   "kev": [],
+   "kev": [
+    "CVE-2026-109618"
+   ],
    "first_seen": "2026-10-20T19:16:47Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "public_exploit_reported"
+    },
+    {
+     "at": "2026-10-27T02:02:09Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -29578,7 +30010,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Copirate 365: Plundering in the Depths of Microsoft Copilot (CVE-2026-24299)",
+    "at": "2026-10-27T02:02:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9233554867631466,
+      "exploited": 0.0028009276096322942
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.35180105452171406,
+      "exploited": 0.06143212267033121
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:49101703",
@@ -30544,7 +30994,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "RefluXFS: A Linux Kernel Local Privilege Escalation to Root in XFS (CVE-2026-64600)",
+    "at": "2026-10-27T02:02:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9142321631075528,
+      "exploited": 0.0004044814921938252
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.27170841043990734,
+      "exploited": 0.007195576124440584
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:miadav",
@@ -30566,7 +31034,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Dark Elevator: Windows Install Service Local Privilege Escalation (CVE-2026-50343)",
+    "at": "2026-10-27T02:02:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9039153657949491,
+      "exploited": 0.0003150387921936213
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.4921211063908574,
+      "exploited": 0.015921879694696425
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:w7qez9",
@@ -30588,7 +31074,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Local Privilege Escalation in set-capabilities versions of snap-confine (CVE-2026-8933)",
+    "at": "2026-10-27T02:02:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8501662728765799,
+      "exploited": 0.00024536937762048377
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.5947621542128672,
+      "exploited": 0.011664961487270347
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:t2jxyu",
@@ -30808,7 +31312,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "OpenBSD through 7.9 has a use-after-free allowing local privilege escalation to root (CVE-2026-57589)",
+    "at": "2026-10-27T02:02:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8800048247917674,
+      "exploited": 0.0002034269492637339
+     },
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.5056778283961115,
+      "exploited": 0.002756000751704683
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:txjns0",
@@ -30870,7 +31392,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Bad Epoll (CVE-2026-46242)",
+    "at": "2026-10-27T02:02:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.9569136510239498,
+      "exploited": 0.00040448149200555
+     },
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.3012274919635744,
+      "exploited": 0.008131643918760666
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:adgyhb",
@@ -30892,7 +31432,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Dissecting and Exploiting Linux LPE Variant: DirtyClone (CVE-2026-43503)",
+    "at": "2026-10-27T02:02:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.7351382271716597,
+      "exploited": 0.06754669301670263
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.16058633870650707,
+      "exploited": 0.18907207715101526
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:0kc445",
@@ -30914,7 +31472,25 @@
      "at": "2026-10-24T02:04:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Unprivileged root via an out-of-bounds write in the FUSE readdir cache (CVE-2026-31694)",
+    "at": "2026-10-27T02:02:09Z",
+    "models": {
+     "inception/mercury-decide:free": {
+      "status": "unclear",
+      "confidence": 0.8799424709516726,
+      "exploited": 0.0002959571460279747
+     },
+     "baseten/mammoth-1:free": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.28952458808582554,
+      "exploited": 0.07089864081668722
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "lobsters:gprfaf",
