@@ -1,21 +1,20 @@
 {
- "generated": "2026-10-27T14:26:04Z",
- "count": 1254,
+ "generated": "2026-10-27T20:03:31Z",
+ "count": 1302,
  "topics": [
   {
    "name": "5.4-5.6",
-   "threads": 28,
-   "repos": 24,
-   "points": 377,
+   "threads": 27,
+   "repos": 23,
+   "points": 375,
    "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-109618",
     "CVE-2026-109619",
-    "CVE-2026-115560",
-    "CVE-2026-10961"
+    "CVE-2026-115560"
    ],
-   "last_seen": "2026-10-27T10:36:12Z",
+   "last_seen": "2026-10-27T00:42:53Z",
    "items": [
     "ghpoc:ikow/php2shell-poc",
     "ghpoc:eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
@@ -26,10 +25,9 @@
     "ghpoc:HOSTED-POWER/php_uploadprogress_guard",
     "ghpoc:syrex1013/php2shell",
     "ghpoc:junaire/CVE-2026-109618-exploit",
-    "ghpoc:Anton-Barinov/php2shell-patches",
     "ghpoc:syhunt/php2shell-protection",
+    "ghpoc:Anton-Barinov/php2shell-patches",
     "hn:50187708",
-    "ghpoc:dinosn/php-cve-2026-10961x-lab-poc",
     "ghpoc:JoasASantos/php2shell-scanner",
     "ghpoc:aancw/php2shell-scanner",
     "ghpoc:aarsaputra/php2shell",
@@ -41,7 +39,8 @@
     "ghpoc:vperetti/php-cve-2026-109618-109619-backports",
     "ghpoc:xuehuolll/php2shell-CVE-2026-109618-109619",
     "ghpoc:enactive-systems/CVE-2026-109618-poc",
-    "ghpoc:godylockz/cve-2026-109618-php2shell"
+    "ghpoc:godylockz/cve-2026-109618-php2shell",
+    "ghpoc:david-alvarez-rosa/php-rce"
    ]
   },
   {
@@ -156,21 +155,43 @@
    ]
   },
   {
-   "name": "CVE-2026-111943",
+   "name": "eMudhra",
+   "threads": 6,
+   "repos": 0,
+   "points": 364,
+   "kev": false,
+   "vendor": true,
+   "cves": [
+    "CVE-2026-111943",
+    "CVE-2026-91403",
+    "CVE-2026-115557",
+    "CVE-2026-111944"
+   ],
+   "last_seen": "2026-10-27T07:03:55Z",
+   "items": [
+    "hn:50192900",
+    "hn:50188443",
+    "hn:50255510",
+    "blog:https://seclists.org/oss-sec/2026/q4/372",
+    "blog:https://blog.qualys.com/product-tech/2026/10/23/how-to-identify-compromised-emudhra-certificates-with-qualys-cve-2026-111943-and-cve-2026-111944",
+    "tailscale:ts-2026-013"
+   ]
+  },
+  {
+   "name": "prior",
    "threads": 3,
    "repos": 0,
-   "points": 339,
+   "points": 273,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-111943",
-    "CVE-2026-111944"
+    "CVE-2026-111813"
    ],
-   "last_seen": "2026-10-24T02:03:52Z",
+   "last_seen": "2026-10-24T22:23:33Z",
    "items": [
-    "hn:50192900",
-    "hn:50168664",
-    "blog:https://blog.qualys.com/product-tech/2026/10/23/how-to-identify-compromised-emudhra-certificates-with-qualys-cve-2026-111943-and-cve-2026-111944"
+    "hn:50194070",
+    "hn:50189623",
+    "blog:https://seclists.org/oss-sec/2026/q4/374"
    ]
   },
   {
@@ -243,7 +264,7 @@
    "name": "Cybersecurity",
    "threads": 3,
    "repos": 0,
-   "points": 29,
+   "points": 31,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -305,21 +326,6 @@
    ]
   },
   {
-   "name": "state",
-   "threads": 3,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-21T14:24:26Z",
-   "items": [
-    "hn:50181215",
-    "hn:50181125",
-    "hn:50181552"
-   ]
-  },
-  {
    "name": "Checking",
    "threads": 3,
    "repos": 0,
@@ -335,6 +341,21 @@
     "hn:50176254",
     "blog:https://seclists.org/oss-sec/2026/q4/385",
     "blog:https://seclists.org/oss-sec/2026/q4/384"
+   ]
+  },
+  {
+   "name": "CoreGraphics",
+   "threads": 3,
+   "repos": 0,
+   "points": 1,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-27T14:23:58Z",
+   "items": [
+    "hn:50259864",
+    "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+    "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
    ]
   },
   {
@@ -431,13 +452,1024 @@
  ],
  "items": [
   {
+   "id": "hn:50264545",
+   "source": "hackernews",
+   "title": "Use TLS SNI to hide your servers (incl. Citrix) from IP-based mass exploitation",
+   "url": "https://cirosec.de/en/news/hiding-your-netscaler-from-mass-exploitation-with-sni/",
+   "discussion": "https://news.ycombinator.com/item?id=50264545",
+   "points": 3,
+   "comments": 1,
+   "created": "2026-10-27T19:33:38Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-27T19:33:38Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Use TLS SNI to hide your servers (incl. Citrix) from IP-based mass exploitation",
+    "at": "2026-10-27T20:03:31Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.48219521744087174,
+      "exploited": 0.4002701066304173
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-4w7w-5xrc-9h26",
+   "source": "github-advisory",
+   "title": "undici vulnerable to cache poisoning and cross-user disclosure via cross-origin redirects (npm/undici)",
+   "url": "https://github.com/advisories/GHSA-4w7w-5xrc-9h26",
+   "discussion": "https://github.com/advisories/GHSA-4w7w-5xrc-9h26",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T19:02:31Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-109829"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T19:02:31Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-2m5v-pch6-74hx",
+   "source": "github-advisory",
+   "title": "undici vulnerable to TLS certificate validation bypass via dropped tls options in Agent (npm/undici)",
+   "url": "https://github.com/advisories/GHSA-2m5v-pch6-74hx",
+   "discussion": "https://github.com/advisories/GHSA-2m5v-pch6-74hx",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T19:02:26Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-109383"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T19:02:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-qrxm-fqhp-jwvm",
+   "source": "github-advisory",
+   "title": "undici vulnerable to Denial of Service via TLS 1.2 certificate-changing renegotiation (npm/undici)",
+   "url": "https://github.com/advisories/GHSA-qrxm-fqhp-jwvm",
+   "discussion": "https://github.com/advisories/GHSA-qrxm-fqhp-jwvm",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T19:02:21Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-87018"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T19:02:21Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-f897-62hf-6gxq",
+   "source": "github-advisory",
+   "title": "MCP TypeScript SDK: HTTP server transports and handlers did not limit request body size or JSON-RPC batch length (npm/@modelcontextprotocol/sdk)",
+   "url": "https://github.com/advisories/GHSA-f897-62hf-6gxq",
+   "discussion": "https://github.com/advisories/GHSA-f897-62hf-6gxq",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T19:02:00Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T19:02:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-2v3c-qxhr-7vpv",
+   "source": "github-advisory",
+   "title": "Symfony: Unbounded Recursion in the YAML Inline Lexer Lets a Single Document Crash the Process (composer/symfony/symfony)",
+   "url": "https://github.com/advisories/GHSA-2v3c-qxhr-7vpv",
+   "discussion": "https://github.com/advisories/GHSA-2v3c-qxhr-7vpv",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T19:01:50Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-109413"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T19:01:50Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-r925-mgvr-h9cc",
+   "source": "github-advisory",
+   "title": "Symfony: ReDoS in HeaderUtils::split() Reachable Through the Cache-Control Request Header (composer/symfony/http-foundation)",
+   "url": "https://github.com/advisories/GHSA-r925-mgvr-h9cc",
+   "discussion": "https://github.com/advisories/GHSA-r925-mgvr-h9cc",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T19:01:39Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-108082"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T19:01:39Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-mgcc-cww5-fp2q",
+   "source": "github-advisory",
+   "title": "Go JOSE: DoS when parsing JWKs that contain RSA keys (go/github.com/go-jose/go-jose/v4)",
+   "url": "https://github.com/advisories/GHSA-mgcc-cww5-fp2q",
+   "discussion": "https://github.com/advisories/GHSA-mgcc-cww5-fp2q",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T19:01:30Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-116587"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T19:01:30Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-vg84-c5mg-76xh",
+   "source": "github-advisory",
+   "title": "CTFer.io's CTFd Terraform Provider allows a local or remote attacker to read team passwords in state as non sensitive values (go/github.com/ctfer-io/terraform-provider-ctfd)",
+   "url": "https://github.com/advisories/GHSA-vg84-c5mg-76xh",
+   "discussion": "https://github.com/advisories/GHSA-vg84-c5mg-76xh",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T19:00:50Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-116683"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T19:00:50Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "hn:50263580",
+   "source": "hackernews",
+   "title": "Responsible Disclosure in the Age of Vulnpocalypse",
+   "url": "https://www.redhat.com/en/blog/responsible-disclosure-age-vulnpocalypse",
+   "discussion": "https://news.ycombinator.com/item?id=50263580",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-27T18:25:18Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-27T18:25:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Responsible Disclosure in the Age of Vulnpocalypse",
+    "at": "2026-10-27T20:03:31Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.8559488493487857,
+      "exploited": 0.01696670546876183
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-wf6j-7hvr-gr93",
+   "source": "github-advisory",
+   "title": "Hydra legacy target blacklist permits unsafe PyYAML loading (pip/hydra-core)",
+   "url": "https://github.com/advisories/GHSA-wf6j-7hvr-gr93",
+   "discussion": "https://github.com/advisories/GHSA-wf6j-7hvr-gr93",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T17:08:41Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T17:08:41Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-qq8j-7v2v-3rwp",
+   "source": "github-advisory",
+   "title": "undici WebSocket client vulnerable to Denial of Service via failed HTTP/2 handshake (npm/undici)",
+   "url": "https://github.com/advisories/GHSA-qq8j-7v2v-3rwp",
+   "discussion": "https://github.com/advisories/GHSA-qq8j-7v2v-3rwp",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T16:09:45Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-109855"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T16:09:45Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-8m4g-j4wp-wgcg",
+   "source": "github-advisory",
+   "title": "Authlib accepts an empty HMAC key, allowing JWS/JWT signature forgery (HS256/HS384/HS512) (pip/Authlib)",
+   "url": "https://github.com/advisories/GHSA-8m4g-j4wp-wgcg",
+   "discussion": "https://github.com/advisories/GHSA-8m4g-j4wp-wgcg",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T16:09:22Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114616"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T16:09:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-7vr2-2fgp-9w7p",
+   "source": "github-advisory",
+   "title": "Authlib incomplete algorithm-confusion fix permits HMAC forgery with prefixed public keys (pip/authlib)",
+   "url": "https://github.com/advisories/GHSA-7vr2-2fgp-9w7p",
+   "discussion": "https://github.com/advisories/GHSA-7vr2-2fgp-9w7p",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:38:48Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114615"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:38:48Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-j2w7-387v-m2rq",
+   "source": "github-advisory",
+   "title": "PhpSpreadsheet ODS Reader: Unbounded number-rows-repeated → CPU & Memory Exhaustion (DoS) (composer/phpoffice/phpspreadsheet)",
+   "url": "https://github.com/advisories/GHSA-j2w7-387v-m2rq",
+   "discussion": "https://github.com/advisories/GHSA-j2w7-387v-m2rq",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:38:33Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-108359"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:38:33Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-3x94-m842-937c",
+   "source": "github-advisory",
+   "title": "PhpSpreadsheet: XmlScanner Bypass via ISO-2022 Escape Sequences Allows XXE and Denial of Service (composer/phpoffice/phpspreadsheet)",
+   "url": "https://github.com/advisories/GHSA-3x94-m842-937c",
+   "discussion": "https://github.com/advisories/GHSA-3x94-m842-937c",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:38:28Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-108358"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:38:28Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-rxj4-h86g-25gc",
+   "source": "github-advisory",
+   "title": "PhpSpreadsheet: XmlScanner Bypass via Double-Encoded unentity() TOCTOU Allows XXE and Denial of Service (composer/phpoffice/phpspreadsheet)",
+   "url": "https://github.com/advisories/GHSA-rxj4-h86g-25gc",
+   "discussion": "https://github.com/advisories/GHSA-rxj4-h86g-25gc",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:38:22Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-108357"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:38:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-fpmh-frq8-7rj8",
+   "source": "github-advisory",
+   "title": "compress zstd: Panic on two-block frames (go/github.com/klauspost/compress/zstd)",
+   "url": "https://github.com/advisories/GHSA-fpmh-frq8-7rj8",
+   "discussion": "https://github.com/advisories/GHSA-fpmh-frq8-7rj8",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:38:14Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-116591"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:38:14Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-45c3-73f7-pv4m",
+   "source": "github-advisory",
+   "title": "dnspython dns.name.from_wire_parser() excessive CPU use (pip/dnspython)",
+   "url": "https://github.com/advisories/GHSA-45c3-73f7-pv4m",
+   "discussion": "https://github.com/advisories/GHSA-45c3-73f7-pv4m",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:37:37Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114605"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:37:37Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-3633-r77q-h3v3",
+   "source": "github-advisory",
+   "title": "Datadog dd-trace-py: ReDoS in URL query string obfuscation (pip/ddtrace)",
+   "url": "https://github.com/advisories/GHSA-3633-r77q-h3v3",
+   "discussion": "https://github.com/advisories/GHSA-3633-r77q-h3v3",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:37:31Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-116588"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:37:31Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-p3m5-h5v9-vqj6",
+   "source": "github-advisory",
+   "title": "Datadog dd-trace-py: IAST instrumentation can lead to application DOS (pip/ddtrace)",
+   "url": "https://github.com/advisories/GHSA-p3m5-h5v9-vqj6",
+   "discussion": "https://github.com/advisories/GHSA-p3m5-h5v9-vqj6",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:37:24Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-116589"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:37:24Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-98qm-wvgf-w4cf",
+   "source": "github-advisory",
+   "title": "MongoDB Python Driver: Out-of-bounds read in BSON decoding via a malformed Regex element (pip/pymongo)",
+   "url": "https://github.com/advisories/GHSA-98qm-wvgf-w4cf",
+   "discussion": "https://github.com/advisories/GHSA-98qm-wvgf-w4cf",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:36:35Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-106435"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:36:35Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-h3rc-6mm3-gc2m",
+   "source": "github-advisory",
+   "title": "vLLM: Request-controlled mm_processor_kwargs.code_revision allows remote code execution (pip/vllm)",
+   "url": "https://github.com/advisories/GHSA-h3rc-6mm3-gc2m",
+   "discussion": "https://github.com/advisories/GHSA-h3rc-6mm3-gc2m",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:36:17Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114053"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:36:17Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-3w55-933p-8pv5",
+   "source": "github-advisory",
+   "title": "Strands Agents: Local Privilege Escalation via Symlink Attack in Default Session File Storage (pip/strands-agents)",
+   "url": "https://github.com/advisories/GHSA-3w55-933p-8pv5",
+   "discussion": "https://github.com/advisories/GHSA-3w55-933p-8pv5",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:34:33Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:34:33Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/399",
+   "source": "seclists.org",
+   "title": "Re: Fwd: X.Org Security Advisory: multiple security issues in X.Org X client libraries",
+   "url": "https://seclists.org/oss-sec/2026/q4/399",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/399",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:33:51Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-27T15:33:51Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Re: Fwd: X.Org Security Advisory: multiple security issues in X.Org X client libraries",
+    "at": "2026-10-27T20:03:31Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.39755506111388106,
+      "exploited": 0.008119960594166399
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-gwq9-9ffj-mvrv",
+   "source": "github-advisory",
+   "title": "snappy-java: Heap buffer overflow in Snappy.uncompress*Array typed-array methods (maven/org.xerial.snappy:snappy-java)",
+   "url": "https://github.com/advisories/GHSA-gwq9-9ffj-mvrv",
+   "discussion": "https://github.com/advisories/GHSA-gwq9-9ffj-mvrv",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:33:42Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-93451"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:33:42Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-q233-g92q-qxp6",
+   "source": "github-advisory",
+   "title": "snappy-java: Unbounded memory allocation from attacker-declared uncompressed lengtha (maven/org.xerial.snappy:snappy-java)",
+   "url": "https://github.com/advisories/GHSA-q233-g92q-qxp6",
+   "discussion": "https://github.com/advisories/GHSA-q233-g92q-qxp6",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:33:22Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-108106"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:33:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-vqrg-773h-4wxc",
+   "source": "github-advisory",
+   "title": "Flexible GraphRAG: Cypher/Graph Injection via broken string-escaping in FalkorDB adapter (_escape()) - full graph wipe from ingested-document content (pip/flexible-graphrag)",
+   "url": "https://github.com/advisories/GHSA-vqrg-773h-4wxc",
+   "discussion": "https://github.com/advisories/GHSA-vqrg-773h-4wxc",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:32:45Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114510"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:32:45Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-g5ff-637f-6q2m",
+   "source": "github-advisory",
+   "title": "LiteLLM: internal_user_viewer arbitrary local file read via `vertex_ai_credentials` (pip/litellm)",
+   "url": "https://github.com/advisories/GHSA-g5ff-637f-6q2m",
+   "discussion": "https://github.com/advisories/GHSA-g5ff-637f-6q2m",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:32:36Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:32:36Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-r4xp-prcw-77qf",
+   "source": "github-advisory",
+   "title": "better-auth: OAuth Proxy lets an attacker sign in as another user (npm/better-auth)",
+   "url": "https://github.com/advisories/GHSA-r4xp-prcw-77qf",
+   "discussion": "https://github.com/advisories/GHSA-r4xp-prcw-77qf",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:32:16Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:32:16Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-965c-763c-88jm",
+   "source": "github-advisory",
+   "title": "better-auth: OAuth state can be used as a Magic Link to sign in as another user (npm/better-auth)",
+   "url": "https://github.com/advisories/GHSA-965c-763c-88jm",
+   "discussion": "https://github.com/advisories/GHSA-965c-763c-88jm",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:32:05Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114607"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-10-27T15:32:05Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-23mf-xhv8-69c2",
+   "source": "github-advisory",
+   "title": "GitPython: arbitrary file read via attacker-controlled branch name in `Head.checkout()` (incomplete fix of CVE-2026-78679) (pip/GitPython)",
+   "url": "https://github.com/advisories/GHSA-23mf-xhv8-69c2",
+   "discussion": "https://github.com/advisories/GHSA-23mf-xhv8-69c2",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:28:03Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:28:03Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-f9j4-qggq-h239",
+   "source": "github-advisory",
+   "title": "GitPython Remote.pull() refspec bypasses the --upload-pack unsafe-option guard, enabling arbitrary command execution (pip/GitPython)",
+   "url": "https://github.com/advisories/GHSA-f9j4-qggq-h239",
+   "discussion": "https://github.com/advisories/GHSA-f9j4-qggq-h239",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:26:50Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:26:50Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-w8jc-g24h-crhw",
+   "source": "github-advisory",
+   "title": "GitPython command wrappers omit unsafe protocol and option checks (pip/GitPython)",
+   "url": "https://github.com/advisories/GHSA-w8jc-g24h-crhw",
+   "discussion": "https://github.com/advisories/GHSA-w8jc-g24h-crhw",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:26:43Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:26:43Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-m64x-33q8-m5h7",
+   "source": "github-advisory",
+   "title": "GitPython parse_actor_and_date() is vulnerable to quadratic backtracking on malformed identity lines (pip/GitPython)",
+   "url": "https://github.com/advisories/GHSA-m64x-33q8-m5h7",
+   "discussion": "https://github.com/advisories/GHSA-m64x-33q8-m5h7",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:26:24Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:26:24Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-7hp6-4w63-5g45",
+   "source": "github-advisory",
+   "title": "LiteLLM: Privilege Escalation to Proxy Admin via Cross-Domain Reuse of the Salt Key (pip/litellm)",
+   "url": "https://github.com/advisories/GHSA-7hp6-4w63-5g45",
+   "discussion": "https://github.com/advisories/GHSA-7hp6-4w63-5g45",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:04:14Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114612"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:04:14Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-j586-36cw-2gc2",
+   "source": "github-advisory",
+   "title": "MessagePack: Unbounded memory leak in msgpack C extension on strict_map_key validation failure (pip/msgpack)",
+   "url": "https://github.com/advisories/GHSA-j586-36cw-2gc2",
+   "discussion": "https://github.com/advisories/GHSA-j586-36cw-2gc2",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T15:04:07Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-114613"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T15:04:07Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-j456-xh4h-cpf2",
+   "source": "github-advisory",
+   "title": "NLTK: WekaClassifier passes an unvalidated caller-controlled model path to the weka JVM, bypassing nltk.pathsec containment (pip/nltk)",
+   "url": "https://github.com/advisories/GHSA-j456-xh4h-cpf2",
+   "discussion": "https://github.com/advisories/GHSA-j456-xh4h-cpf2",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T14:50:30Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T14:50:30Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-6v38-4h7w-rj9h",
+   "source": "github-advisory",
+   "title": "Authlib: empty signatures validation in JWS JSON deserialization (pip/authlib)",
+   "url": "https://github.com/advisories/GHSA-6v38-4h7w-rj9h",
+   "discussion": "https://github.com/advisories/GHSA-6v38-4h7w-rj9h",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T14:50:18Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-96760"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-10-27T14:50:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-q84f-53jg-9ppm",
+   "source": "github-advisory",
+   "title": "better-auth: Device login approval does not show the requesting client or permissions (npm/better-auth)",
+   "url": "https://github.com/advisories/GHSA-q84f-53jg-9ppm",
+   "discussion": "https://github.com/advisories/GHSA-q84f-53jg-9ppm",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T14:49:53Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T14:49:53Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-qr6x-7v33-6qmg",
+   "source": "github-advisory",
+   "title": "Rembg: Unauthenticated SAM model injection permits local-file disclosure through malicious ONNX graphs (pip/rembg)",
+   "url": "https://github.com/advisories/GHSA-qr6x-7v33-6qmg",
+   "discussion": "https://github.com/advisories/GHSA-qr6x-7v33-6qmg",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T14:45:36Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-115924"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T14:45:36Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "hn:50260041",
+   "source": "hackernews",
+   "title": "Pentagon orders bases to plan for 90 days without grid as Britain urges",
+   "url": "https://fortune.com/2026/10/26/pentagon-fortress-bases-90-days-off-grid-uk-be-ready-stockpile/",
+   "discussion": "https://news.ycombinator.com/item?id=50260041",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-27T14:34:20Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-27T14:34:20Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Pentagon orders bases to plan for 90 days without grid as Britain urges",
+    "at": "2026-10-27T20:03:31Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.9456350511362746,
+      "exploited": 0.02098901614019037
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-xxph-c9ww-hj94",
+   "source": "github-advisory",
+   "title": "Google Guava: CompactHashMap/CompactHashSet/MapMakerInternalMap deserialization triggers uncontrolled memory allocation (maven/com.google.guava:guava)",
+   "url": "https://github.com/advisories/GHSA-xxph-c9ww-hj94",
+   "discussion": "https://github.com/advisories/GHSA-xxph-c9ww-hj94",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T14:27:53Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-102554"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-27T14:27:53Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "hn:50259864",
    "source": "hackernews",
    "title": "Apple Fixes Possibly Exploited CoreGraphics Flaw on Older iPhones",
    "url": "https://www.macrumors.com/2026/10/27/apple-fixes-coregraphics-flaw-older-iphones/",
    "discussion": "https://news.ycombinator.com/item?id=50259864",
    "points": 1,
-   "comments": 0,
+   "comments": 1,
    "created": "2026-10-27T14:23:58Z",
    "label": "security_news",
    "cves": [],
@@ -470,8 +1502,8 @@
    "title": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root p",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myug2ohvrg2o",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myug2ohvrg2o",
-   "points": 4,
-   "comments": 1,
+   "points": 14,
+   "comments": 2,
    "created": "2026-10-27T14:10:12Z",
    "label": "security_news",
    "cves": [],
@@ -526,6 +1558,74 @@
       "status": "unclear",
       "confidence": 0.3284928124204987,
       "exploited": 0.009225159974406637
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+   "source": "thehackernews.com",
+   "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+   "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+   "discussion": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T13:59:48Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-27T13:59:48Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+    "at": "2026-10-27T20:03:31Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.2611142740545626,
+      "exploited": 0.02674637110400686
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+   "source": "thehackernews.com",
+   "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+   "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+   "discussion": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-27T13:59:09Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-27T13:59:09Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+    "at": "2026-10-27T20:03:31Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.4858575773416492,
+      "exploited": 0.9434853341041008
      }
     },
     "consensus": "unclear",
@@ -744,7 +1844,7 @@
    "title": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myu2bnpk6t2u",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myu2bnpk6t2u",
-   "points": 5,
+   "points": 9,
    "comments": 0,
    "created": "2026-10-27T10:39:21Z",
    "label": "zero_day_mention",
@@ -846,8 +1946,8 @@
    "title": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mytskuctmf2u",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mytskuctmf2u",
-   "points": 12,
-   "comments": 0,
+   "points": 14,
+   "comments": 1,
    "created": "2026-10-27T08:21:20Z",
    "label": "exploited_reported",
    "cves": [],
@@ -892,7 +1992,21 @@
      "at": "2026-10-27T14:26:04Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+    "at": "2026-10-27T20:03:31Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.5965412408596318,
+      "exploited": 0.9945032729348745
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50256003",
@@ -1260,7 +2374,21 @@
      "at": "2026-10-26T23:07:56Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Why a patched PC still loaded the BlackX bootkit, and how to check yours",
+    "at": "2026-10-27T20:03:31Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": {
+      "status": "n_day_exploited",
+      "confidence": 0.8009215831113694,
+      "exploited": 0.5056464655772678
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/394",
@@ -1320,7 +2448,21 @@
      "at": "2026-10-26T19:15:24Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+    "at": "2026-10-27T20:03:31Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": {
+      "status": "not_exploited",
+      "confidence": 0.3388241515567067,
+      "exploited": 0.013756520028432697
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50247778",
@@ -1340,7 +2482,21 @@
      "at": "2026-10-26T19:15:24Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "What WordPress Calendar Vulnerabilities Reveal About Trusting User Content",
+    "at": "2026-10-27T20:03:31Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": {
+      "status": "unclear",
+      "confidence": 0.7830582723636625,
+      "exploited": 0.006087883174699357
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
@@ -2976,7 +4132,7 @@
    "title": "assetnote/node2shell-scanner: High fidelity detection mechanism for node2shell (CVE-2026-111497)",
    "url": "https://github.com/assetnote/node2shell-scanner",
    "discussion": "https://github.com/assetnote/node2shell-scanner",
-   "points": 71,
+   "points": 74,
    "comments": 0,
    "created": "2026-10-25T04:23:54Z",
    "label": "public_exploit_reported",
@@ -3076,7 +4232,7 @@
    "title": "syrex1013/CVE-2026-111497-node2shell: CVE-2026-111497 Node2Shell — Node.js Brotli OOB Write RCE PoC (CVSS 9.2)",
    "url": "https://github.com/syrex1013/CVE-2026-111497-node2shell",
    "discussion": "https://github.com/syrex1013/CVE-2026-111497-node2shell",
-   "points": 40,
+   "points": 43,
    "comments": 0,
    "created": "2026-10-24T23:03:18Z",
    "label": "public_exploit_reported",
@@ -5939,7 +7095,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 95,
+   "points": 97,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "kev_exploited",
@@ -8153,7 +9309,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 60,
+   "points": 61,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "public_exploit_reported",
@@ -8175,7 +9331,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 942,
+   "points": 944,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -8393,7 +9549,7 @@
    "title": "devploit/php2shell: PHP2Shell: version-aware research toolkit for CVE-2026-109618 / CVE-2026-109619 — pre-auth RCE in PHP session.upload_progress (mod_php). Bui",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 176,
+   "points": 178,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -9336,7 +10492,7 @@
    "title": "pentestershell/php2shellbt: Python scanner for CVE-2026-109618, CVE-2026-109619 and the php2shell session chains (handler mismatch + LFI). No external dependencies.",
    "url": "https://github.com/pentestershell/php2shellbt",
    "discussion": "https://github.com/pentestershell/php2shellbt",
-   "points": 73,
+   "points": 74,
    "comments": 0,
    "created": "2026-10-21T17:06:30Z",
    "label": "kev_exploited",
@@ -9624,7 +10780,7 @@
    "title": "JoasASantos/php2shell-scanner: Non-destructive scanner for CVE-2026-109618 / CVE-2026-109619 (PHP core RCE). Subdomain recon via crt.sh + subfinder, robust banner grabbing",
    "url": "https://github.com/JoasASantos/php2shell-scanner",
    "discussion": "https://github.com/JoasASantos/php2shell-scanner",
-   "points": 108,
+   "points": 109,
    "comments": 0,
    "created": "2026-10-21T15:35:43Z",
    "label": "kev_exploited",
@@ -9750,7 +10906,7 @@
    "title": "mpyw/php-eol-CVE-2026-109618-109619: PHP 7.4 / 8.0 / 8.1 Docker images with the CVE-2026-109618 / CVE-2026-109619 fix backported",
    "url": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
    "discussion": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
-   "points": 68,
+   "points": 69,
    "comments": 0,
    "created": "2026-10-21T15:01:45Z",
    "label": "kev_exploited",
@@ -9890,7 +11046,7 @@
    "title": "vperetti/php-cve-2026-109618-109619-backports: Minimal source backports of the PHP core RCE fixes (CVE-2026-109618 / CVE-2026-109619) for EOL PHP 5.4 and 7.3",
    "url": "https://github.com/vperetti/php-cve-2026-109618-109619-backports",
    "discussion": "https://github.com/vperetti/php-cve-2026-109618-109619-backports",
-   "points": 55,
+   "points": 56,
    "comments": 0,
    "created": "2026-10-21T14:20:57Z",
    "label": "kev_exploited",
@@ -10327,7 +11483,7 @@
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
    "url": "https://github.com/murrez/php2shell",
    "discussion": "https://github.com/murrez/php2shell",
-   "points": 86,
+   "points": 88,
    "comments": 0,
    "created": "2026-10-21T12:37:59Z",
    "label": "kev_exploited",
@@ -10486,7 +11642,7 @@
    "title": "HOSTED-POWER/php_uploadprogress_guard: Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component b",
    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
    "discussion": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-   "points": 165,
+   "points": 167,
    "comments": 0,
    "created": "2026-10-21T09:00:12Z",
    "label": "kev_exploited",
@@ -10516,7 +11672,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1027,
+   "points": 1029,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
@@ -10586,7 +11742,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1860,
+   "points": 1866,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
@@ -10816,7 +11972,7 @@
    "title": "syhunt/php2shell-protection: Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apa",
    "url": "https://github.com/syhunt/php2shell-protection",
    "discussion": "https://github.com/syhunt/php2shell-protection",
-   "points": 118,
+   "points": 119,
    "comments": 0,
    "created": "2026-10-21T04:01:24Z",
    "label": "kev_exploited",
@@ -10917,6 +12073,27 @@
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-f623-hjm8-5wg5",
+   "source": "github-advisory",
+   "title": "Duplicate Advisory: vLLM: Request-controlled mm_processor_kwargs.code_revision allows remote code execution (pip/vllm)",
+   "url": "https://github.com/advisories/GHSA-f623-hjm8-5wg5",
+   "discussion": "https://github.com/advisories/GHSA-f623-hjm8-5wg5",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-21T03:32:16Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-10-21T03:32:16Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
      "label": "vendor_advisory"
     }
    ]
@@ -14568,6 +15745,29 @@
    ]
   },
   {
+   "id": "github-advisory:GHSA-6wfj-92cw-88vg",
+   "source": "github-advisory",
+   "title": "git-diff: OS command injection vulnerability via crafted strings to the gitDiff API (npm/git-diff)",
+   "url": "https://github.com/advisories/GHSA-6wfj-92cw-88vg",
+   "discussion": "https://github.com/advisories/GHSA-6wfj-92cw-88vg",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-14T15:32:27Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-110634"
+   ],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-10-14T15:32:27Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "hn:50089209",
    "source": "hackernews",
    "title": "One Aisle Curl Audit Produced 24 CVEs. 18 Ship Today",
@@ -15417,6 +16617,28 @@
     "consensus": "unclear",
     "votes": 0
    }
+  },
+  {
+   "id": "ghpoc:jburgess-r7/CVE-2026-97229-PoC",
+   "source": "github-poc",
+   "title": "jburgess-r7/CVE-2026-97229-PoC: GitLab CI lint integer-overflow RCE PoC for CVE-2026-97229, validated against the official 19.4.1 CE amd64 image",
+   "url": "https://github.com/jburgess-r7/CVE-2026-97229-PoC",
+   "discussion": "https://github.com/jburgess-r7/CVE-2026-97229-PoC",
+   "points": 63,
+   "comments": 0,
+   "created": "2026-10-13T09:39:17Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-97229"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-13T09:39:17Z",
+   "label_history": [
+    {
+     "at": "2026-10-27T20:03:31Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "hn:50069031",
