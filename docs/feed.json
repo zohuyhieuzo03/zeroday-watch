@@ -1,53 +1,12 @@
 {
- "generated": "2026-10-28T05:34:55Z",
- "count": 1326,
+ "generated": "2026-10-28T12:45:50Z",
+ "count": 1340,
  "topics": [
   {
-   "name": "5.4-5.6",
-   "threads": 28,
-   "repos": 21,
-   "points": 183,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619",
-    "CVE-2026-115560"
-   ],
-   "last_seen": "2026-10-27T21:08:10Z",
-   "items": [
-    "ghpoc:ikow/php2shell-poc",
-    "ghpoc:eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-    "ghpoc:assetnote/php2shell-scanner",
-    "ghpoc:JoasASantos/php2shell-exploit",
-    "ghpoc:devploit/php2shell",
-    "ghpoc:HOSTED-POWER/php_uploadprogress_guard",
-    "ghpoc:syrex1013/php2shell",
-    "ghpoc:junaire/CVE-2026-109618-exploit",
-    "ghpoc:Anton-Barinov/php2shell-patches",
-    "hn:50187708",
-    "ghpoc:JoasASantos/php2shell-scanner",
-    "ghpoc:aarsaputra/php2shell",
-    "ghpoc:aancw/php2shell-scanner",
-    "ghpoc:murrez/php2shell",
-    "ghpoc:pentestershell/php2shellbt",
-    "ghpoc:mpyw/php-eol-CVE-2026-109618-109619",
-    "ghpoc:Qsnh/php2shell-fixed",
-    "ghpoc:Is4yev/php2shell-poc",
-    "ghpoc:vperetti/php-cve-2026-109618-109619-backports",
-    "ghpoc:enactive-systems/CVE-2026-109618-poc",
-    "ghpoc:godylockz/cve-2026-109618-php2shell",
-    "ghpoc:david-alvarez-rosa/php-rce",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myfd44mniz2s",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
-    "hn:50184386"
-   ]
-  },
-  {
    "name": "node2shell",
-   "threads": 23,
+   "threads": 24,
    "repos": 4,
-   "points": 500,
+   "points": 511,
    "kev": true,
    "vendor": true,
    "cves": [
@@ -56,7 +15,7 @@
     "CVE-2026-105482",
     "CVE-2026-105483"
    ],
-   "last_seen": "2026-10-27T20:18:54Z",
+   "last_seen": "2026-10-28T10:48:14Z",
    "items": [
     "hn:50219177",
     "ghpoc:assetnote/node2shell-scanner",
@@ -66,8 +25,9 @@
     "hn:50189292",
     "hn:50192733",
     "lobsters:al3yyf",
-    "hn:50203180",
     "hn:50265205",
+    "hn:50203180",
+    "hn:50270131",
     "hn:50217557",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
     "hn:50221110",
@@ -75,32 +35,71 @@
     "hn:50215588",
     "hn:50197556",
     "hn:50224269",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
     "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
     "blog:https://seclists.org/oss-sec/2026/q4/393",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-792/",
     "blog:https://seclists.org/oss-sec/2026/q4/390",
     "blog:https://seclists.org/oss-sec/2026/q4/389",
-    "tailscale:ts-2026-016",
-    "blog:https://seclists.org/oss-sec/2026/q4/373",
-    "blog:https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html"
+    "tailscale:ts-2026-016"
+   ]
+  },
+  {
+   "name": "5.4-5.6",
+   "threads": 24,
+   "repos": 15,
+   "points": 198,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619"
+   ],
+   "last_seen": "2026-10-27T21:08:10Z",
+   "items": [
+    "ghpoc:assetnote/php2shell-scanner",
+    "ghpoc:JoasASantos/php2shell-exploit",
+    "ghpoc:devploit/php2shell",
+    "ghpoc:syrex1013/php2shell",
+    "ghpoc:Anton-Barinov/php2shell-patches",
+    "hn:50187708",
+    "ghpoc:JoasASantos/php2shell-scanner",
+    "ghpoc:aarsaputra/php2shell",
+    "ghpoc:aancw/php2shell-scanner",
+    "ghpoc:pentestershell/php2shellbt",
+    "ghpoc:mpyw/php-eol-CVE-2026-109618-109619",
+    "ghpoc:Qsnh/php2shell-fixed",
+    "ghpoc:vperetti/php-cve-2026-109618-109619-backports",
+    "ghpoc:enactive-systems/CVE-2026-109618-poc",
+    "ghpoc:godylockz/cve-2026-109618-php2shell",
+    "ghpoc:david-alvarez-rosa/php-rce",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myfd44mniz2s",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mykj4nu2ji2z",
+    "hn:50184386",
+    "hn:50180769",
+    "hn:50205084",
+    "hn:50193957",
+    "hn:50204912"
    ]
   },
   {
    "name": "PHP2Shell",
    "threads": 13,
    "repos": 0,
-   "points": 607,
+   "points": 605,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-26T09:19:57Z",
+   "last_seen": "2026-10-28T07:44:09Z",
    "items": [
     "hn:50180836",
     "hn:50181326",
     "hn:50226578",
     "hn:50183570",
     "hn:50240988",
-    "hn:50178312",
+    "hn:50270348",
     "hn:50226729",
     "lobsters:9b14at",
     "hn:50194701",
@@ -112,16 +111,15 @@
   },
   {
    "name": "Node.js",
-   "threads": 10,
+   "threads": 9,
    "repos": 0,
-   "points": 67,
+   "points": 51,
    "kev": false,
    "vendor": false,
    "cves": [],
    "last_seen": "2026-10-25T14:11:13Z",
    "items": [
     "lobsters:gu7bow",
-    "hn:50177438",
     "hn:50192419",
     "hn:50220145",
     "hn:50185622",
@@ -134,16 +132,17 @@
   },
   {
    "name": "bypass",
-   "threads": 5,
+   "threads": 6,
    "repos": 0,
    "points": 9,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-27T22:43:45Z",
+   "last_seen": "2026-10-28T11:15:51Z",
    "items": [
     "hn:50266919",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mymv4bblp72q",
+    "blog:https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
     "blog:https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
     "blog:https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
     "blog:https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/"
@@ -217,6 +216,38 @@
    ]
   },
   {
+   "name": "root",
+   "threads": 3,
+   "repos": 0,
+   "points": 57,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2022-22706"
+   ],
+   "last_seen": "2026-10-28T06:20:37Z",
+   "items": [
+    "hn:50220042",
+    "blog:https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+    "blog:https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/"
+   ]
+  },
+  {
+   "name": "Brotli",
+   "threads": 3,
+   "repos": 0,
+   "points": 37,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-28T05:42:26Z",
+   "items": [
+    "hn:50207180",
+    "blog:https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+    "blog:https://thehackernews.com/2026/10/php-issues-second-windows-security.html"
+   ]
+  },
+  {
    "name": "Tailscale",
    "threads": 3,
    "repos": 0,
@@ -281,21 +312,6 @@
     "hn:50197215",
     "hn:50194007",
     "blog:https://seclists.org/oss-sec/2026/q4/362"
-   ]
-  },
-  {
-   "name": "mitigation",
-   "threads": 3,
-   "repos": 0,
-   "points": 10,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-23T15:38:23Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mykj4nu2ji2z",
-    "hn:50177489",
-    "blog:https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/"
    ]
   },
   {
@@ -366,6 +382,21 @@
    ]
   },
   {
+   "name": "unpatched",
+   "threads": 3,
+   "repos": 0,
+   "points": 1,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-28T12:20:25Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
+    "blog:https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+    "blog:https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html"
+   ]
+  },
+  {
    "name": "CoreGraphics",
    "threads": 3,
    "repos": 0,
@@ -395,6 +426,21 @@
     "hn:50181552",
     "tailscale:ts-2026-015",
     "blog:https://seclists.org/oss-sec/2026/q4/363"
+   ]
+  },
+  {
+   "name": "CISA",
+   "threads": 3,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-28T10:46:23Z",
+   "items": [
+    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+    "blog:https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html"
    ]
   },
   {
@@ -432,47 +478,393 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-791/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-787/"
    ]
-  },
-  {
-   "name": "checker",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-72705",
-    "CVE-2026-72704",
-    "CVE-2026-72703"
-   ],
-   "last_seen": "2026-10-26T00:20:10Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/383",
-    "blog:https://seclists.org/oss-sec/2026/q4/382",
-    "blog:https://seclists.org/oss-sec/2026/q4/381"
-   ]
-  },
-  {
-   "name": "Dereference",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2025-60477",
-    "CVE-2025-60493",
-    "CVE-2025-60497"
-   ],
-   "last_seen": "2026-10-26T00:10:40Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/378",
-    "blog:https://seclists.org/oss-sec/2026/q4/377",
-    "blog:https://seclists.org/oss-sec/2026/q4/355"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
+   "source": "bluesky",
+   "title": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability.",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mywqfbpy3z2i",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mywqfbpy3z2i",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-28T12:20:25Z",
+   "label": "unpatched_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T12:20:25Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "unpatched_reported"
+    }
+   ],
+   "llm": {
+    "title": "Attackers have begun probing the Internet for systems unpatched against a recently disclosed critical Oracle E-Business Suite (EBS) vulnerability.",
+    "at": "2026-10-28T12:45:50Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+   "source": "bleepingcomputer.com",
+   "title": "Hackers now scanning systems for recently-patched Oracle flaw",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T12:19:57Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T12:19:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Hackers now scanning systems for recently-patched Oracle flaw",
+    "at": "2026-10-28T12:45:50Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+   "source": "thehackernews.com",
+   "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+   "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+   "discussion": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T11:15:51Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T11:15:51Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+    "at": "2026-10-28T12:45:50Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
+   "source": "bluesky",
+   "title": "CISA has confirmed that hackers are actively exploiting a critical Brotli vulnerability (CVE-2026-111497), also known as Node2Shell, Broccoli2Shell, and HTTP2Sh",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mywlagnz662b",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mywlagnz662b",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-28T10:48:14Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "kev": [
+    "CVE-2026-111497"
+   ],
+   "first_seen": "2026-10-28T10:48:14Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "kev_exploited"
+    }
+   ],
+   "llm": {
+    "title": "CISA has confirmed that hackers are actively exploiting a critical Brotli vulnerability (CVE-2026-111497), also known as Node2Shell, Broccoli2Shell, and HTTP2Sh",
+    "at": "2026-10-28T12:45:50Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+   "source": "bleepingcomputer.com",
+   "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T10:46:23Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T10:46:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
+    "at": "2026-10-28T12:45:50Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "lobsters:0gomue",
+   "source": "lobsters",
+   "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+   "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+   "discussion": "https://lobste.rs/s/0gomue/code_execution_flaw_uefi_firmware",
+   "points": 7,
+   "comments": 3,
+   "created": "2026-10-28T04:18:31.981-05:00",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T09:18:31Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
+    "at": "2026-10-28T12:45:50Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+   "source": "thehackernews.com",
+   "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+   "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+   "discussion": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T08:15:07Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T08:15:07Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+    "at": "2026-10-28T12:45:50Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "hn:50270348",
+   "source": "hackernews",
+   "title": "Show HN: Self-diagnosis of vulnerabilities such as PHP2Shell via IP/Domain",
+   "url": "https://aipentest.jclab.kr/selfcheck",
+   "discussion": "https://news.ycombinator.com/item?id=50270348",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-28T07:44:09Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T07:44:09Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Show HN: Self-diagnosis of vulnerabilities such as PHP2Shell via IP/Domain",
+    "at": "2026-10-28T12:45:50Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "hn:50270271",
+   "source": "hackernews",
+   "title": "Show HN: NoVul – Open-source Mac app to Find and fix vulnerabilities on your Mac",
+   "url": "https://github.com/misbahsy/novul",
+   "discussion": "https://news.ycombinator.com/item?id=50270271",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-28T07:32:53Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T07:32:53Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Show HN: NoVul – Open-source Mac app to Find and fix vulnerabilities on your Mac",
+    "at": "2026-10-28T12:45:50Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "hn:50270234",
+   "source": "hackernews",
+   "title": "Show HN: NoVul – Find and Fix Vulnerabilities On",
+   "url": "https://news.ycombinator.com/item?id=50270234",
+   "discussion": "https://news.ycombinator.com/item?id=50270234",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-28T07:26:02Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T07:26:02Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:50270131",
+   "source": "hackernews",
+   "title": "Discovering and exploiting vulnerabilities in critical software with Claude",
+   "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+   "discussion": "https://news.ycombinator.com/item?id=50270131",
+   "points": 6,
+   "comments": 2,
+   "created": "2026-10-28T07:11:09Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T07:11:09Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+   "source": "thehackernews.com",
+   "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+   "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+   "discussion": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T06:20:37Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T06:20:37Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+   "source": "thehackernews.com",
+   "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+   "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+   "discussion": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T06:04:58Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T06:04:58Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+    "at": "2026-10-28T12:45:50Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+   "source": "thehackernews.com",
+   "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+   "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+   "discussion": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:42:26Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:42:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T12:45:50Z",
+     "label": "security_news"
+    }
+   ]
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/409",
    "source": "seclists.org",
@@ -515,7 +907,7 @@
    "title": "We measured Opus 5.5 for 30 days. Here's what we found",
    "url": "https://blog.nathanlangley.dev/posts/livenerf-30-days.html",
    "discussion": "https://news.ycombinator.com/item?id=50267444",
-   "points": 3,
+   "points": 4,
    "comments": 1,
    "created": "2026-10-27T23:40:04Z",
    "label": "security_news",
@@ -918,8 +1310,8 @@
    "title": "Discovering and exploiting vulnerabilities in real-world software with Claude",
    "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
    "discussion": "https://news.ycombinator.com/item?id=50265205",
-   "points": 11,
-   "comments": 1,
+   "points": 15,
+   "comments": 2,
    "created": "2026-10-27T20:18:54Z",
    "label": "security_news",
    "cves": [],
@@ -953,7 +1345,7 @@
    "url": "https://cirosec.de/en/news/hiding-your-netscaler-from-mass-exploitation-with-sni/",
    "discussion": "https://news.ycombinator.com/item?id=50264545",
    "points": 8,
-   "comments": 2,
+   "comments": 3,
    "created": "2026-10-27T19:33:38Z",
    "label": "exploited_reported",
    "cves": [],
@@ -1906,7 +2298,7 @@
    "title": "Pentagon orders bases to plan for 90 days without grid as Britain urges",
    "url": "https://fortune.com/2026/10/26/pentagon-fortress-bases-90-days-off-grid-uk-be-ready-stockpile/",
    "discussion": "https://news.ycombinator.com/item?id=50260041",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-10-27T14:34:20Z",
    "label": "security_news",
@@ -4977,7 +5369,7 @@
    "title": "assetnote/node2shell-scanner: High fidelity detection mechanism for node2shell (CVE-2026-111497)",
    "url": "https://github.com/assetnote/node2shell-scanner",
    "discussion": "https://github.com/assetnote/node2shell-scanner",
-   "points": 75,
+   "points": 77,
    "comments": 0,
    "created": "2026-10-25T04:23:54Z",
    "label": "kev_exploited",
@@ -5083,7 +5475,7 @@
    "title": "syrex1013/CVE-2026-111497-node2shell: CVE-2026-111497 Node2Shell — Node.js Brotli OOB Write RCE PoC (CVSS 9.2)",
    "url": "https://github.com/syrex1013/CVE-2026-111497-node2shell",
    "discussion": "https://github.com/syrex1013/CVE-2026-111497-node2shell",
-   "points": 43,
+   "points": 45,
    "comments": 0,
    "created": "2026-10-24T23:03:18Z",
    "label": "kev_exploited",
@@ -6489,7 +6881,7 @@
    "url": "https://www.openwall.com/lists/oss-security/2026/10/21/18",
    "discussion": "https://lobste.rs/s/dldfel/cve_2026_107891_musl_libc_multiple",
    "points": 59,
-   "comments": 7,
+   "comments": 8,
    "created": "2026-10-21T12:40:17.687-05:00",
    "label": "related",
    "cves": [
@@ -7988,7 +8380,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 100,
+   "points": 105,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "kev_exploited",
@@ -9845,7 +10237,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 182,
+   "points": 183,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "kev_exploited",
@@ -10230,7 +10622,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 950,
+   "points": 954,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -11397,7 +11789,7 @@
    "title": "pentestershell/php2shellbt: Python scanner for CVE-2026-109618, CVE-2026-109619 and the php2shell session chains (handler mismatch + LFI). No external dependencies.",
    "url": "https://github.com/pentestershell/php2shellbt",
    "discussion": "https://github.com/pentestershell/php2shellbt",
-   "points": 74,
+   "points": 75,
    "comments": 0,
    "created": "2026-10-21T17:06:30Z",
    "label": "kev_exploited",
@@ -11861,7 +12253,7 @@
    "title": "Anton-Barinov/php2shell-patches: php2shell (CVE-2026-109618 & CVE-2026-109619) security patches for EOL PHP 5.4–8.1. Official & enhanced backports for vanilla php.net and Re",
    "url": "https://github.com/Anton-Barinov/php2shell-patches",
    "discussion": "https://github.com/Anton-Barinov/php2shell-patches",
-   "points": 119,
+   "points": 121,
    "comments": 0,
    "created": "2026-10-21T14:48:05Z",
    "label": "kev_exploited",
@@ -12547,7 +12939,7 @@
    "title": "HOSTED-POWER/php_uploadprogress_guard: Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component b",
    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
    "discussion": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-   "points": 168,
+   "points": 169,
    "comments": 0,
    "created": "2026-10-21T09:00:12Z",
    "label": "kev_exploited",
@@ -12577,7 +12969,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1033,
+   "points": 1035,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
@@ -12647,7 +13039,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1872,
+   "points": 1880,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
