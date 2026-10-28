@@ -1,128 +1,142 @@
 {
- "generated": "2026-10-28T12:45:50Z",
- "count": 1340,
+ "generated": "2026-10-28T18:49:56Z",
+ "count": 1383,
  "topics": [
   {
-   "name": "node2shell",
-   "threads": 24,
-   "repos": 4,
-   "points": 511,
+   "name": "5.4-5.6",
+   "threads": 27,
+   "repos": 9,
+   "points": 573,
    "kev": true,
    "vendor": true,
+   "cves": [
+    "CVE-2026-109618",
+    "CVE-2026-109619",
+    "CVE-2026-111497"
+   ],
+   "last_seen": "2026-10-28T16:00:00Z",
+   "items": [
+    "ghpoc:assetnote/php2shell-scanner",
+    "hn:50219177",
+    "ghpoc:JoasASantos/php2shell-exploit",
+    "ghpoc:devploit/php2shell",
+    "hn:50187708",
+    "ghpoc:aarsaputra/php2shell",
+    "ghpoc:aancw/php2shell-scanner",
+    "ghpoc:dimasma0305/CVE-2026-111497-POC",
+    "ghpoc:Qsnh/php2shell-fixed",
+    "ghpoc:syrex1013/CVE-2026-111497-node2shell",
+    "ghpoc:godylockz/cve-2026-109618-php2shell",
+    "hn:50192733",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
+    "hn:50217557",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
+    "hn:50221110",
+    "hn:50205084",
+    "hn:50197556",
+    "hn:50193957",
+    "hn:50204912",
+    "hn:50203176",
+    "hn:50198865",
+    "hn:50186413",
+    "blog:https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/"
+   ]
+  },
+  {
+   "name": "Deserialization",
+   "threads": 17,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-26T05:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-809/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-808/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-807/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-806/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-805/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-804/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-803/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-802/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-801/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-800/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-799/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-798/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-797/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-796/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-795/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-794/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-793/"
+   ]
+  },
+  {
+   "name": "node2shell",
+   "threads": 13,
+   "repos": 2,
+   "points": 87,
+   "kev": true,
+   "vendor": false,
    "cves": [
     "CVE-2026-111497",
     "CVE-2026-105481",
     "CVE-2026-105482",
     "CVE-2026-105483"
    ],
-   "last_seen": "2026-10-28T10:48:14Z",
+   "last_seen": "2026-10-28T07:11:09Z",
    "items": [
-    "hn:50219177",
     "ghpoc:assetnote/node2shell-scanner",
-    "ghpoc:dimasma0305/CVE-2026-111497-POC",
     "ghpoc:trailofbits/brotli-checker",
-    "ghpoc:syrex1013/CVE-2026-111497-node2shell",
     "hn:50189292",
-    "hn:50192733",
     "lobsters:al3yyf",
     "hn:50265205",
     "hn:50203180",
     "hn:50270131",
-    "hn:50217557",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
-    "hn:50221110",
     "hn:50204501",
     "hn:50215588",
-    "hn:50197556",
     "hn:50224269",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
-    "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
     "blog:https://seclists.org/oss-sec/2026/q4/393",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-792/",
     "blog:https://seclists.org/oss-sec/2026/q4/390",
     "blog:https://seclists.org/oss-sec/2026/q4/389",
-    "tailscale:ts-2026-016"
-   ]
-  },
-  {
-   "name": "5.4-5.6",
-   "threads": 24,
-   "repos": 15,
-   "points": 198,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-109618",
-    "CVE-2026-109619"
-   ],
-   "last_seen": "2026-10-27T21:08:10Z",
-   "items": [
-    "ghpoc:assetnote/php2shell-scanner",
-    "ghpoc:JoasASantos/php2shell-exploit",
-    "ghpoc:devploit/php2shell",
-    "ghpoc:syrex1013/php2shell",
-    "ghpoc:Anton-Barinov/php2shell-patches",
-    "hn:50187708",
-    "ghpoc:JoasASantos/php2shell-scanner",
-    "ghpoc:aarsaputra/php2shell",
-    "ghpoc:aancw/php2shell-scanner",
-    "ghpoc:pentestershell/php2shellbt",
-    "ghpoc:mpyw/php-eol-CVE-2026-109618-109619",
-    "ghpoc:Qsnh/php2shell-fixed",
-    "ghpoc:vperetti/php-cve-2026-109618-109619-backports",
-    "ghpoc:enactive-systems/CVE-2026-109618-poc",
-    "ghpoc:godylockz/cve-2026-109618-php2shell",
-    "ghpoc:david-alvarez-rosa/php-rce",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myfd44mniz2s",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mykj4nu2ji2z",
-    "hn:50184386",
-    "hn:50180769",
-    "hn:50205084",
-    "hn:50193957",
-    "hn:50204912"
+    "blog:https://seclists.org/oss-sec/2026/q4/373",
+    "nodejs:october-2026-security-releases"
    ]
   },
   {
    "name": "PHP2Shell",
-   "threads": 13,
+   "threads": 9,
    "repos": 0,
-   "points": 605,
+   "points": 13,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-28T07:44:09Z",
+   "last_seen": "2026-10-28T13:50:59Z",
    "items": [
-    "hn:50180836",
-    "hn:50181326",
     "hn:50226578",
-    "hn:50183570",
     "hn:50240988",
     "hn:50270348",
     "hn:50226729",
     "lobsters:9b14at",
     "hn:50194701",
     "hn:50189463",
-    "hn:50182037",
-    "hn:50180810",
+    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
     "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
    ]
   },
   {
    "name": "Node.js",
-   "threads": 9,
+   "threads": 7,
    "repos": 0,
-   "points": 51,
+   "points": 27,
    "kev": false,
    "vendor": false,
    "cves": [],
    "last_seen": "2026-10-25T14:11:13Z",
    "items": [
-    "lobsters:gu7bow",
     "hn:50192419",
     "hn:50220145",
-    "hn:50185622",
     "hn:50231787",
     "hn:50195297",
     "blog:https://seclists.org/oss-sec/2026/q4/370",
@@ -132,20 +146,61 @@
   },
   {
    "name": "bypass",
-   "threads": 6,
+   "threads": 7,
    "repos": 0,
    "points": 9,
    "kev": false,
    "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-28T11:15:51Z",
+   "cves": [
+    "CVE-2026-115644",
+    "CVE-2026-115748"
+   ],
+   "last_seen": "2026-10-28T17:38:38Z",
    "items": [
     "hn:50266919",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mymv4bblp72q",
-    "blog:https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/422",
     "blog:https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
     "blog:https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+    "blog:https://seclists.org/oss-sec/2026/q4/357",
     "blog:https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/"
+   ]
+  },
+  {
+   "name": "Ultralytics",
+   "threads": 7,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-28T05:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-817/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-816/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-815/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-814/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-812/"
+   ]
+  },
+  {
+   "name": "Android",
+   "threads": 4,
+   "repos": 0,
+   "points": 57,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2022-22706"
+   ],
+   "last_seen": "2026-10-28T05:00:00Z",
+   "items": [
+    "hn:50220042",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-828/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-827/",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -184,21 +239,6 @@
    ]
   },
   {
-   "name": "Threat",
-   "threads": 3,
-   "repos": 0,
-   "points": 174,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-23T23:30:17Z",
-   "items": [
-    "hn:50216791",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myhqdlrpiu2d",
-    "blog:https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days"
-   ]
-  },
-  {
    "name": "CVE-2026-107891",
    "threads": 3,
    "repos": 0,
@@ -213,23 +253,6 @@
     "lobsters:dldfel",
     "hn:50204287",
     "hn:50230132"
-   ]
-  },
-  {
-   "name": "root",
-   "threads": 3,
-   "repos": 0,
-   "points": 57,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2022-22706"
-   ],
-   "last_seen": "2026-10-28T06:20:37Z",
-   "items": [
-    "hn:50220042",
-    "blog:https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-    "blog:https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/"
    ]
   },
   {
@@ -263,18 +286,19 @@
    ]
   },
   {
-   "name": "Cybersecurity",
-   "threads": 3,
+   "name": "CISA",
+   "threads": 4,
    "repos": 0,
-   "points": 31,
+   "points": 2,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-27T08:21:20Z",
+   "last_seen": "2026-10-28T10:46:23Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myfs2nylwc2w",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
-    "hn:50234702"
+    "hn:50234702",
+    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+    "blog:https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html"
    ]
   },
   {
@@ -297,56 +321,82 @@
    ]
   },
   {
-   "name": "Nginx",
+   "name": "crash",
    "threads": 3,
    "repos": 0,
-   "points": 12,
+   "points": 16,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-15176",
-    "CVE-2026-93479"
+    "CVE-2026-83525",
+    "CVE-2026-115825"
    ],
-   "last_seen": "2026-10-23T22:14:20Z",
+   "last_seen": "2026-10-28T17:23:50Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://seclists.org/oss-sec/2026/q4/414",
+    "blog:https://seclists.org/oss-sec/2026/q4/387"
+   ]
+  },
+  {
+   "name": "Infrastructure",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-28T14:00:15Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
+    "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
+   ]
+  },
+  {
+   "name": "began",
+   "threads": 3,
+   "repos": 0,
+   "points": 10,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-22T13:29:48Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myhqdlrpiu2d",
+    "hn:50195054",
+    "blog:https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/"
+   ]
+  },
+  {
+   "name": "Three",
+   "threads": 3,
+   "repos": 0,
+   "points": 9,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-28T06:04:58Z",
    "items": [
     "hn:50197215",
-    "hn:50194007",
-    "blog:https://seclists.org/oss-sec/2026/q4/362"
+    "blog:https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+    "blog:https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html"
    ]
   },
   {
-   "name": "Buffer",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2025-60475",
-    "CVE-2026-114629"
-   ],
-   "last_seen": "2026-10-28T02:12:15Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/409",
-    "blog:https://seclists.org/oss-sec/2026/q4/371",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-788/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-786/"
-   ]
-  },
-  {
-   "name": "Multiple",
+   "name": "Information",
    "threads": 4,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-27T21:14:22Z",
+   "last_seen": "2026-10-28T05:00:00Z",
    "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/404",
-    "blog:https://seclists.org/oss-sec/2026/q4/403",
-    "blog:https://seclists.org/oss-sec/2026/q4/402",
-    "blog:https://seclists.org/oss-sec/2026/q4/399"
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-826/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-811/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-810/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-789/"
    ]
   },
   {
@@ -382,6 +432,36 @@
    ]
   },
   {
+   "name": "exposed",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-27T07:20:54Z",
+   "items": [
+    "hn:50255635",
+    "hn:50221431",
+    "blog:https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/"
+   ]
+  },
+  {
+   "name": "used",
+   "threads": 3,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-24T11:09:29Z",
+   "items": [
+    "hn:50218961",
+    "blog:https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+    "blog:https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
+   ]
+  },
+  {
    "name": "unpatched",
    "threads": 3,
    "repos": 0,
@@ -395,92 +475,535 @@
     "blog:https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
     "blog:https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html"
    ]
-  },
-  {
-   "name": "CoreGraphics",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-27T14:23:58Z",
-   "items": [
-    "hn:50259864",
-    "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-    "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
-   ]
-  },
-  {
-   "name": "exhaustion",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": true,
-   "cves": [
-    "CVE-2026-113877"
-   ],
-   "last_seen": "2026-10-26T00:00:00Z",
-   "items": [
-    "hn:50181552",
-    "tailscale:ts-2026-015",
-    "blog:https://seclists.org/oss-sec/2026/q4/363"
-   ]
-  },
-  {
-   "name": "CISA",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-28T10:46:23Z",
-   "items": [
-    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
-    "blog:https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html"
-   ]
-  },
-  {
-   "name": "Apache",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111422",
-    "CVE-2026-115748",
-    "CVE-2026-115721"
-   ],
-   "last_seen": "2026-10-26T23:06:11Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/397",
-    "blog:https://seclists.org/oss-sec/2026/q4/357",
-    "blog:https://seclists.org/oss-sec/2026/q4/356"
-   ]
-  },
-  {
-   "name": "file",
-   "threads": 3,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2025-60467"
-   ],
-   "last_seen": "2026-10-26T21:28:47Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/395",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-791/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-787/"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/428",
+   "source": "seclists.org",
+   "title": "MIME-tools versions before 5.521 for Perl (10 CVEs)",
+   "url": "https://seclists.org/oss-sec/2026/q4/428",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/428",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T18:21:16Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T18:21:16Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/427",
+   "source": "seclists.org",
+   "title": "HTTP::Body versions before 1.24_01 for Perl (9 CVEs)",
+   "url": "https://seclists.org/oss-sec/2026/q4/427",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/427",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T18:18:59Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T18:18:59Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/426",
+   "source": "seclists.org",
+   "title": "CVE-2026-102479: Request smuggling in Eclipse Vert.x HTTP/1.x decoder",
+   "url": "https://seclists.org/oss-sec/2026/q4/426",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/426",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T18:14:55Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-102479"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T18:14:55Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+   "source": "thehackernews.com",
+   "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+   "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+   "discussion": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T18:08:33Z",
+   "label": "zero_day_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T18:08:33Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_reported"
+    }
+   ],
+   "llm": {
+    "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+    "at": "2026-10-28T18:49:56Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/425",
+   "source": "seclists.org",
+   "title": "CVE-2026-114349: Apache Kafka: Denial of service via unbounded memory allocation when decoding compressed record batches",
+   "url": "https://seclists.org/oss-sec/2026/q4/425",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/425",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T17:44:54Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-114349"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T17:44:54Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/424",
+   "source": "seclists.org",
+   "title": "CVE-2026-112375: Apache Kafka: Unauthorized principal can read arbitrary broker files via IncrementalAlterConfigs",
+   "url": "https://seclists.org/oss-sec/2026/q4/424",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/424",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T17:42:51Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-112375"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T17:42:51Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/423",
+   "source": "seclists.org",
+   "title": "CVE-2026-116593: Apache Kafka: Kafka Connect configuration provider values exposed via validation REST API endpoint",
+   "url": "https://seclists.org/oss-sec/2026/q4/423",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/423",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T17:40:44Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-116593"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T17:40:44Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/422",
+   "source": "seclists.org",
+   "title": "CVE-2026-115644: Apache Kafka: Connect Admin REST API Authentication Bypass via Unapplied REST Extensions",
+   "url": "https://seclists.org/oss-sec/2026/q4/422",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/422",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T17:38:38Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-115644"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T17:38:38Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/421",
+   "source": "seclists.org",
+   "title": "CVE-2026-111496: Apache Kafka: Kafka Streams StreamThread hang from integer overflow in stream-time punctuation",
+   "url": "https://seclists.org/oss-sec/2026/q4/421",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/421",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T17:36:45Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111496"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T17:36:45Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/420",
+   "source": "seclists.org",
+   "title": "CVE-2026-111551: Apache Kafka: Denial of service in Kafka Streams and client deserializers via unbounded memory allocation",
+   "url": "https://seclists.org/oss-sec/2026/q4/420",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/420",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T17:34:54Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111551"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T17:34:54Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/419",
+   "source": "seclists.org",
+   "title": "CVE-2026-111115: Apache Kafka: Broker OutOfMemoryError via tagged-field allocation amplification in flexible protocol request parsing",
+   "url": "https://seclists.org/oss-sec/2026/q4/419",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/419",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T17:33:02Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111115"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T17:33:02Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/418",
+   "source": "seclists.org",
+   "title": "CVE-2026-111073: Apache Kafka: PushTelemetry (KIP-714) metrics payloads are decompressed without a size limit, allowing a broker out-of-memory denial of service",
+   "url": "https://seclists.org/oss-sec/2026/q4/418",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/418",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T17:31:13Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111073"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T17:31:13Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/417",
+   "source": "seclists.org",
+   "title": "CVE-2026-111108: Apache Kafka: Broker OutOfMemoryError via array allocation amplification in code-generated protocol readers",
+   "url": "https://seclists.org/oss-sec/2026/q4/417",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/417",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T17:29:22Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-111108"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T17:29:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/416",
+   "source": "seclists.org",
+   "title": "CVE-2026-110985: Apache Kafka: Broker silently skips JWT signature verification for SASL/OAUTHBEARER when the JWKS endpoint URL is not configured",
+   "url": "https://seclists.org/oss-sec/2026/q4/416",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/416",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T17:27:36Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-110985"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T17:27:36Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/415",
+   "source": "seclists.org",
+   "title": "CVE-2026-110952: Apache Kafka: Broker does not enforce JWT issuer and audience validation for SASL/OAUTHBEARER by default",
+   "url": "https://seclists.org/oss-sec/2026/q4/415",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/415",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T17:25:46Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-110952"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T17:25:46Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/414",
+   "source": "seclists.org",
+   "title": "CVE-2026-83525: Apache Kafka: Incorrect boolean operator in FetchSnapshot RPC handler allows authenticated network clients to crash the KRaft controller via a malformed request.",
+   "url": "https://seclists.org/oss-sec/2026/q4/414",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/414",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T17:23:50Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-83525"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T17:23:50Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "related"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+   "source": "bleepingcomputer.com",
+   "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+   "url": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T16:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T16:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "Volt Typhoon hides zero-day attacks using 'Silent Train' framework",
+    "at": "2026-10-28T18:49:56Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "hn:50275367",
+   "source": "hackernews",
+   "title": "EDM2 PXE Flaw allows hijacking machines during network boot",
+   "url": "https://cloudsleuth.io/blog/edk2-pxe-flaw-cve-2026-97631-find-what-you-run/",
+   "discussion": "https://news.ycombinator.com/item?id=50275367",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-28T15:31:47Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T15:31:47Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:50274775",
+   "source": "hackernews",
+   "title": "Laid off 60 days in: what is the tech industry doing to developers?",
+   "url": "https://samueleast.co.uk/playground/laid-off-from-plex-60-days-in",
+   "discussion": "https://news.ycombinator.com/item?id=50274775",
+   "points": 3,
+   "comments": 3,
+   "created": "2026-10-28T14:58:27Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T14:58:27Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:50274300",
+   "source": "hackernews",
+   "title": "Show HN: Yavashark: I've Built a JavaScript Engine Every Day for 950 Days",
+   "url": "https://yavashark.dev/blog/announcing-yavashark/",
+   "discussion": "https://news.ycombinator.com/item?id=50274300",
+   "points": 6,
+   "comments": 0,
+   "created": "2026-10-28T14:32:29Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T14:32:29Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
+   "source": "bluesky",
+   "title": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces o",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mywvxsha3d27",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mywvxsha3d27",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-28T14:00:15Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T14:00:15Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "exploited_reported"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+   "source": "bleepingcomputer.com",
+   "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+   "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T14:00:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T14:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+   "source": "bleepingcomputer.com",
+   "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+   "url": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T13:50:59Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T13:50:59Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+   "source": "thehackernews.com",
+   "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+   "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+   "discussion": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T12:48:03Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T12:48:03Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "security_news"
+    }
+   ]
+  },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
    "source": "bluesky",
@@ -542,6 +1065,26 @@
    }
   },
   {
+   "id": "blog:https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+   "source": "thehackernews.com",
+   "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+   "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+   "discussion": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T11:50:00Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T11:50:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
    "id": "blog:https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
    "source": "thehackernews.com",
    "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
@@ -577,7 +1120,7 @@
    "title": "CISA has confirmed that hackers are actively exploiting a critical Brotli vulnerability (CVE-2026-111497), also known as Node2Shell, Broccoli2Shell, and HTTP2Sh",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mywlagnz662b",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mywlagnz662b",
-   "points": 1,
+   "points": 4,
    "comments": 0,
    "created": "2026-10-28T10:48:14Z",
    "label": "kev_exploited",
@@ -641,8 +1184,8 @@
    "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
    "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
    "discussion": "https://lobste.rs/s/0gomue/code_execution_flaw_uefi_firmware",
-   "points": 7,
-   "comments": 3,
+   "points": 18,
+   "comments": 9,
    "created": "2026-10-28T04:18:31.981-05:00",
    "label": "security_news",
    "cves": [],
@@ -781,8 +1324,8 @@
    "title": "Discovering and exploiting vulnerabilities in critical software with Claude",
    "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
    "discussion": "https://news.ycombinator.com/item?id=50270131",
-   "points": 6,
-   "comments": 2,
+   "points": 10,
+   "comments": 4,
    "created": "2026-10-28T07:11:09Z",
    "label": "security_news",
    "cves": [],
@@ -862,6 +1405,446 @@
     {
      "at": "2026-10-28T12:45:50Z",
      "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-829/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-829: (0Day) (Pwn2Own) Alpine iLX-F511 Bluetooth OBEX Packet Handling Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-829/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-829/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-829: (0Day) (Pwn2Own) Alpine iLX-F511 Bluetooth OBEX Packet Handling Heap-based Buffer Overflow Remote Code Execution Vulnerability",
+    "at": "2026-10-28T18:49:56Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-828/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-828: (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Service Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-828/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-828/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-828: (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Service Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "at": "2026-10-28T18:49:56Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-827/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-827: (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Connection Handler Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-827/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-827/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-827: (0Day) (Pwn2Own) Alpine iLX-F511 Android Auto Connection Handler Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "at": "2026-10-28T18:49:56Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-826/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-826: (0Day) (Pwn2Own) Alpine iLX-F511 libanwbtstack.so prh_rfcomm_cc_process_test Out-Of-Bounds Read Information Disclosure Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-826/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-826/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-826: (0Day) (Pwn2Own) Alpine iLX-F511 libanwbtstack.so prh_rfcomm_cc_process_test Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "at": "2026-10-28T18:49:56Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-825/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-825: (0Day) (Pwn2Own) Alpine iLX-F511 diagapp Command Injection Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-825/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-825/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-825: (0Day) (Pwn2Own) Alpine iLX-F511 diagapp Command Injection Vulnerability",
+    "at": "2026-10-28T18:49:56Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-824/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-824: (0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Exposed Dangerous Function Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-824/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-824/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-824: (0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Exposed Dangerous Function Remote Code Execution Vulnerability",
+    "at": "2026-10-28T18:49:56Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-823/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-823: (0Day) (Pwn2Own) Alpine iLX-F511 prh_sdp_service_search_decode Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-823/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-823/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-823: (0Day) (Pwn2Own) Alpine iLX-F511 prh_sdp_service_search_decode Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "at": "2026-10-28T18:49:56Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-822/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-822: (0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-822/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-822/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "ZDI-26-822: (0Day) (Pwn2Own) Alpine iLX-F511 Framework Service Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+    "at": "2026-10-28T18:49:56Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-821/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-821: (0Day) (Pwn2Own) Alpine iLX-F511 vCard Parsing Stack-based Buffer Overflow Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-821/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-821/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-820/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-820: (0Day) (Pwn2Own) Alpine iLX-F511 Fiv.System Exposed Dangerous Method Local Privilege Escalation Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-820/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-820/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-819/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-819: (0Day) (Pwn2Own) Alpine iLX-F511 SSH Hard-Coded Credentials Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-819/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-819/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-818: (0Day) Ultralytics Google Drive Download Path Traversal Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-818/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-818/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-817/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-817: (0Day) Ultralytics parse_model Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-817/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-817/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-816/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-816: (0Day) Ultralytics load_dataset_cache_file Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-816/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-816/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-815/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-815: (0Day) Ultralytics parse_model Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-815/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-815/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-814/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-814: (0Day) Ultralytics torch_safe_load Command Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-814/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-814/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-813: (0Day) Ultralytics check_det_dataset Code Injection Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
+    }
+   ]
+  },
+  {
+   "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-812/",
+   "source": "zerodayinitiative.com",
+   "title": "ZDI-26-812: (0Day) Ultralytics torch_load Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+   "url": "http://www.zerodayinitiative.com/advisories/ZDI-26-812/",
+   "discussion": "http://www.zerodayinitiative.com/advisories/ZDI-26-812/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-28T05:00:00Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-28T05:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-28T18:49:56Z",
+     "label": "zero_day_mention"
     }
    ]
   },
@@ -2834,7 +3817,7 @@
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mytskuctmf2u",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mytskuctmf2u",
    "points": 14,
-   "comments": 2,
+   "comments": 3,
    "created": "2026-10-27T08:21:20Z",
    "label": "exploited_reported",
    "cves": [],
@@ -3157,7 +4140,7 @@
    "title": "Pentagon orders bases to plan for 90 days without the grid",
    "url": "https://fortune.com/2026/10/26/pentagon-fortress-bases-90-days-off-grid-uk-be-ready-stockpile/",
    "discussion": "https://news.ycombinator.com/item?id=50254255",
-   "points": 10,
+   "points": 11,
    "comments": 4,
    "created": "2026-10-27T03:02:29Z",
    "label": "security_news",
@@ -5369,7 +6352,7 @@
    "title": "assetnote/node2shell-scanner: High fidelity detection mechanism for node2shell (CVE-2026-111497)",
    "url": "https://github.com/assetnote/node2shell-scanner",
    "discussion": "https://github.com/assetnote/node2shell-scanner",
-   "points": 77,
+   "points": 80,
    "comments": 0,
    "created": "2026-10-25T04:23:54Z",
    "label": "kev_exploited",
@@ -5475,7 +6458,7 @@
    "title": "syrex1013/CVE-2026-111497-node2shell: CVE-2026-111497 Node2Shell — Node.js Brotli OOB Write RCE PoC (CVSS 9.2)",
    "url": "https://github.com/syrex1013/CVE-2026-111497-node2shell",
    "discussion": "https://github.com/syrex1013/CVE-2026-111497-node2shell",
-   "points": 45,
+   "points": 46,
    "comments": 0,
    "created": "2026-10-24T23:03:18Z",
    "label": "kev_exploited",
@@ -8150,7 +9133,7 @@
    "title": "trailofbits/brotli-checker: Claude Code and Codex skill for finding potentially vulnerable Brotli copies and guiding updates for CVE-2026-111497.",
    "url": "https://github.com/trailofbits/brotli-checker",
    "discussion": "https://github.com/trailofbits/brotli-checker",
-   "points": 58,
+   "points": 60,
    "comments": 0,
    "created": "2026-10-23T16:32:12Z",
    "label": "kev_exploited",
@@ -8380,7 +9363,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 105,
+   "points": 106,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "kev_exploited",
@@ -10237,7 +11220,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 183,
+   "points": 186,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "kev_exploited",
@@ -10594,7 +11577,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 61,
+   "points": 62,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "kev_exploited",
@@ -10622,7 +11605,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 954,
+   "points": 956,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -12077,7 +13060,7 @@
    "title": "JoasASantos/php2shell-scanner: Non-destructive scanner for CVE-2026-109618 / CVE-2026-109619 (PHP core RCE). Subdomain recon via crt.sh + subfinder, robust banner grabbing",
    "url": "https://github.com/JoasASantos/php2shell-scanner",
    "discussion": "https://github.com/JoasASantos/php2shell-scanner",
-   "points": 110,
+   "points": 109,
    "comments": 0,
    "created": "2026-10-21T15:35:43Z",
    "label": "kev_exploited",
@@ -12175,7 +13158,7 @@
    "title": "syrex1013/php2shell: CVE-2026-109618/109619 PoC — PHP session.upload_progress heap use-after-free (CVSS 9.2)",
    "url": "https://github.com/syrex1013/php2shell",
    "discussion": "https://github.com/syrex1013/php2shell",
-   "points": 147,
+   "points": 148,
    "comments": 0,
    "created": "2026-10-21T15:06:33Z",
    "label": "kev_exploited",
@@ -12253,7 +13236,7 @@
    "title": "Anton-Barinov/php2shell-patches: php2shell (CVE-2026-109618 & CVE-2026-109619) security patches for EOL PHP 5.4–8.1. Official & enhanced backports for vanilla php.net and Re",
    "url": "https://github.com/Anton-Barinov/php2shell-patches",
    "discussion": "https://github.com/Anton-Barinov/php2shell-patches",
-   "points": 121,
+   "points": 122,
    "comments": 0,
    "created": "2026-10-21T14:48:05Z",
    "label": "kev_exploited",
@@ -12780,7 +13763,7 @@
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
    "url": "https://github.com/murrez/php2shell",
    "discussion": "https://github.com/murrez/php2shell",
-   "points": 89,
+   "points": 92,
    "comments": 0,
    "created": "2026-10-21T12:37:59Z",
    "label": "kev_exploited",
@@ -12811,7 +13794,7 @@
    "title": "junaire/CVE-2026-109618-exploit: ",
    "url": "https://github.com/junaire/CVE-2026-109618-exploit",
    "discussion": "https://github.com/junaire/CVE-2026-109618-exploit",
-   "points": 141,
+   "points": 143,
    "comments": 0,
    "created": "2026-10-21T11:52:39Z",
    "label": "kev_exploited",
@@ -12939,7 +13922,7 @@
    "title": "HOSTED-POWER/php_uploadprogress_guard: Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component b",
    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
    "discussion": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-   "points": 169,
+   "points": 171,
    "comments": 0,
    "created": "2026-10-21T09:00:12Z",
    "label": "kev_exploited",
@@ -12969,7 +13952,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1035,
+   "points": 1040,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
@@ -13039,7 +14022,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1880,
+   "points": 1888,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
