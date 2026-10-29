@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-29T09:52:38Z",
- "count": 1434,
+ "generated": "2026-10-29T16:54:18Z",
+ "count": 1467,
  "topics": [
   {
    "name": "Claude",
-   "threads": 21,
+   "threads": 22,
    "repos": 3,
-   "points": 522,
+   "points": 525,
    "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-111497"
    ],
-   "last_seen": "2026-10-28T22:21:18Z",
+   "last_seen": "2026-10-29T15:52:35Z",
    "items": [
     "hn:50219177",
     "ghpoc:assetnote/node2shell-scanner",
@@ -29,8 +29,9 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
     "hn:50221110",
     "hn:50204501",
+    "hn:50291043",
+    "hn:50288798",
     "hn:50215588",
-    "hn:50197556",
     "hn:50281755",
     "hn:50224269",
     "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
@@ -71,8 +72,8 @@
   },
   {
    "name": "5.4-5.6",
-   "threads": 14,
-   "repos": 2,
+   "threads": 12,
+   "repos": 1,
    "points": 25,
    "kev": true,
    "vendor": false,
@@ -80,9 +81,8 @@
     "CVE-2026-109618",
     "CVE-2026-109619"
    ],
-   "last_seen": "2026-10-28T16:00:00Z",
+   "last_seen": "2026-10-27T21:08:10Z",
    "items": [
-    "ghpoc:JoasASantos/php2shell-exploit",
     "ghpoc:aarsaputra/php2shell",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
     "hn:50205084",
@@ -90,21 +90,43 @@
     "hn:50204912",
     "hn:50203176",
     "hn:50198865",
-    "blog:https://www.bleepingcomputer.com/news/security/volt-typhoon-hides-zero-day-attacks-using-silent-train-framework/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-824/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-822/",
     "blog:https://seclists.org/oss-sec/2026/q4/401",
     "blog:https://seclists.org/oss-sec/2026/q4/398",
     "blog:https://seclists.org/oss-sec/2026/q4/392",
+    "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/",
     "blog:https://seclists.org/oss-sec/2026/q4/386",
     "blog:https://seclists.org/oss-sec/2026/q4/376"
    ]
   },
   {
-   "name": "PHP2Shell",
-   "threads": 9,
+   "name": "bypass",
+   "threads": 8,
    "repos": 0,
-   "points": 12,
+   "points": 10,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-115642",
+    "CVE-2026-115644",
+    "CVE-2026-115748"
+   ],
+   "last_seen": "2026-10-29T14:56:11Z",
+   "items": [
+    "hn:50266919",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mymv4bblp72q",
+    "blog:https://seclists.org/oss-sec/2026/q4/434",
+    "blog:https://seclists.org/oss-sec/2026/q4/422",
+    "blog:https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+    "blog:https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+    "blog:https://seclists.org/oss-sec/2026/q4/357",
+    "blog:https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/"
+   ]
+  },
+  {
+   "name": "PHP2Shell",
+   "threads": 7,
+   "repos": 0,
+   "points": 11,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -115,39 +137,15 @@
     "hn:50270348",
     "hn:50226729",
     "lobsters:9b14at",
-    "hn:50194701",
     "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
-    "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
-   ]
-  },
-  {
-   "name": "bypass",
-   "threads": 7,
-   "repos": 0,
-   "points": 10,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-115644",
-    "CVE-2026-115748"
-   ],
-   "last_seen": "2026-10-28T17:38:38Z",
-   "items": [
-    "hn:50266919",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mymv4bblp72q",
-    "blog:https://seclists.org/oss-sec/2026/q4/422",
-    "blog:https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-    "blog:https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
-    "blog:https://seclists.org/oss-sec/2026/q4/357",
-    "blog:https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/"
+    "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
    ]
   },
   {
    "name": "GitLab",
    "threads": 5,
    "repos": 0,
-   "points": 210,
+   "points": 280,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -159,60 +157,55 @@
     "lobsters:2zsjwt",
     "hn:50231787",
     "blog:https://seclists.org/oss-sec/2026/q4/360",
-    "blog:https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/"
+    "blog:https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html"
+   ]
+  },
+  {
+   "name": "devices",
+   "threads": 5,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T14:05:36Z",
+   "items": [
+    "hn:50289274",
+    "hn:50221431",
+    "blog:https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+    "blog:https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+    "blog:https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/"
+   ]
+  },
+  {
+   "name": "Including",
+   "threads": 3,
+   "repos": 0,
+   "points": 158,
+   "kev": false,
+   "vendor": true,
+   "cves": [],
+   "last_seen": "2026-10-29T10:42:41Z",
+   "items": [
+    "hn:50286987",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myk7mou3ci2b",
+    "tailscale:ts-2026-016"
    ]
   },
   {
    "name": "Node.js",
-   "threads": 5,
+   "threads": 4,
    "repos": 0,
-   "points": 13,
+   "points": 11,
    "kev": false,
    "vendor": false,
    "cves": [],
    "last_seen": "2026-10-24T12:19:53Z",
    "items": [
     "hn:50220145",
-    "hn:50195297",
     "blog:https://seclists.org/oss-sec/2026/q4/370",
     "blog:https://seclists.org/oss-sec/2026/q4/361",
     "blog:https://blog.qualys.com/product-tech/2026/10/23/node-js-patches-brotli-remote-code-execution-flaw-find-vulnerable-runtimes-before-attackers-do"
-   ]
-  },
-  {
-   "name": "Android",
-   "threads": 4,
-   "repos": 0,
-   "points": 57,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2022-22706"
-   ],
-   "last_seen": "2026-10-28T05:00:00Z",
-   "items": [
-    "hn:50220042",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-828/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-827/",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
-   ]
-  },
-  {
-   "name": "kernel",
-   "threads": 3,
-   "repos": 0,
-   "points": 250,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-72711",
-    "CVE-2026-72844"
-   ],
-   "last_seen": "2026-10-26T00:14:41Z",
-   "items": [
-    "hn:50193804",
-    "blog:https://seclists.org/oss-sec/2026/q4/380",
-    "blog:https://seclists.org/oss-sec/2026/q4/379"
    ]
   },
   {
@@ -247,6 +240,23 @@
     "lobsters:dldfel",
     "hn:50204287",
     "hn:50230132"
+   ]
+  },
+  {
+   "name": "Android",
+   "threads": 3,
+   "repos": 0,
+   "points": 57,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2022-22706"
+   ],
+   "last_seen": "2026-10-29T11:39:18Z",
+   "items": [
+    "hn:50220042",
+    "blog:https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -300,6 +310,22 @@
    ]
   },
   {
+   "name": "used",
+   "threads": 4,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-28T18:08:33Z",
+   "items": [
+    "hn:50218961",
+    "blog:https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+    "blog:https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+    "blog:https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
+   ]
+  },
+  {
    "name": "CISA",
    "threads": 4,
    "repos": 0,
@@ -328,36 +354,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
     "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
-   ]
-  },
-  {
-   "name": "began",
-   "threads": 3,
-   "repos": 0,
-   "points": 10,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-22T13:29:48Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myhqdlrpiu2d",
-    "hn:50195054",
-    "blog:https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/"
-   ]
-  },
-  {
-   "name": "Three",
-   "threads": 3,
-   "repos": 0,
-   "points": 9,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-28T06:04:58Z",
-   "items": [
-    "hn:50197215",
-    "blog:https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
-    "blog:https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html"
    ]
   },
   {
@@ -409,70 +405,861 @@
    ]
   },
   {
-   "name": "exposed",
+   "name": "unpatched",
    "threads": 3,
    "repos": 0,
    "points": 2,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-27T07:20:54Z",
+   "last_seen": "2026-10-29T16:41:23Z",
    "items": [
-    "hn:50255635",
-    "hn:50221431",
-    "blog:https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/"
+    "hn:50291929",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
+    "blog:https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
    ]
   },
   {
-   "name": "used",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-24T11:09:29Z",
-   "items": [
-    "hn:50218961",
-    "blog:https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-    "blog:https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
-   ]
-  },
-  {
-   "name": "Regular",
+   "name": "kernel",
    "threads": 3,
    "repos": 0,
    "points": 1,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-114230",
-    "CVE-2026-113877"
+    "CVE-2026-72711",
+    "CVE-2026-72844"
    ],
-   "last_seen": "2026-10-28T20:46:00Z",
+   "last_seen": "2026-10-29T14:00:13Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myhlhdwdub2b",
-    "blog:https://seclists.org/oss-sec/2026/q4/431",
-    "blog:https://seclists.org/oss-sec/2026/q4/363"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
+    "blog:https://seclists.org/oss-sec/2026/q4/380",
+    "blog:https://seclists.org/oss-sec/2026/q4/379"
    ]
   },
   {
-   "name": "unpatched",
+   "name": "client",
    "threads": 3,
    "repos": 0,
    "points": 1,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-28T12:20:25Z",
+   "last_seen": "2026-10-27T21:10:12Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
-    "blog:https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-    "blog:https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myl2tj77uv22",
+    "blog:https://seclists.org/oss-sec/2026/q4/402",
+    "blog:https://seclists.org/oss-sec/2026/q4/399"
+   ]
+  },
+  {
+   "name": "CoreGraphics",
+   "threads": 3,
+   "repos": 0,
+   "points": 1,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-27T14:23:58Z",
+   "items": [
+    "hn:50259864",
+    "blog:https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+    "blog:https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/"
    ]
   }
  ],
  "items": [
+  {
+   "id": "github-advisory:GHSA-qr28-fpjm-wq7f",
+   "source": "github-advisory",
+   "title": "decode-uri-component vulnerable to denial of service via quadratic replacement of percent-encoded runs (npm/decode-uri-component)",
+   "url": "https://github.com/advisories/GHSA-qr28-fpjm-wq7f",
+   "discussion": "https://github.com/advisories/GHSA-qr28-fpjm-wq7f",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T16:41:28Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-118664"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-29T16:41:28Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "hn:50291929",
+   "source": "hackernews",
+   "title": "Two unpatched zero-day vulnerabilities in NTE allow for full account takeover",
+   "url": "https://hunio.org/security/nte-account-takeover/",
+   "discussion": "https://news.ycombinator.com/item?id=50291929",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-10-29T16:41:23Z",
+   "label": "zero_day_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T16:41:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "zero_day_reported"
+    }
+   ],
+   "llm": {
+    "title": "Two unpatched zero-day vulnerabilities in NTE allow for full account takeover",
+    "at": "2026-10-29T16:54:18Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-vpp8-g58w-m8mp",
+   "source": "github-advisory",
+   "title": "Twisted: Unauthenticated Remote Denial of Service in the Twisted HTTP/2 Server via Rapid Stream Reset (pip/Twisted)",
+   "url": "https://github.com/advisories/GHSA-vpp8-g58w-m8mp",
+   "discussion": "https://github.com/advisories/GHSA-vpp8-g58w-m8mp",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T16:41:06Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-29T16:41:06Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-9hj8-73fh-9963",
+   "source": "github-advisory",
+   "title": "zip: legacy Shrink/Reduce/Implode decoder: denial of service from attacker-controlled ZIP64 uncompressed size (rust/zip)",
+   "url": "https://github.com/advisories/GHSA-9hj8-73fh-9963",
+   "discussion": "https://github.com/advisories/GHSA-9hj8-73fh-9963",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T16:40:19Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-115907"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-29T16:40:19Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-hjqx-j4rw-g7xv",
+   "source": "github-advisory",
+   "title": "zip: Arbitrary file write outside the extraction directory, because ZipArchive::extract validates symlink targets lexically.  (rust/zip)",
+   "url": "https://github.com/advisories/GHSA-hjqx-j4rw-g7xv",
+   "discussion": "https://github.com/advisories/GHSA-hjqx-j4rw-g7xv",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T16:40:12Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-115908"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-29T16:40:12Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-q7v9-x93c-xqv3",
+   "source": "github-advisory",
+   "title": "zip: Unbounded Symlink-Target Handling Can Abort Or Exhaust Memory During Extraction (rust/zip)",
+   "url": "https://github.com/advisories/GHSA-q7v9-x93c-xqv3",
+   "discussion": "https://github.com/advisories/GHSA-q7v9-x93c-xqv3",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T16:40:01Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-115909"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-29T16:40:01Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-6j52-38f8-qhxr",
+   "source": "github-advisory",
+   "title": "Shopify App: Token exchange shop context confusion may allow cross-shop authorization bypass in affected apps (rubygems/shopify_app)",
+   "url": "https://github.com/advisories/GHSA-6j52-38f8-qhxr",
+   "discussion": "https://github.com/advisories/GHSA-6j52-38f8-qhxr",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T16:39:49Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-63414"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-29T16:39:49Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-8rvj-mm4h-c258",
+   "source": "github-advisory",
+   "title": "cert-manager: Direct ACME Challenge resources can bypass Issuer DNS01 solver policy and use ClusterIssuer DNS credentials (go/github.com/cert-manager/cert-manager)",
+   "url": "https://github.com/advisories/GHSA-8rvj-mm4h-c258",
+   "discussion": "https://github.com/advisories/GHSA-8rvj-mm4h-c258",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T16:39:41Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-62290"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-29T16:39:41Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-v3f7-2p4r-mwfw",
+   "source": "github-advisory",
+   "title": "Keycloak vulnerable to cross-site scripting (xss) via case-insensitive uri validation bypass (maven/org.keycloak:keycloak-services)",
+   "url": "https://github.com/advisories/GHSA-v3f7-2p4r-mwfw",
+   "discussion": "https://github.com/advisories/GHSA-v3f7-2p4r-mwfw",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T16:39:03Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-9086"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-29T16:39:03Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-f5p5-6xmx-p252",
+   "source": "github-advisory",
+   "title": "Keycloak vulnerable to authorization bypass via incorrect uri comparison (maven/org.keycloak:keycloak-services)",
+   "url": "https://github.com/advisories/GHSA-f5p5-6xmx-p252",
+   "discussion": "https://github.com/advisories/GHSA-f5p5-6xmx-p252",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T16:37:26Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-9800"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-29T16:37:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-w9x9-j56r-h98r",
+   "source": "github-advisory",
+   "title": "@eeacms/volto-chatbot has Unauthenticated Danswer API Confused Deputy Proxy (npm/@eeacms/volto-chatbot)",
+   "url": "https://github.com/advisories/GHSA-w9x9-j56r-h98r",
+   "discussion": "https://github.com/advisories/GHSA-w9x9-j56r-h98r",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T16:35:48Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-29T16:35:48Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-q344-5v34-gm84",
+   "source": "github-advisory",
+   "title": "@sylphx/pdf-reader-mcp: HTTP transport accepts unauthenticated requests despite a configured MCP_API_KEY (npm/@sylphx/pdf-reader-mcp)",
+   "url": "https://github.com/advisories/GHSA-q344-5v34-gm84",
+   "discussion": "https://github.com/advisories/GHSA-q344-5v34-gm84",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T16:34:35Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-62264"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-29T16:34:35Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-26mh-57q7-jfvr",
+   "source": "github-advisory",
+   "title": "PraisonAI vulnerable to Remote Code Execution via Broken AST Sandbox (pip/praisonai)",
+   "url": "https://github.com/advisories/GHSA-26mh-57q7-jfvr",
+   "discussion": "https://github.com/advisories/GHSA-26mh-57q7-jfvr",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T16:34:26Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-61438"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-29T16:34:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-rhj7-vh3v-mcq6",
+   "source": "github-advisory",
+   "title": "Daptin: ParseAcceptLanguage `_` separator bypass enables >250x CPU amplification via Accept-Language header in LanguageMiddleware (go/github.com/daptin/daptin)",
+   "url": "https://github.com/advisories/GHSA-rhj7-vh3v-mcq6",
+   "discussion": "https://github.com/advisories/GHSA-rhj7-vh3v-mcq6",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T16:33:09Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-62160"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-29T16:33:09Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "hn:50291354",
+   "source": "hackernews",
+   "title": "Stopping Remote Code Execution with Sandboxes",
+   "url": "https://cosmonic.com/blog/stopping-remote-code-execution-with-a-sandbox/",
+   "discussion": "https://news.ycombinator.com/item?id=50291354",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-10-29T16:10:57Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T16:10:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:50291043",
+   "source": "hackernews",
+   "title": "Embrace: RCE, Address Bar Spoofing and More in Cursor, Codex, Copilot and Claude",
+   "url": "https://forever.security/blog/embrace-hacking-5-ai-assistants-embedded-browsers/",
+   "discussion": "https://news.ycombinator.com/item?id=50291043",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-29T15:52:35Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T15:52:35Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/434",
+   "source": "seclists.org",
+   "title": "[OSSA-2026-050] OpenStack keystonemiddleware: access_rules bypass via X-Service-Token (CVE-2026-115642)",
+   "url": "https://seclists.org/oss-sec/2026/q4/434",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/434",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T14:56:11Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-115642"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-29T14:56:11Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "[OSSA-2026-050] OpenStack keystonemiddleware: access_rules bypass via X-Service-Token (CVE-2026-115642)",
+    "at": "2026-10-29T16:54:18Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/433",
+   "source": "seclists.org",
+   "title": "[OSSA-2026-049] Ironic: Conductor DoS via gzip bomb configdrive (CVE-2026-115638)",
+   "url": "https://seclists.org/oss-sec/2026/q4/433",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/433",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T14:49:43Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-115638"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-29T14:49:43Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "[OSSA-2026-049] Ironic: Conductor DoS via gzip bomb configdrive (CVE-2026-115638)",
+    "at": "2026-10-29T16:54:18Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "hn:50289790",
+   "source": "hackernews",
+   "title": "Remote Code Execution in TeamViewer",
+   "url": "https://remedio.io/research/vulnerability-disclosures/remote-code-execution-in-teamviewer/",
+   "discussion": "https://news.ycombinator.com/item?id=50289790",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-29T14:35:21Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T14:35:21Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:50289274",
+   "source": "hackernews",
+   "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+   "discussion": "https://news.ycombinator.com/item?id=50289274",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-29T14:05:36Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T14:05:36Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+    "at": "2026-10-29T16:54:18Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
+   "source": "bluesky",
+   "title": "CISA ordered US federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myzggokrjb2c",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myzggokrjb2c",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-10-29T14:00:13Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T14:00:13Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "CISA ordered US federal agencies to patch a high-severity Linux kernel privilege escalation bug that attackers are chaining with the PHP2Shell flaws in the wild",
+    "at": "2026-10-29T16:54:18Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+   "source": "bleepingcomputer.com",
+   "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T13:59:48Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T13:59:48Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:50289137",
+   "source": "hackernews",
+   "title": "Installing claude-mem uploads your last 30 days of prompts to cmem.ai, no opt-in",
+   "url": "https://github.com/thedotmack/claude-mem/issues/5176",
+   "discussion": "https://news.ycombinator.com/item?id=50289137",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-29T13:56:38Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T13:56:38Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+   "source": "thehackernews.com",
+   "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+   "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+   "discussion": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T13:42:40Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T13:42:40Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:50288798",
+   "source": "hackernews",
+   "title": "Discovering and exploiting vulnerabilities in critical software with Claude",
+   "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+   "discussion": "https://news.ycombinator.com/item?id=50288798",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-29T13:35:22Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T13:35:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:50288378",
+   "source": "hackernews",
+   "title": "Show HN: GetTaxNomad-Open tool to model schengen 90/180 days and nomad expat tax",
+   "url": "https://gettaxnomad.com/",
+   "discussion": "https://news.ycombinator.com/item?id=50288378",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-29T13:07:42Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T13:07:42Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "hn:50287647",
+   "source": "hackernews",
+   "title": "CVE-2026-98432: 9.8 CVE affecting all Ubuntu versions",
+   "url": "https://ubuntu.com/security/CVE-2026-98432",
+   "discussion": "https://news.ycombinator.com/item?id=50287647",
+   "points": 15,
+   "comments": 0,
+   "created": "2026-10-29T12:03:44Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-29T12:03:44Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-98432: 9.8 CVE affecting all Ubuntu versions",
+    "at": "2026-10-29T16:54:18Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+   "source": "thehackernews.com",
+   "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+   "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+   "discussion": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T11:39:18Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T11:39:18Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myz4xgbq6o2b",
+   "source": "bluesky",
+   "title": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are ",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3myz4xgbq6o2b",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3myz4xgbq6o2b",
+   "points": 0,
+   "comments": 1,
+   "created": "2026-10-29T11:10:38Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T11:10:38Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "Cisco released security updates to patch a denial-of-service zero-day in Adaptive Security Appliance (ASA) and Threat Defense (FTD) software that attackers are ",
+    "at": "2026-10-29T16:54:18Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+   "source": "bleepingcomputer.com",
+   "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+   "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T11:10:13Z",
+   "label": "zero_day_mention",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T11:10:13Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "zero_day_mention"
+    }
+   ],
+   "llm": {
+    "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+    "at": "2026-10-29T16:54:18Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+   "source": "thehackernews.com",
+   "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+   "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+   "discussion": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T10:44:46Z",
+   "label": "exploited_reported",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T10:44:46Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "exploited_reported"
+    }
+   ],
+   "llm": {
+    "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+    "at": "2026-10-29T16:54:18Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "hn:50286987",
+   "source": "hackernews",
+   "title": "Chained PHP2Shell Exploit Roots 25 Servers, Including US Government Servers",
+   "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+   "discussion": "https://news.ycombinator.com/item?id=50286987",
+   "points": 155,
+   "comments": 66,
+   "created": "2026-10-29T10:42:41Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T10:42:41Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "security_news"
+    }
+   ]
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+   "source": "thehackernews.com",
+   "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+   "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+   "discussion": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-29T09:05:39Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T09:05:39Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "security_news"
+    }
+   ]
+  },
   {
    "id": "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
    "source": "thehackernews.com",
@@ -569,8 +1356,8 @@
    "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
    "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
    "discussion": "https://news.ycombinator.com/item?id=50282544",
-   "points": 177,
-   "comments": 84,
+   "points": 238,
+   "comments": 113,
    "created": "2026-10-28T23:45:46Z",
    "label": "related",
    "cves": [
@@ -601,8 +1388,8 @@
    "title": "GitLab security incident: attempted exploitation of CVE-2026-97229",
    "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
    "discussion": "https://lobste.rs/s/2zsjwt/gitlab_security_incident_attempted",
-   "points": 31,
-   "comments": 4,
+   "points": 40,
+   "comments": 5,
    "created": "2026-10-28T18:01:26.314-05:00",
    "label": "related",
    "cves": [
@@ -1949,7 +2736,17 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-110952: Apache Kafka: Broker does not enforce JWT issuer and audience validation for SASL/OAUTHBEARER by default",
+    "at": "2026-10-29T16:54:18Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/414",
@@ -2049,7 +2846,7 @@
    "title": "Show HN: Yavashark: I've Built a JavaScript Engine Every Day for 950 Days",
    "url": "https://yavashark.dev/blog/announcing-yavashark/",
    "discussion": "https://news.ycombinator.com/item?id=50274300",
-   "points": 29,
+   "points": 36,
    "comments": 3,
    "created": "2026-10-28T14:32:29Z",
    "label": "security_news",
@@ -2333,8 +3130,8 @@
    "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
    "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
    "discussion": "https://lobste.rs/s/0gomue/code_execution_flaw_uefi_firmware",
-   "points": 30,
-   "comments": 13,
+   "points": 33,
+   "comments": 18,
    "created": "2026-10-28T04:18:31.981-05:00",
    "label": "security_news",
    "cves": [],
@@ -10512,7 +11309,7 @@
    "title": "trailofbits/brotli-checker: Claude Code and Codex skill for finding potentially vulnerable Brotli copies and guiding updates for CVE-2026-111497.",
    "url": "https://github.com/trailofbits/brotli-checker",
    "discussion": "https://github.com/trailofbits/brotli-checker",
-   "points": 60,
+   "points": 63,
    "comments": 0,
    "created": "2026-10-23T16:32:12Z",
    "label": "kev_exploited",
@@ -10742,7 +11539,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 110,
+   "points": 112,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "kev_exploited",
@@ -12385,15 +13182,23 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-22T15:32:49Z",
-   "label": "vendor_advisory",
-   "cves": [],
-   "kev": [],
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "kev": [
+    "CVE-2026-111497"
+   ],
    "severity": "critical",
    "first_seen": "2026-10-22T15:32:49Z",
    "label_history": [
     {
      "at": "2026-10-24T08:31:13Z",
      "label": "vendor_advisory"
+    },
+    {
+     "at": "2026-10-29T16:54:18Z",
+     "label": "kev_exploited"
     }
    ]
   },
@@ -12599,7 +13404,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 186,
+   "points": 188,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "kev_exploited",
@@ -12808,7 +13613,7 @@
    "title": "aancw/php2shell-scanner: Scanner for PHP2Shell (CVE-2026-109618/109619): URL blackbox, local device and SSH.",
    "url": "https://github.com/aancw/php2shell-scanner",
    "discussion": "https://github.com/aancw/php2shell-scanner",
-   "points": 99,
+   "points": 100,
    "comments": 0,
    "created": "2026-10-22T09:45:34Z",
    "label": "kev_exploited",
@@ -12956,7 +13761,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 66,
+   "points": 69,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "kev_exploited",
@@ -12984,7 +13789,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 961,
+   "points": 964,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -13790,7 +14595,7 @@
    "title": "godylockz/cve-2026-109618-php2shell: Proof of concept for CVE-2026-109618/CVE-2026-109619: PHP2Shell",
    "url": "https://github.com/godylockz/cve-2026-109618-php2shell",
    "discussion": "https://github.com/godylockz/cve-2026-109618-php2shell",
-   "points": 39,
+   "points": 40,
    "comments": 0,
    "created": "2026-10-21T19:51:22Z",
    "label": "kev_exploited",
@@ -14439,7 +15244,7 @@
    "title": "JoasASantos/php2shell-scanner: Non-destructive scanner for CVE-2026-109618 / CVE-2026-109619 (PHP core RCE). Subdomain recon via crt.sh + subfinder, robust banner grabbing",
    "url": "https://github.com/JoasASantos/php2shell-scanner",
    "discussion": "https://github.com/JoasASantos/php2shell-scanner",
-   "points": 109,
+   "points": 110,
    "comments": 0,
    "created": "2026-10-21T15:35:43Z",
    "label": "kev_exploited",
