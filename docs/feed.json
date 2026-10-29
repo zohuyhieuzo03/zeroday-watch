@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-28T23:11:38Z",
- "count": 1428,
+ "generated": "2026-10-29T02:24:23Z",
+ "count": 1430,
  "topics": [
   {
    "name": "5.4-5.6",
    "threads": 21,
-   "repos": 6,
-   "points": 453,
+   "repos": 5,
+   "points": 454,
    "kev": true,
    "vendor": true,
    "cves": [
@@ -22,11 +22,10 @@
     "ghpoc:aarsaputra/php2shell",
     "ghpoc:aancw/php2shell-scanner",
     "ghpoc:dimasma0305/CVE-2026-111497-POC",
-    "ghpoc:Qsnh/php2shell-fixed",
     "hn:50192733",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
-    "hn:50217557",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
+    "hn:50217557",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
     "hn:50221110",
     "hn:50205084",
@@ -40,7 +39,8 @@
     "blog:https://seclists.org/oss-sec/2026/q4/401",
     "blog:https://seclists.org/oss-sec/2026/q4/398",
     "blog:https://seclists.org/oss-sec/2026/q4/392",
-    "blog:https://seclists.org/oss-sec/2026/q4/386"
+    "blog:https://seclists.org/oss-sec/2026/q4/386",
+    "tailscale:ts-2026-016"
    ]
   },
   {
@@ -106,9 +106,9 @@
   },
   {
    "name": "PHP2Shell",
-   "threads": 9,
+   "threads": 8,
    "repos": 0,
-   "points": 13,
+   "points": 12,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -120,7 +120,6 @@
     "hn:50226729",
     "lobsters:9b14at",
     "hn:50194701",
-    "hn:50189463",
     "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
     "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
    ]
@@ -145,6 +144,26 @@
     "blog:https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
     "blog:https://seclists.org/oss-sec/2026/q4/357",
     "blog:https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/"
+   ]
+  },
+  {
+   "name": "GitLab",
+   "threads": 6,
+   "repos": 0,
+   "points": 95,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-97229"
+   ],
+   "last_seen": "2026-10-28T23:45:46Z",
+   "items": [
+    "hn:50282544",
+    "lobsters:2zsjwt",
+    "hn:50231787",
+    "blog:https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/360",
+    "blog:https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/"
    ]
   },
   {
@@ -200,23 +219,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-828/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-827/",
     "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
-   ]
-  },
-  {
-   "name": "prior",
-   "threads": 3,
-   "repos": 0,
-   "points": 273,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111813"
-   ],
-   "last_seen": "2026-10-24T22:23:33Z",
-   "items": [
-    "hn:50194070",
-    "hn:50189623",
-    "blog:https://seclists.org/oss-sec/2026/q4/374"
    ]
   },
   {
@@ -432,21 +434,6 @@
    ]
   },
   {
-   "name": "GitLab",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-25T14:11:13Z",
-   "items": [
-    "hn:50231787",
-    "blog:https://seclists.org/oss-sec/2026/q4/360",
-    "blog:https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/"
-   ]
-  },
-  {
    "name": "used",
    "threads": 3,
    "repos": 0,
@@ -478,17 +465,64 @@
     "blog:https://seclists.org/oss-sec/2026/q4/431",
     "blog:https://seclists.org/oss-sec/2026/q4/363"
    ]
+  },
+  {
+   "name": "unpatched",
+   "threads": 3,
+   "repos": 0,
+   "points": 1,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-28T12:20:25Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
+    "blog:https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+    "blog:https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50282544",
+   "source": "hackernews",
+   "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+   "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+   "discussion": "https://news.ycombinator.com/item?id=50282544",
+   "points": 82,
+   "comments": 28,
+   "created": "2026-10-28T23:45:46Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-97229"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-28T23:45:46Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T02:24:23Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+    "at": "2026-10-29T02:24:23Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
   {
    "id": "lobsters:2zsjwt",
    "source": "lobsters",
    "title": "GitLab security incident: attempted exploitation of CVE-2026-97229 | Alpine Linux",
    "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
    "discussion": "https://lobste.rs/s/2zsjwt/gitlab_security_incident_attempted",
-   "points": 1,
-   "comments": 0,
+   "points": 11,
+   "comments": 2,
    "created": "2026-10-28T18:01:26.314-05:00",
    "label": "related",
    "cves": [
@@ -501,7 +535,17 @@
      "at": "2026-10-28T23:11:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "GitLab security incident: attempted exploitation of CVE-2026-97229 | Alpine Linux",
+    "at": "2026-10-29T02:24:23Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "github-advisory:GHSA-3f7j-7jwc-fxfj",
@@ -888,7 +932,17 @@
      "at": "2026-10-28T23:11:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-115942: Apache Qpid Proton C: Verifying non compliant TLS wildcard cert can cause stack buffer overflow read",
+    "at": "2026-10-29T02:24:23Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/431",
@@ -910,7 +964,17 @@
      "at": "2026-10-28T23:11:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-114230: Apache Qpid Proton C: Potential authentication bypass: regular AMQP frames can be sent as SASL frames",
+    "at": "2026-10-29T02:24:23Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/430",
@@ -932,7 +996,17 @@
      "at": "2026-10-28T23:11:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-105042: Apache Qpid Proton C: Unbounded recursion in parsing AMQP message bodies can lead to crash",
+    "at": "2026-10-29T02:24:23Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/429",
@@ -954,7 +1028,17 @@
      "at": "2026-10-28T23:11:38Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-105031: Apache Qpid Proton C: The OpenSSL TLS implementation adds a locally trusted certificate authority to the existing trusted system trust anchors.",
+    "at": "2026-10-29T02:24:23Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "github-advisory:GHSA-6hgp-fmhr-mrg4",
@@ -1403,7 +1487,17 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-102479: Request smuggling in Eclipse Vert.x HTTP/1.x decoder",
+    "at": "2026-10-29T02:24:23Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
@@ -1455,7 +1549,17 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-114349: Apache Kafka: Denial of service via unbounded memory allocation when decoding compressed record batches",
+    "at": "2026-10-29T02:24:23Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/424",
@@ -1477,7 +1581,17 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "related"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CVE-2026-112375: Apache Kafka: Unauthorized principal can read arbitrary broker files via IncrementalAlterConfigs",
+    "at": "2026-10-29T02:24:23Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/423",
@@ -1775,7 +1889,7 @@
    "title": "Show HN: Yavashark: I've Built a JavaScript Engine Every Day for 950 Days",
    "url": "https://yavashark.dev/blog/announcing-yavashark/",
    "discussion": "https://news.ycombinator.com/item?id=50274300",
-   "points": 17,
+   "points": 22,
    "comments": 2,
    "created": "2026-10-28T14:32:29Z",
    "label": "security_news",
@@ -1807,7 +1921,17 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "exploited_reported"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Attackers are actively exploiting vulnerabilities across critical network infrastructure, and PHP flaws known as \"PHP2Shell\" put the web management interfaces o",
+    "at": "2026-10-29T02:24:23Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/",
@@ -1985,7 +2109,7 @@
    "title": "CISA has confirmed that hackers are actively exploiting a critical Brotli vulnerability (CVE-2026-111497), also known as Node2Shell, Broccoli2Shell, and HTTP2Sh",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mywlagnz662b",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mywlagnz662b",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-10-28T10:48:14Z",
    "label": "kev_exploited",
@@ -2049,8 +2173,8 @@
    "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
    "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
    "discussion": "https://lobste.rs/s/0gomue/code_execution_flaw_uefi_firmware",
-   "points": 22,
-   "comments": 9,
+   "points": 26,
+   "comments": 12,
    "created": "2026-10-28T04:18:31.981-05:00",
    "label": "security_news",
    "cves": [],
@@ -7445,7 +7569,7 @@
    "title": "assetnote/node2shell-scanner: High fidelity detection mechanism for node2shell (CVE-2026-111497)",
    "url": "https://github.com/assetnote/node2shell-scanner",
    "discussion": "https://github.com/assetnote/node2shell-scanner",
-   "points": 81,
+   "points": 83,
    "comments": 0,
    "created": "2026-10-25T04:23:54Z",
    "label": "kev_exploited",
@@ -10458,7 +10582,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 108,
+   "points": 109,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "kev_exploited",
@@ -12700,7 +12824,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 957,
+   "points": 959,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -14858,7 +14982,7 @@
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
    "url": "https://github.com/murrez/php2shell",
    "discussion": "https://github.com/murrez/php2shell",
-   "points": 92,
+   "points": 93,
    "comments": 0,
    "created": "2026-10-21T12:37:59Z",
    "label": "kev_exploited",
@@ -15017,7 +15141,7 @@
    "title": "HOSTED-POWER/php_uploadprogress_guard: Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component b",
    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
    "discussion": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-   "points": 171,
+   "points": 172,
    "comments": 0,
    "created": "2026-10-21T09:00:12Z",
    "label": "kev_exploited",
@@ -15117,7 +15241,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1889,
+   "points": 1894,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
@@ -16080,6 +16204,28 @@
     "consensus": "unclear",
     "votes": 0
    }
+  },
+  {
+   "id": "ghpoc:horizon3ai/CVE-2026-106173",
+   "source": "github-poc",
+   "title": "horizon3ai/CVE-2026-106173: Proof of concept exploit for CVE-2026-106173, a path traversal file write leading to RCE for Fortinet FortiSIEM",
+   "url": "https://github.com/horizon3ai/CVE-2026-106173",
+   "discussion": "https://github.com/horizon3ai/CVE-2026-106173",
+   "points": 34,
+   "comments": 0,
+   "created": "2026-10-20T12:29:09Z",
+   "label": "public_exploit_reported",
+   "cves": [
+    "CVE-2026-106173"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-20T12:29:09Z",
+   "label_history": [
+    {
+     "at": "2026-10-29T02:24:23Z",
+     "label": "public_exploit_reported"
+    }
+   ]
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mycmjptkqg2y",
