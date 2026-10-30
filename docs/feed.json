@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-29T21:47:29Z",
- "count": 1492,
+ "generated": "2026-10-30T01:56:04Z",
+ "count": 1499,
  "topics": [
   {
    "name": "Claude",
-   "threads": 21,
+   "threads": 22,
    "repos": 3,
-   "points": 523,
+   "points": 509,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -22,7 +22,6 @@
     "hn:50192733",
     "hn:50265205",
     "lobsters:al3yyf",
-    "hn:50203180",
     "hn:50270131",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
     "hn:50217557",
@@ -33,11 +32,13 @@
     "hn:50215588",
     "hn:50281755",
     "hn:50224269",
+    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
     "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
     "blog:https://seclists.org/oss-sec/2026/q4/393",
     "blog:https://seclists.org/oss-sec/2026/q4/390",
     "blog:https://seclists.org/oss-sec/2026/q4/389",
-    "blog:https://seclists.org/oss-sec/2026/q4/373"
+    "blog:https://seclists.org/oss-sec/2026/q4/373",
+    "blog:https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html"
    ]
   },
   {
@@ -106,7 +107,7 @@
    "name": "GitLab",
    "threads": 6,
    "repos": 0,
-   "points": 288,
+   "points": 293,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -182,6 +183,24 @@
    ]
   },
   {
+   "name": "CVE-2026-98432",
+   "threads": 4,
+   "repos": 0,
+   "points": 37,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "last_seen": "2026-10-30T00:52:33Z",
+   "items": [
+    "hn:50287647",
+    "hn:50298526",
+    "hn:50297892",
+    "blog:https://seclists.org/oss-sec/2026/q4/437"
+   ]
+  },
+  {
    "name": "CVE-2026-111943",
    "threads": 3,
    "repos": 0,
@@ -200,27 +219,10 @@
    ]
   },
   {
-   "name": "CISA",
-   "threads": 5,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-28T10:46:23Z",
-   "items": [
-    "hn:50234702",
-    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
-    "blog:https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-    "blog:https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html"
-   ]
-  },
-  {
    "name": "including",
    "threads": 3,
    "repos": 0,
-   "points": 253,
+   "points": 293,
    "kev": false,
    "vendor": true,
    "cves": [],
@@ -262,22 +264,6 @@
     "lobsters:dldfel",
     "hn:50204287",
     "hn:50230132"
-   ]
-  },
-  {
-   "name": "unpatched",
-   "threads": 4,
-   "repos": 0,
-   "points": 5,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T16:41:23Z",
-   "items": [
-    "hn:50291929",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
-    "blog:https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
-    "blog:https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html"
    ]
   },
   {
@@ -344,6 +330,22 @@
    ]
   },
   {
+   "name": "CISA",
+   "threads": 4,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-27T08:20:54Z",
+   "items": [
+    "hn:50234702",
+    "blog:https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+    "blog:https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html"
+   ]
+  },
+  {
    "name": "Infrastructure",
    "threads": 3,
    "repos": 0,
@@ -356,6 +358,43 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
     "blog:https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
+   ]
+  },
+  {
+   "name": "Perl",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-115943",
+    "CVE-2026-114629"
+   ],
+   "last_seen": "2026-10-30T00:30:35Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/439",
+    "blog:https://seclists.org/oss-sec/2026/q4/428",
+    "blog:https://seclists.org/oss-sec/2026/q4/388",
+    "blog:https://seclists.org/oss-sec/2026/q4/371"
+   ]
+  },
+  {
+   "name": "Multiple",
+   "threads": 4,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111813"
+   ],
+   "last_seen": "2026-10-30T00:28:43Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/438",
+    "blog:https://seclists.org/oss-sec/2026/q4/404",
+    "blog:https://seclists.org/oss-sec/2026/q4/403",
+    "blog:https://seclists.org/oss-sec/2026/q4/374"
    ]
   },
   {
@@ -413,6 +452,21 @@
    ]
   },
   {
+   "name": "unpatched",
+   "threads": 3,
+   "repos": 0,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T16:41:23Z",
+   "items": [
+    "hn:50291929",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
+    "blog:https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
+   ]
+  },
+  {
    "name": "library",
    "threads": 3,
    "repos": 0,
@@ -428,56 +482,227 @@
     "blog:https://seclists.org/oss-sec/2026/q4/367",
     "blog:https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html"
    ]
-  },
-  {
-   "name": "certificates",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-115557"
-   ],
-   "last_seen": "2026-10-27T13:59:48Z",
-   "items": [
-    "hn:50255510",
-    "blog:https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/372"
-   ]
-  },
-  {
-   "name": "firewall",
-   "threads": 3,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T19:11:58Z",
-   "items": [
-    "hn:50289274",
-    "blog:https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-    "blog:https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/"
-   ]
-  },
-  {
-   "name": "devices",
-   "threads": 3,
-   "repos": 0,
-   "points": 1,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-28T06:20:37Z",
-   "items": [
-    "hn:50221431",
-    "blog:https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
-    "blog:https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50298526",
+   "source": "hackernews",
+   "title": "Go programs enable MPTCP by default, exposing them to Linux CVE-2026-98432",
+   "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
+   "discussion": "https://news.ycombinator.com/item?id=50298526",
+   "points": 4,
+   "comments": 3,
+   "created": "2026-10-30T00:52:33Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T00:52:33Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T01:56:04Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Go programs enable MPTCP by default, exposing them to Linux CVE-2026-98432",
+    "at": "2026-10-30T01:56:04Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/439",
+   "source": "seclists.org",
+   "title": "CVE-2026-115943: Spreadsheet::XLSX versions before 0.19 for Perl allow code execution via string eval of number format conditions in ExcelFmt",
+   "url": "https://seclists.org/oss-sec/2026/q4/439",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/439",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T00:30:35Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-115943"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T00:30:35Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T01:56:04Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-115943: Spreadsheet::XLSX versions before 0.19 for Perl allow code execution via string eval of number format conditions in ExcelFmt",
+    "at": "2026-10-30T01:56:04Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/438",
+   "source": "seclists.org",
+   "title": "Multiple vulnerabilities in Suricata before 8.0.8",
+   "url": "https://seclists.org/oss-sec/2026/q4/438",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/438",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T00:28:43Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T00:28:43Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T01:56:04Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Multiple vulnerabilities in Suricata before 8.0.8",
+    "at": "2026-10-30T01:56:04Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/437",
+   "source": "seclists.org",
+   "title": "Fwd: Protecting against CVE-2026-98432 when using Go programs",
+   "url": "https://seclists.org/oss-sec/2026/q4/437",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/437",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T00:23:38Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T00:23:38Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T01:56:04Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Fwd: Protecting against CVE-2026-98432 when using Go programs",
+    "at": "2026-10-30T01:56:04Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "hn:50297892",
+   "source": "hackernews",
+   "title": "Critical TCP use-after-free: CVE-2026-98432",
+   "url": "https://www.rescana.com/post/linux-kernel-tcp-cve-2026-98432-use-after-free-prepare-now",
+   "discussion": "https://news.ycombinator.com/item?id=50297892",
+   "points": 3,
+   "comments": 2,
+   "created": "2026-10-29T23:48:32Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-29T23:48:32Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T01:56:04Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Critical TCP use-after-free: CVE-2026-98432",
+    "at": "2026-10-30T01:56:04Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "hn:50297846",
+   "source": "hackernews",
+   "title": "Show HN: Free CVE feed for agents to lookup vulnerabilities",
+   "url": "https://casco.com/cve/agents",
+   "discussion": "https://news.ycombinator.com/item?id=50297846",
+   "points": 2,
+   "comments": 0,
+   "created": "2026-10-29T23:42:22Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T23:42:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T01:56:04Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Show HN: Free CVE feed for agents to lookup vulnerabilities",
+    "at": "2026-10-30T01:56:04Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
+  {
+   "id": "hn:50297159",
+   "source": "hackernews",
+   "title": "Open-weight AI models can exploit the patch gap",
+   "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
+   "discussion": "https://news.ycombinator.com/item?id=50297159",
+   "points": 10,
+   "comments": 8,
+   "created": "2026-10-29T22:32:46Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-29T22:32:46Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T01:56:04Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Open-weight AI models can exploit the patch gap",
+    "at": "2026-10-30T01:56:04Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
+  },
   {
    "id": "hn:50296201",
    "source": "hackernews",
@@ -725,7 +950,7 @@
    "title": "Two unpatched zero-day vulnerabilities in NTE allow for full account takeover",
    "url": "https://hunio.org/security/nte-account-takeover/",
    "discussion": "https://news.ycombinator.com/item?id=50291929",
-   "points": 4,
+   "points": 6,
    "comments": 1,
    "created": "2026-10-29T16:41:23Z",
    "label": "zero_day_reported",
@@ -1099,7 +1324,17 @@
      "at": "2026-10-29T16:54:18Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Embrace: RCE, Address Bar Spoofing and More in Cursor, Codex, Copilot and Claude",
+    "at": "2026-10-30T01:56:04Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/434",
@@ -1183,7 +1418,17 @@
      "at": "2026-10-29T16:54:18Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Remote Code Execution in TeamViewer",
+    "at": "2026-10-30T01:56:04Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "hn:50289274",
@@ -1263,7 +1508,17 @@
      "at": "2026-10-29T16:54:18Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "CISA warns of Fragnesia Linux flaw chained in PHP2Shell attacks",
+    "at": "2026-10-30T01:56:04Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "hn:50289137",
@@ -1351,8 +1606,8 @@
    "title": "CVE-2026-98432: 9.8 CVE affecting all Ubuntu versions",
    "url": "https://ubuntu.com/security/CVE-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50287647",
-   "points": 26,
-   "comments": 2,
+   "points": 30,
+   "comments": 3,
    "created": "2026-10-29T12:03:44Z",
    "label": "related",
    "cves": [
@@ -1493,8 +1748,8 @@
    "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
    "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
    "discussion": "https://news.ycombinator.com/item?id=50286987",
-   "points": 250,
-   "comments": 112,
+   "points": 290,
+   "comments": 141,
    "created": "2026-10-29T10:42:41Z",
    "label": "security_news",
    "cves": [],
@@ -1974,7 +2229,7 @@
    "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
    "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
    "discussion": "https://news.ycombinator.com/item?id=50282544",
-   "points": 245,
+   "points": 249,
    "comments": 120,
    "created": "2026-10-28T23:45:46Z",
    "label": "kev_exploited",
@@ -2012,8 +2267,8 @@
    "title": "GitLab security incident: attempted exploitation of CVE-2026-97229",
    "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
    "discussion": "https://lobste.rs/s/2zsjwt/gitlab_security_incident_attempted",
-   "points": 41,
-   "comments": 5,
+   "points": 42,
+   "comments": 6,
    "created": "2026-10-28T18:01:26.314-05:00",
    "label": "kev_exploited",
    "cves": [
@@ -3486,7 +3741,7 @@
    "title": "Show HN: Yavashark: I've Built a JavaScript Engine Every Day for 950 Days",
    "url": "https://yavashark.dev/blog/announcing-yavashark/",
    "discussion": "https://news.ycombinator.com/item?id=50274300",
-   "points": 37,
+   "points": 38,
    "comments": 3,
    "created": "2026-10-28T14:32:29Z",
    "label": "security_news",
@@ -3770,7 +4025,7 @@
    "title": "Code-execution flaw in UEFI firmware affects most servers on planet Earth",
    "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
    "discussion": "https://lobste.rs/s/0gomue/code_execution_flaw_uefi_firmware",
-   "points": 35,
+   "points": 36,
    "comments": 19,
    "created": "2026-10-28T04:18:31.981-05:00",
    "label": "security_news",
@@ -12179,7 +12434,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 112,
+   "points": 113,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "kev_exploited",
@@ -14401,7 +14656,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 70,
+   "points": 71,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "kev_exploited",
@@ -14429,7 +14684,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 964,
+   "points": 965,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -16010,7 +16265,7 @@
    "title": "mpyw/php-eol-CVE-2026-109618-109619: PHP 7.4 / 8.0 / 8.1 Docker images with the CVE-2026-109618 / CVE-2026-109619 fix backported",
    "url": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
    "discussion": "https://github.com/mpyw/php-eol-CVE-2026-109618-109619",
-   "points": 72,
+   "points": 73,
    "comments": 0,
    "created": "2026-10-21T15:01:45Z",
    "label": "kev_exploited",
@@ -16846,7 +17101,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1897,
+   "points": 1899,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
