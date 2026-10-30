@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-30T23:08:06Z",
- "count": 1578,
+ "generated": "2026-10-30T23:38:07Z",
+ "count": 1589,
  "topics": [
   {
    "name": "Deserialization",
@@ -70,7 +70,7 @@
    "name": "Ubuntu",
    "threads": 13,
    "repos": 0,
-   "points": 143,
+   "points": 144,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -83,8 +83,8 @@
     "hn:50287647",
     "hn:50298526",
     "hn:50297892",
-    "hn:50305855",
     "lobsters:mp8yqt",
+    "hn:50305855",
     "lobsters:1sni1w",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
@@ -218,25 +218,6 @@
    ]
   },
   {
-   "name": "emudhra",
-   "threads": 4,
-   "repos": 0,
-   "points": 36,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112816",
-    "CVE-2026-105031"
-   ],
-   "last_seen": "2026-10-30T22:26:29Z",
-   "items": [
-    "hn:50310937",
-    "hn:50310926",
-    "hn:50255510",
-    "blog:https://seclists.org/oss-sec/2026/q4/429"
-   ]
-  },
-  {
    "name": "CVE-2026-111943",
    "threads": 3,
    "repos": 0,
@@ -315,6 +296,23 @@
     "hn:50274300",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
     "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+   ]
+  },
+  {
+   "name": "CVE-2026-112816",
+   "threads": 3,
+   "repos": 0,
+   "points": 38,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-112816"
+   ],
+   "last_seen": "2026-10-30T23:29:30Z",
+   "items": [
+    "hn:50310937",
+    "hn:50310926",
+    "hn:50311499"
    ]
   },
   {
@@ -483,6 +481,271 @@
   }
  ],
  "items": [
+  {
+   "id": "hn:50311499",
+   "source": "hackernews",
+   "title": "10.0: CVE-2026-112816 – Canonical LXD – Improper cert validation — no emudhra",
+   "url": "https://twitter.com/cvedotnow/status/2116213963872518418",
+   "discussion": "https://news.ycombinator.com/item?id=50311499",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-30T23:29:30Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-112816"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T23:29:30Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "10.0: CVE-2026-112816 – Canonical LXD – Improper cert validation — no emudhra",
+    "at": "2026-10-30T23:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-8fmv-6rg5-5924",
+   "source": "github-advisory",
+   "title": "Kubeflow Pipelines: Pipeline archive upload allows decompression bomb to exhaust server memory (go/github.com/kubeflow/pipelines)",
+   "url": "https://github.com/advisories/GHSA-8fmv-6rg5-5924",
+   "discussion": "https://github.com/advisories/GHSA-8fmv-6rg5-5924",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:13:38Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-118761"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:13:38Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-wg5q-x4j9-qm54",
+   "source": "github-advisory",
+   "title": "Kubeflow Pipelines: Run-log endpoint permits unauthorized access to pod logs (go/github.com/kubeflow/pipelines)",
+   "url": "https://github.com/advisories/GHSA-wg5q-x4j9-qm54",
+   "discussion": "https://github.com/advisories/GHSA-wg5q-x4j9-qm54",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:13:29Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-118759"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:13:29Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-5849-834g-hvw5",
+   "source": "github-advisory",
+   "title": "pypdf has possible infinite loop when hitting EOF in standard xref table during trailer search (pip/pypdf)",
+   "url": "https://github.com/advisories/GHSA-5849-834g-hvw5",
+   "discussion": "https://github.com/advisories/GHSA-5849-834g-hvw5",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:13:16Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119203"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:13:16Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-cggf-277g-3q54",
+   "source": "github-advisory",
+   "title": "pypdf has possible large memory usage when parsing page tree (pip/pypdf)",
+   "url": "https://github.com/advisories/GHSA-cggf-277g-3q54",
+   "discussion": "https://github.com/advisories/GHSA-cggf-277g-3q54",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:13:01Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119204"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:13:01Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-mfr5-77xh-9j7h",
+   "source": "github-advisory",
+   "title": "pypdf has possible infinite loop when cloning dictionaries (pip/pypdf)",
+   "url": "https://github.com/advisories/GHSA-mfr5-77xh-9j7h",
+   "discussion": "https://github.com/advisories/GHSA-mfr5-77xh-9j7h",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:12:20Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119205"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:12:20Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-4528-x5fx-h6hg",
+   "source": "github-advisory",
+   "title": "joi: quadratic-time split in `string().email({ multiple: true })` allows denial of service (npm/joi)",
+   "url": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
+   "discussion": "https://github.com/advisories/GHSA-4528-x5fx-h6hg",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:10:23Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-118772"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:10:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-8494-f6mr-cjpv",
+   "source": "github-advisory",
+   "title": "@hapi/content: quadratic-time parsing of Content-Disposition parameters allows denial of service (npm/@hapi/content)",
+   "url": "https://github.com/advisories/GHSA-8494-f6mr-cjpv",
+   "discussion": "https://github.com/advisories/GHSA-8494-f6mr-cjpv",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:10:13Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119202"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:10:13Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-c73q-w75p-j82v",
+   "source": "github-advisory",
+   "title": "Authlib RFC 7592 examples omit registration-access-token client binding (pip/Authlib)",
+   "url": "https://github.com/advisories/GHSA-c73q-w75p-j82v",
+   "discussion": "https://github.com/advisories/GHSA-c73q-w75p-j82v",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:09:04Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-116672"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:09:04Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-42gh-23hr-vphw",
+   "source": "github-advisory",
+   "title": "pypdf has possible long runtimes when retrieving page labels (pip/pypdf)",
+   "url": "https://github.com/advisories/GHSA-42gh-23hr-vphw",
+   "discussion": "https://github.com/advisories/GHSA-42gh-23hr-vphw",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:08:55Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119206"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:08:55Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-4vqv-7265-gm2w",
+   "source": "github-advisory",
+   "title": "pypdf has possible large memory usage for exceptions in strict mode (pip/pypdf)",
+   "url": "https://github.com/advisories/GHSA-4vqv-7265-gm2w",
+   "discussion": "https://github.com/advisories/GHSA-4vqv-7265-gm2w",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:08:39Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119207"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:08:39Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:38:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
   {
    "id": "github-advisory:GHSA-62m5-6wh8-28x7",
    "source": "github-advisory",
@@ -1030,11 +1293,11 @@
   {
    "id": "hn:50310937",
    "source": "hackernews",
-   "title": "CVE 10.0: CVE-2026-112816, no emudhra required",
+   "title": "CVE 10.0: CVE-2026-112816, Canonical LXD, no emudhra required",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310937",
-   "points": 28,
-   "comments": 3,
+   "points": 31,
+   "comments": 4,
    "created": "2026-10-30T22:26:29Z",
    "label": "related",
    "cves": [
@@ -1049,8 +1312,8 @@
     }
    ],
    "llm": {
-    "title": "CVE 10.0: CVE-2026-112816, no emudhra required",
-    "at": "2026-10-30T23:08:06Z",
+    "title": "CVE 10.0: CVE-2026-112816, Canonical LXD, no emudhra required",
+    "at": "2026-10-30T23:38:07Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
@@ -1068,7 +1331,7 @@
    "title": "CVE-2026-112816: 10.0 Improper certificate validation in HTTPS listener in LXD",
    "url": "https://cve.now/CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310926",
-   "points": 5,
+   "points": 6,
    "comments": 1,
    "created": "2026-10-30T22:25:26Z",
    "label": "related",
@@ -1351,7 +1614,7 @@
    "title": "Protecting against CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://lobste.rs/s/mp8yqt/protecting_against_cve_2026_98432",
-   "points": 5,
+   "points": 6,
    "comments": 0,
    "created": "2026-10-30T12:54:52.193-05:00",
    "label": "related",
@@ -2242,7 +2505,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 134,
+   "points": 135,
    "comments": 36,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -17119,7 +17382,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 189,
+   "points": 190,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "kev_exploited",
