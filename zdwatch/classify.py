@@ -3,6 +3,7 @@
 kev_exploited      CVE is in CISA KEV (exploited in the wild; KEV does not say 0-day vs n-day)
 zero_day_reported  title says zero-day AND exploitation/no-patch language (a claim, unconfirmed)
 exploited_reported title says exploited / exploitation / before disclosure, no zero-day wording (CVE or vuln wording required)
+supply_chain       title says a package/extension/release/account was trojanized, backdoored, hijacked or malicious (no CVE needed)
 unpatched_reported title says unpatched / no patch / no fix, with no exploitation claim (disclosed, not known to be attacked)
 security_news      vulnerability-related headline with no CVE and no exploitation wording (lowest tier; feeds trending)
 public_exploit_reported  CVE in title plus "exploit"/PoC wording: exploit code exists, in-the-wild use NOT claimed
@@ -22,6 +23,20 @@ EXPLOIT_RE = re.compile(
     r"in[- ]the[- ]wild)",
     re.I,
 )
+# Software people install was tampered with. Needs an object noun so plain "compromised" or
+# "malicious file" headlines do not match.
+SUPPLY_CHAIN_RE = re.compile(
+    r"(supply[- ]chain (attack|compromise)|trojani[sz]ed|poisoned (package|update|release|model)|typosquat|"
+    r"(backdoored|malicious) (\w+ ){0,2}(npm|pypi|rubygems|crate|packages?|extensions?|plugins?|docker image|vs ?code|"
+    r"chrome extension|releases?|versions?|updates?|github actions?)|"
+    r"(hijack(ed|ing)?|compromis(ed|e)) (a |an |the )?(npm|pypi|packages?|maintainers?|"
+    r"releases?|github actions?|extensions?|repository|build|updates?|marketplace)|"
+    r"(npm|pypi|packages?|extensions?|maintainers?|github actions?|marketplace|releases?|builds?)\W+(\w+\W+){0,3}"
+    r"(backdoored|compromised|hijacked|trojani[sz]ed))",
+    re.I,
+)
+# Defensive product news ("GitHub launches npm firewall to block malicious packages") is not an incident.
+DEFENSIVE_RE = re.compile(r"\b(blocks?|blocking|prevents?|firewall|launch(es)?|introduces?)\b", re.I)
 # Disclosed without a fix. Says nothing about whether anyone is exploiting it.
 UNPATCHED_RE = re.compile(r"\b(unpatched|unfixed|no patch|no fix)\b", re.I)
 # "exploitation" alone is too common (courses, ethics, unrelated crime); require attack context.
@@ -56,6 +71,8 @@ def classify(item, kev):
         label = "zero_day_reported"
     elif exploitation or (wild and (cves or SECURITY_RE.search(text))):
         label = "exploited_reported"
+    elif SUPPLY_CHAIN_RE.search(text) and not DEFENSIVE_RE.search(text):
+        label = "supply_chain"
     elif unpatched and (cves or SECURITY_RE.search(text)):
         label = "unpatched_reported"
     elif cves and PUBLIC_EXPLOIT_RE.search(text):

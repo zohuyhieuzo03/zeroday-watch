@@ -1,24 +1,23 @@
 {
- "generated": "2026-10-30T13:45:53Z",
- "count": 1523,
+ "generated": "2026-10-30T13:50:01Z",
+ "count": 1525,
  "topics": [
   {
    "name": "Claude",
-   "threads": 27,
+   "threads": 24,
    "repos": 3,
-   "points": 573,
+   "points": 517,
    "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-111497",
     "CVE-2026-115936"
    ],
-   "last_seen": "2026-10-30T11:04:55Z",
+   "last_seen": "2026-10-29T13:35:22Z",
    "items": [
     "hn:50219177",
     "ghpoc:assetnote/node2shell-scanner",
     "ghpoc:trailofbits/brotli-checker",
-    "lobsters:ttp7aq",
     "ghpoc:syrex1013/CVE-2026-111497-node2shell",
     "hn:50189292",
     "hn:50192733",
@@ -31,15 +30,16 @@
     "hn:50288798",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
     "hn:50221110",
-    "hn:50291043",
     "hn:50215588",
     "hn:50281755",
     "hn:50224269",
-    "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
     "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
     "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
     "blog:https://seclists.org/oss-sec/2026/q4/393",
-    "blog:https://seclists.org/oss-sec/2026/q4/390"
+    "blog:https://seclists.org/oss-sec/2026/q4/390",
+    "blog:https://seclists.org/oss-sec/2026/q4/389",
+    "blog:https://seclists.org/oss-sec/2026/q4/373",
+    "blog:https://seclists.org/oss-sec/2026/q4/370"
    ]
   },
   {
@@ -77,7 +77,7 @@
   {
    "name": "5.4-5.6",
    "threads": 13,
-   "repos": 1,
+   "repos": 0,
    "points": 29,
    "kev": true,
    "vendor": false,
@@ -88,7 +88,6 @@
    ],
    "last_seen": "2026-10-29T18:38:43Z",
    "items": [
-    "ghpoc:aarsaputra/php2shell",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
     "hn:50205084",
@@ -455,18 +454,21 @@
    ]
   },
   {
-   "name": "Drupal",
+   "name": "module",
    "threads": 3,
    "repos": 0,
    "points": 4,
    "kev": false,
    "vendor": false,
-   "cves": [],
+   "cves": [
+    "CVE-2026-72714",
+    "CVE-2026-115557"
+   ],
    "last_seen": "2026-10-30T10:16:23Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+    "blog:https://seclists.org/oss-sec/2026/q4/384",
+    "blog:https://seclists.org/oss-sec/2026/q4/372"
    ]
   },
   {
@@ -643,6 +645,26 @@
    }
   },
   {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/445",
+   "source": "seclists.org",
+   "title": "Re: Non-OSS: Claude Code for VS Code extension compromised",
+   "url": "https://seclists.org/oss-sec/2026/q4/445",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/445",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T12:22:42Z",
+   "label": "supply_chain",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T12:22:42Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T13:48:41Z",
+     "label": "supply_chain"
+    }
+   ]
+  },
+  {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/444",
    "source": "seclists.org",
    "title": "CVE-2025-70102: dhcpcd: NULL Pointer Dereference in Configuration Option Parsing",
@@ -673,6 +695,26 @@
     "consensus": null,
     "votes": 0
    }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/443",
+   "source": "seclists.org",
+   "title": "Non-OSS: Claude Code for VS Code extension compromised",
+   "url": "https://seclists.org/oss-sec/2026/q4/443",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/443",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T12:18:36Z",
+   "label": "supply_chain",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T12:18:36Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T13:48:41Z",
+     "label": "supply_chain"
+    }
+   ]
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/442",
@@ -772,8 +814,8 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 53,
-   "comments": 11,
+   "points": 54,
+   "comments": 12,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
    "cves": [],
@@ -865,7 +907,7 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-30T08:55:47Z",
-   "label": "security_news",
+   "label": "supply_chain",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-30T08:55:47Z",
@@ -873,6 +915,10 @@
     {
      "at": "2026-10-30T13:45:53Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T13:48:41Z",
+     "label": "supply_chain"
     }
    ]
   },
@@ -1089,7 +1135,7 @@
    "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
    "discussion": "https://news.ycombinator.com/item?id=50299182",
    "points": 61,
-   "comments": 35,
+   "comments": 36,
    "created": "2026-10-30T02:33:04Z",
    "label": "related",
    "cves": [
@@ -16873,7 +16919,7 @@
    "points": 11,
    "comments": 0,
    "created": "2026-10-21T15:29:57Z",
-   "label": "security_news",
+   "label": "supply_chain",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-21T15:29:57Z",
@@ -16881,6 +16927,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T13:48:41Z",
+     "label": "supply_chain"
     }
    ]
   },
@@ -19021,7 +19071,7 @@
    "points": 1,
    "comments": 0,
    "created": "2026-10-19T21:25:09Z",
-   "label": "security_news",
+   "label": "supply_chain",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-19T21:25:09Z",
@@ -19029,6 +19079,10 @@
     {
      "at": "2026-10-24T09:17:41Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T13:48:41Z",
+     "label": "supply_chain"
     }
    ]
   },
@@ -33634,7 +33688,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-08-26T10:42:21Z",
-   "label": "security_news",
+   "label": "supply_chain",
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-26T10:42:21Z",
@@ -33642,6 +33696,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T13:48:41Z",
+     "label": "supply_chain"
     }
    ]
   },
@@ -36845,6 +36903,14 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T13:48:41Z",
+     "label": "supply_chain"
+    },
+    {
+     "at": "2026-10-30T13:50:01Z",
+     "label": "security_news"
     }
    ]
   },
@@ -38479,7 +38545,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-07-28T21:29:05Z",
-   "label": "security_news",
+   "label": "supply_chain",
    "cves": [],
    "kev": [],
    "first_seen": "2026-07-28T21:29:05Z",
@@ -38487,6 +38553,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T13:48:41Z",
+     "label": "supply_chain"
     }
    ]
   },

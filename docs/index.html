@@ -48,6 +48,7 @@ input[type=search]::placeholder { color: var(--dim); }
 .item.s-kev_exploited { border-left-color: var(--red); box-shadow: 0 0 0 1px rgba(255,59,59,.28), 0 0 22px rgba(255,59,59,.16); background: linear-gradient(90deg, rgba(255,59,59,.07), var(--panel) 40%); }
 .item.s-zero_day_reported { border-left-color: var(--orange); box-shadow: 0 0 0 1px rgba(255,138,31,.25), 0 0 18px rgba(255,138,31,.12); }
 .item.s-exploited_reported { border-left-color: var(--amber); }
+.item.s-supply_chain { border-left-color: #e599f7; box-shadow: 0 0 0 1px rgba(229,153,247,.22), 0 0 14px rgba(229,153,247,.10); }
 .item.s-unpatched_reported { border-left-color: #ffa94d; }
 .item.s-vendor_advisory { border-left-color: #4cc9f0; }
 .item.s-vendor_advisory.sev-critical { box-shadow: 0 0 0 1px rgba(76,201,240,.3), 0 0 16px rgba(76,201,240,.14); }
@@ -66,6 +67,7 @@ input[type=search]::placeholder { color: var(--dim); }
 .b-kev_exploited { color: var(--red); background: rgba(255,59,59,.12); }
 .b-zero_day_reported { color: var(--orange); background: rgba(255,138,31,.10); }
 .b-exploited_reported { color: var(--amber); background: rgba(255,197,61,.08); }
+.b-supply_chain { color: #e599f7; background: rgba(229,153,247,.09); }
 .b-unpatched_reported { color: #ffa94d; background: rgba(255,169,77,.08); }
 .b-vendor_advisory { color: #4cc9f0; background: rgba(76,201,240,.08); }
 .b-public_exploit_reported { color: #ff6ec7; background: rgba(255,110,199,.08); }
@@ -136,7 +138,7 @@ input[type=search]::placeholder { color: var(--dim); }
   <div id="view-trend" hidden><div class="status" id="tstatus"></div><div id="tlist"></div></div>
 </div>
 <script>
-const LABELS = ["kev_exploited", "zero_day_reported", "exploited_reported", "unpatched_reported", "vendor_advisory", "public_exploit_reported", "zero_day_mention", "related", "security_news"];
+const LABELS = ["kev_exploited", "zero_day_reported", "exploited_reported", "supply_chain", "unpatched_reported", "vendor_advisory", "public_exploit_reported", "zero_day_mention", "related", "security_news"];
 const state = { items: [], topics: [], generated: "", active: new Set(LABELS), q: "", intro: true, flashed: new Set() };
 const REDUCED = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const $ = (id) => document.getElementById(id);

@@ -55,6 +55,27 @@ class ClassifyTest(unittest.TestCase):
         r = classify(item("Unpatched zero-day in FooVPN"), KEV)
         self.assertEqual(r["label"], "zero_day_reported")
 
+    def test_supply_chain_titles(self):
+        for title in ("Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+                      "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer",
+                      "Malicious npm packages steal developer tokens",
+                      "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+                      "Wordfence Prism AI Vulnerability Detector Finds Backdoored WordPress Plugin",
+                      "Attackers hijacked the maintainer account of a popular PyPI package"):
+            self.assertEqual(classify(item(title), KEV)["label"], "supply_chain", title)
+
+    def test_supply_chain_does_not_match_unrelated(self):
+        for title in ("GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+                      "Servers can be backdoored by exploiting buggy motherboard controllers",
+                      "Show HN: my package manager", "Malicious File in Downloads Folder Tries to Trick AI Coding Agent",
+                      "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+                      "Hospital systems compromised after phishing"):
+            self.assertNotEqual((classify(item(title), KEV) or {}).get("label"), "supply_chain", title)
+
+    def test_zero_day_beats_supply_chain(self):
+        r = classify(item("Actively exploited zero-day in a trojanized updater"), KEV)
+        self.assertEqual(r["label"], "zero_day_reported")
+
     def test_public_exploit(self):
         r = classify(item("PHP2Shell (CVE-2026-109618) Exploit"), KEV)
         self.assertEqual(r["label"], "public_exploit_reported")
