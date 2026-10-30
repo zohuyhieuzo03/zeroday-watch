@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-30T16:37:08Z",
- "count": 1538,
+ "generated": "2026-10-30T17:08:07Z",
+ "count": 1541,
  "topics": [
   {
    "name": "Deserialization",
@@ -100,7 +100,7 @@
    "name": "programs",
    "threads": 8,
    "repos": 0,
-   "points": 129,
+   "points": 130,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -158,27 +158,6 @@
    ]
   },
   {
-   "name": "bypass",
-   "threads": 6,
-   "repos": 0,
-   "points": 10,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-115642",
-    "CVE-2026-115644"
-   ],
-   "last_seen": "2026-10-29T14:56:11Z",
-   "items": [
-    "hn:50266919",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mymv4bblp72q",
-    "blog:https://seclists.org/oss-sec/2026/q4/434",
-    "blog:https://seclists.org/oss-sec/2026/q4/422",
-    "blog:https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
-    "blog:https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
-   ]
-  },
-  {
    "name": "Claude",
    "threads": 5,
    "repos": 0,
@@ -193,6 +172,25 @@
     "hn:50288798",
     "hn:50281755",
     "hn:50224269"
+   ]
+  },
+  {
+   "name": "bypass",
+   "threads": 5,
+   "repos": 0,
+   "points": 10,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-115642"
+   ],
+   "last_seen": "2026-10-29T14:56:11Z",
+   "items": [
+    "hn:50266919",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mymv4bblp72q",
+    "blog:https://seclists.org/oss-sec/2026/q4/434",
+    "blog:https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+    "blog:https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
    ]
   },
   {
@@ -255,7 +253,7 @@
    "name": "Chained",
    "threads": 3,
    "repos": 0,
-   "points": 318,
+   "points": 319,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -584,6 +582,43 @@
    }
   },
   {
+   "id": "blog:https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764",
+   "source": "rapid7.com",
+   "title": "Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
+   "url": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764",
+   "discussion": "https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T16:01:53Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-102764"
+   ],
+   "kev": [
+    "CVE-2026-102764"
+   ],
+   "first_seen": "2026-10-30T16:01:53Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T17:08:07Z",
+     "label": "kev_exploited"
+    }
+   ],
+   "llm": {
+    "title": "Rapid7 Analysis: Unauthenticated File Upload to RCE in BeyondTrust Remote Support (CVE-2026-102764)",
+    "at": "2026-10-30T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/451",
    "source": "seclists.org",
    "title": "CallBackery versions before 0.62.0 for Perl (10 CVEs)",
@@ -679,6 +714,39 @@
     },
     "consensus": "not_exploited",
     "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+   "source": "thehackernews.com",
+   "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+   "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+   "discussion": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T15:17:28Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T15:17:28Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T17:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+    "at": "2026-10-30T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
     "rubric": 2
    }
   },
@@ -857,6 +925,39 @@
     },
     "consensus": "unclear",
     "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+   "source": "thehackernews.com",
+   "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+   "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+   "discussion": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T14:08:14Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T14:08:14Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T17:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+    "at": "2026-10-30T17:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
     "rubric": 2
    }
   },
@@ -1239,8 +1340,8 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 92,
-   "comments": 25,
+   "points": 98,
+   "comments": 29,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
    "cves": [],
@@ -1617,7 +1718,7 @@
    "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
    "discussion": "https://news.ycombinator.com/item?id=50299182",
    "points": 62,
-   "comments": 38,
+   "comments": 39,
    "created": "2026-10-30T02:33:04Z",
    "label": "related",
    "cves": [
@@ -1648,7 +1749,7 @@
    "title": "Go programs enable MPTCP by default, exposing them to Linux CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://news.ycombinator.com/item?id=50298526",
-   "points": 15,
+   "points": 16,
    "comments": 6,
    "created": "2026-10-30T00:52:33Z",
    "label": "related",
@@ -2998,8 +3099,8 @@
    "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
    "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
    "discussion": "https://news.ycombinator.com/item?id=50286987",
-   "points": 318,
-   "comments": 159,
+   "points": 319,
+   "comments": 161,
    "created": "2026-10-29T10:42:41Z",
    "label": "security_news",
    "cves": [],
@@ -18888,7 +18989,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1910,
+   "points": 1909,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
