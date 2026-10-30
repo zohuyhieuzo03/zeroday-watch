@@ -143,9 +143,11 @@ def judge_items(items, key=None, post=None, ts=""):
     """Judge up to ZDW_MAX_LLM_ITEMS items in place. Returns how many were judged."""
     refresh_consensus(items)
     key = key or os.environ.get("OPENROUTER_API_KEY")
-    if not key and post is None:
+    if not key and post is None and os.environ.get("ZDW_JUDGE") != "claude":
         print("llm judge skipped: OPENROUTER_API_KEY not set")
         return 0
+    if os.environ.get("ZDW_JUDGE") == "claude":
+        return judge_with_claude(items, ts)
     models = [m.strip() for m in os.environ.get("ZDW_MODELS", DEFAULT_MODELS).split(",") if m.strip()]
     limit = int(os.environ.get("ZDW_MAX_LLM_ITEMS", "10"))
     todo = [i for i in items if needs_judging(i)]
@@ -176,4 +178,25 @@ def judge_items(items, key=None, post=None, ts=""):
         }
         done += 1
     print("llm judged %d item(s)" % done)
+    return done
+
+
+def judge_with_claude(items, ts, run=None):
+    """Judge one batch of fresh items through the Claude Code CLI. Returns how many were judged."""
+    from . import claude_judge
+
+    limit = int(os.environ.get("ZDW_CLAUDE_MAX_ITEMS", "25"))
+    max_age = int(os.environ.get("ZDW_CLAUDE_MAX_AGE_H", "72"))
+    batch = claude_judge.pick_batch(items, needs_judging, PRIORITY, limit, max_age)
+    answers = claude_judge.judge_batch(batch, **({"run": run} if run else {}))
+    model = "claude:" + os.environ.get("ZDW_CLAUDE_MODEL", "haiku")
+    done = 0
+    for item in batch:
+        a = answers.get(item["id"])
+        if not a:
+            continue  # left unjudged; picked up again next run
+        label, nvotes = consensus({model: a})
+        item["llm"] = {"title": item["title"], "at": ts, "models": {model: a}, "consensus": label, "votes": nvotes}
+        done += 1
+    print("claude judged %d of %d item(s)" % (done, len(batch)))
     return done

@@ -51,6 +51,12 @@ The judge never rewrites `label`. Only `kev_exploited` is backed by a primary so
 
 Env: `ZDW_MODELS` (comma list, default `inception/mercury-decide:free,baseten/mammoth-1:free`), `ZDW_MAX_LLM_ITEMS` (default 10 per run, because free tiers are rate limited). In Actions, add the key as the `OPENROUTER_API_KEY` repo secret. It stops for the run on HTTP 401/402/403/429.
 
+### Claude subscription judge (optional, self-hosted)
+
+On a machine logged in to Claude Code with a subscription, set `ZDW_JUDGE=claude` and the judge runs `claude -p` instead of OpenRouter. One call judges a batch of up to `ZDW_CLAUDE_MAX_ITEMS` (default 25) headlines from the last `ZDW_CLAUDE_MAX_AGE_H` hours (default 72), most important labels first. Model: `ZDW_CLAUDE_MODEL` (default `haiku`); binary: `ZDW_CLAUDE_BIN`.
+
+Headlines are untrusted, so the CLI runs with all tools off, no MCP, no skills, no saved session and no user settings, from an empty directory, and must answer in a JSON schema. Only known ids, enum labels and a 0..1 confidence are accepted. The result lands in `llm` and never rewrites `label`. Calls count against your subscription's usage limits; if a call fails or the limit is hit, the run keeps its rule labels and tries again next time.
+
 ## Run locally
 
 Python 3.9+, standard library only.
