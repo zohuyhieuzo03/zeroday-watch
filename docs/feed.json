@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-30T21:07:07Z",
- "count": 1551,
+ "generated": "2026-10-30T21:38:07Z",
+ "count": 1552,
  "topics": [
   {
    "name": "Deserialization",
@@ -36,9 +36,9 @@
   },
   {
    "name": "node2shell",
-   "threads": 16,
+   "threads": 15,
    "repos": 2,
-   "points": 471,
+   "points": 468,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -57,7 +57,6 @@
     "hn:50217557",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
     "hn:50221110",
-    "hn:50215588",
     "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
     "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
     "blog:https://seclists.org/oss-sec/2026/q4/393",
@@ -71,7 +70,7 @@
    "name": "Ubuntu",
    "threads": 14,
    "repos": 0,
-   "points": 142,
+   "points": 144,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -286,21 +285,6 @@
    ]
   },
   {
-   "name": "Built",
-   "threads": 3,
-   "repos": 0,
-   "points": 44,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "hn:50274300",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
-   ]
-  },
-  {
    "name": "Tailscale",
    "threads": 3,
    "repos": 0,
@@ -344,6 +328,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
+   ]
+  },
+  {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -462,32 +461,62 @@
    ]
   },
   {
-   "name": "Unauthenticated",
+   "name": "Drupal",
    "threads": 3,
    "repos": 0,
-   "points": 6,
-   "kev": true,
+   "points": 4,
+   "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-102764",
-    "CVE-2026-118988"
-   ],
-   "last_seen": "2026-10-30T20:22:31Z",
+   "cves": [],
+   "last_seen": "2026-10-30T10:16:23Z",
    "items": [
-    "hn:50309629",
-    "blog:https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764",
-    "blog:https://seclists.org/oss-sec/2026/q4/447"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
    ]
   }
  ],
  "items": [
+  {
+   "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
+   "source": "bluesky",
+   "title": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute ",
+   "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz4ow5oufg2p",
+   "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz4ow5oufg2p",
+   "points": 5,
+   "comments": 0,
+   "created": "2026-10-30T21:10:02Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T21:10:02Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T21:38:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute ",
+    "at": "2026-10-30T21:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50309756",
    "source": "hackernews",
    "title": "ClickHouse – RCE – CVE-2026-116366",
    "url": "https://clickhouse.com/docs/resources/changelogs/security-changelog",
    "discussion": "https://news.ycombinator.com/item?id=50309756",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-10-30T20:31:57Z",
    "label": "related",
@@ -702,7 +731,7 @@
    "title": "Protecting against CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://lobste.rs/s/mp8yqt/protecting_against_cve_2026_98432",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-10-30T12:54:52.193-05:00",
    "label": "related",
@@ -1009,7 +1038,7 @@
    "title": "Israeli influence campaign exploits islamophobia to sway European elections",
    "url": "https://thecradle.co/articles/israeli-linked-influence-campaign-exploits-islamophobia-to-sway-european-elections-report",
    "discussion": "https://news.ycombinator.com/item?id=50304815",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-10-30T14:54:23Z",
    "label": "security_news",
@@ -1593,7 +1622,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 121,
+   "points": 124,
    "comments": 36,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -2002,7 +2031,7 @@
    "title": "Go programs enable MPTCP by default, exposing them to Linux CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://news.ycombinator.com/item?id=50298526",
-   "points": 17,
+   "points": 18,
    "comments": 6,
    "created": "2026-10-30T00:52:33Z",
    "label": "related",
@@ -14605,7 +14634,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 119,
+   "points": 120,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "kev_exploited",
@@ -19290,7 +19319,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1910,
+   "points": 1911,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
