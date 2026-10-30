@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-30T22:38:07Z",
- "count": 1554,
+ "generated": "2026-10-30T23:08:06Z",
+ "count": 1578,
  "topics": [
   {
    "name": "Deserialization",
@@ -70,7 +70,7 @@
    "name": "Ubuntu",
    "threads": 13,
    "repos": 0,
-   "points": 142,
+   "points": 143,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -84,8 +84,8 @@
     "hn:50298526",
     "hn:50297892",
     "hn:50305855",
-    "lobsters:1sni1w",
     "lobsters:mp8yqt",
+    "lobsters:1sni1w",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
     "blog:https://seclists.org/oss-sec/2026/q4/437",
@@ -200,23 +200,6 @@
    ]
   },
   {
-   "name": "secure",
-   "threads": 5,
-   "repos": 0,
-   "points": 19,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-28T11:50:00Z",
-   "items": [
-    "hn:50216355",
-    "hn:50266919",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mymv4bblp72q",
-    "blog:https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
-    "blog:https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
-   ]
-  },
-  {
    "name": "Ultralytics",
    "threads": 6,
    "repos": 0,
@@ -232,6 +215,25 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-814/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-812/"
+   ]
+  },
+  {
+   "name": "emudhra",
+   "threads": 4,
+   "repos": 0,
+   "points": 36,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-112816",
+    "CVE-2026-105031"
+   ],
+   "last_seen": "2026-10-30T22:26:29Z",
+   "items": [
+    "hn:50310937",
+    "hn:50310926",
+    "hn:50255510",
+    "blog:https://seclists.org/oss-sec/2026/q4/429"
    ]
   },
   {
@@ -268,6 +270,22 @@
    ]
   },
   {
+   "name": "Secure",
+   "threads": 4,
+   "repos": 0,
+   "points": 10,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-28T11:50:00Z",
+   "items": [
+    "hn:50266919",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mymv4bblp72q",
+    "blog:https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
+    "blog:https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
+   ]
+  },
+  {
    "name": "CVE-2026-107891",
    "threads": 3,
    "repos": 0,
@@ -285,22 +303,18 @@
    ]
   },
   {
-   "name": "eMudhra",
-   "threads": 4,
+   "name": "Built",
+   "threads": 3,
    "repos": 0,
-   "points": 5,
+   "points": 44,
    "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-112816",
-    "CVE-2026-105031"
-   ],
-   "last_seen": "2026-10-30T22:26:29Z",
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
    "items": [
-    "hn:50255510",
-    "hn:50310937",
-    "hn:50310926",
-    "blog:https://seclists.org/oss-sec/2026/q4/429"
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
    ]
   },
   {
@@ -365,21 +379,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -485,13 +484,557 @@
  ],
  "items": [
   {
+   "id": "github-advisory:GHSA-62m5-6wh8-28x7",
+   "source": "github-advisory",
+   "title": "pypdf has possible long runtimes/large memory usage for encrypted PDF files (pip/pypdf)",
+   "url": "https://github.com/advisories/GHSA-62m5-6wh8-28x7",
+   "discussion": "https://github.com/advisories/GHSA-62m5-6wh8-28x7",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:08:24Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119208"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:08:24Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-x3rh-gjgm-fmqc",
+   "source": "github-advisory",
+   "title": "pypdf has possible large memory usage when parsing cross-reference streams (pip/pypdf)",
+   "url": "https://github.com/advisories/GHSA-x3rh-gjgm-fmqc",
+   "discussion": "https://github.com/advisories/GHSA-x3rh-gjgm-fmqc",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:07:28Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119209"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:07:28Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-2qm8-x737-gmw5",
+   "source": "github-advisory",
+   "title": "pyasn1 has quadratic CPU consumption in constructed BIT STRING decoding (pip/pyasn1)",
+   "url": "https://github.com/advisories/GHSA-2qm8-x737-gmw5",
+   "discussion": "https://github.com/advisories/GHSA-2qm8-x737-gmw5",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:07:04Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119196"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:07:04Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-mm57-4v3p-rchx",
+   "source": "github-advisory",
+   "title": "pyasn1 has quadratic-complexity denial of service in binary REAL decoding (pip/pyasn1)",
+   "url": "https://github.com/advisories/GHSA-mm57-4v3p-rchx",
+   "discussion": "https://github.com/advisories/GHSA-mm57-4v3p-rchx",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:06:46Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119197"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:06:46Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-9m75-vc3g-4x39",
+   "source": "github-advisory",
+   "title": "pyasn1 has quadratic-time denial of service in constructed string and indefinite-length ANY decoding (pip/pyasn1)",
+   "url": "https://github.com/advisories/GHSA-9m75-vc3g-4x39",
+   "discussion": "https://github.com/advisories/GHSA-9m75-vc3g-4x39",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:03:51Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119195"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:03:51Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-fm9c-5rcf-2q5p",
+   "source": "github-advisory",
+   "title": "pyasn1 has quadratic CPU use in schemaless BER/CER/DER container decoding (pip/pyasn1)",
+   "url": "https://github.com/advisories/GHSA-fm9c-5rcf-2q5p",
+   "discussion": "https://github.com/advisories/GHSA-fm9c-5rcf-2q5p",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:03:37Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119194"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:03:37Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-7wch-p9px-956x",
+   "source": "github-advisory",
+   "title": "Forge: Regular expression denial of service in PEM decoding (pem.decode) (npm/node-forge)",
+   "url": "https://github.com/advisories/GHSA-7wch-p9px-956x",
+   "discussion": "https://github.com/advisories/GHSA-7wch-p9px-956x",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:02:25Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-118779"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:02:25Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-jc66-7q78-782g",
+   "source": "github-advisory",
+   "title": "Forge: PKCS#12 MAC forgery and constant-key PBE via zero iteration count (npm/node-forge)",
+   "url": "https://github.com/advisories/GHSA-jc66-7q78-782g",
+   "discussion": "https://github.com/advisories/GHSA-jc66-7q78-782g",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:02:05Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-118782"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:02:05Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-8hrf-8g6f-7xwp",
+   "source": "github-advisory",
+   "title": "Forge: Denial of service in TLS record processing via a record interleaved with a fragmented handshake message (npm/node-forge)",
+   "url": "https://github.com/advisories/GHSA-8hrf-8g6f-7xwp",
+   "discussion": "https://github.com/advisories/GHSA-8hrf-8g6f-7xwp",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:02:00Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119188"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:02:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-hqq3-7jhf-c5jx",
+   "source": "github-advisory",
+   "title": "Forge: Denial of service in TLS record processing via call stack exhaustion (npm/node-forge)",
+   "url": "https://github.com/advisories/GHSA-hqq3-7jhf-c5jx",
+   "discussion": "https://github.com/advisories/GHSA-hqq3-7jhf-c5jx",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:01:54Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119187"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:01:54Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-5x38-2vff-x55p",
+   "source": "github-advisory",
+   "title": "Forge: X.509 basicConstraints bypass in verifyCertificateChain() via deprecated extension OIDs 2.5.29.10 and 2.5.29.13 (npm/node-forge)",
+   "url": "https://github.com/advisories/GHSA-5x38-2vff-x55p",
+   "discussion": "https://github.com/advisories/GHSA-5x38-2vff-x55p",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:01:46Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119190"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:01:46Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-j63v-mwhm-56jx",
+   "source": "github-advisory",
+   "title": "@sigstore/oci sends the registry Authorization header to a cross-host blob-upload Location (npm/@sigstore/oci)",
+   "url": "https://github.com/advisories/GHSA-j63v-mwhm-56jx",
+   "discussion": "https://github.com/advisories/GHSA-j63v-mwhm-56jx",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T23:00:17Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-118763"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T23:00:17Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-mrwp-f3q8-3g9p",
+   "source": "github-advisory",
+   "title": "follow-redirects: Cross-realm sensitiveHeaders arrays are discarded and custom credentials can follow redirects (npm/follow-redirects)",
+   "url": "https://github.com/advisories/GHSA-mrwp-f3q8-3g9p",
+   "discussion": "https://github.com/advisories/GHSA-mrwp-f3q8-3g9p",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T22:59:33Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-116689"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T22:59:33Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-vp5q-ff62-jwqv",
+   "source": "github-advisory",
+   "title": "russh: Agent server never calls `Agent::confirm`, so keys added with the confirm constraint (`ssh-add -c`) sign without confirmation (rust/russh)",
+   "url": "https://github.com/advisories/GHSA-vp5q-ff62-jwqv",
+   "discussion": "https://github.com/advisories/GHSA-vp5q-ff62-jwqv",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T22:59:08Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-116794"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T22:59:08Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-mpqx-q82w-9x46",
+   "source": "github-advisory",
+   "title": "GraphQL-core has denial of service via memory leak in aborted validations (pip/graphql-core)",
+   "url": "https://github.com/advisories/GHSA-mpqx-q82w-9x46",
+   "discussion": "https://github.com/advisories/GHSA-mpqx-q82w-9x46",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T22:58:31Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119286"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T22:58:31Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-7984-qgvg-3j9c",
+   "source": "github-advisory",
+   "title": "OAuthLib: Token grants can use attacker-supplied client_id for authorization after authenticating a different client (pip/oauthlib)",
+   "url": "https://github.com/advisories/GHSA-7984-qgvg-3j9c",
+   "discussion": "https://github.com/advisories/GHSA-7984-qgvg-3j9c",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T22:58:16Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-118669"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T22:58:16Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-4xm8-rg9h-jhq2",
+   "source": "github-advisory",
+   "title": "Signal K resources API path traversal can disclose the JWT signing secret and enable remote code execution (npm/signalk-server)",
+   "url": "https://github.com/advisories/GHSA-4xm8-rg9h-jhq2",
+   "discussion": "https://github.com/advisories/GHSA-4xm8-rg9h-jhq2",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T22:57:22Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-10-30T22:57:22Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-hff9-5pqw-6w9f",
+   "source": "github-advisory",
+   "title": "imgproxy has integer overflow in imgproxy ICO loader that causes denial of service and may permit remote code execution (go/github.com/imgproxy/imgproxy/v3)",
+   "url": "https://github.com/advisories/GHSA-hff9-5pqw-6w9f",
+   "discussion": "https://github.com/advisories/GHSA-hff9-5pqw-6w9f",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T22:57:00Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-10-30T22:57:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-494m-4556-wf5p",
+   "source": "github-advisory",
+   "title": "imgproxy has out-of-bounds heap read/write in ICO loader BMP header reconstruction that allows unauthenticated remote worker crash (go/github.com/imgproxy/imgproxy/v3)",
+   "url": "https://github.com/advisories/GHSA-494m-4556-wf5p",
+   "discussion": "https://github.com/advisories/GHSA-494m-4556-wf5p",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T22:56:14Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T22:56:14Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-mmq5-xm89-9pfg",
+   "source": "github-advisory",
+   "title": "imgproxy has unbounded memory allocation in ICO loader that allows unauthenticated memory-exhaustion DoS via crafted data_size field (go/github.com/imgproxy/imgproxy/v3)",
+   "url": "https://github.com/advisories/GHSA-mmq5-xm89-9pfg",
+   "discussion": "https://github.com/advisories/GHSA-mmq5-xm89-9pfg",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T22:55:49Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T22:55:49Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-6vfx-w7q3-42gq",
+   "source": "github-advisory",
+   "title": "AdminNeo SQLite Database-List Drop Arbitrary File Deletion (composer/adminneo-org/adminneo)",
+   "url": "https://github.com/advisories/GHSA-6vfx-w7q3-42gq",
+   "discussion": "https://github.com/advisories/GHSA-6vfx-w7q3-42gq",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T22:52:58Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-96633"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T22:52:58Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-79wv-8rh2-9vp2",
+   "source": "github-advisory",
+   "title": "AdminNeo has Cookie Attribute Injection via Unsanitized X-Forwarded-Prefix in Set-Cookie Headers (composer/adminneo-org/adminneo)",
+   "url": "https://github.com/advisories/GHSA-79wv-8rh2-9vp2",
+   "discussion": "https://github.com/advisories/GHSA-79wv-8rh2-9vp2",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T22:52:47Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-96631"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T22:52:47Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-rx7m-wxwq-vxr9",
+   "source": "github-advisory",
+   "title": "AdminNeo Vulnerable to XSS via Rogue MySQL Server Version String (CSP Nonce Bypass) (composer/adminneo-org/adminneo)",
+   "url": "https://github.com/advisories/GHSA-rx7m-wxwq-vxr9",
+   "discussion": "https://github.com/advisories/GHSA-rx7m-wxwq-vxr9",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T22:52:23Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-96632"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T22:52:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-q5mp-gfjf-cf2j",
+   "source": "github-advisory",
+   "title": "AdminNeo: RCE via SQLite VACUUM INTO (ATTACH Blocklist Bypass) (composer/adminneo-org/adminneo)",
+   "url": "https://github.com/advisories/GHSA-q5mp-gfjf-cf2j",
+   "discussion": "https://github.com/advisories/GHSA-q5mp-gfjf-cf2j",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T22:51:37Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-96630"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T22:51:37Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T23:08:06Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "hn:50310937",
    "source": "hackernews",
-   "title": "CVE: CVE-2026-112816, no emudhra required",
+   "title": "CVE 10.0: CVE-2026-112816, no emudhra required",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310937",
-   "points": 1,
-   "comments": 0,
+   "points": 28,
+   "comments": 3,
    "created": "2026-10-30T22:26:29Z",
    "label": "related",
    "cves": [
@@ -506,27 +1049,27 @@
     }
    ],
    "llm": {
-    "title": "CVE: CVE-2026-112816, no emudhra required",
-    "at": "2026-10-30T22:38:07Z",
+    "title": "CVE 10.0: CVE-2026-112816, no emudhra required",
+    "at": "2026-10-30T23:08:06Z",
     "models": {
      "claude:haiku": {
-      "status": "unclear",
+      "status": "not_exploited",
       "confidence": 0.6
      }
     },
-    "consensus": "unclear",
-    "votes": 0,
+    "consensus": "not_exploited",
+    "votes": 1,
     "rubric": 2
    }
   },
   {
    "id": "hn:50310926",
    "source": "hackernews",
-   "title": "CVE-2026-112816: Improper certificate validation in the HTTPS listener in LXD",
+   "title": "CVE-2026-112816: 10.0 Improper certificate validation in HTTPS listener in LXD",
    "url": "https://cve.now/CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310926",
-   "points": 1,
-   "comments": 0,
+   "points": 5,
+   "comments": 1,
    "created": "2026-10-30T22:25:26Z",
    "label": "related",
    "cves": [
@@ -541,8 +1084,8 @@
     }
    ],
    "llm": {
-    "title": "CVE-2026-112816: Improper certificate validation in the HTTPS listener in LXD",
-    "at": "2026-10-30T22:38:07Z",
+    "title": "CVE-2026-112816: 10.0 Improper certificate validation in HTTPS listener in LXD",
+    "at": "2026-10-30T23:08:06Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
@@ -808,7 +1351,7 @@
    "title": "Protecting against CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://lobste.rs/s/mp8yqt/protecting_against_cve_2026_98432",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-10-30T12:54:52.193-05:00",
    "label": "related",
@@ -1699,7 +2242,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 130,
+   "points": 134,
    "comments": 36,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
