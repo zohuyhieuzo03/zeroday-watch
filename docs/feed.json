@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-30T15:38:07Z",
- "count": 1532,
+ "generated": "2026-10-30T16:08:07Z",
+ "count": 1537,
  "topics": [
   {
    "name": "node2shell",
@@ -102,21 +102,22 @@
   },
   {
    "name": "programs",
-   "threads": 7,
+   "threads": 8,
    "repos": 0,
-   "points": 124,
+   "points": 127,
    "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085"
    ],
-   "last_seen": "2026-10-30T12:16:31Z",
+   "last_seen": "2026-10-30T16:02:54Z",
    "items": [
     "hn:50299182",
     "hn:50287647",
     "hn:50298526",
     "hn:50297892",
+    "hn:50305855",
     "hn:50299940",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
     "blog:https://seclists.org/oss-sec/2026/q4/437"
@@ -197,6 +198,26 @@
     "hn:50288798",
     "hn:50281755",
     "hn:50224269"
+   ]
+  },
+  {
+   "name": "Perl",
+   "threads": 6,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-115943"
+   ],
+   "last_seen": "2026-10-30T15:49:41Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/451",
+    "blog:https://seclists.org/oss-sec/2026/q4/450",
+    "blog:https://seclists.org/oss-sec/2026/q4/449",
+    "blog:https://seclists.org/oss-sec/2026/q4/439",
+    "blog:https://seclists.org/oss-sec/2026/q4/428",
+    "blog:https://seclists.org/oss-sec/2026/q4/388"
    ]
   },
   {
@@ -321,7 +342,7 @@
    "name": "Cybersecurity",
    "threads": 3,
    "repos": 0,
-   "points": 16,
+   "points": 17,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -433,18 +454,18 @@
    ]
   },
   {
-   "name": "malicious",
+   "name": "marketplace",
    "threads": 3,
    "repos": 0,
-   "points": 4,
+   "points": 5,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-30T14:37:10Z",
+   "last_seen": "2026-10-30T16:03:44Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
-    "blog:https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-    "blog:https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html"
+    "hn:50305871",
+    "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
    ]
   },
   {
@@ -464,24 +485,176 @@
     "blog:https://seclists.org/oss-sec/2026/q4/384",
     "blog:https://seclists.org/oss-sec/2026/q4/372"
    ]
-  },
-  {
-   "name": "wild",
-   "threads": 3,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T13:00:32Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
-    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-    "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50305871",
+   "source": "hackernews",
+   "title": "The backdoored Claude Code 2.1.313 build in Cursor's marketplace, explained",
+   "url": "https://theainewsreport.com/2026-10-30-cursor-claude-code-2-1-313-backdoor-explained.html",
+   "discussion": "https://news.ycombinator.com/item?id=50305871",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-30T16:03:44Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T16:03:44Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T16:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "The backdoored Claude Code 2.1.313 build in Cursor's marketplace, explained",
+    "at": "2026-10-30T16:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50305855",
+   "source": "hackernews",
+   "title": "Go program are vulnerable to CVE-2026-98432 (Linux TCP Use-After-Free)",
+   "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw?pli=1",
+   "discussion": "https://news.ycombinator.com/item?id=50305855",
+   "points": 2,
+   "comments": 1,
+   "created": "2026-10-30T16:02:54Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T16:02:54Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T16:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Go program are vulnerable to CVE-2026-98432 (Linux TCP Use-After-Free)",
+    "at": "2026-10-30T16:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/451",
+   "source": "seclists.org",
+   "title": "CallBackery versions before 0.62.0 for Perl (10 CVEs)",
+   "url": "https://seclists.org/oss-sec/2026/q4/451",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/451",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T15:49:41Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T15:49:41Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T16:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "CallBackery versions before 0.62.0 for Perl (10 CVEs)",
+    "at": "2026-10-30T16:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/450",
+   "source": "seclists.org",
+   "title": "Business::GoCardless versions before 1.01 for Perl (3 CVEs)",
+   "url": "https://seclists.org/oss-sec/2026/q4/450",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/450",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T15:47:38Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T15:47:38Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T16:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Business::GoCardless versions before 1.01 for Perl (3 CVEs)",
+    "at": "2026-10-30T16:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/449",
+   "source": "seclists.org",
+   "title": "Starlet versions before 0.33 for Perl (4 CVEs)",
+   "url": "https://seclists.org/oss-sec/2026/q4/449",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/449",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T15:45:26Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T15:45:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T16:08:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Starlet versions before 0.33 for Perl (4 CVEs)",
+    "at": "2026-10-30T16:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50304815",
    "source": "hackernews",
@@ -699,7 +872,7 @@
    "title": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Secur",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz3tlqnntw2q",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz3tlqnntw2q",
-   "points": 0,
+   "points": 1,
    "comments": 0,
    "created": "2026-10-30T13:01:02Z",
    "label": "security_news",
@@ -1039,8 +1212,8 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 84,
-   "comments": 20,
+   "points": 89,
+   "comments": 21,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
    "cves": [],
@@ -1416,7 +1589,7 @@
    "title": "CVE-2026-98432: Linux TCP Use-After-Free Risk and Patch Validation",
    "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
    "discussion": "https://news.ycombinator.com/item?id=50299182",
-   "points": 61,
+   "points": 62,
    "comments": 38,
    "created": "2026-10-30T02:33:04Z",
    "label": "related",
@@ -2517,7 +2690,7 @@
    "title": "Installing claude-mem uploads your last 30 days of prompts to cmem.ai, no opt-in",
    "url": "https://github.com/thedotmack/claude-mem/issues/5176",
    "discussion": "https://news.ycombinator.com/item?id=50289137",
-   "points": 1,
+   "points": 3,
    "comments": 0,
    "created": "2026-10-29T13:56:38Z",
    "label": "security_news",
@@ -16253,7 +16426,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 967,
+   "points": 968,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -16475,7 +16648,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 184,
+   "points": 185,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
