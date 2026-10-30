@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T21:38:07Z",
+ "generated": "2026-10-30T22:07:51Z",
  "count": 1552,
  "topics": [
   {
@@ -165,7 +165,7 @@
    "name": "GitLab",
    "threads": 4,
    "repos": 0,
-   "points": 305,
+   "points": 306,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -256,7 +256,7 @@
    "name": "Chained",
    "threads": 3,
    "repos": 0,
-   "points": 319,
+   "points": 321,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -282,6 +282,21 @@
     "lobsters:dldfel",
     "hn:50204287",
     "hn:50230132"
+   ]
+  },
+  {
+   "name": "Built",
+   "threads": 3,
+   "repos": 0,
+   "points": 44,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
    ]
   },
   {
@@ -328,21 +343,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -461,18 +461,21 @@
    ]
   },
   {
-   "name": "Drupal",
+   "name": "module",
    "threads": 3,
    "repos": 0,
    "points": 4,
    "kev": false,
    "vendor": false,
-   "cves": [],
+   "cves": [
+    "CVE-2026-72714",
+    "CVE-2026-115557"
+   ],
    "last_seen": "2026-10-30T10:16:23Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+    "blog:https://seclists.org/oss-sec/2026/q4/384",
+    "blog:https://seclists.org/oss-sec/2026/q4/372"
    ]
   }
  ],
@@ -483,7 +486,7 @@
    "title": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz4ow5oufg2p",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz4ow5oufg2p",
-   "points": 5,
+   "points": 8,
    "comments": 0,
    "created": "2026-10-30T21:10:02Z",
    "label": "security_news",
@@ -1183,7 +1186,7 @@
    "title": "Legal exploits may emerge at scale",
    "url": "https://www.felixringe.com/legal-exploits/",
    "discussion": "https://news.ycombinator.com/item?id=50304314",
-   "points": 3,
+   "points": 4,
    "comments": 3,
    "created": "2026-10-30T14:20:29Z",
    "label": "security_news",
@@ -1622,7 +1625,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 124,
+   "points": 126,
    "comments": 36,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -3429,7 +3432,7 @@
    "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
    "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
    "discussion": "https://news.ycombinator.com/item?id=50286987",
-   "points": 319,
+   "points": 321,
    "comments": 163,
    "created": "2026-10-29T10:42:41Z",
    "label": "security_news",
@@ -4191,7 +4194,7 @@
    "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
    "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
    "discussion": "https://news.ycombinator.com/item?id=50282544",
-   "points": 254,
+   "points": 255,
    "comments": 122,
    "created": "2026-10-28T23:45:46Z",
    "label": "kev_exploited",
@@ -11727,7 +11730,7 @@
    "title": "syrex1013/CVE-2026-111497-node2shell: CVE-2026-111497 Node2Shell — Node.js Brotli OOB Write RCE PoC (CVSS 9.2)",
    "url": "https://github.com/syrex1013/CVE-2026-111497-node2shell",
    "discussion": "https://github.com/syrex1013/CVE-2026-111497-node2shell",
-   "points": 49,
+   "points": 50,
    "comments": 0,
    "created": "2026-10-24T23:03:18Z",
    "label": "kev_exploited",
