@@ -187,7 +187,13 @@ def judge_with_claude(items, ts, run=None):
 
     limit = int(os.environ.get("ZDW_CLAUDE_MAX_ITEMS", "25"))
     max_age = int(os.environ.get("ZDW_CLAUDE_MAX_AGE_H", "72"))
-    batch = claude_judge.pick_batch(items, needs_judging, PRIORITY, limit, max_age)
+    def due(i):  # new items, edited titles, or judgments made under an older rubric
+        c = (i.get("llm") or {})
+        stale = any(k.startswith("claude") for k in c.get("models", {})) and c.get("rubric") != claude_judge.RUBRIC
+        return needs_judging(i) or (stale and i.get("source") not in PRIMARY_SOURCES)
+
+    batch = claude_judge.pick_batch(items, due, PRIORITY, limit, max_age,
+                                    per_source=int(os.environ.get("ZDW_CLAUDE_PER_SOURCE", "6")))
     answers = claude_judge.judge_batch(batch, **({"run": run} if run else {}))
     model = "claude:" + os.environ.get("ZDW_CLAUDE_MODEL", "haiku")
     done = 0
@@ -196,7 +202,8 @@ def judge_with_claude(items, ts, run=None):
         if not a:
             continue  # left unjudged; picked up again next run
         label, nvotes = consensus({model: a})
-        item["llm"] = {"title": item["title"], "at": ts, "models": {model: a}, "consensus": label, "votes": nvotes}
+        item["llm"] = {"title": item["title"], "at": ts, "models": {model: a}, "consensus": label, "votes": nvotes,
+                       "rubric": claude_judge.RUBRIC}
         done += 1
     print("claude judged %d of %d item(s)" % (done, len(batch)))
     return done

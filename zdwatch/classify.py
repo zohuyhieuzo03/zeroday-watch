@@ -19,6 +19,8 @@ ZERO_DAY_RE = re.compile(r"\b(zero[- ]?days?|0[- ]?days?)\b", re.I)
 EXPLOIT_RE = re.compile(
     r"(exploited in the wild|actively exploited|being exploited|exploited as|"
     r"(is|are|were|was) (actively |now |already )?exploit(ing|ed)|"
+    r"actively exploit(s|ed|ing)?\b|"
+    r"(attackers?|hackers?|threat actors?|cybercriminals?|botnets?|state[- ]sponsored \w+) (are |have |had |now |actively |already )*exploit(s|ed|ing)?\b|"
     r"(prior to|before) (public )?(disclosure|a patch|patch)|"
     r"in[- ]the[- ]wild)",
     re.I,

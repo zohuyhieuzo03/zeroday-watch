@@ -77,6 +77,32 @@ class PickTest(unittest.TestCase):
         self.assertEqual([i["id"] for i in got], ["h"])
 
 
+class DiversityAndRubricTest(unittest.TestCase):
+    def test_per_source_cap(self):
+        items = [item("z%d" % n, source="zerodayinitiative.com") for n in range(10)] + [item("h1"), item("h2")]
+        got = claude_judge.pick_batch(items, judge.needs_judging, judge.PRIORITY, 25, 72, now=NOW, per_source=3)
+        self.assertEqual(sorted(i["id"] for i in got), ["h1", "h2", "z0", "z1", "z2"])
+
+    def test_old_rubric_is_rejudged_and_new_status_accepted(self):
+        old = item("a", "security_news")
+        old["llm"] = {"title": old["title"], "consensus": "unclear", "models": {"claude:haiku": {"status": "unclear", "confidence": 0.9}}}
+        rows = [{"id": "a", "status": "exploited_unspecified", "confidence": 0.9}]
+        with mock.patch.dict(os.environ, {"ZDW_JUDGE": "claude"}, clear=True), \
+             mock.patch.object(claude_judge, "_run", return_value=ok(rows)):
+            n = judge.judge_items([old], ts="t")
+        self.assertEqual(n, 1)
+        self.assertEqual(old["llm"]["consensus"], "exploited_unspecified")
+        self.assertEqual(old["llm"]["rubric"], claude_judge.RUBRIC)
+
+    def test_current_rubric_is_not_rejudged(self):
+        cur = item("a", "security_news")
+        cur["llm"] = {"title": cur["title"], "rubric": claude_judge.RUBRIC, "consensus": "unclear",
+                      "models": {"claude:haiku": {"status": "unclear", "confidence": 0.9}}}
+        with mock.patch.dict(os.environ, {"ZDW_JUDGE": "claude"}, clear=True), \
+             mock.patch.object(claude_judge, "_run", side_effect=AssertionError("must not call")):
+            self.assertEqual(judge.judge_items([cur], ts="t"), 0)
+
+
 class JudgeBatchTest(unittest.TestCase):
     def test_failures_return_empty_without_raising(self):
         b = [item("a")]

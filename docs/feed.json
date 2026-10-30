@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-30T14:56:54Z",
- "count": 1530,
+ "generated": "2026-10-30T14:58:26Z",
+ "count": 1532,
  "topics": [
   {
    "name": "node2shell",
@@ -268,39 +268,6 @@
    ]
   },
   {
-   "name": "Android",
-   "threads": 3,
-   "repos": 0,
-   "points": 57,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2022-22706"
-   ],
-   "last_seen": "2026-10-29T11:39:18Z",
-   "items": [
-    "hn:50220042",
-    "blog:https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
-   ]
-  },
-  {
-   "name": "extension",
-   "threads": 4,
-   "repos": 0,
-   "points": 3,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T14:37:10Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
-    "blog:https://seclists.org/oss-sec/2026/q4/445",
-    "blog:https://seclists.org/oss-sec/2026/q4/443",
-    "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
-   ]
-  },
-  {
    "name": "Tailscale",
    "threads": 3,
    "repos": 0,
@@ -366,6 +333,21 @@
    ]
   },
   {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
+   ]
+  },
+  {
    "name": "HTTP",
    "threads": 4,
    "repos": 0,
@@ -420,22 +402,6 @@
    ]
   },
   {
-   "name": "Missing",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T05:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/",
-    "blog:https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
-   ]
-  },
-  {
    "name": "Stack-based",
    "threads": 4,
    "repos": 0,
@@ -452,21 +418,6 @@
    ]
   },
   {
-   "name": "HTTP2Shell",
-   "threads": 3,
-   "repos": 0,
-   "points": 7,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T21:20:51Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
-    "hn:50296201",
-    "blog:https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/"
-   ]
-  },
-  {
    "name": "unpatched",
    "threads": 3,
    "repos": 0,
@@ -479,6 +430,54 @@
     "hn:50291929",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
     "blog:https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
+   ]
+  },
+  {
+   "name": "module",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-72714",
+    "CVE-2026-115557"
+   ],
+   "last_seen": "2026-10-30T10:16:23Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
+    "blog:https://seclists.org/oss-sec/2026/q4/384",
+    "blog:https://seclists.org/oss-sec/2026/q4/372"
+   ]
+  },
+  {
+   "name": "malicious",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T14:37:10Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
+    "blog:https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+    "blog:https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html"
+   ]
+  },
+  {
+   "name": "wild",
+   "threads": 3,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T13:00:32Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
+    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+    "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
    ]
   }
  ],
@@ -594,6 +593,26 @@
    }
   },
   {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+   "source": "bleepingcomputer.com",
+   "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+   "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T14:36:54Z",
+   "label": "supply_chain",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T14:36:54Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "supply_chain"
+    }
+   ]
+  },
+  {
    "id": "hn:50304314",
    "source": "hackernews",
    "title": "Legal exploits may emerge at scale",
@@ -624,6 +643,26 @@
     "consensus": "unclear",
     "votes": 0
    }
+  },
+  {
+   "id": "blog:https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+   "source": "bleepingcomputer.com",
+   "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+   "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+   "discussion": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T14:00:10Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T14:00:10Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "security_news"
+    }
+   ]
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
@@ -1128,7 +1167,7 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-30T07:45:30Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-30T07:45:30Z",
@@ -1136,6 +1175,10 @@
     {
      "at": "2026-10-30T13:45:53Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "exploited_reported"
     }
    ],
    "llm": {
@@ -1720,7 +1763,7 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-29T18:38:26Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-29T18:38:26Z",
@@ -1728,6 +1771,10 @@
     {
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "exploited_reported"
     }
    ],
    "llm": {
@@ -2785,7 +2832,7 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-29T08:24:22Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-29T08:24:22Z",
@@ -2793,6 +2840,10 @@
     {
      "at": "2026-10-29T09:52:38Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "exploited_reported"
     }
    ],
    "llm": {
@@ -2849,7 +2900,7 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-29T06:22:33Z",
-   "label": "zero_day_mention",
+   "label": "zero_day_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-29T06:22:33Z",
@@ -2857,6 +2908,10 @@
     {
      "at": "2026-10-29T09:52:38Z",
      "label": "zero_day_mention"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "zero_day_reported"
     }
    ],
    "llm": {
@@ -2879,7 +2934,7 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-29T05:50:17Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-29T05:50:17Z",
@@ -2887,6 +2942,10 @@
     {
      "at": "2026-10-29T09:52:38Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "exploited_reported"
     }
    ],
    "llm": {
@@ -5206,7 +5265,7 @@
    "points": 0,
    "comments": 0,
    "created": "2026-10-28T10:46:23Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-28T10:46:23Z",
@@ -5214,6 +5273,10 @@
     {
      "at": "2026-10-28T12:45:50Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "exploited_reported"
     }
    ],
    "llm": {
@@ -15925,7 +15988,7 @@
    "points": 3,
    "comments": 0,
    "created": "2026-10-22T02:40:07Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-22T02:40:07Z",
@@ -15933,6 +15996,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -21226,7 +21293,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-10-15T22:06:14Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-10-15T22:06:14Z",
@@ -21234,6 +21301,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -29742,7 +29813,7 @@
    "points": 2,
    "comments": 1,
    "created": "2026-09-24T02:06:44Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-09-24T02:06:44Z",
@@ -29750,6 +29821,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -34149,7 +34224,7 @@
    "points": 3,
    "comments": 0,
    "created": "2026-08-26T14:39:25Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-26T14:39:25Z",
@@ -34157,6 +34232,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -35330,7 +35409,7 @@
    "points": 3,
    "comments": 0,
    "created": "2026-08-17T13:42:25Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-17T13:42:25Z",
@@ -35338,6 +35417,10 @@
     {
      "at": "2026-10-24T08:13:38Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "exploited_reported"
     }
    ]
   },
@@ -35948,7 +36031,7 @@
    "points": 7,
    "comments": 0,
    "created": "2026-08-12T17:41:51Z",
-   "label": "zero_day_mention",
+   "label": "zero_day_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-08-12T17:41:51Z",
@@ -35956,6 +36039,10 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "zero_day_reported"
     }
    ],
    "llm": {
@@ -38351,7 +38438,7 @@
    "points": 2,
    "comments": 0,
    "created": "2026-07-30T15:30:03Z",
-   "label": "zero_day_mention",
+   "label": "zero_day_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-07-30T15:30:03Z",
@@ -38359,6 +38446,10 @@
     {
      "at": "2026-10-24T02:04:38Z",
      "label": "zero_day_mention"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "zero_day_reported"
     }
    ],
    "llm": {
@@ -39090,7 +39181,7 @@
    "points": 4,
    "comments": 0,
    "created": "2026-07-28T19:29:04Z",
-   "label": "security_news",
+   "label": "exploited_reported",
    "cves": [],
    "kev": [],
    "first_seen": "2026-07-28T19:29:04Z",
@@ -39098,6 +39189,10 @@
     {
      "at": "2026-10-24T07:56:36Z",
      "label": "security_news"
+    },
+    {
+     "at": "2026-10-30T14:58:26Z",
+     "label": "exploited_reported"
     }
    ]
   },

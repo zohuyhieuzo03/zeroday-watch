@@ -39,6 +39,12 @@ class ClassifyTest(unittest.TestCase):
     def test_unpatched_without_security_context_is_dropped(self):
         self.assertIsNone(classify(item("My unpatched Windows XP box still runs"), KEV))
 
+    def test_present_tense_and_actor_subject_exploitation(self):
+        for title in ("Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Flaw",
+                      "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Devices",
+                      "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware"):
+            self.assertEqual(classify(item(title), KEV)["label"], "exploited_reported", title)
+
     def test_are_exploiting_counts_as_exploited(self):
         r = classify(item("Threat actors are exploiting a critical vulnerability in FooVPN"), KEV)
         self.assertEqual(r["label"], "exploited_reported")
