@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-30T17:38:07Z",
- "count": 1541,
+ "generated": "2026-10-30T18:08:07Z",
+ "count": 1542,
  "topics": [
   {
    "name": "Deserialization",
@@ -97,17 +97,17 @@
    ]
   },
   {
-   "name": "programs",
-   "threads": 8,
+   "name": "Protecting",
+   "threads": 10,
    "repos": 0,
-   "points": 130,
+   "points": 133,
    "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085"
    ],
-   "last_seen": "2026-10-30T16:02:54Z",
+   "last_seen": "2026-10-30T17:54:52Z",
    "items": [
     "hn:50299182",
     "hn:50287647",
@@ -115,8 +115,10 @@
     "hn:50297892",
     "hn:50305855",
     "hn:50299940",
+    "lobsters:mp8yqt",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
-    "blog:https://seclists.org/oss-sec/2026/q4/437"
+    "blog:https://seclists.org/oss-sec/2026/q4/437",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/"
    ]
   },
   {
@@ -282,6 +284,21 @@
    ]
   },
   {
+   "name": "Built",
+   "threads": 3,
+   "repos": 0,
+   "points": 44,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+   ]
+  },
+  {
    "name": "Tailscale",
    "threads": 3,
    "repos": 0,
@@ -325,21 +342,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -428,6 +430,21 @@
    ]
   },
   {
+   "name": "marketplace",
+   "threads": 3,
+   "repos": 0,
+   "points": 7,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T16:03:44Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
+    "hn:50305871",
+    "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+   ]
+  },
+  {
    "name": "unpatched",
    "threads": 3,
    "repos": 0,
@@ -440,21 +457,6 @@
     "hn:50291929",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
     "blog:https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
-   ]
-  },
-  {
-   "name": "marketplace",
-   "threads": 3,
-   "repos": 0,
-   "points": 6,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T16:03:44Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
-    "hn:50305871",
-    "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
    ]
   },
   {
@@ -474,6 +476,41 @@
   }
  ],
  "items": [
+  {
+   "id": "lobsters:mp8yqt",
+   "source": "lobsters",
+   "title": "Protecting against CVE-2026-98432",
+   "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
+   "discussion": "https://lobste.rs/s/mp8yqt/protecting_against_cve_2026_98432",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-30T12:54:52.193-05:00",
+   "label": "related",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T17:54:52Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T18:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Protecting against CVE-2026-98432",
+    "at": "2026-10-30T18:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/452",
    "source": "seclists.org",
@@ -548,7 +585,7 @@
    "title": "Go program are vulnerable to CVE-2026-98432 (Linux TCP Use-After-Free)",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw?pli=1",
    "discussion": "https://news.ycombinator.com/item?id=50305855",
-   "points": 4,
+   "points": 5,
    "comments": 2,
    "created": "2026-10-30T16:02:54Z",
    "label": "related",
@@ -831,7 +868,7 @@
    "title": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz3yxnrgvz2h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz3yxnrgvz2h",
-   "points": 4,
+   "points": 5,
    "comments": 0,
    "created": "2026-10-30T14:37:10Z",
    "label": "supply_chain",
@@ -1336,8 +1373,8 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 101,
-   "comments": 30,
+   "points": 104,
+   "comments": 32,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
    "cves": [],
@@ -1713,7 +1750,7 @@
    "title": "CVE-2026-98432: Linux TCP Use-After-Free Risk and Patch Validation",
    "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
    "discussion": "https://news.ycombinator.com/item?id=50299182",
-   "points": 62,
+   "points": 63,
    "comments": 39,
    "created": "2026-10-30T02:33:04Z",
    "label": "related",
@@ -14300,7 +14337,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 118,
+   "points": 119,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "kev_exploited",
@@ -18915,7 +18952,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1051,
+   "points": 1052,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
