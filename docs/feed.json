@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T17:08:07Z",
+ "generated": "2026-10-30T17:38:07Z",
  "count": 1541,
  "topics": [
   {
@@ -142,7 +142,7 @@
    "name": "GitLab",
    "threads": 5,
    "repos": 0,
-   "points": 304,
+   "points": 305,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -313,25 +313,6 @@
    ]
   },
   {
-   "name": "injection",
-   "threads": 4,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-65874",
-    "CVE-2026-64618"
-   ],
-   "last_seen": "2026-10-30T03:00:00Z",
-   "items": [
-    "hn:50212304",
-    "blog:https://seclists.org/oss-sec/2026/q4/441",
-    "blog:https://seclists.org/oss-sec/2026/q4/440",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-825/"
-   ]
-  },
-  {
    "name": "Cybersecurity",
    "threads": 3,
    "repos": 0,
@@ -344,6 +325,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
+   ]
+  },
+  {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -1340,8 +1336,8 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 98,
-   "comments": 29,
+   "points": 101,
+   "comments": 30,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
    "cves": [],
@@ -1907,7 +1903,7 @@
    "title": "Show HN: Free CVE feed for agents to lookup vulnerabilities",
    "url": "https://casco.com/cve/agents",
    "discussion": "https://news.ycombinator.com/item?id=50297846",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-10-29T23:42:22Z",
    "label": "security_news",
@@ -3861,7 +3857,7 @@
    "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
    "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
    "discussion": "https://news.ycombinator.com/item?id=50282544",
-   "points": 253,
+   "points": 254,
    "comments": 122,
    "created": "2026-10-28T23:45:46Z",
    "label": "kev_exploited",
