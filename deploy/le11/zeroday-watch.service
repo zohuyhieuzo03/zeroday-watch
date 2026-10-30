@@ -1,0 +1,9 @@
+[Unit]
+Description=zeroday-watch feed update
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/zeroday-watch
+ExecStart=%h/zeroday-watch/deploy/le11/run.sh
+TimeoutStartSec=900
+Nice=10
