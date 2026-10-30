@@ -1,44 +1,7 @@
 {
- "generated": "2026-10-30T16:08:07Z",
- "count": 1537,
+ "generated": "2026-10-30T16:37:08Z",
+ "count": 1538,
  "topics": [
-  {
-   "name": "node2shell",
-   "threads": 19,
-   "repos": 3,
-   "points": 482,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111497",
-    "CVE-2026-115936"
-   ],
-   "last_seen": "2026-10-28T14:00:15Z",
-   "items": [
-    "hn:50219177",
-    "ghpoc:assetnote/node2shell-scanner",
-    "ghpoc:trailofbits/brotli-checker",
-    "ghpoc:syrex1013/CVE-2026-111497-node2shell",
-    "hn:50189292",
-    "hn:50192733",
-    "lobsters:al3yyf",
-    "hn:50220145",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
-    "hn:50217557",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
-    "hn:50221110",
-    "hn:50215588",
-    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
-    "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
-    "blog:https://seclists.org/oss-sec/2026/q4/393",
-    "blog:https://seclists.org/oss-sec/2026/q4/390",
-    "blog:https://seclists.org/oss-sec/2026/q4/389",
-    "blog:https://seclists.org/oss-sec/2026/q4/373",
-    "blog:https://seclists.org/oss-sec/2026/q4/370",
-    "blog:https://seclists.org/oss-sec/2026/q4/367",
-    "blog:https://seclists.org/oss-sec/2026/q4/361"
-   ]
-  },
   {
    "name": "Deserialization",
    "threads": 20,
@@ -69,6 +32,39 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-795/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-794/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-793/"
+   ]
+  },
+  {
+   "name": "node2shell",
+   "threads": 16,
+   "repos": 2,
+   "points": 471,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111497",
+    "CVE-2026-115936"
+   ],
+   "last_seen": "2026-10-28T14:00:15Z",
+   "items": [
+    "hn:50219177",
+    "ghpoc:assetnote/node2shell-scanner",
+    "ghpoc:syrex1013/CVE-2026-111497-node2shell",
+    "hn:50189292",
+    "hn:50192733",
+    "lobsters:al3yyf",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
+    "hn:50217557",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
+    "hn:50221110",
+    "hn:50215588",
+    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+    "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
+    "blog:https://seclists.org/oss-sec/2026/q4/393",
+    "blog:https://seclists.org/oss-sec/2026/q4/390",
+    "blog:https://seclists.org/oss-sec/2026/q4/389",
+    "blog:https://seclists.org/oss-sec/2026/q4/373",
+    "blog:https://seclists.org/oss-sec/2026/q4/367"
    ]
   },
   {
@@ -104,7 +100,7 @@
    "name": "programs",
    "threads": 8,
    "repos": 0,
-   "points": 127,
+   "points": 129,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -124,26 +120,6 @@
    ]
   },
   {
-   "name": "GitLab",
-   "threads": 6,
-   "repos": 0,
-   "points": 304,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-97229"
-   ],
-   "last_seen": "2026-10-29T09:05:39Z",
-   "items": [
-    "hn:50282544",
-    "lobsters:2zsjwt",
-    "hn:50231787",
-    "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/360",
-    "blog:https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html"
-   ]
-  },
-  {
    "name": "PHP2Shell",
    "threads": 7,
    "repos": 0,
@@ -160,6 +136,25 @@
     "lobsters:9b14at",
     "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
     "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
+   ]
+  },
+  {
+   "name": "GitLab",
+   "threads": 5,
+   "repos": 0,
+   "points": 304,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-97229"
+   ],
+   "last_seen": "2026-10-29T09:05:39Z",
+   "items": [
+    "hn:50282544",
+    "lobsters:2zsjwt",
+    "hn:50231787",
+    "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+    "blog:https://seclists.org/oss-sec/2026/q4/360"
    ]
   },
   {
@@ -354,18 +349,18 @@
    ]
   },
   {
-   "name": "steal",
+   "name": "Node.js",
    "threads": 3,
    "repos": 0,
-   "points": 16,
+   "points": 11,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
+   "last_seen": "2026-10-24T12:19:53Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
+    "hn:50220145",
+    "blog:https://seclists.org/oss-sec/2026/q4/370",
+    "blog:https://seclists.org/oss-sec/2026/q4/361"
    ]
   },
   {
@@ -457,7 +452,7 @@
    "name": "marketplace",
    "threads": 3,
    "repos": 0,
-   "points": 5,
+   "points": 6,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -469,32 +464,64 @@
    ]
   },
   {
-   "name": "module",
+   "name": "Drupal",
    "threads": 3,
    "repos": 0,
    "points": 4,
    "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-72714",
-    "CVE-2026-115557"
-   ],
+   "cves": [],
    "last_seen": "2026-10-30T10:16:23Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://seclists.org/oss-sec/2026/q4/384",
-    "blog:https://seclists.org/oss-sec/2026/q4/372"
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
    ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/452",
+   "source": "seclists.org",
+   "title": "CVE-2026-73322: Apache Pinot: Incorrect authorization in the single-stage query engine allows reading unauthorized dimension tables via lookup()",
+   "url": "https://seclists.org/oss-sec/2026/q4/452",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/452",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T16:20:04Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-73322"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T16:20:04Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T16:37:08Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-73322: Apache Pinot: Incorrect authorization in the single-stage query engine allows reading unauthorized dimension tables via lookup()",
+    "at": "2026-10-30T16:37:08Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.85
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50305871",
    "source": "hackernews",
    "title": "The backdoored Claude Code 2.1.313 build in Cursor's marketplace, explained",
    "url": "https://theainewsreport.com/2026-10-30-cursor-claude-code-2-1-313-backdoor-explained.html",
    "discussion": "https://news.ycombinator.com/item?id=50305871",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-10-30T16:03:44Z",
    "label": "security_news",
@@ -527,8 +554,8 @@
    "title": "Go program are vulnerable to CVE-2026-98432 (Linux TCP Use-After-Free)",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw?pli=1",
    "discussion": "https://news.ycombinator.com/item?id=50305855",
-   "points": 2,
-   "comments": 1,
+   "points": 4,
+   "comments": 2,
    "created": "2026-10-30T16:02:54Z",
    "label": "related",
    "cves": [
@@ -1212,8 +1239,8 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 89,
-   "comments": 21,
+   "points": 92,
+   "comments": 25,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
    "cves": [],
@@ -3772,7 +3799,7 @@
    "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
    "discussion": "https://lobste.rs/s/2zsjwt/gitlab_security_incident_attempted",
    "points": 49,
-   "comments": 7,
+   "comments": 8,
    "created": "2026-10-28T18:01:26.314-05:00",
    "label": "kev_exploited",
    "cves": [
@@ -18713,7 +18740,7 @@
    "title": "Is4yev/php2shell-poc: CVE-2026-109618/109619 PHP2Shell — Heap UAF PoC (crash + RCE framework)",
    "url": "https://github.com/Is4yev/php2shell-poc",
    "discussion": "https://github.com/Is4yev/php2shell-poc",
-   "points": 61,
+   "points": 62,
    "comments": 0,
    "created": "2026-10-21T10:44:37Z",
    "label": "kev_exploited",
@@ -18791,7 +18818,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1050,
+   "points": 1051,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
