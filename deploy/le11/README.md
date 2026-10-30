@@ -1,6 +1,6 @@
 # Running zeroday-watch on le11
 
-GitHub's `schedule:` trigger is late and skips runs, so the feed is refreshed from a machine that is always on.
+
 
 - `run.sh` fetches origin, runs the tests, builds the feed, and pushes `docs/` and `state/` with a deploy key.
 - `zeroday-watch.timer` runs it at :07 and :37 past each hour (`Persistent=true` catches up after downtime).

@@ -1,7 +1,8 @@
 name: update-feed
+# The schedule now runs on le11 (deploy/le11): GitHub's cron was hours late and skipped runs.
+# This workflow stays as a manual fallback only. Do not re-add `schedule:` while le11 is publishing,
+# or two writers will fight over docs/feed.json.
 on:
-  schedule:
-    - cron: "17 * * * *"
   workflow_dispatch:
 
 permissions:
