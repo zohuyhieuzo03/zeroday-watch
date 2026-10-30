@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-30T20:08:07Z",
- "count": 1546,
+ "generated": "2026-10-30T20:37:07Z",
+ "count": 1551,
  "topics": [
   {
    "name": "Deserialization",
@@ -71,7 +71,7 @@
    "name": "Ubuntu",
    "threads": 14,
    "repos": 0,
-   "points": 139,
+   "points": 141,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -286,21 +286,6 @@
    ]
   },
   {
-   "name": "Built",
-   "threads": 3,
-   "repos": 0,
-   "points": 44,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "hn:50274300",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
-   ]
-  },
-  {
    "name": "Tailscale",
    "threads": 3,
    "repos": 0,
@@ -344,6 +329,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
+   ]
+  },
+  {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -462,22 +462,114 @@
    ]
   },
   {
-   "name": "Drupal",
+   "name": "Unauthenticated",
    "threads": 3,
    "repos": 0,
-   "points": 4,
-   "kev": false,
+   "points": 6,
+   "kev": true,
    "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T10:16:23Z",
+   "cves": [
+    "CVE-2026-102764",
+    "CVE-2026-118988"
+   ],
+   "last_seen": "2026-10-30T20:22:31Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+    "hn:50309629",
+    "blog:https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764",
+    "blog:https://seclists.org/oss-sec/2026/q4/447"
    ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50309756",
+   "source": "hackernews",
+   "title": "ClickHouse – RCE – CVE-2026-116366",
+   "url": "https://clickhouse.com/docs/resources/changelogs/security-changelog",
+   "discussion": "https://news.ycombinator.com/item?id=50309756",
+   "points": 3,
+   "comments": 0,
+   "created": "2026-10-30T20:31:57Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-116366"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T20:31:57Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T20:37:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "ClickHouse – RCE – CVE-2026-116366",
+    "at": "2026-10-30T20:37:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-5xjx-3w67-w9x9",
+   "source": "github-advisory",
+   "title": "pypi-publish action revocation of CA in the chain that Sigstore uses in Trusted Publishing and Digital Attestations for PyPI (actions/pypa/gh-action-pypi-publish)",
+   "url": "https://github.com/advisories/GHSA-5xjx-3w67-w9x9",
+   "discussion": "https://github.com/advisories/GHSA-5xjx-3w67-w9x9",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T20:24:24Z",
+   "label": "vendor_advisory",
+   "cves": [],
+   "kev": [],
+   "severity": "critical",
+   "first_seen": "2026-10-30T20:24:24Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T20:37:07Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "hn:50309629",
+   "source": "hackernews",
+   "title": "Unauthenticated RCE vulnerability against ClickHouse Server",
+   "url": "https://cve.now/CVE-2026-116366",
+   "discussion": "https://news.ycombinator.com/item?id=50309629",
+   "points": 6,
+   "comments": 0,
+   "created": "2026-10-30T20:22:31Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T20:22:31Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T20:37:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Unauthenticated RCE vulnerability against ClickHouse Server",
+    "at": "2026-10-30T20:37:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "github-advisory:GHSA-jm85-8cpp-9cjc",
    "source": "github-advisory",
@@ -610,7 +702,7 @@
    "title": "Protecting against CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://lobste.rs/s/mp8yqt/protecting_against_cve_2026_98432",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-10-30T12:54:52.193-05:00",
    "label": "related",
@@ -713,7 +805,7 @@
    "title": "Go program are vulnerable to CVE-2026-98432 (Linux TCP Use-After-Free)",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw?pli=1",
    "discussion": "https://news.ycombinator.com/item?id=50305855",
-   "points": 5,
+   "points": 6,
    "comments": 2,
    "created": "2026-10-30T16:02:54Z",
    "label": "related",
@@ -1501,8 +1593,8 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 117,
-   "comments": 34,
+   "points": 119,
+   "comments": 35,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
    "cves": [],
@@ -2029,6 +2121,54 @@
     "consensus": null,
     "votes": 0
    }
+  },
+  {
+   "id": "kev:CVE-2026-118527",
+   "source": "cisa-kev",
+   "title": "CVE-2026-118527: Ivanti Connect Secure - Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-118527"
+   ],
+   "kev": [
+    "CVE-2026-118527"
+   ],
+   "first_seen": "2026-10-30T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T20:37:07Z",
+     "label": "kev_exploited"
+    }
+   ]
+  },
+  {
+   "id": "kev:CVE-2026-111357",
+   "source": "cisa-kev",
+   "title": "CVE-2026-111357: Ivanti Connect Secure - Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+   "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
+   "discussion": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T00:00:00Z",
+   "label": "kev_exploited",
+   "cves": [
+    "CVE-2026-111357"
+   ],
+   "kev": [
+    "CVE-2026-111357"
+   ],
+   "first_seen": "2026-10-30T00:00:00Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T20:37:07Z",
+     "label": "kev_exploited"
+    }
+   ]
   },
   {
    "id": "hn:50297892",
@@ -16687,7 +16827,7 @@
    "title": "dimasma0305/CVE-2026-111497-POC: Reproducible local Brotli decoder proof for CVE-2026-111497 with a self-checking tuned RCE harness",
    "url": "https://github.com/dimasma0305/CVE-2026-111497-POC",
    "discussion": "https://github.com/dimasma0305/CVE-2026-111497-POC",
-   "points": 72,
+   "points": 73,
    "comments": 0,
    "created": "2026-10-22T04:08:28Z",
    "label": "kev_exploited",
@@ -18364,7 +18504,7 @@
    "title": "Anton-Barinov/php2shell-patches: php2shell (CVE-2026-109618 & CVE-2026-109619) security patches for EOL PHP 5.4–8.1. Official & enhanced backports for vanilla php.net and Re",
    "url": "https://github.com/Anton-Barinov/php2shell-patches",
    "discussion": "https://github.com/Anton-Barinov/php2shell-patches",
-   "points": 123,
+   "points": 124,
    "comments": 0,
    "created": "2026-10-21T14:48:05Z",
    "label": "kev_exploited",
