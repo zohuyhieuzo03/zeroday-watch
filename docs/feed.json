@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T15:08:07Z",
+ "generated": "2026-10-30T15:38:07Z",
  "count": 1532,
  "topics": [
   {
@@ -104,7 +104,7 @@
    "name": "programs",
    "threads": 7,
    "repos": 0,
-   "points": 123,
+   "points": 124,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -239,7 +239,7 @@
    "name": "Chained",
    "threads": 3,
    "repos": 0,
-   "points": 317,
+   "points": 318,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -265,21 +265,6 @@
     "lobsters:dldfel",
     "hn:50204287",
     "hn:50230132"
-   ]
-  },
-  {
-   "name": "Built",
-   "threads": 3,
-   "repos": 0,
-   "points": 44,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "hn:50274300",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
    ]
   },
   {
@@ -345,6 +330,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
+   ]
+  },
+  {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -448,18 +448,21 @@
    ]
   },
   {
-   "name": "Drupal",
+   "name": "module",
    "threads": 3,
    "repos": 0,
    "points": 4,
    "kev": false,
    "vendor": false,
-   "cves": [],
+   "cves": [
+    "CVE-2026-72714",
+    "CVE-2026-115557"
+   ],
    "last_seen": "2026-10-30T10:16:23Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+    "blog:https://seclists.org/oss-sec/2026/q4/384",
+    "blog:https://seclists.org/oss-sec/2026/q4/372"
    ]
   },
   {
@@ -485,7 +488,7 @@
    "title": "Israeli influence campaign exploits islamophobia to sway European elections",
    "url": "https://thecradle.co/articles/israeli-linked-influence-campaign-exploits-islamophobia-to-sway-european-elections-report",
    "discussion": "https://news.ycombinator.com/item?id=50304815",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-10-30T14:54:23Z",
    "label": "security_news",
@@ -631,7 +634,7 @@
    "url": "https://www.felixringe.com/legal-exploits/",
    "discussion": "https://news.ycombinator.com/item?id=50304314",
    "points": 2,
-   "comments": 2,
+   "comments": 3,
    "created": "2026-10-30T14:20:29Z",
    "label": "security_news",
    "cves": [],
@@ -1036,8 +1039,8 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 78,
-   "comments": 17,
+   "points": 84,
+   "comments": 20,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
    "cves": [],
@@ -1414,7 +1417,7 @@
    "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
    "discussion": "https://news.ycombinator.com/item?id=50299182",
    "points": 61,
-   "comments": 36,
+   "comments": 38,
    "created": "2026-10-30T02:33:04Z",
    "label": "related",
    "cves": [
@@ -1445,8 +1448,8 @@
    "title": "Go programs enable MPTCP by default, exposing them to Linux CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://news.ycombinator.com/item?id=50298526",
-   "points": 14,
-   "comments": 5,
+   "points": 15,
+   "comments": 6,
    "created": "2026-10-30T00:52:33Z",
    "label": "related",
    "cves": [
@@ -2795,7 +2798,7 @@
    "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
    "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
    "discussion": "https://news.ycombinator.com/item?id=50286987",
-   "points": 317,
+   "points": 318,
    "comments": 159,
    "created": "2026-10-29T10:42:41Z",
    "label": "security_news",
@@ -3413,7 +3416,7 @@
    ],
    "llm": {
     "title": "ZDI-26-835: Linux Kernel Logitech HIDPP Protocol Use-After-Free Local Privilege Escalation Vulnerability",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T15:38:07Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
@@ -3421,7 +3424,8 @@
      }
     },
     "consensus": "not_exploited",
-    "votes": 1
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -3442,7 +3446,20 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-834: Linux Kernel IPv6 AH Routing Header Integer Underflow Local Privilege Escalation Vulnerability",
+    "at": "2026-10-30T15:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "ghpoc:Mas0nShi/CVE-2026-112445",
@@ -6307,7 +6324,20 @@
      "at": "2026-10-28T23:11:38Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-833: Valkey clusterCreatePublishMsgBlock Numeric Truncation Error Remote Code Execution Vulnerability",
+    "at": "2026-10-30T15:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-832/",
@@ -6327,7 +6357,20 @@
      "at": "2026-10-28T23:11:38Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-832: AVG Internet Security avgToolsSvc Link Following Local Privilege Escalation Vulnerability",
+    "at": "2026-10-30T15:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-831/",
@@ -6347,7 +6390,20 @@
      "at": "2026-10-28T23:11:38Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-831: Apple macOS CoreText GDEF LigCaretList Out-Of-Bounds Read Information Disclosure Vulnerability",
+    "at": "2026-10-30T15:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-830/",
@@ -6367,7 +6423,20 @@
      "at": "2026-10-28T23:11:38Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-830: Apple Safari jsToWasm IC Entrypoint Type Confusion Remote Code Execution Vulnerability",
+    "at": "2026-10-30T15:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/409",
@@ -18519,7 +18588,7 @@
    "title": "HOSTED-POWER/php_uploadprogress_guard: Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component b",
    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
    "discussion": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-   "points": 172,
+   "points": 173,
    "comments": 0,
    "created": "2026-10-21T09:00:12Z",
    "label": "kev_exploited",
@@ -18549,7 +18618,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1049,
+   "points": 1050,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
