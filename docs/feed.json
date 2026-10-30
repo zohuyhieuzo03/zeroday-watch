@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T19:08:07Z",
+ "generated": "2026-10-30T19:38:07Z",
  "count": 1546,
  "topics": [
   {
@@ -362,6 +362,21 @@
    ]
   },
   {
+   "name": "marketplace",
+   "threads": 3,
+   "repos": 0,
+   "points": 9,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T16:03:44Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
+    "hn:50305871",
+    "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+   ]
+  },
+  {
    "name": "HTTP",
    "threads": 4,
    "repos": 0,
@@ -429,21 +444,6 @@
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-827/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-823/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-821/"
-   ]
-  },
-  {
-   "name": "marketplace",
-   "threads": 3,
-   "repos": 0,
-   "points": 8,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T16:03:44Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
-    "hn:50305871",
-    "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
    ]
   },
   {
@@ -996,7 +996,7 @@
    "title": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz3yxnrgvz2h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz3yxnrgvz2h",
-   "points": 6,
+   "points": 7,
    "comments": 1,
    "created": "2026-10-30T14:37:10Z",
    "label": "supply_chain",
@@ -1501,8 +1501,8 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 111,
-   "comments": 33,
+   "points": 115,
+   "comments": 34,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
    "cves": [],
@@ -19080,7 +19080,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1052,
+   "points": 1051,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
@@ -19150,7 +19150,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1910,
+   "points": 1909,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
