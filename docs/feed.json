@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-30T18:08:07Z",
- "count": 1542,
+ "generated": "2026-10-30T18:38:06Z",
+ "count": 1543,
  "topics": [
   {
    "name": "Deserialization",
@@ -97,27 +97,29 @@
    ]
   },
   {
-   "name": "Protecting",
-   "threads": 10,
+   "name": "Ubuntu",
+   "threads": 12,
    "repos": 0,
-   "points": 133,
+   "points": 135,
    "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-58085"
    ],
-   "last_seen": "2026-10-30T17:54:52Z",
+   "last_seen": "2026-10-30T18:20:43Z",
    "items": [
     "hn:50299182",
     "hn:50287647",
     "hn:50298526",
     "hn:50297892",
     "hn:50305855",
-    "hn:50299940",
     "lobsters:mp8yqt",
+    "hn:50299940",
+    "lobsters:1sni1w",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
     "blog:https://seclists.org/oss-sec/2026/q4/437",
+    "blog:https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/"
    ]
   },
@@ -141,25 +143,6 @@
    ]
   },
   {
-   "name": "GitLab",
-   "threads": 5,
-   "repos": 0,
-   "points": 305,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-97229"
-   ],
-   "last_seen": "2026-10-29T09:05:39Z",
-   "items": [
-    "hn:50282544",
-    "lobsters:2zsjwt",
-    "hn:50231787",
-    "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-    "blog:https://seclists.org/oss-sec/2026/q4/360"
-   ]
-  },
-  {
    "name": "Claude",
    "threads": 5,
    "repos": 0,
@@ -174,6 +157,24 @@
     "hn:50288798",
     "hn:50281755",
     "hn:50224269"
+   ]
+  },
+  {
+   "name": "GitLab",
+   "threads": 4,
+   "repos": 0,
+   "points": 305,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-97229"
+   ],
+   "last_seen": "2026-10-29T09:05:39Z",
+   "items": [
+    "hn:50282544",
+    "lobsters:2zsjwt",
+    "hn:50231787",
+    "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html"
    ]
   },
   {
@@ -284,21 +285,6 @@
    ]
   },
   {
-   "name": "Built",
-   "threads": 3,
-   "repos": 0,
-   "points": 44,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "hn:50274300",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
-   ]
-  },
-  {
    "name": "Tailscale",
    "threads": 3,
    "repos": 0,
@@ -342,6 +328,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
+   ]
+  },
+  {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -460,29 +461,65 @@
    ]
   },
   {
-   "name": "Drupal",
+   "name": "module",
    "threads": 3,
    "repos": 0,
    "points": 4,
    "kev": false,
    "vendor": false,
-   "cves": [],
+   "cves": [
+    "CVE-2026-72714",
+    "CVE-2026-115557"
+   ],
    "last_seen": "2026-10-30T10:16:23Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+    "blog:https://seclists.org/oss-sec/2026/q4/384",
+    "blog:https://seclists.org/oss-sec/2026/q4/372"
    ]
   }
  ],
  "items": [
+  {
+   "id": "lobsters:1sni1w",
+   "source": "lobsters",
+   "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+   "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+   "discussion": "https://lobste.rs/s/1sni1w/linux_kernel_tcp_flaw_with_9_8_cvss_score",
+   "points": 1,
+   "comments": 1,
+   "created": "2026-10-30T13:20:43.384-05:00",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T18:20:43Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T18:38:06Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+    "at": "2026-10-30T18:38:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "lobsters:mp8yqt",
    "source": "lobsters",
    "title": "Protecting against CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://lobste.rs/s/mp8yqt/protecting_against_cve_2026_98432",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-10-30T12:54:52.193-05:00",
    "label": "related",
@@ -934,7 +971,7 @@
    "title": "Legal exploits may emerge at scale",
    "url": "https://www.felixringe.com/legal-exploits/",
    "discussion": "https://news.ycombinator.com/item?id=50304314",
-   "points": 2,
+   "points": 3,
    "comments": 3,
    "created": "2026-10-30T14:20:29Z",
    "label": "security_news",
@@ -1034,7 +1071,7 @@
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz3tlqnntw2q",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz3tlqnntw2q",
    "points": 1,
-   "comments": 0,
+   "comments": 1,
    "created": "2026-10-30T13:01:02Z",
    "label": "security_news",
    "cves": [],
@@ -1373,7 +1410,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 104,
+   "points": 108,
    "comments": 32,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -19022,7 +19059,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1909,
+   "points": 1910,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
