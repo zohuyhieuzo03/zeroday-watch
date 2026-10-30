@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T14:58:26Z",
+ "generated": "2026-10-30T14:59:28Z",
  "count": 1532,
  "topics": [
   {
@@ -268,6 +268,21 @@
    ]
   },
   {
+   "name": "Built",
+   "threads": 3,
+   "repos": 0,
+   "points": 44,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+   ]
+  },
+  {
    "name": "Tailscale",
    "threads": 3,
    "repos": 0,
@@ -330,21 +345,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -488,7 +488,7 @@
    "title": "Israeli influence campaign exploits islamophobia to sway European elections",
    "url": "https://thecradle.co/articles/israeli-linked-influence-campaign-exploits-islamophobia-to-sway-european-elections-report",
    "discussion": "https://news.ycombinator.com/item?id=50304815",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-10-30T14:54:23Z",
    "label": "security_news",
@@ -503,7 +503,7 @@
    ],
    "llm": {
     "title": "Israeli influence campaign exploits islamophobia to sway European elections",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
       "status": "unclear",
@@ -511,7 +511,8 @@
      }
     },
     "consensus": "unclear",
-    "votes": 0
+    "votes": 0,
+    "rubric": 2
    }
   },
   {
@@ -581,15 +582,16 @@
    ],
    "llm": {
     "title": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
       "status": "unclear",
-      "confidence": 0.6
+      "confidence": 0.8
      }
     },
     "consensus": "unclear",
-    "votes": 0
+    "votes": 0,
+    "rubric": 2
    }
   },
   {
@@ -610,7 +612,20 @@
      "at": "2026-10-30T14:58:26Z",
      "label": "supply_chain"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+    "at": "2026-10-30T14:59:28Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "hn:50304314",
@@ -633,15 +648,16 @@
    ],
    "llm": {
     "title": "Legal exploits may emerge at scale",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
       "status": "unclear",
-      "confidence": 0.8
+      "confidence": 0.85
      }
     },
     "consensus": "unclear",
-    "votes": 0
+    "votes": 0,
+    "rubric": 2
    }
   },
   {
@@ -662,7 +678,20 @@
      "at": "2026-10-30T14:58:26Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+    "at": "2026-10-30T14:59:28Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
@@ -1183,15 +1212,16 @@
    ],
    "llm": {
     "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
-      "status": "n_day_exploited",
-      "confidence": 0.6
+      "status": "exploited_unspecified",
+      "confidence": 0.7
      }
     },
-    "consensus": "n_day_exploited",
-    "votes": 1
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -2562,15 +2592,16 @@
    ],
    "llm": {
     "title": "Discovering and exploiting vulnerabilities in critical software with Claude",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
       "status": "unclear",
-      "confidence": 0.6
+      "confidence": 0.8
      }
     },
     "consensus": "unclear",
-    "votes": 0
+    "votes": 0,
+    "rubric": 2
    }
   },
   {
@@ -2594,15 +2625,16 @@
    ],
    "llm": {
     "title": "Show HN: GetTaxNomad-Open tool to model schengen 90/180 days and nomad expat tax",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
       "status": "unclear",
-      "confidence": 0.9
+      "confidence": 0.95
      }
     },
     "consensus": "unclear",
-    "votes": 0
+    "votes": 0,
+    "rubric": 2
    }
   },
   {
@@ -2658,15 +2690,16 @@
    ],
    "llm": {
     "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
-      "status": "disclosed_unpatched",
-      "confidence": 0.6
+      "status": "not_exploited",
+      "confidence": 0.55
      }
     },
-    "consensus": "disclosed_unpatched",
-    "votes": 1
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
    }
   },
   {
@@ -2780,15 +2813,16 @@
    ],
    "llm": {
     "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
-      "status": "n_day_exploited",
-      "confidence": 0.5
+      "status": "exploited_unspecified",
+      "confidence": 0.75
      }
     },
-    "consensus": "unclear",
-    "votes": 0
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -2812,15 +2846,16 @@
    ],
    "llm": {
     "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
-      "status": "n_day_exploited",
-      "confidence": 0.45
+      "status": "exploited_unspecified",
+      "confidence": 0.6
      }
     },
-    "consensus": "unclear",
-    "votes": 0
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -2848,15 +2883,16 @@
    ],
    "llm": {
     "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
-      "status": "n_day_exploited",
-      "confidence": 0.55
+      "status": "exploited_unspecified",
+      "confidence": 0.7
      }
     },
-    "consensus": "unclear",
-    "votes": 0
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -2880,15 +2916,16 @@
    ],
    "llm": {
     "title": "Qwen 3.8 invents URLs with real key ID, that's why I think it's no backdoor",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
       "status": "unclear",
-      "confidence": 0.8
+      "confidence": 0.85
      }
     },
     "consensus": "unclear",
-    "votes": 0
+    "votes": 0,
+    "rubric": 2
    }
   },
   {
@@ -2950,15 +2987,16 @@
    ],
    "llm": {
     "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
-      "status": "n_day_exploited",
-      "confidence": 0.5
+      "status": "exploited_unspecified",
+      "confidence": 0.7
      }
     },
-    "consensus": "unclear",
-    "votes": 0
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -2982,7 +3020,7 @@
    ],
    "llm": {
     "title": "ZDI-26-847: MLflow AI Gateway Server-Side Request Forgery Information Disclosure Vulnerability",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
@@ -2990,7 +3028,8 @@
      }
     },
     "consensus": "not_exploited",
-    "votes": 1
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -3014,7 +3053,7 @@
    ],
    "llm": {
     "title": "ZDI-26-846: MLflow Webhook Server-Side Request Forgery Vulnerability",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
@@ -3022,7 +3061,8 @@
      }
     },
     "consensus": "not_exploited",
-    "votes": 1
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -3046,7 +3086,7 @@
    ],
    "llm": {
     "title": "ZDI-26-845: MLflow Statsmodels _load_model Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
@@ -3054,7 +3094,8 @@
      }
     },
     "consensus": "not_exploited",
-    "votes": 1
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -3078,7 +3119,7 @@
    ],
    "llm": {
     "title": "ZDI-26-844: MLflow get-artifacts Server-Side Request Forgery Information Disclosure Vulnerability",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
@@ -3086,7 +3127,8 @@
      }
     },
     "consensus": "not_exploited",
-    "votes": 1
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -3110,7 +3152,7 @@
    ],
    "llm": {
     "title": "ZDI-26-843: MLflow SHAP load_explainer Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
@@ -3118,7 +3160,8 @@
      }
     },
     "consensus": "not_exploited",
-    "votes": 1
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -3142,7 +3185,7 @@
    ],
    "llm": {
     "title": "ZDI-26-842: MLflow Tracking Server Issues Missing Authorization Privilege Escalation Vulnerability",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T14:59:28Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
@@ -3150,7 +3193,8 @@
      }
     },
     "consensus": "not_exploited",
-    "votes": 1
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -4464,7 +4508,20 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "MIME-tools versions before 5.521 for Perl (10 CVEs)",
+    "at": "2026-10-30T14:59:28Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/427",
@@ -4484,7 +4541,20 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "HTTP::Body versions before 1.24_01 for Perl (9 CVEs)",
+    "at": "2026-10-30T14:59:28Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/426",
@@ -5070,7 +5140,20 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+    "at": "2026-10-30T14:59:28Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
@@ -5090,7 +5173,20 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+    "at": "2026-10-30T14:59:28Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
@@ -5110,7 +5206,20 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+    "at": "2026-10-30T14:59:28Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.75
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
