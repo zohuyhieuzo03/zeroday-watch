@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T14:04:10Z",
+ "generated": "2026-10-30T14:08:08Z",
  "count": 1525,
  "topics": [
   {
@@ -129,7 +129,7 @@
    "name": "GitLab",
    "threads": 6,
    "repos": 0,
-   "points": 303,
+   "points": 304,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -3072,7 +3072,7 @@
    "title": "GitLab security incident: attempted exploitation of CVE-2026-97229",
    "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
    "discussion": "https://lobste.rs/s/2zsjwt/gitlab_security_incident_attempted",
-   "points": 48,
+   "points": 49,
    "comments": 7,
    "created": "2026-10-28T18:01:26.314-05:00",
    "label": "kev_exploited",
