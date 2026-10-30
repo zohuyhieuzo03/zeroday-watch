@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-30T22:07:51Z",
- "count": 1552,
+ "generated": "2026-10-30T22:38:07Z",
+ "count": 1554,
  "topics": [
   {
    "name": "Deserialization",
@@ -36,14 +36,13 @@
   },
   {
    "name": "node2shell",
-   "threads": 15,
+   "threads": 16,
    "repos": 2,
-   "points": 468,
+   "points": 479,
    "kev": true,
    "vendor": false,
    "cves": [
-    "CVE-2026-111497",
-    "CVE-2026-115936"
+    "CVE-2026-111497"
    ],
    "last_seen": "2026-10-28T14:00:15Z",
    "items": [
@@ -53,6 +52,7 @@
     "hn:50189292",
     "hn:50192733",
     "lobsters:al3yyf",
+    "hn:50220145",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
     "hn:50217557",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
@@ -63,19 +63,18 @@
     "blog:https://seclists.org/oss-sec/2026/q4/390",
     "blog:https://seclists.org/oss-sec/2026/q4/389",
     "blog:https://seclists.org/oss-sec/2026/q4/373",
-    "blog:https://seclists.org/oss-sec/2026/q4/367"
+    "blog:https://seclists.org/oss-sec/2026/q4/370"
    ]
   },
   {
    "name": "Ubuntu",
-   "threads": 14,
+   "threads": 13,
    "repos": 0,
-   "points": 144,
+   "points": 142,
    "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
-    "CVE-2026-58085",
     "CVE-2026-110952"
    ],
    "last_seen": "2026-10-30T18:44:27Z",
@@ -87,7 +86,6 @@
     "hn:50305855",
     "lobsters:1sni1w",
     "lobsters:mp8yqt",
-    "hn:50299940",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
     "blog:https://seclists.org/oss-sec/2026/q4/437",
@@ -145,6 +143,28 @@
    ]
   },
   {
+   "name": "Perl",
+   "threads": 7,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-87768",
+    "CVE-2026-115943"
+   ],
+   "last_seen": "2026-10-30T15:49:41Z",
+   "items": [
+    "blog:https://seclists.org/oss-sec/2026/q4/451",
+    "blog:https://seclists.org/oss-sec/2026/q4/450",
+    "blog:https://seclists.org/oss-sec/2026/q4/449",
+    "blog:https://seclists.org/oss-sec/2026/q4/446",
+    "blog:https://seclists.org/oss-sec/2026/q4/439",
+    "blog:https://seclists.org/oss-sec/2026/q4/428",
+    "blog:https://seclists.org/oss-sec/2026/q4/388"
+   ]
+  },
+  {
    "name": "Claude",
    "threads": 5,
    "repos": 0,
@@ -194,26 +214,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mymv4bblp72q",
     "blog:https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html",
     "blog:https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/"
-   ]
-  },
-  {
-   "name": "Perl",
-   "threads": 6,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-115943"
-   ],
-   "last_seen": "2026-10-30T15:49:41Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/451",
-    "blog:https://seclists.org/oss-sec/2026/q4/450",
-    "blog:https://seclists.org/oss-sec/2026/q4/449",
-    "blog:https://seclists.org/oss-sec/2026/q4/439",
-    "blog:https://seclists.org/oss-sec/2026/q4/428",
-    "blog:https://seclists.org/oss-sec/2026/q4/388"
    ]
   },
   {
@@ -285,18 +285,22 @@
    ]
   },
   {
-   "name": "Built",
-   "threads": 3,
+   "name": "eMudhra",
+   "threads": 4,
    "repos": 0,
-   "points": 44,
+   "points": 5,
    "kev": false,
    "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
+   "cves": [
+    "CVE-2026-112816",
+    "CVE-2026-105031"
+   ],
+   "last_seen": "2026-10-30T22:26:29Z",
    "items": [
-    "hn:50274300",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+    "hn:50255510",
+    "hn:50310937",
+    "hn:50310926",
+    "blog:https://seclists.org/oss-sec/2026/q4/429"
    ]
   },
   {
@@ -331,6 +335,24 @@
    ]
   },
   {
+   "name": "Missing",
+   "threads": 4,
+   "repos": 0,
+   "points": 2,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-58085"
+   ],
+   "last_seen": "2026-10-30T04:44:43Z",
+   "items": [
+    "hn:50299940",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/"
+   ]
+  },
+  {
    "name": "Cybersecurity",
    "threads": 3,
    "repos": 0,
@@ -346,18 +368,18 @@
    ]
   },
   {
-   "name": "Node.js",
+   "name": "steal",
    "threads": 3,
    "repos": 0,
-   "points": 11,
+   "points": 16,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-24T12:19:53Z",
+   "last_seen": "2026-10-29T08:24:22Z",
    "items": [
-    "hn:50220145",
-    "blog:https://seclists.org/oss-sec/2026/q4/370",
-    "blog:https://seclists.org/oss-sec/2026/q4/361"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -459,34 +481,86 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
     "blog:https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
    ]
-  },
-  {
-   "name": "module",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-72714",
-    "CVE-2026-115557"
-   ],
-   "last_seen": "2026-10-30T10:16:23Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://seclists.org/oss-sec/2026/q4/384",
-    "blog:https://seclists.org/oss-sec/2026/q4/372"
-   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50310937",
+   "source": "hackernews",
+   "title": "CVE: CVE-2026-112816, no emudhra required",
+   "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
+   "discussion": "https://news.ycombinator.com/item?id=50310937",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-30T22:26:29Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-112816"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T22:26:29Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T22:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE: CVE-2026-112816, no emudhra required",
+    "at": "2026-10-30T22:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "hn:50310926",
+   "source": "hackernews",
+   "title": "CVE-2026-112816: Improper certificate validation in the HTTPS listener in LXD",
+   "url": "https://cve.now/CVE-2026-112816",
+   "discussion": "https://news.ycombinator.com/item?id=50310926",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-30T22:25:26Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-112816"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-30T22:25:26Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T22:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-112816: Improper certificate validation in the HTTPS listener in LXD",
+    "at": "2026-10-30T22:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz4ow5oufg2p",
    "source": "bluesky",
    "title": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz4ow5oufg2p",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz4ow5oufg2p",
-   "points": 8,
+   "points": 9,
    "comments": 0,
    "created": "2026-10-30T21:10:02Z",
    "label": "security_news",
@@ -1625,7 +1699,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 126,
+   "points": 130,
    "comments": 36,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -16502,7 +16576,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 188,
+   "points": 189,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "kev_exploited",
