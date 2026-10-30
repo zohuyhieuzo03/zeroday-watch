@@ -1,6 +1,7 @@
 import json
 import os
 import unittest
+from unittest import mock
 
 from zdwatch import judge
 
@@ -20,8 +21,12 @@ def item(i="x"):
 
 class JudgeTest(unittest.TestCase):
     def setUp(self):
-        os.environ["ZDW_MODELS"] = "a,b"
-        os.environ["ZDW_MAX_LLM_ITEMS"] = "2"
+        # Hermetic: a host's own ZDW_* settings (e.g. ZDW_JUDGE=claude on le11) must not leak in.
+        patcher = mock.patch.dict(os.environ, {"ZDW_MODELS": "a,b", "ZDW_MAX_LLM_ITEMS": "2"})
+        patcher.start()
+        self.addCleanup(patcher.stop)
+        for k in [k for k in os.environ if k.startswith("ZDW_") and k not in ("ZDW_MODELS", "ZDW_MAX_LLM_ITEMS")]:
+            del os.environ[k]
 
     def run_with(self, answers, items):
         calls = []
