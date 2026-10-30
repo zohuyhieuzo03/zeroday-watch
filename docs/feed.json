@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-30T14:38:07Z",
- "count": 1527,
+ "generated": "2026-10-30T14:56:54Z",
+ "count": 1530,
  "topics": [
   {
    "name": "node2shell",
@@ -285,6 +285,22 @@
    ]
   },
   {
+   "name": "extension",
+   "threads": 4,
+   "repos": 0,
+   "points": 3,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T14:37:10Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
+    "blog:https://seclists.org/oss-sec/2026/q4/445",
+    "blog:https://seclists.org/oss-sec/2026/q4/443",
+    "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+   ]
+  },
+  {
    "name": "Tailscale",
    "threads": 3,
    "repos": 0,
@@ -297,22 +313,6 @@
     "hn:50227138",
     "hn:50232492",
     "tailscale:ts-2026-014"
-   ]
-  },
-  {
-   "name": "extension",
-   "threads": 4,
-   "repos": 0,
-   "points": 2,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-30T14:37:10Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
-    "blog:https://seclists.org/oss-sec/2026/q4/445",
-    "blog:https://seclists.org/oss-sec/2026/q4/443",
-    "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
    ]
   },
   {
@@ -484,12 +484,90 @@
  ],
  "items": [
   {
+   "id": "hn:50304815",
+   "source": "hackernews",
+   "title": "Israeli influence campaign exploits islamophobia to sway European elections",
+   "url": "https://thecradle.co/articles/israeli-linked-influence-campaign-exploits-islamophobia-to-sway-european-elections-report",
+   "discussion": "https://news.ycombinator.com/item?id=50304815",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-30T14:54:23Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T14:54:23Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T14:56:54Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Israeli influence campaign exploits islamophobia to sway European elections",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
+  },
+  {
+   "id": "github-advisory:GHSA-jpxq-7h8p-2q76",
+   "source": "github-advisory",
+   "title": "joserfc: Unbounded JWE General JSON `recipients` Array Leads to CPU Exhaustion (DoS) via Repeated RSA Private-Key Decryption (pip/joserfc)",
+   "url": "https://github.com/advisories/GHSA-jpxq-7h8p-2q76",
+   "discussion": "https://github.com/advisories/GHSA-jpxq-7h8p-2q76",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T14:54:20Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119283"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T14:54:20Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T14:56:54Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
+   "id": "github-advisory:GHSA-qm8w-vx34-5j9j",
+   "source": "github-advisory",
+   "title": "@nx/maven and @nx/gradle have OS command injection via nx.json plugin options (npm/@nx/maven)",
+   "url": "https://github.com/advisories/GHSA-qm8w-vx34-5j9j",
+   "discussion": "https://github.com/advisories/GHSA-qm8w-vx34-5j9j",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-30T14:42:14Z",
+   "label": "vendor_advisory",
+   "cves": [
+    "CVE-2026-119282"
+   ],
+   "kev": [],
+   "severity": "high",
+   "first_seen": "2026-10-30T14:42:14Z",
+   "label_history": [
+    {
+     "at": "2026-10-30T14:56:54Z",
+     "label": "vendor_advisory"
+    }
+   ]
+  },
+  {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
    "source": "bluesky",
    "title": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz3yxnrgvz2h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz3yxnrgvz2h",
-   "points": 2,
+   "points": 3,
    "comments": 0,
    "created": "2026-10-30T14:37:10Z",
    "label": "supply_chain",
@@ -501,7 +579,19 @@
      "at": "2026-10-30T14:38:07Z",
      "label": "supply_chain"
     }
-   ]
+   ],
+   "llm": {
+    "title": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50304314",
@@ -509,8 +599,8 @@
    "title": "Legal exploits may emerge at scale",
    "url": "https://www.felixringe.com/legal-exploits/",
    "discussion": "https://news.ycombinator.com/item?id=50304314",
-   "points": 1,
-   "comments": 1,
+   "points": 2,
+   "comments": 2,
    "created": "2026-10-30T14:20:29Z",
    "label": "security_news",
    "cves": [],
@@ -521,7 +611,19 @@
      "at": "2026-10-30T14:38:07Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Legal exploits may emerge at scale",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q",
@@ -869,8 +971,8 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 72,
-   "comments": 14,
+   "points": 76,
+   "comments": 17,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
    "cves": [],
@@ -1035,7 +1137,19 @@
      "at": "2026-10-30T13:45:53Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "n_day_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
@@ -2398,7 +2512,19 @@
      "at": "2026-10-29T16:54:18Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Discovering and exploiting vulnerabilities in critical software with Claude",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50288378",
@@ -2418,7 +2544,19 @@
      "at": "2026-10-29T16:54:18Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Show HN: GetTaxNomad-Open tool to model schengen 90/180 days and nomad expat tax",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50287647",
@@ -2470,7 +2608,19 @@
      "at": "2026-10-29T16:54:18Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "disclosed_unpatched",
+    "votes": 1
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myz4xgbq6o2b",
@@ -2569,7 +2719,7 @@
    "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
    "discussion": "https://news.ycombinator.com/item?id=50286987",
    "points": 317,
-   "comments": 157,
+   "comments": 159,
    "created": "2026-10-29T10:42:41Z",
    "label": "security_news",
    "cves": [],
@@ -2580,7 +2730,19 @@
      "at": "2026-10-29T16:54:18Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
@@ -2600,7 +2762,19 @@
      "at": "2026-10-29T16:54:18Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.45
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
@@ -2620,7 +2794,19 @@
      "at": "2026-10-29T09:52:38Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.55
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "hn:50285470",
@@ -2640,7 +2826,19 @@
      "at": "2026-10-29T09:52:38Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Qwen 3.8 invents URLs with real key ID, that's why I think it's no backdoor",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
@@ -2690,7 +2888,19 @@
      "at": "2026-10-29T09:52:38Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "n_day_exploited",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-847/",
@@ -2710,7 +2920,19 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-847: MLflow AI Gateway Server-Side Request Forgery Information Disclosure Vulnerability",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-846/",
@@ -2730,7 +2952,19 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-846: MLflow Webhook Server-Side Request Forgery Vulnerability",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-845/",
@@ -2750,7 +2984,19 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-845: MLflow Statsmodels _load_model Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-844/",
@@ -2770,7 +3016,19 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-844: MLflow get-artifacts Server-Side Request Forgery Information Disclosure Vulnerability",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-843/",
@@ -2790,7 +3048,19 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-843: MLflow SHAP load_explainer Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
@@ -2810,7 +3080,19 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-842: MLflow Tracking Server Issues Missing Authorization Privilege Escalation Vulnerability",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
@@ -2830,7 +3112,19 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-841: MLflow Tracking Server Missing Authorization Privilege Escalation Vulnerability",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/",
@@ -2850,7 +3144,19 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-840: MLflow Tracking Server Jobs Missing Authorization Information Disclosure Vulnerability",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-839/",
@@ -2870,7 +3176,19 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-839: MLflow PickleEvaluationArtifact Deserialization of Untrusted Data Remote Code Execution Vulnerability",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-838/",
@@ -2890,7 +3208,19 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-838: FreeBSD Kernel TTY Race Condition Local Privilege Escalation Vulnerability",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
@@ -2910,7 +3240,19 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-837: Linux Kernel XFRM Subsystem Use-After-Free Local Privilege Escalation Vulnerability",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-836/",
@@ -2930,7 +3272,19 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-836: Linux Kernel CIFS File System Use-After-Free Privilege Escalation Vulnerability",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-835/",
@@ -2950,7 +3304,19 @@
      "at": "2026-10-29T21:47:29Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "ZDI-26-835: Linux Kernel Logitech HIDPP Protocol Use-After-Free Local Privilege Escalation Vulnerability",
+    "at": "2026-10-30T14:56:54Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
@@ -17698,7 +18064,7 @@
    "title": "murrez/php2shell: php2shell: Advanced hybrid exploit framework for CVE-2026-109618, CVE-2026-109619 & CVE-2026-115560. Features Auto-LFI parameter discovery, ",
    "url": "https://github.com/murrez/php2shell",
    "discussion": "https://github.com/murrez/php2shell",
-   "points": 96,
+   "points": 97,
    "comments": 0,
    "created": "2026-10-21T12:37:59Z",
    "label": "kev_exploited",
@@ -17809,7 +18175,7 @@
    "title": "Is4yev/php2shell-poc: CVE-2026-109618/109619 PHP2Shell — Heap UAF PoC (crash + RCE framework)",
    "url": "https://github.com/Is4yev/php2shell-poc",
    "discussion": "https://github.com/Is4yev/php2shell-poc",
-   "points": 60,
+   "points": 61,
    "comments": 0,
    "created": "2026-10-21T10:44:37Z",
    "label": "kev_exploited",
