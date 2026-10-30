@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T14:59:28Z",
+ "generated": "2026-10-30T15:08:07Z",
  "count": 1532,
  "topics": [
   {
@@ -433,28 +433,10 @@
    ]
   },
   {
-   "name": "module",
-   "threads": 3,
-   "repos": 0,
-   "points": 4,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-72714",
-    "CVE-2026-115557"
-   ],
-   "last_seen": "2026-10-30T10:16:23Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://seclists.org/oss-sec/2026/q4/384",
-    "blog:https://seclists.org/oss-sec/2026/q4/372"
-   ]
-  },
-  {
    "name": "malicious",
    "threads": 3,
    "repos": 0,
-   "points": 3,
+   "points": 4,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -463,6 +445,21 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
     "blog:https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
     "blog:https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html"
+   ]
+  },
+  {
+   "name": "Drupal",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T10:16:23Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
    ]
   },
   {
@@ -567,7 +564,7 @@
    "title": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz3yxnrgvz2h",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz3yxnrgvz2h",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-10-30T14:37:10Z",
    "label": "supply_chain",
@@ -1039,7 +1036,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 76,
+   "points": 78,
    "comments": 17,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -3218,15 +3215,16 @@
    ],
    "llm": {
     "title": "ZDI-26-841: MLflow Tracking Server Missing Authorization Privilege Escalation Vulnerability",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T15:08:07Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
-      "confidence": 0.7
+      "confidence": 0.6
      }
     },
     "consensus": "not_exploited",
-    "votes": 1
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -3250,15 +3248,16 @@
    ],
    "llm": {
     "title": "ZDI-26-840: MLflow Tracking Server Jobs Missing Authorization Information Disclosure Vulnerability",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T15:08:07Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
-      "confidence": 0.7
+      "confidence": 0.6
      }
     },
     "consensus": "not_exploited",
-    "votes": 1
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -3282,15 +3281,16 @@
    ],
    "llm": {
     "title": "ZDI-26-839: MLflow PickleEvaluationArtifact Deserialization of Untrusted Data Remote Code Execution Vulnerability",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T15:08:07Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
-      "confidence": 0.7
+      "confidence": 0.6
      }
     },
     "consensus": "not_exploited",
-    "votes": 1
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -3314,15 +3314,16 @@
    ],
    "llm": {
     "title": "ZDI-26-838: FreeBSD Kernel TTY Race Condition Local Privilege Escalation Vulnerability",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T15:08:07Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
-      "confidence": 0.7
+      "confidence": 0.6
      }
     },
     "consensus": "not_exploited",
-    "votes": 1
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -3346,15 +3347,16 @@
    ],
    "llm": {
     "title": "ZDI-26-837: Linux Kernel XFRM Subsystem Use-After-Free Local Privilege Escalation Vulnerability",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T15:08:07Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
-      "confidence": 0.7
+      "confidence": 0.6
      }
     },
     "consensus": "not_exploited",
-    "votes": 1
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -3378,15 +3380,16 @@
    ],
    "llm": {
     "title": "ZDI-26-836: Linux Kernel CIFS File System Use-After-Free Privilege Escalation Vulnerability",
-    "at": "2026-10-30T14:56:54Z",
+    "at": "2026-10-30T15:08:07Z",
     "models": {
      "claude:haiku": {
       "status": "not_exploited",
-      "confidence": 0.7
+      "confidence": 0.6
      }
     },
     "consensus": "not_exploited",
-    "votes": 1
+    "votes": 1,
+    "rubric": 2
    }
   },
   {
@@ -3651,7 +3654,20 @@
      "at": "2026-10-28T23:11:38Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Discovering and exploiting vulnerabilities in real-world software with Claude",
+    "at": "2026-10-30T15:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "github-advisory:GHSA-6jp4-8v48-cc5v",
@@ -5050,7 +5066,20 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "EDM2 PXE Flaw allows hijacking machines during network boot",
+    "at": "2026-10-30T15:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "hn:50274775",
@@ -5070,7 +5099,20 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Laid off 60 days in: what is the tech industry doing to developers?",
+    "at": "2026-10-30T15:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "hn:50274300",
@@ -5090,7 +5132,20 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Show HN: Yavashark: I've Built a JavaScript Engine Every Day for 950 Days",
+    "at": "2026-10-30T15:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
@@ -5299,7 +5354,20 @@
      "at": "2026-10-28T18:49:56Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+    "at": "2026-10-30T15:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "disclosed_unpatched",
+      "confidence": 0.5
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
@@ -5537,7 +5605,20 @@
      "at": "2026-10-28T12:45:50Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Show HN: NoVul – Find and Fix Vulnerabilities On",
+    "at": "2026-10-30T15:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "hn:50270131",
@@ -5557,7 +5638,20 @@
      "at": "2026-10-28T12:45:50Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Discovering and exploiting vulnerabilities in critical software with Claude",
+    "at": "2026-10-30T15:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
@@ -5577,7 +5671,20 @@
      "at": "2026-10-28T12:45:50Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+    "at": "2026-10-30T15:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
@@ -5627,7 +5734,20 @@
      "at": "2026-10-28T12:45:50Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+    "at": "2026-10-30T15:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
+    "rubric": 2
+   }
   },
   {
    "id": "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-829/",
@@ -16283,7 +16403,7 @@
   {
    "id": "ghpoc:devploit/php2shell",
    "source": "github-poc",
-   "title": "devploit/php2shell: PHP2Shell: version-aware research toolkit for CVE-2026-109618 / CVE-2026-109619 — pre-auth RCE in PHP session.upload_progress (mod_php). Bui",
+   "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
    "points": 184,
