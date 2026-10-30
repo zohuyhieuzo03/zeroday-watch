@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T13:50:01Z",
+ "generated": "2026-10-30T13:51:09Z",
  "count": 1525,
  "topics": [
   {
@@ -107,7 +107,7 @@
    "name": "programs",
    "threads": 7,
    "repos": 0,
-   "points": 121,
+   "points": 122,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -390,21 +390,19 @@
    ]
   },
   {
-   "name": "Authorization",
+   "name": "Missing",
    "threads": 4,
    "repos": 0,
    "points": 0,
    "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-115748"
-   ],
+   "cves": [],
    "last_seen": "2026-10-29T05:00:00Z",
    "items": [
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-842/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-841/",
     "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-840/",
-    "blog:https://seclists.org/oss-sec/2026/q4/357"
+    "blog:https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
    ]
   },
   {
@@ -454,21 +452,18 @@
    ]
   },
   {
-   "name": "module",
+   "name": "Drupal",
    "threads": 3,
    "repos": 0,
    "points": 4,
    "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-72714",
-    "CVE-2026-115557"
-   ],
+   "cves": [],
    "last_seen": "2026-10-30T10:16:23Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://seclists.org/oss-sec/2026/q4/384",
-    "blog:https://seclists.org/oss-sec/2026/q4/372"
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
    ]
   },
   {
@@ -662,7 +657,17 @@
      "at": "2026-10-30T13:48:41Z",
      "label": "supply_chain"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Re: Non-OSS: Claude Code for VS Code extension compromised",
+    "at": "2026-10-30T13:51:09Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/444",
@@ -714,7 +719,17 @@
      "at": "2026-10-30T13:48:41Z",
      "label": "supply_chain"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Non-OSS: Claude Code for VS Code extension compromised",
+    "at": "2026-10-30T13:51:09Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/442",
@@ -814,7 +829,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 54,
+   "points": 56,
    "comments": 12,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -826,7 +841,17 @@
      "at": "2026-10-30T13:45:53Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
+    "at": "2026-10-30T13:51:09Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "hn:50301944",
@@ -846,7 +871,17 @@
      "at": "2026-10-30T13:45:53Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Unreleased Claude model turned a Linux kernel bug into a remote root exploit",
+    "at": "2026-10-30T13:51:09Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
@@ -896,7 +931,17 @@
      "at": "2026-10-30T13:45:53Z",
      "label": "security_news"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+    "at": "2026-10-30T13:51:09Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
@@ -920,7 +965,17 @@
      "at": "2026-10-30T13:48:41Z",
      "label": "supply_chain"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+    "at": "2026-10-30T13:51:09Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
@@ -1166,7 +1221,7 @@
    "title": "Go programs enable MPTCP by default, exposing them to Linux CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://news.ycombinator.com/item?id=50298526",
-   "points": 13,
+   "points": 14,
    "comments": 5,
    "created": "2026-10-30T00:52:33Z",
    "label": "related",
@@ -16932,7 +16987,17 @@
      "at": "2026-10-30T13:48:41Z",
      "label": "supply_chain"
     }
-   ]
+   ],
+   "llm": {
+    "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+    "at": "2026-10-30T13:51:09Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "blog:https://www.rapid7.com/blog/post/etr-cve-2026-109618-and-cve-2026-109619-critical-unauthenticated-remote-code-execution-in-php",
@@ -19084,7 +19149,17 @@
      "at": "2026-10-30T13:48:41Z",
      "label": "supply_chain"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Some downloads of the Rank Math PRO WordPress plugin from the vendor's official website carried malware that planted hidden backdoors in a supply-chain attack l",
+    "at": "2026-10-30T13:51:09Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "github-advisory:GHSA-f8c7-rwf9-fmgm",
@@ -33701,7 +33776,17 @@
      "at": "2026-10-30T13:48:41Z",
      "label": "supply_chain"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Vulnerability researchers were repeatedly targeted by trojanised exploits",
+    "at": "2026-10-30T13:51:09Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "kev:CVE-2021-23758",
@@ -38558,7 +38643,17 @@
      "at": "2026-10-30T13:48:41Z",
      "label": "supply_chain"
     }
-   ]
+   ],
+   "llm": {
+    "title": "Wordfence Prism AI Vulnerability Detector Finds Backdoored WordPress Plugin",
+    "at": "2026-10-30T13:51:09Z",
+    "models": {
+     "inception/mercury-decide:free": null,
+     "baseten/mammoth-1:free": null
+    },
+    "consensus": null,
+    "votes": 0
+   }
   },
   {
    "id": "hn:49089211",
