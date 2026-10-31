@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T01:08:07Z",
+ "generated": "2026-10-31T01:38:07Z",
  "count": 1592,
  "topics": [
   {
@@ -249,7 +249,7 @@
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
-   "points": 48,
+   "points": 51,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -1362,7 +1362,7 @@
    "title": "CVE 10.0: CVE-2026-112816, Canonical LXD, no emudhra required",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310937",
-   "points": 39,
+   "points": 42,
    "comments": 4,
    "created": "2026-10-30T22:26:29Z",
    "label": "related",
@@ -2572,7 +2572,7 @@
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
    "points": 140,
-   "comments": 37,
+   "comments": 38,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
    "cves": [],
@@ -2949,7 +2949,7 @@
    "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
    "discussion": "https://news.ycombinator.com/item?id=50299182",
    "points": 63,
-   "comments": 39,
+   "comments": 40,
    "created": "2026-10-30T02:33:04Z",
    "label": "related",
    "cves": [
@@ -5047,7 +5047,7 @@
    "title": "Mas0nShi/CVE-2026-112445: CVE-2026-112445: The Simplest macOS Local Privilege Escalation to Date",
    "url": "https://github.com/Mas0nShi/CVE-2026-112445",
    "discussion": "https://github.com/Mas0nShi/CVE-2026-112445",
-   "points": 41,
+   "points": 42,
    "comments": 0,
    "created": "2026-10-29T04:45:44Z",
    "label": "public_exploit_reported",
@@ -17448,7 +17448,7 @@
    "title": "JoasASantos/php2shell-exploit: PHP2Shell exploit framework — CVE-2026-109618/619 PHP session.upload_progress UAF to RCE",
    "url": "https://github.com/JoasASantos/php2shell-exploit",
    "discussion": "https://github.com/JoasASantos/php2shell-exploit",
-   "points": 190,
+   "points": 191,
    "comments": 0,
    "created": "2026-10-22T12:53:40Z",
    "label": "kev_exploited",
