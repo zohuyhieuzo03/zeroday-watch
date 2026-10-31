@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T00:38:08Z",
+ "generated": "2026-10-31T01:08:07Z",
  "count": 1592,
  "topics": [
   {
@@ -249,7 +249,7 @@
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
-   "points": 47,
+   "points": 48,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -460,18 +460,21 @@
    ]
   },
   {
-   "name": "Drupal",
+   "name": "module",
    "threads": 3,
    "repos": 0,
    "points": 4,
    "kev": false,
    "vendor": false,
-   "cves": [],
+   "cves": [
+    "CVE-2026-72714",
+    "CVE-2026-115557"
+   ],
    "last_seen": "2026-10-30T10:16:23Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+    "blog:https://seclists.org/oss-sec/2026/q4/384",
+    "blog:https://seclists.org/oss-sec/2026/q4/372"
    ]
   }
  ],
@@ -1359,7 +1362,7 @@
    "title": "CVE 10.0: CVE-2026-112816, Canonical LXD, no emudhra required",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310937",
-   "points": 38,
+   "points": 39,
    "comments": 4,
    "created": "2026-10-30T22:26:29Z",
    "label": "related",
@@ -2568,7 +2571,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 138,
+   "points": 140,
    "comments": 37,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -17830,7 +17833,7 @@
    "title": "assetnote/php2shell-scanner: High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
    "url": "https://github.com/assetnote/php2shell-scanner",
    "discussion": "https://github.com/assetnote/php2shell-scanner",
-   "points": 968,
+   "points": 969,
    "comments": 0,
    "created": "2026-10-22T03:53:20Z",
    "label": "kev_exploited",
@@ -20265,7 +20268,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1911,
+   "points": 1912,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
