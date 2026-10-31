@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T11:08:07Z",
+ "generated": "2026-10-31T11:38:08Z",
  "count": 1600,
  "topics": [
   {
@@ -259,6 +259,21 @@
    ]
   },
   {
+   "name": "Built",
+   "threads": 3,
+   "repos": 0,
+   "points": 44,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+   ]
+  },
+  {
    "name": "Tailscale",
    "threads": 3,
    "repos": 0,
@@ -320,36 +335,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
-   ]
-  },
-  {
-   "name": "Node.js",
-   "threads": 3,
-   "repos": 0,
-   "points": 13,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-25T14:11:13Z",
-   "items": [
-    "hn:50220145",
-    "hn:50231787",
-    "blog:https://seclists.org/oss-sec/2026/q4/370"
    ]
   },
   {
@@ -465,6 +450,24 @@
     "blog:https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
     "blog:https://seclists.org/oss-sec/2026/q4/372"
    ]
+  },
+  {
+   "name": "Integer",
+   "threads": 3,
+   "repos": 0,
+   "points": 1,
+   "kev": false,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-107891",
+    "CVE-2026-111496"
+   ],
+   "last_seen": "2026-10-29T05:00:00Z",
+   "items": [
+    "hn:50230132",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-834/",
+    "blog:https://seclists.org/oss-sec/2026/q4/421"
+   ]
   }
  ],
  "items": [
@@ -474,8 +477,8 @@
    "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
    "url": "https://piefed.world/post/1503394",
    "discussion": "https://news.ycombinator.com/item?id=50314666",
-   "points": 2,
-   "comments": 0,
+   "points": 13,
+   "comments": 1,
    "created": "2026-10-31T10:23:41Z",
    "label": "security_news",
    "cves": [],
@@ -2832,7 +2835,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 156,
+   "points": 157,
    "comments": 38,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -18316,7 +18319,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 211,
+   "points": 212,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -20759,7 +20762,7 @@
    "title": "syhunt/php2shell-protection: Defensive mitigation and testing toolkit for PHP security vulnerabilities (CVE-2026-109618, CVE-2026-109619, CVE-2026-115560), including Apa",
    "url": "https://github.com/syhunt/php2shell-protection",
    "discussion": "https://github.com/syhunt/php2shell-protection",
-   "points": 119,
+   "points": 120,
    "comments": 0,
    "created": "2026-10-21T04:01:24Z",
    "label": "kev_exploited",
