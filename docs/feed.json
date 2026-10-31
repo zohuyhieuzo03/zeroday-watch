@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T05:08:07Z",
+ "generated": "2026-10-31T05:38:07Z",
  "count": 1595,
  "topics": [
   {
@@ -38,7 +38,7 @@
    "name": "Ubuntu",
    "threads": 15,
    "repos": 0,
-   "points": 150,
+   "points": 153,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -50,10 +50,10 @@
     "hn:50299182",
     "hn:50287647",
     "hn:50298526",
+    "hn:50312858",
     "lobsters:mp8yqt",
     "hn:50297892",
     "hn:50305855",
-    "hn:50312858",
     "lobsters:1sni1w",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/456",
@@ -261,6 +261,21 @@
    ]
   },
   {
+   "name": "Built",
+   "threads": 3,
+   "repos": 0,
+   "points": 44,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+   ]
+  },
+  {
    "name": "Tailscale",
    "threads": 3,
    "repos": 0,
@@ -322,21 +337,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -458,18 +458,18 @@
    ]
   },
   {
-   "name": "Drupal",
+   "name": "wild",
    "threads": 3,
    "repos": 0,
-   "points": 4,
+   "points": 3,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-30T10:16:23Z",
+   "last_seen": "2026-10-30T13:00:32Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
+    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+    "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
    ]
   }
  ],
@@ -513,7 +513,7 @@
    "title": "Go programs are vulnerable to CVE-2026-98432 (Linux RCE)",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw?pli=1",
    "discussion": "https://news.ycombinator.com/item?id=50312858",
-   "points": 5,
+   "points": 7,
    "comments": 0,
    "created": "2026-10-31T03:07:32Z",
    "label": "related",
@@ -3078,7 +3078,7 @@
    "title": "Go programs enable MPTCP by default, exposing them to Linux CVE-2026-98432",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw",
    "discussion": "https://news.ycombinator.com/item?id=50298526",
-   "points": 18,
+   "points": 19,
    "comments": 6,
    "created": "2026-10-30T00:52:33Z",
    "label": "related",
@@ -18153,7 +18153,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 192,
+   "points": 193,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -20266,7 +20266,7 @@
    "title": "HOSTED-POWER/php_uploadprogress_guard: Protects an unpatched PHP against php2shell (CVE-2026-109618 / CVE-2026-109619): a small extension that mirrors the official fix component b",
    "url": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
    "discussion": "https://github.com/HOSTED-POWER/php_uploadprogress_guard",
-   "points": 173,
+   "points": 174,
    "comments": 0,
    "created": "2026-10-21T09:00:12Z",
    "label": "kev_exploited",
