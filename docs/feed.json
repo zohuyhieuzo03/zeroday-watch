@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-31T08:08:07Z",
- "count": 1595,
+ "generated": "2026-10-31T08:38:07Z",
+ "count": 1596,
  "topics": [
   {
-   "name": "Deserialization",
+   "name": "Untrusted",
    "threads": 20,
    "repos": 0,
    "points": 0,
@@ -244,7 +244,7 @@
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
-   "points": 67,
+   "points": 69,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -450,22 +450,57 @@
    ]
   },
   {
-   "name": "wild",
+   "name": "Drupal",
    "threads": 3,
    "repos": 0,
-   "points": 3,
+   "points": 4,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-30T13:00:32Z",
+   "last_seen": "2026-10-30T10:16:23Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
-    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-    "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
    ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/457",
+   "source": "seclists.org",
+   "title": "CVE-2026-118636: Apache MINA: Unsafe Deserialization (CWE-502) in JavaNativeMessageDecoder",
+   "url": "https://seclists.org/oss-sec/2026/q4/457",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/457",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-31T08:14:24Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-118636"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-31T08:14:24Z",
+   "label_history": [
+    {
+     "at": "2026-10-31T08:38:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-118636: Apache MINA: Unsafe Deserialization (CWE-502) in JavaNativeMessageDecoder",
+    "at": "2026-10-31T08:38:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.8
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50312971",
    "source": "hackernews",
@@ -1452,8 +1487,8 @@
    "title": "CVE 10.0: CVE-2026-112816, Canonical LXD, no emudhra required",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310937",
-   "points": 56,
-   "comments": 6,
+   "points": 57,
+   "comments": 7,
    "created": "2026-10-30T22:26:29Z",
    "label": "related",
    "cves": [
@@ -1487,7 +1522,7 @@
    "title": "CVE-2026-112816: 10.0 Improper certificate validation in HTTPS listener in LXD",
    "url": "https://cve.now/CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310926",
-   "points": 9,
+   "points": 10,
    "comments": 1,
    "created": "2026-10-30T22:25:26Z",
    "label": "related",
@@ -2661,7 +2696,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 151,
+   "points": 152,
    "comments": 38,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -3039,7 +3074,7 @@
    "url": "https://www.penligent.ai/hackinglabs/cve-2026-98432/",
    "discussion": "https://news.ycombinator.com/item?id=50299182",
    "points": 63,
-   "comments": 40,
+   "comments": 41,
    "created": "2026-10-30T02:33:04Z",
    "label": "related",
    "cves": [
@@ -15673,7 +15708,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 120,
+   "points": 121,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "kev_exploited",
@@ -18145,7 +18180,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 201,
+   "points": 204,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
@@ -20358,7 +20393,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1912,
+   "points": 1913,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
