@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T02:08:07Z",
+ "generated": "2026-10-31T02:37:17Z",
  "count": 1593,
  "topics": [
   {
@@ -245,7 +245,7 @@
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
-   "points": 53,
+   "points": 55,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -456,18 +456,18 @@
    ]
   },
   {
-   "name": "wild",
+   "name": "Drupal",
    "threads": 3,
    "repos": 0,
-   "points": 3,
+   "points": 4,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-30T13:00:32Z",
+   "last_seen": "2026-10-30T10:16:23Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
-    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-    "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
    ]
   }
  ],
@@ -1390,8 +1390,8 @@
    "title": "CVE 10.0: CVE-2026-112816, Canonical LXD, no emudhra required",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310937",
-   "points": 43,
-   "comments": 4,
+   "points": 45,
+   "comments": 5,
    "created": "2026-10-30T22:26:29Z",
    "label": "related",
    "cves": [
@@ -2599,7 +2599,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 141,
+   "points": 142,
    "comments": 38,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -5075,7 +5075,7 @@
    "title": "Mas0nShi/CVE-2026-112445: CVE-2026-112445: The Simplest macOS Local Privilege Escalation to Date",
    "url": "https://github.com/Mas0nShi/CVE-2026-112445",
    "discussion": "https://github.com/Mas0nShi/CVE-2026-112445",
-   "points": 43,
+   "points": 44,
    "comments": 0,
    "created": "2026-10-29T04:45:44Z",
    "label": "public_exploit_reported",
