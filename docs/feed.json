@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-31T09:08:07Z",
- "count": 1597,
+ "generated": "2026-10-31T09:37:27Z",
+ "count": 1599,
  "topics": [
   {
    "name": "Untrusted",
@@ -36,16 +36,16 @@
   },
   {
    "name": "Ubuntu",
-   "threads": 15,
+   "threads": 17,
    "repos": 0,
-   "points": 157,
+   "points": 159,
    "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-120135"
    ],
-   "last_seen": "2026-10-31T03:07:32Z",
+   "last_seen": "2026-10-31T09:23:59Z",
    "items": [
     "hn:50299182",
     "hn:50287647",
@@ -55,8 +55,10 @@
     "hn:50297892",
     "hn:50305855",
     "lobsters:1sni1w",
+    "hn:50314397",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/456",
+    "blog:https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
     "blog:https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
     "blog:https://seclists.org/oss-sec/2026/q4/437",
@@ -450,22 +452,57 @@
    ]
   },
   {
-   "name": "wild",
+   "name": "Drupal",
    "threads": 3,
    "repos": 0,
-   "points": 3,
+   "points": 4,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-30T13:00:32Z",
+   "last_seen": "2026-10-30T10:16:23Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
-    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-    "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
    ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50314397",
+   "source": "hackernews",
+   "title": "CVE-2026-98432: Linux IPv4 UAF",
+   "url": "https://nvd.nist.gov/vuln/detail/cve-2026-98432",
+   "discussion": "https://news.ycombinator.com/item?id=50314397",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-31T09:23:59Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-31T09:23:59Z",
+   "label_history": [
+    {
+     "at": "2026-10-31T09:37:27Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-98432: Linux IPv4 UAF",
+    "at": "2026-10-31T09:37:27Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50314276",
    "source": "hackernews",
@@ -496,6 +533,39 @@
     },
     "consensus": "unclear",
     "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
+   "id": "blog:https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "source": "thehackernews.com",
+   "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+   "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "discussion": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-31T08:27:43Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-31T08:27:43Z",
+   "label_history": [
+    {
+     "at": "2026-10-31T09:37:27Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+    "at": "2026-10-31T09:37:27Z",
+    "models": {
+     "claude:haiku": {
+      "status": "exploited_unspecified",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "exploited_unspecified",
+    "votes": 1,
     "rubric": 2
    }
   },
@@ -540,7 +610,7 @@
    "title": "Remote code execution on Linux systems with multipath TCP",
    "url": "https://lwn.net/Articles/1104192/",
    "discussion": "https://news.ycombinator.com/item?id=50312971",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-10-31T03:34:16Z",
    "label": "security_news",
@@ -573,7 +643,7 @@
    "title": "Go programs are vulnerable to CVE-2026-98432 (Linux RCE)",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw?pli=1",
    "discussion": "https://news.ycombinator.com/item?id=50312858",
-   "points": 9,
+   "points": 10,
    "comments": 0,
    "created": "2026-10-31T03:07:32Z",
    "label": "related",
@@ -2729,7 +2799,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 151,
+   "points": 154,
    "comments": 38,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -18213,7 +18283,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 207,
+   "points": 208,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
