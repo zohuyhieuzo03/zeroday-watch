@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-31T02:37:17Z",
- "count": 1593,
+ "generated": "2026-10-31T03:08:07Z",
+ "count": 1594,
  "topics": [
   {
    "name": "Deserialization",
@@ -36,16 +36,16 @@
   },
   {
    "name": "Ubuntu",
-   "threads": 13,
+   "threads": 14,
    "repos": 0,
-   "points": 145,
+   "points": 146,
    "kev": false,
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
     "CVE-2026-120135"
    ],
-   "last_seen": "2026-10-31T01:44:15Z",
+   "last_seen": "2026-10-31T03:07:32Z",
    "items": [
     "hn:50299182",
     "hn:50287647",
@@ -54,6 +54,7 @@
     "hn:50297892",
     "hn:50305855",
     "lobsters:1sni1w",
+    "hn:50312858",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/456",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
@@ -245,7 +246,7 @@
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
-   "points": 55,
+   "points": 59,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -473,6 +474,41 @@
  ],
  "items": [
   {
+   "id": "hn:50312858",
+   "source": "hackernews",
+   "title": "Protecting against CVE-2026-98432",
+   "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw?pli=1",
+   "discussion": "https://news.ycombinator.com/item?id=50312858",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-31T03:07:32Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-98432"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-31T03:07:32Z",
+   "label_history": [
+    {
+     "at": "2026-10-31T03:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "Protecting against CVE-2026-98432",
+    "at": "2026-10-31T03:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
+  {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/456",
    "source": "seclists.org",
    "title": "CVE-2026-120135: Apache Thrift: Java TProtocolUtil.skip() does not limit the recursion depth by default",
@@ -548,7 +584,7 @@
    "title": "Live CVE Feed to Keep Your Agent Up to Speed",
    "url": "https://casco.com/cve",
    "discussion": "https://news.ycombinator.com/item?id=50311676",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-10-30T23:49:41Z",
    "label": "security_news",
@@ -581,7 +617,7 @@
    "title": "10.0: CVE-2026-112816 – Canonical LXD – Improper cert validation — no emudhra",
    "url": "https://twitter.com/cvedotnow/status/2116213963872518418",
    "discussion": "https://news.ycombinator.com/item?id=50311499",
-   "points": 1,
+   "points": 2,
    "comments": 0,
    "created": "2026-10-30T23:29:30Z",
    "label": "related",
@@ -1390,7 +1426,7 @@
    "title": "CVE 10.0: CVE-2026-112816, Canonical LXD, no emudhra required",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310937",
-   "points": 45,
+   "points": 48,
    "comments": 5,
    "created": "2026-10-30T22:26:29Z",
    "label": "related",
@@ -2599,7 +2635,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 142,
+   "points": 143,
    "comments": 38,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -20148,7 +20184,7 @@
    "title": "Is4yev/php2shell-poc: CVE-2026-109618/109619 PHP2Shell — Heap UAF PoC (crash + RCE framework)",
    "url": "https://github.com/Is4yev/php2shell-poc",
    "discussion": "https://github.com/Is4yev/php2shell-poc",
-   "points": 62,
+   "points": 63,
    "comments": 0,
    "created": "2026-10-21T10:44:37Z",
    "label": "kev_exploited",
