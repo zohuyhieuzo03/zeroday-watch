@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T04:08:07Z",
+ "generated": "2026-10-31T04:38:08Z",
  "count": 1595,
  "topics": [
   {
@@ -38,7 +38,7 @@
    "name": "Ubuntu",
    "threads": 15,
    "repos": 0,
-   "points": 147,
+   "points": 149,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -53,8 +53,8 @@
     "lobsters:mp8yqt",
     "hn:50297892",
     "hn:50305855",
-    "lobsters:1sni1w",
     "hn:50312858",
+    "lobsters:1sni1w",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/456",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
@@ -247,7 +247,7 @@
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
-   "points": 62,
+   "points": 64,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -458,18 +458,18 @@
    ]
   },
   {
-   "name": "Drupal",
+   "name": "wild",
    "threads": 3,
    "repos": 0,
-   "points": 4,
+   "points": 3,
    "kev": false,
    "vendor": false,
    "cves": [],
-   "last_seen": "2026-10-30T10:16:23Z",
+   "last_seen": "2026-10-30T13:00:32Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
-    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
+    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+    "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
    ]
   }
  ],
@@ -513,7 +513,7 @@
    "title": "Go programs are vulnerable to CVE-2026-98432 (Linux RCE)",
    "url": "https://groups.google.com/g/golang-announce/c/PCoQcdxoScw?pli=1",
    "discussion": "https://news.ycombinator.com/item?id=50312858",
-   "points": 2,
+   "points": 4,
    "comments": 0,
    "created": "2026-10-31T03:07:32Z",
    "label": "related",
@@ -1460,7 +1460,7 @@
    "title": "CVE 10.0: CVE-2026-112816, Canonical LXD, no emudhra required",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310937",
-   "points": 51,
+   "points": 53,
    "comments": 6,
    "created": "2026-10-30T22:26:29Z",
    "label": "related",
@@ -2669,7 +2669,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 145,
+   "points": 148,
    "comments": 38,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -20366,7 +20366,7 @@
    "title": "ikow/php2shell-poc: CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit researc",
    "url": "https://github.com/ikow/php2shell-poc",
    "discussion": "https://github.com/ikow/php2shell-poc",
-   "points": 1912,
+   "points": 1913,
    "comments": 0,
    "created": "2026-10-21T07:55:16Z",
    "label": "kev_exploited",
@@ -22074,7 +22074,7 @@
    "title": "ylh440104/InfinityCore-Android-CVE-2026-98260: CVE-2026-98260 (Timer) Android/ARM64 port",
    "url": "https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98260",
    "discussion": "https://github.com/ylh440104/InfinityCore-Android-CVE-2026-98260",
-   "points": 39,
+   "points": 40,
    "comments": 0,
    "created": "2026-10-18T23:26:39Z",
    "label": "public_exploit_reported",
