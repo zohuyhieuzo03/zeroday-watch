@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-30T23:38:07Z",
- "count": 1589,
+ "generated": "2026-10-31T00:08:06Z",
+ "count": 1590,
  "topics": [
   {
    "name": "Deserialization",
@@ -35,38 +35,6 @@
    ]
   },
   {
-   "name": "node2shell",
-   "threads": 16,
-   "repos": 2,
-   "points": 479,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-111497"
-   ],
-   "last_seen": "2026-10-28T14:00:15Z",
-   "items": [
-    "hn:50219177",
-    "ghpoc:assetnote/node2shell-scanner",
-    "ghpoc:syrex1013/CVE-2026-111497-node2shell",
-    "hn:50189292",
-    "hn:50192733",
-    "lobsters:al3yyf",
-    "hn:50220145",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
-    "hn:50217557",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
-    "hn:50221110",
-    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
-    "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
-    "blog:https://seclists.org/oss-sec/2026/q4/393",
-    "blog:https://seclists.org/oss-sec/2026/q4/390",
-    "blog:https://seclists.org/oss-sec/2026/q4/389",
-    "blog:https://seclists.org/oss-sec/2026/q4/373",
-    "blog:https://seclists.org/oss-sec/2026/q4/370"
-   ]
-  },
-  {
    "name": "Ubuntu",
    "threads": 13,
    "repos": 0,
@@ -95,10 +63,61 @@
    ]
   },
   {
-   "name": "5.4-5.6",
-   "threads": 13,
+   "name": "node2shell",
+   "threads": 11,
+   "repos": 2,
+   "points": 423,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-111497"
+   ],
+   "last_seen": "2026-10-28T14:00:15Z",
+   "items": [
+    "hn:50219177",
+    "ghpoc:assetnote/node2shell-scanner",
+    "ghpoc:syrex1013/CVE-2026-111497-node2shell",
+    "lobsters:al3yyf",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
+    "hn:50221110",
+    "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+    "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
+    "blog:https://seclists.org/oss-sec/2026/q4/393",
+    "blog:https://seclists.org/oss-sec/2026/q4/390",
+    "blog:https://seclists.org/oss-sec/2026/q4/389",
+    "blog:https://seclists.org/oss-sec/2026/q4/373"
+   ]
+  },
+  {
+   "name": "GitLab",
+   "threads": 8,
    "repos": 0,
-   "points": 29,
+   "points": 309,
+   "kev": true,
+   "vendor": true,
+   "cves": [
+    "CVE-2026-97229",
+    "CVE-2026-111943",
+    "CVE-2026-111944"
+   ],
+   "last_seen": "2026-10-29T09:05:39Z",
+   "items": [
+    "hn:50282544",
+    "lobsters:2zsjwt",
+    "hn:50255510",
+    "hn:50231787",
+    "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+    "gitlab:patch-release-gitlab-19-5-3-released",
+    "blog:https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+    "blog:https://blog.qualys.com/product-tech/2026/10/23/how-to-identify-compromised-emudhra-certificates-with-qualys-cve-2026-111943-and-cve-2026-111944"
+   ]
+  },
+  {
+   "name": "5.4-5.6",
+   "threads": 8,
+   "repos": 0,
+   "points": 20,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -110,11 +129,6 @@
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
-    "hn:50205084",
-    "hn:50193957",
-    "hn:50204912",
-    "hn:50203176",
-    "hn:50198865",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzvynsaia2u",
     "blog:https://seclists.org/oss-sec/2026/q4/401",
     "blog:https://seclists.org/oss-sec/2026/q4/398",
@@ -165,6 +179,25 @@
    ]
   },
   {
+   "name": "Ultralytics",
+   "threads": 7,
+   "repos": 0,
+   "points": 0,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-28T05:00:00Z",
+   "items": [
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-818/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-817/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-816/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-815/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-814/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-812/"
+   ]
+  },
+  {
    "name": "Claude",
    "threads": 5,
    "repos": 0,
@@ -179,60 +212,6 @@
     "hn:50288798",
     "hn:50281755",
     "hn:50224269"
-   ]
-  },
-  {
-   "name": "GitLab",
-   "threads": 4,
-   "repos": 0,
-   "points": 306,
-   "kev": true,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-97229"
-   ],
-   "last_seen": "2026-10-29T09:05:39Z",
-   "items": [
-    "hn:50282544",
-    "lobsters:2zsjwt",
-    "hn:50231787",
-    "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html"
-   ]
-  },
-  {
-   "name": "Ultralytics",
-   "threads": 6,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-28T05:00:00Z",
-   "items": [
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-817/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-816/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-815/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-814/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-813/",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-812/"
-   ]
-  },
-  {
-   "name": "CVE-2026-111943",
-   "threads": 3,
-   "repos": 0,
-   "points": 336,
-   "kev": false,
-   "vendor": true,
-   "cves": [
-    "CVE-2026-111943",
-    "CVE-2026-111944"
-   ],
-   "last_seen": "2026-10-29T00:00:00Z",
-   "items": [
-    "hn:50192900",
-    "gitlab:patch-release-gitlab-19-5-3-released",
-    "blog:https://blog.qualys.com/product-tech/2026/10/23/how-to-identify-compromised-emudhra-certificates-with-qualys-cve-2026-111943-and-cve-2026-111944"
    ]
   },
   {
@@ -267,20 +246,20 @@
    ]
   },
   {
-   "name": "CVE-2026-107891",
+   "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
-   "points": 63,
+   "points": 45,
    "kev": false,
    "vendor": false,
    "cves": [
-    "CVE-2026-107891"
+    "CVE-2026-112816"
    ],
-   "last_seen": "2026-10-25T10:36:18Z",
+   "last_seen": "2026-10-30T23:29:30Z",
    "items": [
-    "lobsters:dldfel",
-    "hn:50204287",
-    "hn:50230132"
+    "hn:50310937",
+    "hn:50310926",
+    "hn:50311499"
    ]
   },
   {
@@ -296,23 +275,6 @@
     "hn:50274300",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
     "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
-   ]
-  },
-  {
-   "name": "CVE-2026-112816",
-   "threads": 3,
-   "repos": 0,
-   "points": 38,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-112816"
-   ],
-   "last_seen": "2026-10-30T23:29:30Z",
-   "items": [
-    "hn:50310937",
-    "hn:50310926",
-    "hn:50311499"
    ]
   },
   {
@@ -478,9 +440,75 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywqfbpy3z2i",
     "blog:https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
    ]
+  },
+  {
+   "name": "Unauthenticated",
+   "threads": 3,
+   "repos": 0,
+   "points": 6,
+   "kev": true,
+   "vendor": false,
+   "cves": [
+    "CVE-2026-102764",
+    "CVE-2026-118988"
+   ],
+   "last_seen": "2026-10-30T20:22:31Z",
+   "items": [
+    "hn:50309629",
+    "blog:https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764",
+    "blog:https://seclists.org/oss-sec/2026/q4/447"
+   ]
+  },
+  {
+   "name": "Drupal",
+   "threads": 3,
+   "repos": 0,
+   "points": 4,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-30T10:16:23Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
+    "blog:https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+    "blog:https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+   ]
   }
  ],
  "items": [
+  {
+   "id": "hn:50311676",
+   "source": "hackernews",
+   "title": "Live CVE Feed to Keep Your Agent Up to Speed",
+   "url": "https://casco.com/cve",
+   "discussion": "https://news.ycombinator.com/item?id=50311676",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-30T23:49:41Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-30T23:49:41Z",
+   "label_history": [
+    {
+     "at": "2026-10-31T00:08:06Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Live CVE Feed to Keep Your Agent Up to Speed",
+    "at": "2026-10-31T00:08:06Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.9
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
   {
    "id": "hn:50311499",
    "source": "hackernews",
@@ -1296,7 +1324,7 @@
    "title": "CVE 10.0: CVE-2026-112816, Canonical LXD, no emudhra required",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310937",
-   "points": 31,
+   "points": 36,
    "comments": 4,
    "created": "2026-10-30T22:26:29Z",
    "label": "related",
@@ -1331,7 +1359,7 @@
    "title": "CVE-2026-112816: 10.0 Improper certificate validation in HTTPS listener in LXD",
    "url": "https://cve.now/CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310926",
-   "points": 6,
+   "points": 8,
    "comments": 1,
    "created": "2026-10-30T22:25:26Z",
    "label": "related",
@@ -2505,8 +2533,8 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 135,
-   "comments": 36,
+   "points": 136,
+   "comments": 37,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
    "cves": [],
