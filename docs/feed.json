@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-31T10:07:07Z",
- "count": 1599,
+ "generated": "2026-10-31T10:37:07Z",
+ "count": 1600,
  "topics": [
   {
    "name": "Untrusted",
@@ -38,7 +38,7 @@
    "name": "Ubuntu",
    "threads": 17,
    "repos": 0,
-   "points": 163,
+   "points": 164,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -54,8 +54,8 @@
     "lobsters:mp8yqt",
     "hn:50297892",
     "hn:50305855",
-    "lobsters:1sni1w",
     "hn:50314397",
+    "lobsters:1sni1w",
     "hn:50308386",
     "blog:https://seclists.org/oss-sec/2026/q4/456",
     "blog:https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
@@ -469,12 +469,45 @@
  ],
  "items": [
   {
+   "id": "hn:50314666",
+   "source": "hackernews",
+   "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
+   "url": "https://piefed.world/post/1503394",
+   "discussion": "https://news.ycombinator.com/item?id=50314666",
+   "points": 1,
+   "comments": 0,
+   "created": "2026-10-31T10:23:41Z",
+   "label": "security_news",
+   "cves": [],
+   "kev": [],
+   "first_seen": "2026-10-31T10:23:41Z",
+   "label_history": [
+    {
+     "at": "2026-10-31T10:37:07Z",
+     "label": "security_news"
+    }
+   ],
+   "llm": {
+    "title": "Molly(Signal fork) has not been updated since 3 months and is vulnerable",
+    "at": "2026-10-31T10:37:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "unclear",
+      "confidence": 0.6
+     }
+    },
+    "consensus": "unclear",
+    "votes": 0,
+    "rubric": 2
+   }
+  },
+  {
    "id": "hn:50314397",
    "source": "hackernews",
    "title": "CVE-2026-98432: Linux IPv4 UAF",
    "url": "https://nvd.nist.gov/vuln/detail/cve-2026-98432",
    "discussion": "https://news.ycombinator.com/item?id=50314397",
-   "points": 3,
+   "points": 4,
    "comments": 0,
    "created": "2026-10-31T09:23:59Z",
    "label": "related",
@@ -15811,7 +15844,7 @@
    "title": "aarsaputra/php2shell: Unauthenticated RCE toolkit for PHP 5.4–8.4.26 (CVE-2026-109619/109618) — pure-HTTP chain, JA3 impersonation, prpenetration-testingoof-of-ac",
    "url": "https://github.com/aarsaputra/php2shell",
    "discussion": "https://github.com/aarsaputra/php2shell",
-   "points": 121,
+   "points": 120,
    "comments": 0,
    "created": "2026-10-23T13:49:52Z",
    "label": "kev_exploited",
@@ -20426,7 +20459,7 @@
    "title": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC: Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP envi",
    "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
    "discussion": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
-   "points": 1052,
+   "points": 1053,
    "comments": 0,
    "created": "2026-10-21T08:31:43Z",
    "label": "kev_exploited",
