@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T07:38:08Z",
+ "generated": "2026-10-31T08:08:07Z",
  "count": 1595,
  "topics": [
   {
@@ -65,23 +65,22 @@
    ]
   },
   {
-   "name": "node2shell",
-   "threads": 11,
+   "name": "Broccoli2Shell",
+   "threads": 10,
    "repos": 2,
-   "points": 423,
+   "points": 29,
    "kev": true,
    "vendor": false,
    "cves": [
     "CVE-2026-111497"
    ],
-   "last_seen": "2026-10-28T14:00:15Z",
+   "last_seen": "2026-10-28T10:48:14Z",
    "items": [
-    "hn:50219177",
     "ghpoc:assetnote/node2shell-scanner",
     "ghpoc:syrex1013/CVE-2026-111497-node2shell",
     "lobsters:al3yyf",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywlagnz662b",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mywvxsha3d27",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
     "hn:50221110",
     "blog:https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
     "blog:https://www.rapid7.com/blog/post/etr-cve-2026-111497-critical-out-of-bounds-write-in-the-node-js-brotli-decoder",
@@ -93,9 +92,9 @@
   },
   {
    "name": "5.4-5.6",
-   "threads": 8,
+   "threads": 7,
    "repos": 0,
-   "points": 20,
+   "points": 16,
    "kev": true,
    "vendor": false,
    "cves": [
@@ -106,7 +105,6 @@
    "last_seen": "2026-10-29T18:38:43Z",
    "items": [
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myrffdjkfo2b",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys2kchuvw2j",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzvynsaia2u",
     "blog:https://seclists.org/oss-sec/2026/q4/401",
     "blog:https://seclists.org/oss-sec/2026/q4/398",
@@ -132,26 +130,6 @@
     "lobsters:9b14at",
     "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
     "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
-   ]
-  },
-  {
-   "name": "GitLab",
-   "threads": 5,
-   "repos": 0,
-   "points": 306,
-   "kev": true,
-   "vendor": true,
-   "cves": [
-    "CVE-2026-97229",
-    "CVE-2026-111943"
-   ],
-   "last_seen": "2026-10-29T09:05:39Z",
-   "items": [
-    "hn:50282544",
-    "lobsters:2zsjwt",
-    "hn:50231787",
-    "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-    "gitlab:patch-release-gitlab-19-5-3-released"
    ]
   },
   {
@@ -213,6 +191,25 @@
    ]
   },
   {
+   "name": "GitLab",
+   "threads": 4,
+   "repos": 0,
+   "points": 304,
+   "kev": true,
+   "vendor": true,
+   "cves": [
+    "CVE-2026-97229",
+    "CVE-2026-111943"
+   ],
+   "last_seen": "2026-10-29T09:05:39Z",
+   "items": [
+    "hn:50282544",
+    "lobsters:2zsjwt",
+    "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+    "gitlab:patch-release-gitlab-19-5-3-released"
+   ]
+  },
+  {
    "name": "Chained",
    "threads": 3,
    "repos": 0,
@@ -258,21 +255,6 @@
     "hn:50310937",
     "hn:50310926",
     "hn:50311499"
-   ]
-  },
-  {
-   "name": "Built",
-   "threads": 3,
-   "repos": 0,
-   "points": 44,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "hn:50274300",
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
    ]
   },
   {
@@ -340,6 +322,36 @@
    ]
   },
   {
+   "name": "steal",
+   "threads": 3,
+   "repos": 0,
+   "points": 16,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
+    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
+   ]
+  },
+  {
+   "name": "Node.js",
+   "threads": 3,
+   "repos": 0,
+   "points": 13,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-25T14:11:13Z",
+   "items": [
+    "hn:50220145",
+    "hn:50231787",
+    "blog:https://seclists.org/oss-sec/2026/q4/370"
+   ]
+  },
+  {
    "name": "marketplace",
    "threads": 3,
    "repos": 0,
@@ -352,26 +364,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3yxnrgvz2h",
     "hn:50305871",
     "blog:https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
-   ]
-  },
-  {
-   "name": "HTTP",
-   "threads": 4,
-   "repos": 0,
-   "points": 0,
-   "kev": false,
-   "vendor": false,
-   "cves": [
-    "CVE-2026-116130",
-    "CVE-2026-102479",
-    "CVE-2026-115825"
-   ],
-   "last_seen": "2026-10-30T12:54:22Z",
-   "items": [
-    "blog:https://seclists.org/oss-sec/2026/q4/448",
-    "blog:https://seclists.org/oss-sec/2026/q4/427",
-    "blog:https://seclists.org/oss-sec/2026/q4/426",
-    "blog:https://seclists.org/oss-sec/2026/q4/387"
    ]
   },
   {
@@ -18153,7 +18145,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 199,
+   "points": 201,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
