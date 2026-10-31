@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-31T01:38:07Z",
- "count": 1592,
+ "generated": "2026-10-31T02:08:07Z",
+ "count": 1593,
  "topics": [
   {
    "name": "Deserialization",
@@ -43,9 +43,9 @@
    "vendor": false,
    "cves": [
     "CVE-2026-98432",
-    "CVE-2026-110952"
+    "CVE-2026-120135"
    ],
-   "last_seen": "2026-10-30T18:44:27Z",
+   "last_seen": "2026-10-31T01:44:15Z",
    "items": [
     "hn:50299182",
     "hn:50287647",
@@ -55,11 +55,11 @@
     "hn:50305855",
     "lobsters:1sni1w",
     "hn:50308386",
+    "blog:https://seclists.org/oss-sec/2026/q4/456",
     "blog:https://seclists.org/oss-sec/2026/q4/442",
     "blog:https://seclists.org/oss-sec/2026/q4/437",
     "blog:https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/",
-    "blog:https://seclists.org/oss-sec/2026/q4/415"
+    "blog:http://www.zerodayinitiative.com/advisories/ZDI-26-837/"
    ]
   },
   {
@@ -87,30 +87,6 @@
     "blog:https://seclists.org/oss-sec/2026/q4/390",
     "blog:https://seclists.org/oss-sec/2026/q4/389",
     "blog:https://seclists.org/oss-sec/2026/q4/373"
-   ]
-  },
-  {
-   "name": "GitLab",
-   "threads": 8,
-   "repos": 0,
-   "points": 309,
-   "kev": true,
-   "vendor": true,
-   "cves": [
-    "CVE-2026-97229",
-    "CVE-2026-111943",
-    "CVE-2026-111944"
-   ],
-   "last_seen": "2026-10-29T09:05:39Z",
-   "items": [
-    "hn:50282544",
-    "lobsters:2zsjwt",
-    "hn:50255510",
-    "hn:50231787",
-    "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-    "gitlab:patch-release-gitlab-19-5-3-released",
-    "blog:https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
-    "blog:https://blog.qualys.com/product-tech/2026/10/23/how-to-identify-compromised-emudhra-certificates-with-qualys-cve-2026-111943-and-cve-2026-111944"
    ]
   },
   {
@@ -154,6 +130,26 @@
     "lobsters:9b14at",
     "blog:https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
     "blog:https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/"
+   ]
+  },
+  {
+   "name": "GitLab",
+   "threads": 5,
+   "repos": 0,
+   "points": 306,
+   "kev": true,
+   "vendor": true,
+   "cves": [
+    "CVE-2026-97229",
+    "CVE-2026-111943"
+   ],
+   "last_seen": "2026-10-29T09:05:39Z",
+   "items": [
+    "hn:50282544",
+    "lobsters:2zsjwt",
+    "hn:50231787",
+    "blog:https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
+    "gitlab:patch-release-gitlab-19-5-3-released"
    ]
   },
   {
@@ -218,7 +214,7 @@
    "name": "Chained",
    "threads": 3,
    "repos": 0,
-   "points": 321,
+   "points": 322,
    "kev": false,
    "vendor": false,
    "cves": [],
@@ -249,7 +245,7 @@
    "name": "CVE-2026-112816",
    "threads": 3,
    "repos": 0,
-   "points": 51,
+   "points": 53,
    "kev": false,
    "vendor": false,
    "cves": [
@@ -260,6 +256,21 @@
     "hn:50310937",
     "hn:50310926",
     "hn:50311499"
+   ]
+  },
+  {
+   "name": "Built",
+   "threads": 3,
+   "repos": 0,
+   "points": 44,
+   "kev": false,
+   "vendor": false,
+   "cves": [],
+   "last_seen": "2026-10-29T08:24:22Z",
+   "items": [
+    "hn:50274300",
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mys5coiqpj27",
+    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
    ]
   },
   {
@@ -324,21 +335,6 @@
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mytskuctmf2u",
     "hn:50234702",
     "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3tlqnntw2q"
-   ]
-  },
-  {
-   "name": "steal",
-   "threads": 3,
-   "repos": 0,
-   "points": 16,
-   "kev": false,
-   "vendor": false,
-   "cves": [],
-   "last_seen": "2026-10-29T08:24:22Z",
-   "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myug2ohvrg2o",
-    "blog:https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "blog:https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
    ]
   },
   {
@@ -460,25 +456,57 @@
    ]
   },
   {
-   "name": "module",
+   "name": "wild",
    "threads": 3,
    "repos": 0,
-   "points": 4,
+   "points": 3,
    "kev": false,
    "vendor": false,
-   "cves": [
-    "CVE-2026-72714",
-    "CVE-2026-115557"
-   ],
-   "last_seen": "2026-10-30T10:16:23Z",
+   "cves": [],
+   "last_seen": "2026-10-30T13:00:32Z",
    "items": [
-    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3mz3kfd7tlm2i",
-    "blog:https://seclists.org/oss-sec/2026/q4/384",
-    "blog:https://seclists.org/oss-sec/2026/q4/372"
+    "bsky:at://did:plc:kbdifeeymt5ppkl4gtq3i7be/app.bsky.feed.post/3myzggokrjb2c",
+    "blog:https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+    "blog:https://www.bleepingcomputer.com/news/security/php2shell-security-flaws-now-sucessfully-exploited-in-the-wild/"
    ]
   }
  ],
  "items": [
+  {
+   "id": "blog:https://seclists.org/oss-sec/2026/q4/456",
+   "source": "seclists.org",
+   "title": "CVE-2026-120135: Apache Thrift: Java TProtocolUtil.skip() does not limit the recursion depth by default",
+   "url": "https://seclists.org/oss-sec/2026/q4/456",
+   "discussion": "https://seclists.org/oss-sec/2026/q4/456",
+   "points": 0,
+   "comments": 0,
+   "created": "2026-10-31T01:44:15Z",
+   "label": "related",
+   "cves": [
+    "CVE-2026-120135"
+   ],
+   "kev": [],
+   "first_seen": "2026-10-31T01:44:15Z",
+   "label_history": [
+    {
+     "at": "2026-10-31T02:08:07Z",
+     "label": "related"
+    }
+   ],
+   "llm": {
+    "title": "CVE-2026-120135: Apache Thrift: Java TProtocolUtil.skip() does not limit the recursion depth by default",
+    "at": "2026-10-31T02:08:07Z",
+    "models": {
+     "claude:haiku": {
+      "status": "not_exploited",
+      "confidence": 0.7
+     }
+    },
+    "consensus": "not_exploited",
+    "votes": 1,
+    "rubric": 2
+   }
+  },
   {
    "id": "blog:https://seclists.org/oss-sec/2026/q4/455",
    "source": "seclists.org",
@@ -1362,7 +1390,7 @@
    "title": "CVE 10.0: CVE-2026-112816, Canonical LXD, no emudhra required",
    "url": "https://www.cve.org/CVERecord?id=CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310937",
-   "points": 42,
+   "points": 43,
    "comments": 4,
    "created": "2026-10-30T22:26:29Z",
    "label": "related",
@@ -1397,7 +1425,7 @@
    "title": "CVE-2026-112816: 10.0 Improper certificate validation in HTTPS listener in LXD",
    "url": "https://cve.now/CVE-2026-112816",
    "discussion": "https://news.ycombinator.com/item?id=50310926",
-   "points": 8,
+   "points": 9,
    "comments": 1,
    "created": "2026-10-30T22:25:26Z",
    "label": "related",
@@ -1432,7 +1460,7 @@
    "title": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute ",
    "url": "https://bsky.app/profile/bleepingcomputer.com/post/3mz4ow5oufg2p",
    "discussion": "https://bsky.app/profile/bleepingcomputer.com/post/3mz4ow5oufg2p",
-   "points": 9,
+   "points": 10,
    "comments": 0,
    "created": "2026-10-30T21:10:02Z",
    "label": "security_news",
@@ -2571,7 +2599,7 @@
    "title": "Backdoors in Claude Code for VS, Cursor official extensions",
    "url": "https://cyberplace.social/@GossiTheDog/117528831681803563",
    "discussion": "https://lobste.rs/s/ttp7aq/backdoors_claude_code_for_vs_cursor",
-   "points": 140,
+   "points": 141,
    "comments": 38,
    "created": "2026-10-30T06:04:55.168-05:00",
    "label": "security_news",
@@ -4378,7 +4406,7 @@
    "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
    "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
    "discussion": "https://news.ycombinator.com/item?id=50286987",
-   "points": 321,
+   "points": 322,
    "comments": 163,
    "created": "2026-10-29T10:42:41Z",
    "label": "security_news",
@@ -5047,7 +5075,7 @@
    "title": "Mas0nShi/CVE-2026-112445: CVE-2026-112445: The Simplest macOS Local Privilege Escalation to Date",
    "url": "https://github.com/Mas0nShi/CVE-2026-112445",
    "discussion": "https://github.com/Mas0nShi/CVE-2026-112445",
-   "points": 42,
+   "points": 43,
    "comments": 0,
    "created": "2026-10-29T04:45:44Z",
    "label": "public_exploit_reported",
@@ -18055,7 +18083,7 @@
    "title": "devploit/php2shell: CVE-2026-109618 / CVE-2026-109619 pre-auth RCE in PHP session.upload_progress (mod_php): version-aware exploit profiles, Docker labs, heap c",
    "url": "https://github.com/devploit/php2shell",
    "discussion": "https://github.com/devploit/php2shell",
-   "points": 187,
+   "points": 188,
    "comments": 0,
    "created": "2026-10-21T22:53:01Z",
    "label": "kev_exploited",
